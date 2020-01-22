@@ -1,0 +1,6 @@
+//公共scss样式
+@mixin f($fontsize, $color, $lineheight:25px) {
+        font-size: $fontsize;
+        color: $color;
+        line-height: $lineheight;
+    }
