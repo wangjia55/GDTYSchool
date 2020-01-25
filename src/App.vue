@@ -7,10 +7,10 @@
         </div>
         <div style="font-size:20px;color:#fff" class="ml10">广东体育职业技术学院</div>
       </div>
-      <div style="color:#fff">登录</div>
+      <div style="color:#fff" class="curpoint">登录</div>
     </header>
     <div class="tabs wrap">
-      <el-tabs tab-position="top" stretch="true" style="height: 200px;">
+      <el-tabs tab-position="top" :stretch="true" style="height: 200px;">
         <el-tab-pane label="首页">
           <Index></Index>
         </el-tab-pane>
@@ -50,7 +50,7 @@ import Message from "./components/tabsPage/message";
 import Service from "./components/tabsPage/service";
 export default {
   name: "App",
-  conponents: {
+  components: {
     Index,
     Guild,
     Identification,

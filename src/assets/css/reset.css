@@ -169,6 +169,7 @@ input, select, textarea, button {
   margin:0 auto;
   position: relative;
 }
+
 /*多行省略*/
 .sheng2{
     overflow: hidden;
@@ -361,4 +362,10 @@ img[lazy=loading] {
   .radius5{
     border-radius: 5px;
   }
-
+  .curpoint{
+    cursor: pointer;
+  }
+.flex-flow{
+  display:flex;
+flex-flow: wrap;
+}
