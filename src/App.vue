@@ -10,23 +10,23 @@
       <div style="color:#fff" class="curpoint">登录</div>
     </header>
     <div class="tabs wrap">
-      <el-tabs tab-position="top" :stretch="true" style="height: 200px;">
-        <el-tab-pane label="首页">
+      <el-tabs tab-position="top" v-model="editableTabsValue" :stretch="true" style="height: 200px;">
+        <el-tab-pane label="首页" name='0'>
           <Index></Index>
         </el-tab-pane>
-        <el-tab-pane label="体育资讯">
+        <el-tab-pane label="体育资讯" name='1'>
           <Message></Message>
         </el-tab-pane>
-        <el-tab-pane label="赛事服务">
+        <el-tab-pane label="赛事服务" name='2'>
           <Service></Service>
         </el-tab-pane>
-        <el-tab-pane label="职业培训">
+        <el-tab-pane label="职业培训" name='3'>
           <Job></Job>
         </el-tab-pane>
-        <el-tab-pane label="职业鉴定">
+        <el-tab-pane label="职业鉴定" name='4'>
           <Identification></Identification>
         </el-tab-pane>
-        <el-tab-pane label="行业协会">
+        <el-tab-pane label="行业协会" name='5'>
           <Guild></Guild>
         </el-tab-pane>
       </el-tabs>
@@ -50,6 +50,12 @@ import Message from "./components/tabsPage/message";
 import Service from "./components/tabsPage/service";
 export default {
   name: "App",
+  data(){
+    return {
+      editableTabsValue:"1"
+    }
+    
+  },
   components: {
     Index,
     Guild,
