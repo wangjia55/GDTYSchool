@@ -408,7 +408,7 @@ img[lazy=loading] {
   cursor: pointer;
 }
 
-.flex-flow {
-  display: flex;
-  flex-flow: wrap;
+.flex-flow{
+  display:flex;
+flex-flow: wrap;
 }
