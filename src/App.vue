@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <header class="btw p10 align" style="background-color:#2964B3;padding:10px 30px">
+    <header class="btw p10 align" style="background-color:#2964B3;padding:5px 20px">
       <div class="row align">
         <div>
           <img style="width:40px;height:40px" src="../src/assets/images/logo.jpg" alt />

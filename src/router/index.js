@@ -29,7 +29,7 @@ var routes = [
       name: 'newShare',
       component: newShare,
 	    meta: {
-			 	title: '3*3智享计划 '
+			 	title: '广东体育职业技术学院 '
 			 }
     },
     	{
@@ -43,7 +43,7 @@ var routes = [
       name: 'newShareQuestion',
       component: newShareQuestion,
 	    meta: {
-			 	title: '3*3新享计划 '
+			 	title: '广东体育职业技术学院 '
 			 }
     },
     {

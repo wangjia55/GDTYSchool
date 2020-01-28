@@ -12,55 +12,175 @@
       <div class="flex-base">
         <el-card class="box-card">
           <div slot="header" class="clearfix">
-            <span style="font-size:18px">网站通告</span>
+            <span style="font-size:18px">学校通告</span>
             <el-button style="float: right; padding: 3px 0" type="text">更多</el-button>
           </div>
-          <div v-for="o in 6" :key="o" class="text item">
+          <div class="text item">
             <div class="btw">
-              <span>宜家祭扫即使你囧事及搜集</span>
-              <span>2020-01-20</span>
+              <span>关于组织申报2020年度大学生创新创业项目的通知</span>
+             <span>2020-01-21</span>
+            </div>
+          </div>
+          <div class="text item">
+            <div class="btw">
+              <span>关于做好2020年度“质量工程”建设项目申报的通知</span>
+             <span>2020-01-21</span>
+            </div>
+          </div>
+          <div class="text item">
+            <div class="btw">
+              <span>关于开展2020年度省高等教学改革推荐工作的通知</span>
+             <span>2020-01-21</span>
+            </div>
+          </div>
+          <div class="text item">
+            <div class="btw">
+              <span>有关校园网合作合同延期的公告</span>
+             <span>2020-01-21</span>
+            </div>
+          </div>
+          <div class="text item">
+            <div class="btw">
+              <span>关于推荐申报2019年国家级一流本科课程的公示</span>
+             <span>2020-01-21</span>
+            </div>
+          </div>
+          <div class="text item">
+            <div class="btw">
+              <span>关于⒛⒛ 年元旦和寒假放假的通知</span>
+             <span>2020-01-21</span>
             </div>
           </div>
         </el-card>
       </div>
       <div class="flex-base ml20">
-        <el-card class="box-card">
+         <el-card class="box-card">
           <div slot="header" class="clearfix">
-            <span style="font-size:18px">赛事服务</span>
+            <span style="font-size:18px">赛事资讯</span>
             <el-button style="float: right; padding: 3px 0" type="text">更多</el-button>
           </div>
-          <div v-for="o in 6" :key="o" class="text item">
+          <div class="text item">
             <div class="btw">
-              <span>宜家祭扫即使你囧事及搜集</span>
-              <span>2020-01-20</span>
+              <span>澳大利亚体育委员会发布2019—2023年体育规划</span>
+             <span>2020-01-21</span>
+            </div>
+          </div>
+          <div class="text item">
+            <div class="btw">
+              <span>澳大利亚体育委员会发布2019—2023年体育规划</span>
+             <span>2020-01-21</span>
+            </div>
+          </div>
+          <div class="text item">
+            <div class="btw">
+              <span>澳大利亚体育委员会发布2019—2023年体育规划</span>
+             <span>2020-01-21</span>
+            </div>
+          </div>
+          <div class="text item">
+            <div class="btw">
+              <span>澳大利亚体育委员会发布2019—2023年体育规划</span>
+             <span>2020-01-21</span>
+            </div>
+          </div>
+          <div class="text item">
+            <div class="btw">
+              <span>澳大利亚体育委员会发布2019—2023年体育规划</span>
+             <span>2020-01-21</span>
+            </div>
+          </div>
+          <div class="text item">
+            <div class="btw">
+              <span>澳大利亚体育委员会发布2019—2023年体育规划</span>
+             <span>2020-01-21</span>
             </div>
           </div>
         </el-card>
       </div>
       <div class="flex-base">
-        <el-card class="box-card">
+         <el-card class="box-card">
           <div slot="header" class="clearfix">
-            <span style="font-size:18px">热点资讯</span>
+            <span style="font-size:18px">科研资讯</span>
             <el-button style="float: right; padding: 3px 0" type="text">更多</el-button>
           </div>
-          <div v-for="o in 6" :key="o" class="text item">
+          <div class="text item">
             <div class="btw">
-              <span>宜家祭扫即使你囧事及搜集</span>
-              <span>2020-01-20</span>
+              <span>关于2020年度国家自然科学基金项目申请通告</span>
+             <span>2020-01-21</span>
+            </div>
+          </div>
+          <div class="text item">
+            <div class="btw">
+              <span>2020年度国家社会科学基金项目申报公告</span>
+             <span>2020-01-21</span>
+            </div>
+          </div>
+          <div class="text item">
+            <div class="btw">
+              <span>广州市社科规划2020年度岭南文化研究专项课题指南</span>
+             <span>2020-01-21</span>
+            </div>
+          </div>
+          <div class="text item">
+            <div class="btw">
+              <span>关于申报中国高校产学研创新基金的通知</span>
+             <span>2020-01-21</span>
+            </div>
+          </div>
+          <div class="text item">
+            <div class="btw">
+              <span>关于做好2019年度国家社科基金后期资助项目申报</span>
+             <span>2020-01-21</span>
+            </div>
+          </div>
+          <div class="text item">
+            <div class="btw">
+              <span>关于做好我校国家社科基金高校思政专项申报工作的通知</span>
+             <span>2020-01-21</span>
             </div>
           </div>
         </el-card>
       </div>
       <div class="flex-base">
-        <el-card class="box-card">
+         <el-card class="box-card">
           <div slot="header" class="clearfix">
             <span style="font-size:18px">鉴定计划</span>
             <el-button style="float: right; padding: 3px 0" type="text">更多</el-button>
           </div>
-          <div v-for="o in 6" :key="o" class="text item">
+          <div class="text item">
             <div class="btw">
-              <span>宜家祭扫即使你囧事及搜集</span>
-              <span>2020-01-20</span>
+              <span>澳大利亚体育委员会发布2019—2023年体育规划</span>
+             <span>2020-01-21</span>
+            </div>
+          </div>
+          <div class="text item">
+            <div class="btw">
+              <span>澳大利亚体育委员会发布2019—2023年体育规划</span>
+             <span>2020-01-21</span>
+            </div>
+          </div>
+          <div class="text item">
+            <div class="btw">
+              <span>澳大利亚体育委员会发布2019—2023年体育规划</span>
+             <span>2020-01-21</span>
+            </div>
+          </div>
+          <div class="text item">
+            <div class="btw">
+              <span>澳大利亚体育委员会发布2019—2023年体育规划</span>
+             <span>2020-01-21</span>
+            </div>
+          </div>
+          <div class="text item">
+            <div class="btw">
+              <span>澳大利亚体育委员会发布2019—2023年体育规划</span>
+             <span>2020-01-21</span>
+            </div>
+          </div>
+          <div class="text item">
+            <div class="btw">
+              <span>澳大利亚体育委员会发布2019—2023年体育规划</span>
+             <span>2020-01-21</span>
             </div>
           </div>
         </el-card>
@@ -81,16 +201,16 @@
       <div class="flex-base">
         <el-card class="box-card">
           <div slot="header" class="clearfix">
-            <span style="font-size:18px">联系我们</span>
+            <span style="font-size:18px">常用链接</span>
           </div>
           <div>
-            <div style="width:60%;margin:20px auto" class="divButton btw">
-              <div>公司地址</div>
-              <div>公司电话</div>
+            <div style="width:70%;margin:20px auto" class="divButton btw">
+              <div>综合门户</div>
+              <div>OA办公平台</div>
             </div>
-            <div style="width:60%;margin:20px auto" class="divButton btw">
-              <div>合作链接</div>
-              <div>隐私协议</div>
+            <div style="width:70%;margin:20px auto" class="divButton btw">
+              <div>教学平台</div>
+              <div>邮箱系统</div>
             </div>
           </div>
         </el-card>
