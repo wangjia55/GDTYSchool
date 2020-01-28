@@ -3,8 +3,14 @@
   <div class="index-container nowrap">
     <div class>
       <el-carousel>
-        <el-carousel-item v-for="item in 4" :interval="3000" :key="item">
-          <img style="width:100%;" src="../../assets/images/imgs.jpg" alt />
+        <el-carousel-item  :interval="3000" :key="item">
+          <img style="width:100%;" src="../../assets/images/home1.jpg" alt />
+        </el-carousel-item>
+         <el-carousel-item :interval="3000" :key="item">
+          <img style="width:100%;" src="../../assets/images/home2.jpg" alt />
+        </el-carousel-item>
+          <el-carousel-item :interval="3000" :key="item">
+          <img style="width:100%;" src="../../assets/images/home3.jpg" alt />
         </el-carousel-item>
       </el-carousel>
     </div>
@@ -61,38 +67,38 @@
           </div>
           <div class="text item">
             <div class="btw">
-              <span>澳大利亚体育委员会发布2019—2023年体育规划</span>
-             <span>2020-01-21</span>
+              <span>2019-2020赛季跳台滑雪世界杯赛第13站（德国）</span>
+              <span>2020-01-21</span>
             </div>
           </div>
           <div class="text item">
             <div class="btw">
-              <span>澳大利亚体育委员会发布2019—2023年体育规划</span>
-             <span>2020-01-21</span>
+              <span>2019-2020赛季雪车世界杯赛第4站（奥地利）</span>
+              <span>2020-01-21</span>
             </div>
           </div>
           <div class="text item">
             <div class="btw">
-              <span>澳大利亚体育委员会发布2019—2023年体育规划</span>
-             <span>2020-01-21</span>
+              <span>2019-2020赛季跳台滑雪世界杯赛第12站（日本）</span>
+              <span>2019-12-21</span>
             </div>
           </div>
           <div class="text item">
             <div class="btw">
-              <span>澳大利亚体育委员会发布2019—2023年体育规划</span>
-             <span>2020-01-21</span>
+              <span>2019-2020赛季高山滑雪世界杯赛第20站（瑞士）</span>
+              <span>2019-11-21</span>
             </div>
           </div>
           <div class="text item">
             <div class="btw">
-              <span>澳大利亚体育委员会发布2019—2023年体育规划</span>
-             <span>2020-01-21</span>
+              <span>2019-2020赛季冬季两项世界杯赛第5站（德国）</span>
+              <span>2019-11-21</span>
             </div>
           </div>
           <div class="text item">
             <div class="btw">
-              <span>澳大利亚体育委员会发布2019—2023年体育规划</span>
-             <span>2020-01-21</span>
+              <span>2019-2020赛季冬季两项世界杯赛第2站（西班牙）</span>
+              <span>2019-11-21</span>
             </div>
           </div>
         </el-card>
@@ -149,37 +155,37 @@
           </div>
           <div class="text item">
             <div class="btw">
-              <span>澳大利亚体育委员会发布2019—2023年体育规划</span>
+              <span>社会体育指导员（健身教练）鉴定计划</span>
              <span>2020-01-21</span>
             </div>
           </div>
           <div class="text item">
             <div class="btw">
-              <span>澳大利亚体育委员会发布2019—2023年体育规划</span>
+              <span>社会体育指导员（健身教练）鉴定计划</span>
              <span>2020-01-21</span>
             </div>
           </div>
           <div class="text item">
             <div class="btw">
-              <span>澳大利亚体育委员会发布2019—2023年体育规划</span>
+              <span>社会体育指导员（游泳）鉴定计划</span>
              <span>2020-01-21</span>
             </div>
           </div>
           <div class="text item">
             <div class="btw">
-              <span>澳大利亚体育委员会发布2019—2023年体育规划</span>
+              <span>社会体育指导员（跆拳道）鉴定计划</span>
              <span>2020-01-21</span>
             </div>
           </div>
           <div class="text item">
             <div class="btw">
-              <span>澳大利亚体育委员会发布2019—2023年体育规划</span>
+              <span>社会体育指导员（健美操）鉴定计划</span>
              <span>2020-01-21</span>
             </div>
           </div>
           <div class="text item">
             <div class="btw">
-              <span>澳大利亚体育委员会发布2019—2023年体育规划</span>
+              <span>社会体育指导员（网球）鉴定计划</span>
              <span>2020-01-21</span>
             </div>
           </div>
