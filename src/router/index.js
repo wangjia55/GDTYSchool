@@ -7,6 +7,7 @@ import newShareQuestion from '@/pages/newShareQuestion'
 import onlineRule from '@/pages/onlineRule'
 import faq from '@/pages/faq'
 import faqdetail from '@/pages/faqdetail'
+import detail from '@/pages/detail'
 /*心理测试页*/
 import PsychologicalQRcode from '@/pages/Psychological/QRcode'
 import PsychologicalTest from '@/pages/Psychological/test'
@@ -133,7 +134,15 @@ var routes = [
         title: '版块使用数据'
       }
     }
-
+    ,
+    {
+      path: '/detail',
+      name: 'detail',
+      component: detail,
+      meta: {
+        title: '详情页'
+      }
+    }
 ]
 routes = routes.concat(nation);
 export default routes

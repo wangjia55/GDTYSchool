@@ -22,13 +22,13 @@
             <el-button style="float: right; padding: 3px 0" type="text">更多</el-button>
           </div>
           <div class="text item">
-            <div class="btw">
-              <span>关于组织申报2020年度大学生创新创业项目的通知</span>
+            <div class="btw" @click="gotoDetail">
+              <span>召开“不忘初心、牢记使命”主题教育总结大会</span>
              <span>2020-01-21</span>
             </div>
           </div>
           <div class="text item">
-            <div class="btw">
+            <div class="btw" @click="gotoDetail">
               <span>关于做好2020年度“质量工程”建设项目申报的通知</span>
              <span>2020-01-21</span>
             </div>
@@ -198,8 +198,8 @@
           </div>
           <div>
             <div style="width:60%;margin:20px auto" class="arc">
-              <img src="../../assets/images/ercode.png" alt />
-              <img src="../../assets/images/ercode.png" alt />
+              <img style="width:100px;height:100px"  src="../../assets/images/barcode1.jpg" alt />
+              <img style="width:100px;height:100px"  src="../../assets/images/barcode1.jpg" alt />
             </div>
           </div>
         </el-card>
@@ -232,7 +232,11 @@ export default {
   },
   computed: {},
   components: {},
-  methods: {},
+  methods: {
+    gotoDetail(){
+      this.$router.push({name:"detail",params:{}})
+    }
+  },
   mounted() {},
   filters: {}
 };
