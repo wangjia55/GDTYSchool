@@ -10,6 +10,7 @@ import faqdetail from '@/pages/faqdetail'
 import detail from '@/pages/detail'
 import tiyuDetail from '@/pages/tiyuDetail'
 import tiyuInfo from '@/pages/tiyuInfo'
+import tiyuSerDetail from '@/pages/tiyuSerDetail'
 
 /*心理测试页*/
 import PsychologicalQRcode from '@/pages/Psychological/QRcode'
@@ -162,6 +163,15 @@ var routes = [
       component: tiyuInfo,
       meta: {
         title: '详情页'
+      }
+    },
+    
+    {
+      path: '/tiyuSerDetail',
+      name: 'tiyuSerDetail',
+      component: tiyuSerDetail,
+      meta: {
+        title: '赛事服务详情页'
       }
     }
 ]

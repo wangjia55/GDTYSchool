@@ -1,81 +1,10 @@
 <template>
   <!-- 赛事服务 -->
-  <div class="index-container nowrap">
-    <div v-if="1">
-      <div class>
-        <el-carousel :interval="3000">
-          <el-carousel-item  >
-            <img style="width:100%;" src="../../assets/images/ser4.jpg" alt />
-          </el-carousel-item>
-           <el-carousel-item  >
-            <img style="width:100%;" src="../../assets/images/ser5.jpg" alt />
-          </el-carousel-item>
-           <el-carousel-item  >
-            <img style="width:100%;" src="../../assets/images/ser6.jpg" alt />
-          </el-carousel-item>
-           <el-carousel-item  >
-            <img style="width:100%;" src="../../assets/images/ser7.jpg" alt />
-          </el-carousel-item>
-        </el-carousel>
-      </div>
-      <div class="mt20">
-        <el-tabs>
-          <el-tab-pane>
-            <span slot="label" style="font-size:20px">
-              <i class="el-icon-date"></i> 赛事筛选
-            </span>
-            <div class="btw">
-              <div class="row" style="font-size:16px">
-                <label for style="margin:10px">时间:</label>
-                <div class="row fsz">
-                  <span
-                    v-for="(item,index) in time"
-                    :key="item.id"
-                    :class="[curTime===index?'curBlue':'']"
-                    @click="toTime(index)"
-                  >{{item.name}}</span>
-                </div>
-              </div>
-
-              <div class="row" style="font-size:16px">
-                <label for style="margin:10px">类型:</label>
-                <div class="row fsz">
-                  <span
-                    v-for="(item,index) in kinds"
-                    :key="item.id"
-                    :class="[curKinds===index?'curBlue':'']"
-                    @click="toKinds(index)"
-                  >{{item.name}}</span>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="row" style="font-size:16px">
-                <label for style="margin:10px">地区:</label>
-                <div class="row fsz">
-                  <span
-                    v-for="(item,index) in area"
-                    :key="item.id"
-                    :class="[curArea===index?'curBlue':'']"
-                    @click="toArea(index)"
-                  >{{item.name}}</span>
-                </div>
-              </div>
-            </div>
-          </el-tab-pane>
-        </el-tabs>
-      </div>
-      <div class="mt20 mb20 imgs wrap">
-        <img src="../../assets/images/item1.png" @click="toDetail" alt />
-        <img src="../../assets/images/item2.png"  @click="toDetail" alt />
-        <img src="../../assets/images/item3.png"  @click="toDetail" alt />
-        <img src="../../assets/images/item4.png"  @click="toDetail" alt />
-      </div>
-    </div>
-    <!-- <div style="background:#fff;mt20">
+  <div class="index-container wrap ">
+    <div style="background:#fff">
       <div class="headers row" style="font-size:14px">
         <div class="m20">
-          <img style="width:332px;height:184px" src="../../assets/images/imgs.jpg" alt />
+          <img style="width:332px;height:184px" src="../assets/images/imgs.jpg" alt />
           <div class="row align">
             <div class="row align m10 curpoint">
               <van-icon name="star" />
@@ -129,15 +58,61 @@
             <i class="el-icon-s-order"></i> 赛事详情
           </span>
           <div class="col textser">
-            <img style="width:600px" src="../../assets/images/ser1.jpg" alt />
+            <img style="width:600px" src="../assets/images/ser1.jpg" alt />
             <p style="font-size:14px">
               啥？俱乐部招新会员啦？
               啥？俱乐部招新会员啦？
-              <br>
+              <br />啥？俱乐部招新会员啦？
+            </p>
+            <img src="../assets/images/ser2.jpg" alt />
+            <img src="../assets/images/ser3.jpg" alt />
+            <p style="font-size:14px">
+              啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？ 啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？ 啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？ 啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？ 啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？ 啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？ 啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？ 啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？ 啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？ 啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？ 啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？ 啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？ 啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？ 啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？ 啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？ 啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？ 啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？ 啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？ 啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？ 啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？ 啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？ 啥？俱乐部招新会员啦？
+              啥？俱乐部招新会员啦？
               啥？俱乐部招新会员啦？
             </p>
-            <img src="../../assets/images/ser2.jpg" alt />
-            <img src="../../assets/images/ser3.jpg" alt />
           </div>
         </el-tab-pane>
         <el-tab-pane>
@@ -153,8 +128,8 @@
               <p>出发时间： 2018-06-03 09:00</p>
               <p>关门时间： 2018-06-03 17:00</p>
             </div>
-             <div class="border">
-              <h3>挑战组</h3>
+            <div class="border">
+              <h3>专家组</h3>
               <p>报名费：50.00 元</p>
               <p>里程： 112km</p>
               <p>年龄：仅限16~68岁参加</p>
@@ -167,16 +142,20 @@
           <span slot="label">
             <i class="el-icon-picture"></i> 赛事图文
           </span>
-          <div style="height:200px;text-align:center;width:100%;line-height:200px;font-size:20px;color:#999">暂时没有内容哦</div>
+          <div
+            style="height:200px;text-align:center;width:100%;line-height:200px;font-size:20px;color:#999"
+          >暂时没有内容哦</div>
         </el-tab-pane>
         <el-tab-pane>
           <span slot="label">
             <i class="el-icon-s-data"></i> 成绩查询
           </span>
-          <div style="height:200px;text-align:center;width:100%;line-height:200px;font-size:20px;color:#999">暂时没有内容哦</div>
+          <div
+            style="height:200px;text-align:center;width:100%;line-height:200px;font-size:20px;color:#999"
+          >暂时没有内容哦</div>
         </el-tab-pane>
       </el-tabs>
-    </div> -->
+    </div>
   </div>
 </template>
 
@@ -261,7 +240,7 @@ export default {
           id: 4
         },
         {
-          name: "湖南省",
+          name: "广东省",
           id: 5
         }
       ]
@@ -270,9 +249,6 @@ export default {
   computed: {},
   components: {},
   methods: {
-    toDetail(){
-      this.$router.push('tiyuSerDetail')
-    },
     toTime(index) {
       this.curTime = index;
     },
@@ -289,26 +265,24 @@ export default {
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
-.ser-main{
-  div{
+.ser-main {
+  div {
     margin: 20px;
-    padding:20px;
-    >h3{
+    padding: 20px;
+    > h3 {
       font-size: 16px;
       font-weight: bold;
       margin-bottom: 10px;
     }
   }
 }
-.textser{
-  img{
-    margin:10px 0;
-    width:100%;
-    
+.textser {
+  img {
+    margin: 10px 0;
+    width: 100%;
   }
 }
 .ser-body {
-
   p {
     line-height: 28px;
     font-size: 14px;
