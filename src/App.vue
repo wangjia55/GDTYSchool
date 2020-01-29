@@ -1,44 +1,27 @@
 <template>
-  <div id="app">
-    <header class="btw p10 align" style="background-color:#2964B3;padding:10px 30px">
-      <div class="row align">
-        <div>
-          <img style="width:40px;height:40px" src="../src/assets/images/logo.jpg" alt />
-        </div>
-        <div style="font-size:20px;color:#fff" class="ml10">广东体育职业技术学院</div>
+<div id="app">
+  <header class="btw p10 align" style="background-color:#2964B3;padding:5px 20px">
+    <div class="row align">
+      <div>
+        <img style="width:40px;height:40px" src="../src/assets/images/logo.jpg" alt />
       </div>
-      <div style="color:#fff" class="curpoint">登录</div>
-    </header>
-    <div class="tabs wrap">
-      <el-tabs tab-position="top" v-model="editableTabsValue" :stretch="true" style="height: 200px;">
-        <el-tab-pane label="首页" name='0'>
-          <Index></Index>
-        </el-tab-pane>
-        <el-tab-pane label="体育资讯" name='1'>
-          <Message></Message>
-        </el-tab-pane>
-        <el-tab-pane label="赛事服务" name='2'>
-          <Service></Service>
-        </el-tab-pane>
-        <el-tab-pane label="职业培训" name='3'>
-          <Job></Job>
-        </el-tab-pane>
-        <el-tab-pane label="职业鉴定" name='4'>
-          <Identification></Identification>
-        </el-tab-pane>
-        <el-tab-pane label="行业协会" name='5'>
-          <Guild></Guild>
-        </el-tab-pane>
-      </el-tabs>
+      <div style="font-size:20px;color:#fff" class="ml10">广东体育职业技术学院</div>
     </div>
+    <div style="color:#fff" class="curpoint">校内网登录</div>
+  </header>
+
+  <body>
     <transition mode="out-in" name="fade">
       <router-view></router-view>
     </transition>
-    <footer>
-      <p style="text-align:center;margin:20px auto">CopyRight 2020-2021 备案号:Ac515158484181</p>
-    </footer>
+  </body>
 
-  </div>
+  <footer>
+    <p
+      style="text-align:center;margin:20px auto"
+    >Copyright© 2019 Guangdong Voctional Institute of Sport 备案号:粤ICP备06108273号</p>
+  </footer>
+</div>
 </template>
 
 <script>
@@ -50,11 +33,12 @@ import Message from "./components/tabsPage/message";
 import Service from "./components/tabsPage/service";
 export default {
   name: "App",
-  data(){
+  data() {
     return {
       editableTabsValue:"2"
-    }
-    
+
+    };
+
   },
   components: {
     Index,

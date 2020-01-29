@@ -1,6 +1,10 @@
 <template>
 <!-- 职业培训 -->
-  <div class=""></div>
+  <div class="">
+    <iframe name = "child" id = "child" src="http://120.79.95.187:8081/" 
+    width="1000" height="880" frameborder="0" scrolling="no" 
+   ></iframe>
+  </div>
 </template>
 
 <script>

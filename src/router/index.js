@@ -7,6 +7,10 @@ import newShareQuestion from '@/pages/newShareQuestion'
 import onlineRule from '@/pages/onlineRule'
 import faq from '@/pages/faq'
 import faqdetail from '@/pages/faqdetail'
+import detail from '@/pages/detail'
+import tiyuDetail from '@/pages/tiyuDetail'
+import tiyuInfo from '@/pages/tiyuInfo'
+
 /*心理测试页*/
 import PsychologicalQRcode from '@/pages/Psychological/QRcode'
 import PsychologicalTest from '@/pages/Psychological/test'
@@ -29,7 +33,7 @@ var routes = [
       name: 'newShare',
       component: newShare,
 	    meta: {
-			 	title: '3*3智享计划 '
+			 	title: '广东体育职业技术学院 '
 			 }
     },
     	{
@@ -43,7 +47,7 @@ var routes = [
       name: 'newShareQuestion',
       component: newShareQuestion,
 	    meta: {
-			 	title: '3*3新享计划 '
+			 	title: '广东体育职业技术学院 '
 			 }
     },
     {
@@ -133,7 +137,33 @@ var routes = [
         title: '版块使用数据'
       }
     }
-
+    ,
+    {
+      path: '/detail',
+      name: 'detail',
+      component: detail,
+      meta: {
+        title: '详情页'
+      }
+    }
+    ,
+    {
+      path: '/tiyuDetail',
+      name: 'tiyuDetail',
+      component: tiyuDetail,
+      meta: {
+        title: '详情页'
+      }
+    }
+    ,
+    {
+      path: '/tiyuInfo',
+      name: 'tiyuInfo',
+      component: tiyuInfo,
+      meta: {
+        title: '详情页'
+      }
+    }
 ]
 routes = routes.concat(nation);
 export default routes
