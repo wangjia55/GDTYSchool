@@ -1,7 +1,8 @@
 <template>
   <div class="wrap">
     <div class="tab">
-      1
+      <!-- 体育资讯 -->
+      
     </div>
   </div>
 </template>

@@ -52,7 +52,7 @@ export default {
   name: "App",
   data(){
     return {
-      editableTabsValue:"1"
+      editableTabsValue:"2"
     }
     
   },

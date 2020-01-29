@@ -11,7 +11,7 @@
     <div class="flex-flow mt20 mb20">
       <div class="flex-base">
         <el-card class="box-card">
-          <div slot="header" class="clearfix">
+          <div slot="header" class="clearfix" @click="toRouter">
             <span style="font-size:18px;color:skyblue">群众体育</span>
             <el-button style="float: right; padding: 3px 0;color:red" type="text">更多+</el-button>
           </div>
@@ -80,7 +80,11 @@ export default {
   },
   computed: {},
   components: {},
-  methods: {},
+  methods: {
+    toRouter(){
+      this.$router.push('newShare')
+    }
+  },
   mounted() {},
   filters: {}
 };

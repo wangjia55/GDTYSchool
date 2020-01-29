@@ -19,9 +19,9 @@ import ModeUseDataAll from '@/pages/DataReport/ModeUseData/DataAll'
 import ModeUseDataPerson from '@/pages/DataReport/ModeUseData/DataPerson'
 import ModeUseTrend from '@/pages/DataReport/ModeUseData/Trend'
 
-import {Button,DatetimePicker,Row, Col ,Popup ,List,Cell,PullRefresh ,Loading,Lazyload,Dialog,Toast,Tab, Tabs,Pagination,Picker   } from 'vant'
+import {Button,DatetimePicker,Icon,Row, Col ,Popup ,List,Cell,PullRefresh ,Loading,Lazyload,Dialog,Toast,Tab, Tabs,Pagination,Picker   } from 'vant'
 
-Vue.use(Router).use(Button).use(Row).use(Col).use(Popup).use(List).use(Cell).use(DatetimePicker)
+Vue.use(Router).use(Icon).use(Button).use(Row).use(Col).use(Popup).use(List).use(Cell).use(DatetimePicker)
 .use(PullRefresh).use(Loading).use(Lazyload).use(Dialog).use(Toast).use(Tab).use(Tabs).use(Pagination).use(Picker)
 var routes = [
     {
