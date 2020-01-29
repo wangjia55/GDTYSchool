@@ -6,13 +6,13 @@
         <div >
           <div class="row">
             <el-carousel style="width: 600px;">
-              <el-carousel-item  :key="item">
+              <el-carousel-item  >
                 <img style="width: 100%;" src="../../assets/images/xiehui1.jpg">
               </el-carousel-item>
-              <el-carousel-item  :key="item">
+              <el-carousel-item  >
                 <img style="width: 100%;" src="../../assets/images/xiehui2.jpg">
               </el-carousel-item>
-              <el-carousel-item  :key="item">
+              <el-carousel-item  >
                 <img style="width: 100%;" src="../../assets/images/xiehui3.png">
               </el-carousel-item>
             

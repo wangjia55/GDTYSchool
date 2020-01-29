@@ -8,6 +8,9 @@ import onlineRule from '@/pages/onlineRule'
 import faq from '@/pages/faq'
 import faqdetail from '@/pages/faqdetail'
 import detail from '@/pages/detail'
+import tiyuDetail from '@/pages/tiyuDetail'
+import tiyuInfo from '@/pages/tiyuInfo'
+
 /*心理测试页*/
 import PsychologicalQRcode from '@/pages/Psychological/QRcode'
 import PsychologicalTest from '@/pages/Psychological/test'
@@ -139,6 +142,24 @@ var routes = [
       path: '/detail',
       name: 'detail',
       component: detail,
+      meta: {
+        title: '详情页'
+      }
+    }
+    ,
+    {
+      path: '/tiyuDetail',
+      name: 'tiyuDetail',
+      component: tiyuDetail,
+      meta: {
+        title: '详情页'
+      }
+    }
+    ,
+    {
+      path: '/tiyuInfo',
+      name: 'tiyuInfo',
+      component: tiyuInfo,
       meta: {
         title: '详情页'
       }

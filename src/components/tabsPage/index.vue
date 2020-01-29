@@ -66,18 +66,18 @@
             <el-button style="float: right; padding: 3px 0" type="text">更多</el-button>
           </div>
           <div class="text item">
-            <div class="btw">
+            <div class="btw" @click="gotoInfo">
               <span>2019-2020赛季跳台滑雪世界杯赛第13站（德国）</span>
               <span>2020-01-21</span>
             </div>
           </div>
-          <div class="text item">
+          <div class="text item" @click="gotoInfo">
             <div class="btw">
               <span>2019-2020赛季雪车世界杯赛第4站（奥地利）</span>
               <span>2020-01-21</span>
             </div>
           </div>
-          <div class="text item">
+          <div class="text item" @click="gotoInfo">
             <div class="btw">
               <span>2019-2020赛季跳台滑雪世界杯赛第12站（日本）</span>
               <span>2019-12-21</span>
@@ -110,18 +110,18 @@
             <el-button style="float: right; padding: 3px 0" type="text">更多</el-button>
           </div>
           <div class="text item">
-            <div class="btw">
+            <div class="btw" @click="gotoInfo">
               <span>关于2020年度国家自然科学基金项目申请通告</span>
              <span>2020-01-21</span>
             </div>
           </div>
           <div class="text item">
-            <div class="btw">
+            <div class="btw" @click="gotoInfo">
               <span>2020年度国家社会科学基金项目申报公告</span>
              <span>2020-01-21</span>
             </div>
           </div>
-          <div class="text item">
+          <div class="text item" @click="gotoInfo">
             <div class="btw">
               <span>广州市社科规划2020年度岭南文化研究专项课题指南</span>
              <span>2020-01-21</span>
@@ -153,25 +153,25 @@
             <span style="font-size:18px">鉴定计划</span>
             <el-button style="float: right; padding: 3px 0" type="text">更多</el-button>
           </div>
-          <div class="text item">
+          <div class="text item" @click="gotoInfo">
             <div class="btw">
               <span>社会体育指导员（健身教练）鉴定计划</span>
              <span>2020-01-21</span>
             </div>
           </div>
-          <div class="text item">
+          <div class="text item" @click="gotoInfo">
             <div class="btw">
               <span>社会体育指导员（健身教练）鉴定计划</span>
              <span>2020-01-21</span>
             </div>
           </div>
-          <div class="text item">
+          <div class="text item" @click="gotoInfo">
             <div class="btw">
               <span>社会体育指导员（游泳）鉴定计划</span>
              <span>2020-01-21</span>
             </div>
           </div>
-          <div class="text item">
+          <div class="text item" @click="gotoInfo">
             <div class="btw">
               <span>社会体育指导员（跆拳道）鉴定计划</span>
              <span>2020-01-21</span>
@@ -235,7 +235,10 @@ export default {
   methods: {
     gotoDetail(){
       this.$router.push({name:"detail",params:{}})
-    }
+    },
+      gotoInfo(){
+      this.$router.push({name:"tiyuInfo",params:{}})
+    },
   },
   mounted() {},
   filters: {}

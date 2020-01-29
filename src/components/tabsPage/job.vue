@@ -2,7 +2,7 @@
 <!-- 职业培训 -->
   <div class="">
     <iframe name = "child" id = "child" src="http://120.79.95.187:8081/" 
-    width="1920" height="880" frameborder="0" scrolling="no" 
+    width="1000" height="880" frameborder="0" scrolling="no" 
    ></iframe>
   </div>
 </template>
