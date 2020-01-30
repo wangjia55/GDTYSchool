@@ -16,7 +16,7 @@
     </transition>
   </body>
 
-  <footer>
+  <footer class="footer">
     <p
       style="text-align:center;margin:20px auto"
     >Copyright© 2019 Guangdong Voctional Institute of Sport 备案号:粤ICP备06108273号</p>
@@ -113,4 +113,5 @@ body {
   color: #333333;
   background: url(./assets/images/body_bg.jpg) repeat-x top;
 }
+
 </style>

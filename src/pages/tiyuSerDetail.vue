@@ -264,7 +264,7 @@ export default {
 };
 </script>
 
-<style rel="stylesheet/scss" lang="scss" scoped>
+<style rel="stylesheet/scss" lang="scss" >
 .ser-main {
   div {
     margin: 20px;
