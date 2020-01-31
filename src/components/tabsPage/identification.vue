@@ -3,10 +3,10 @@
   <div class="index-container nowrap">
     <div class>
       <el-carousel>
-        <el-carousel-item type="card" :interval="3000" :key="item">
+        <el-carousel-item type="card" :interval="3000" >
           <img style="width:100%;" src="../../assets/images/jianding1.jpg" alt />
         </el-carousel-item>
-        <el-carousel-item type="card" :interval="3000" :key="item">
+        <el-carousel-item type="card" :interval="3000" >
           <img style="width:100%;" src="../../assets/images/jianding2.jpg" alt />
         </el-carousel-item>
       </el-carousel>
