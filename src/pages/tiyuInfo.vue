@@ -39,7 +39,7 @@ export default {
   }
 };
 </script>
-<style scoped>
+<style>
 .container {
   margin: 10px 10px;
   text-align: center;

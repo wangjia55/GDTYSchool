@@ -73,8 +73,8 @@
           <div class="col p20" style="border-bottom: 1px solid lightgray" v-for="v in dataListSaiShi">
             <p v-html="v.title" class="mv10" style="font-size: 20px"></p>
             <div class="row">
-              <img :src="v.img" style="width: 100px">
-              <div class="col mh10">
+              <img :src="v.img" style="width: 130px;height:87.2px">
+              <div class="col mh10 flex1">
                 <span v-html="v.content" class="sheng2 font" style="flex: 1;font-size: 14px;line-height: 1.3"></span>
                 <span v-html="v.time" class="font"></span>
               </div>

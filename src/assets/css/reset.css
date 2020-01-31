@@ -2,19 +2,87 @@
  * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
  * http://cssreset.com
  */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video, input {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input {
   margin: 0;
   padding: 0;
   border: 0;
@@ -24,8 +92,16 @@ time, mark, audio, video, input {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -75,7 +151,8 @@ li {
   -webkit-border-radius: 6px;
 }
 
-html, body {
+html,
+body {
   width: 100%;
 
 }
@@ -88,7 +165,10 @@ body {
 }
 
 /*nation所用到的公共样式*/
-input, select, textarea, button {
+input,
+select,
+textarea,
+button {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-appearance: none;
   font-family: "Microsoft YaHei" !important;
@@ -155,6 +235,13 @@ input, select, textarea, button {
   transform: rotate(45deg);
 }
 
+.footer {
+  position: relative;
+  width: 100%;
+  line-height: 40px;
+  height: 40px;
+}
+
 /*1行省略*/
 .sheng1 {
   overflow: hidden;
@@ -167,8 +254,10 @@ input, select, textarea, button {
 .wrap {
   width: 100%;
   max-width: 1000px;
+
   margin: 0 auto;
   position: relative;
+
 }
 
 /*多行省略*/
@@ -192,12 +281,16 @@ img[lazy=loading] {
 
 }
 
-.fade-enter-active, .fade-leave-active {
+.fade-enter-active,
+.fade-leave-active {
   transition: opacity .5s
 }
 
-.fade-enter, .fade-leave-to /* .fade-leave-active 在低于版本 2.1.8 中 */
-{
+.fade-enter,
+.fade-leave-to
+
+/* .fade-leave-active 在低于版本 2.1.8 中 */
+  {
   opacity: 0
 }
 
@@ -408,7 +501,7 @@ img[lazy=loading] {
   cursor: pointer;
 }
 
-.flex-flow{
-  display:flex;
-flex-flow: wrap;
+.flex-flow {
+  display: flex;
+  flex-flow: wrap;
 }

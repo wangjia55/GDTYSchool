@@ -245,22 +245,23 @@ export default {
 };
 </script>
 
-<style rel="stylesheet/scss" lang="scss" scoped>
-.el-carousel__item h3 {
-  color: #475669;
-  font-size: 18px;
-  opacity: 0.75;
-  line-height: 300px;
-  margin: 0;
-}
+<style rel="stylesheet/scss" lang="scss">
+.index-container{
+// .el-carousel__item h3 {
+//   color: #475669;
+//   font-size: 18px;
+//   opacity: 0.75;
+//   line-height: 300px;
+//   margin: 0;
+// }
 
-.el-carousel__item:nth-child(2n) {
-  background-color: #99a9bf;
-}
+// .el-carousel__item:nth-child(2n) {
+//   background-color: #99a9bf;
+// }
 
-.el-carousel__item:nth-child(2n + 1) {
-  background-color: #d3dce6;
-}
+// .el-carousel__item:nth-child(2n + 1) {
+//   background-color: #d3dce6;
+// }
 .flex-base {
   flex: 0 0 48%;
   margin: 10px 1%;
@@ -286,6 +287,7 @@ export default {
     margin:0 12px;
     cursor: pointer;
   }
+}
 }
 </style>
 

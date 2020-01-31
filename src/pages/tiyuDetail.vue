@@ -170,7 +170,7 @@
   };
 </script>
 
-<style scoped>
+<style>
 
     .guild-container {
         width:1000px;
