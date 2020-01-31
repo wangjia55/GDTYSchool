@@ -38,10 +38,10 @@ module.exports = {
 
   build: {
     // Template for index.html
-    index: path.resolve(__dirname, '../dist/carApp/index.html'),
+    index: path.resolve(__dirname, '../dist/gdty/index.html'),
 
     // Paths
-    assetsRoot: path.resolve(__dirname, '../dist/carApp'),
+    assetsRoot: path.resolve(__dirname, '../dist/gdty'),
     assetsSubDirectory: 'carApp',
     assetsPublicPath: './',
 
