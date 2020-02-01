@@ -26,7 +26,7 @@
         <Guild></Guild>
       </el-tab-pane>
     </el-tabs>
-   
+
   </div>
 </template>
 
@@ -115,10 +115,10 @@ export default {
     transform: translateX(100%);
   }
 }
-body {
-  font-size: 12px;
-  line-height: 25px;
-  color: #333333;
-  background: url(../assets/images/body_bg.jpg) repeat-x top;
-}
+/*body {*/
+  /*font-size: 12px;*/
+  /*line-height: 25px;*/
+  /*color: #333333;*/
+  /*background: url(../assets/images/body_bg.jpg) repeat-x top;*/
+/*}*/
 </style>
