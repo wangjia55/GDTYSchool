@@ -197,9 +197,9 @@
             <span style="font-size:18px">关注我们</span>
           </div>
           <div>
-            <div style="width:60%;margin:20px auto" class="arc">
-              <img style="width:100px;height:100px"  src="../../assets/images/barcode1.jpg" alt />
-              <img style="width:100px;height:100px"  src="../../assets/images/barcode1.jpg" alt />
+            <div style="width:80%;margin:20px auto" class="arc">
+              <img style="width:160px;height:160px"  src="../../assets/images/barcode1.jpg" alt />
+              <img style="width:160px;height:160px"  src="../../assets/images/barcode1.jpg" alt />
             </div>
           </div>
         </el-card>
@@ -217,6 +217,10 @@
             <div style="width:70%;margin:20px auto" class="divButton btw">
               <div>教学平台</div>
               <div>邮箱系统</div>
+            </div>
+            <div style="width:70%;margin:20px auto" class="divButton btw">
+              <div>合作链接</div>
+              <div>校内图书馆</div>
             </div>
           </div>
         </el-card>

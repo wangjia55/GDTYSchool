@@ -1,6 +1,6 @@
 <template>
 <div id="app">
-  <header class="btw p10 align" style="background-color:#2964B3;padding:5px 20px">
+  <header class="btw p10 align" style="background-color:#1754C2;padding:5px 20px">
     <div class="row align">
       <div>
         <img style="width:40px;height:40px" src="../src/assets/images/logo.jpg" alt />
@@ -17,6 +17,15 @@
   </body>
 
   <footer class="footer">
+    <div class="footer-content arc">
+      <div class="footer-info">
+        <p>学校地址：广东省广州市天河区黄村奥体路52号</p>
+        <p>学校电话：020-87128173</p>
+      </div>
+      <div style="">
+        <img style="width:80%; margin:auto 0;" src="../src/assets/images/school-title.jpg"/>
+      </div>
+    </div>
     <p
       style="text-align:center;margin:20px auto"
     >Copyright© 2019 Guangdong Voctional Institute of Sport 备案号:粤ICP备06108273号</p>
@@ -35,10 +44,8 @@ export default {
   name: "App",
   data() {
     return {
-      editableTabsValue:"2"
-
+      editableTabsValue: "2"
     };
-
   },
   components: {
     Index,
@@ -114,4 +121,17 @@ body {
   background: url(./assets/images/body_bg.jpg) repeat-x top;
 }
 
+.footer-content{
+  background-color: #1754C2;
+  padding: 0px 150px;
+  align-content: center;
+  align-items: center;
+}
+.footer-info {
+  font-size: 15px;
+  color: white;
+  background-color: #1754C2;
+  text-align:left;
+
+}
 </style>
