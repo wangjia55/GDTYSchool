@@ -253,12 +253,14 @@ button {
 .wrap {
   width: 100%;
   max-width: 1000px;
-
   margin: 0 auto;
   position: relative;
 
 }
-
+.flex-wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
 /*多行省略*/
 .sheng2 {
   overflow: hidden;
@@ -503,4 +505,13 @@ img[lazy=loading] {
 .flex-flow {
   display: flex;
   flex-flow: wrap;
+}
+.init{
+  width:1200px;
+  position: relative;
+  margin: 10px auto;
+}
+.flex-center{
+  display: flex;
+  justify-content: center;
 }

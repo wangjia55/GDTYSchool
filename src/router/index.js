@@ -1,28 +1,25 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import nation from './nation.js';
+import index from '@/pages/front/index'
+import home from '@/pages/front/home'
+import guild from '@/pages/front/guild'
+import guildIndex from '@/pages/front/guildIndex'
+import identification from '@/pages/front/identification'
+import job from '@/pages/front/job'
+import message from '@/pages/front/message'
+import service from '@/pages/front/service'
+import education from '@/pages/front/education'
+import train from '@/pages/front/train'
 import NotFound from '@/pages/404'
 import newShare from '@/pages/newShare'
 import newShareQuestion from '@/pages/newShareQuestion'
-import onlineRule from '@/pages/onlineRule'
-import faq from '@/pages/faq'
-import faqdetail from '@/pages/faqdetail'
 import detail from '@/pages/detail'
 import tiyuDetail from '@/pages/tiyuDetail'
 import tiyuInfo from '@/pages/tiyuInfo'
 import tiyuSerDetail from '@/pages/tiyuSerDetail'
 
-/*心理测试页*/
-import PsychologicalQRcode from '@/pages/Psychological/QRcode'
-import PsychologicalTest from '@/pages/Psychological/test'
-import PsychologicalResult from '@/pages/Psychological/result'
-/*数据报表页*/
-import SalesReportForm from '@/pages/DataReport/SalesReportForm/SalesData'
-import ReportListForm from '@/pages/DataReport/SalesReportForm/ReportList'
-/*板块使用数据页*/
-import ModeUseDataAll from '@/pages/DataReport/ModeUseData/DataAll'
-import ModeUseDataPerson from '@/pages/DataReport/ModeUseData/DataPerson'
-import ModeUseTrend from '@/pages/DataReport/ModeUseData/Trend'
+
 
 import {Button,DatetimePicker,Icon,Row, Col ,Popup ,List,Cell,PullRefresh ,Loading,Lazyload,Dialog,Toast,Tab, Tabs,Pagination,Picker   } from 'vant'
 
@@ -32,10 +29,85 @@ var routes = [
     {
       path: '/',
       name: 'newShare',
-      component: newShare,
+      component: index,
+      redirect: '/home',
 	    meta: {
 			 	title: '广东体育职业技术学院 '
-			 }
+       },
+       children: [
+        {
+          path: 'home',
+          name: 'home',
+          component: home,
+          meta: {
+            title: '首页'
+          },
+        },
+        {
+          path: 'guild',
+          name: 'guild',
+          component: guild,
+          meta: {
+            title: '行业协会'
+          },
+        },
+        {
+          path: 'guildIndex',
+          name: 'guildIndex',
+          component: guildIndex,
+          meta: {
+            title: '行业协会'
+          },
+        },
+        {
+          path: 'identification',
+          name: 'identification',
+          component: identification,
+          meta: {
+            title: '职业鉴定'
+          },
+        },
+        {
+          path: 'job',
+          name: 'job',
+          component: job,
+          meta: {
+            title: '职业培训'
+          },
+        },
+        {
+          path: 'message',
+          name: 'message',
+          component: message,
+          meta: {
+            title: '体育资讯'
+          },
+        },
+        {
+          path: 'service',
+          name: 'service',
+          component: service,
+          meta: {
+            title: '赛事服务'
+          },
+        },
+        {
+          path: 'education',
+          name: 'education',
+          component: education,
+          meta: {
+            title: '继续教育'
+          },
+        },
+        {
+          path: 'train',
+          name: 'train',
+          component: train,
+          meta: {
+            title: '课程培训'
+          },
+        },
+      ]
     },
     	{
         path: '/404',
@@ -51,94 +123,7 @@ var routes = [
 			 	title: '广东体育职业技术学院 '
 			 }
     },
-    {
-      path: '/onlineRule',
-      name: 'onlineRule',
-      component: onlineRule,
-      meta: {
-        title: '有效时长规则 '
-       }
-    },
-    {
-      path: '/faq',
-      name: 'faq',
-      component: faq,
-      meta: {
-        title: '问与答'
-       }
-    },
-    {
-      path: '/faqdetail',
-      name: 'faqdetail',
-      component: faqdetail,
-      meta: {
-        title: '问与答详情'
-       }
-    },
-    {
-      path: '/Psychological/QRcode',
-      name: 'PsychologicalQRcode',
-      component: PsychologicalQRcode,
-      meta: {
-        title: '心理测试'
-      }
-      },
-    {
-      path: '/Psychological/test',
-      name: 'PsychologicalTest',
-      component: PsychologicalTest,
-      meta: {
-        title: '心理测试'
-      }
-    },
-    {
-      path: '/Psychological/result',
-      name: 'PsychologicalResult',
-      component: PsychologicalResult,
-      meta: {
-        title: '测试结果'
-      }
-    },
-    {
-      path: '/DataReport/SalesReportForm/SalesData',
-      name: 'SalesReportForm',
-      component: SalesReportForm,
-      meta: {
-        title: 'Sales报表数据'
-      }
-    },
-    {
-      path: '/DataReport/SalesReportForm/ReportList',
-      name: 'ReportListForm',
-      component: ReportListForm,
-      meta: {
-        title: 'Sales报表数据'
-      }
-    },
-    {
-      path: '/DataReport/ModeUseData/DataAll',
-      name: 'ModeUseDataAll',
-      component: ModeUseDataAll,
-      meta: {
-        title: '版块使用数据'
-      }
-    },{
-      path: '/DataReport/ModeUseData/DataPerson',
-      name: 'ModeUseDataPerson',
-      component: ModeUseDataPerson,
-      meta: {
-        title: '版块使用数据'
-      }
-    },
-    {
-      path: '/DataReport/ModeUseData/Trend',
-      name: 'ModeUseTrend',
-      component: ModeUseTrend,
-      meta: {
-        title: '版块使用数据'
-      }
-    }
-    ,
+
     {
       path: '/detail',
       name: 'detail',

@@ -1,6 +1,6 @@
 <template>
 <div id="app">
-  <header class="btw p10 align" style="background-color:#1754C2;padding:5px 20px">
+  <!-- <header class="btw p10 align" style="background-color:#1754C2;padding:5px 20px">
     <div class="row align">
       <div>
         <img style="width:40px;height:40px" src="../src/assets/images/logo.jpg" alt />
@@ -8,7 +8,7 @@
       <div style="font-size:20px;color:#fff" class="ml10">广东体育职业技术学院</div>
     </div>
     <div style="color:#fff" class="curpoint">校内网登录</div>
-  </header>
+  </header> -->
 
   <body>
     <transition mode="out-in" name="fade">
@@ -16,7 +16,7 @@
     </transition>
   </body>
 
-  <footer class="footer">
+  <!-- <footer class="footer">
     <div class="footer-content arc">
       <div class="footer-info">
         <p>学校地址：广东省广州市天河区黄村奥体路52号</p>
@@ -29,7 +29,7 @@
     <p
       style="text-align:center;margin:20px auto"
     >Copyright© 2019 Guangdong Voctional Institute of Sport 备案号:粤ICP备06108273号</p>
-  </footer>
+  </footer> -->
 </div>
 </template>
 

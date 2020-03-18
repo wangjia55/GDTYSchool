@@ -7,6 +7,7 @@ import routes from "./router/index.js";
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 import Vuex from "vuex";
+import store from './store'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import YDUI from 'vue-ydui';
 import ElementUI from 'element-ui';
@@ -21,6 +22,7 @@ import api  from './assets/js/api.js'
 
 //css部分
 import './assets/scss/common.scss'
+// import 'swiper/dist/css/swiper.css';
 import './assets/css/reset.css'
 import "./assets/css/swiper.min.css";
 import 'vue-ydui/dist/ydui.px.css'
@@ -62,6 +64,7 @@ router.beforeEach((to,from,next)=>{
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 })
