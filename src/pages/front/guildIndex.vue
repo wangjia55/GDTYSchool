@@ -2,7 +2,7 @@
   <!-- 首页 -->
   <div class="guild-index-container nowrap">
     <div class>
-      <el-carousel>
+      <el-carousel style="height:400px;">
         <el-carousel-item :interval="3000" :key="item">
           <img style="width:100%;" src="../../assets/images/home1.jpg" alt />
         </el-carousel-item>

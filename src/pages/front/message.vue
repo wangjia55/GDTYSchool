@@ -3,17 +3,17 @@
   <div class="message-container">
     <div class>
       <el-carousel>
-        <el-carousel-item  :interval="3000"  >
-          <img style="width:100%;" src="../../assets/images/zixun1.jpg" alt />
+        <el-carousel-item  :interval="3000"  style="height:400px;">
+          <img style="width:100%;" src="../../assets/images/home9.png" alt />
         </el-carousel-item>
          <el-carousel-item  :interval="3000" >
-          <img style="width:100%;" src="../../assets/images/zixun2.jpg" alt />
+          <img style="width:100%;" src="../../assets/images/home10.png" alt />
         </el-carousel-item>
          <el-carousel-item  :interval="3000" >
-          <img style="width:100%;" src="../../assets/images/zixun3.jpg" alt />
+          <img style="width:100%;" src="../../assets/images/home13.png" alt />
         </el-carousel-item>
          <el-carousel-item  :interval="3000">
-          <img style="width:100%;" src="../../assets/images/zixun4.jpg" alt />
+          <img style="width:100%;" src="../../assets/images/home11.png" alt />
         </el-carousel-item>
       </el-carousel>
     </div>

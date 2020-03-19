@@ -1,108 +1,23 @@
 <template>
   <!-- 首页 -->
-  <div class="index-container nowrap">
+  <div class="index-container">
     <div class>
-      <el-carousel>
-        <el-carousel-item :interval="3000" :key="item">
-          <img style="width:100%;" src="../../assets/images/home1.jpg" alt />
+      <el-carousel style="height:400px;">
+        <el-carousel-item :interval="3000" :key="item" style="width:100%;height:500px;">
+          <img style="width:100%;height:100%;" src="../../assets/images/home1.png" alt />
         </el-carousel-item>
         <el-carousel-item :interval="3000" :key="item">
-          <img style="width:100%;" src="../../assets/images/home2.jpg" alt />
+          <img style="width:100%;height:100%;" src="../../assets/images/home3.png" alt />
         </el-carousel-item>
         <el-carousel-item :interval="3000" :key="item">
-          <img style="width:100%;" src="../../assets/images/home3.jpg" alt />
+          <img style="width:100%;height:100%;" src="../../assets/images/home2.png" alt />
+        </el-carousel-item>
+        <el-carousel-item :interval="3000" :key="item">
+          <img style="width:100%;height:100%;" src="../../assets/images/home4.png" alt />
         </el-carousel-item>
       </el-carousel>
     </div>
     <div class="flex-flow mt20 mb20 init">
-      <!-- <div class="flex-base">
-        <el-card class="box-card">
-          <div slot="header" class="clearfix">
-            <span style="font-size:18px">学校通告</span>
-            <el-button style="float: right; padding: 3px 0" type="text">更多</el-button>
-          </div>
-          <div class="text item">
-            <div class="btw" @click="gotoDetail">
-              <span>召开“不忘初心、牢记使命”主题教育总结大会</span>
-             <span>2020-01-21</span>
-            </div>
-          </div>
-          <div class="text item">
-            <div class="btw" @click="gotoDetail">
-              <span>关于做好2020年度“质量工程”建设项目申报的通知</span>
-             <span>2020-01-21</span>
-            </div>
-          </div>
-          <div class="text item">
-            <div class="btw">
-              <span>关于开展2020年度省高等教学改革推荐工作的通知</span>
-             <span>2020-01-21</span>
-            </div>
-          </div>
-          <div class="text item">
-            <div class="btw">
-              <span>有关校园网合作合同延期的公告</span>
-             <span>2020-01-21</span>
-            </div>
-          </div>
-          <div class="text item">
-            <div class="btw">
-              <span>关于推荐申报2019年国家级一流本科课程的公示</span>
-             <span>2020-01-21</span>
-            </div>
-          </div>
-          <div class="text item">
-            <div class="btw">
-              <span>关于⒛⒛ 年元旦和寒假放假的通知</span>
-             <span>2020-01-21</span>
-            </div>
-          </div>
-        </el-card>
-      </div>-->
-      <!-- <div class="flex-base ml20">
-         <el-card class="box-card">
-          <div slot="header" class="clearfix">
-            <span style="font-size:18px">赛事资讯</span>
-            <el-button style="float: right; padding: 3px 0" type="text">更多</el-button>
-          </div>
-          <div class="text item">
-            <div class="btw" @click="gotoInfo">
-              <span>2019-2020赛季跳台滑雪世界杯赛第13站（德国）</span>
-              <span>2020-01-21</span>
-            </div>
-          </div>
-          <div class="text item" @click="gotoInfo">
-            <div class="btw">
-              <span>2019-2020赛季雪车世界杯赛第4站（奥地利）</span>
-              <span>2020-01-21</span>
-            </div>
-          </div>
-          <div class="text item" @click="gotoInfo">
-            <div class="btw">
-              <span>2019-2020赛季跳台滑雪世界杯赛第12站（日本）</span>
-              <span>2019-12-21</span>
-            </div>
-          </div>
-          <div class="text item">
-            <div class="btw">
-              <span>2019-2020赛季高山滑雪世界杯赛第20站（瑞士）</span>
-              <span>2019-11-21</span>
-            </div>
-          </div>
-          <div class="text item">
-            <div class="btw">
-              <span>2019-2020赛季冬季两项世界杯赛第5站（德国）</span>
-              <span>2019-11-21</span>
-            </div>
-          </div>
-          <div class="text item">
-            <div class="btw">
-              <span>2019-2020赛季冬季两项世界杯赛第2站（西班牙）</span>
-              <span>2019-11-21</span>
-            </div>
-          </div>
-        </el-card>
-      </div>-->
       <div class="school-news">
         <div class="btw yaonew align">
           <p>学院要闻</p>
