@@ -1,6 +1,6 @@
 <template>
   <!-- 首页 -->
-  <div class="index-container">
+  <div class="index-container nowrap">
     <div class>
       <el-carousel style="height:400px;">
         <el-carousel-item :interval="3000" :key="item" style="width:100%;height:500px;">
@@ -24,18 +24,29 @@
           <p class="curpoint">More></p>
         </div>
         <div class="btw">
-          <div class="flex-base">
+          <div class="flex-base g" >
             <el-carousel>
-              <el-carousel-item v-for="item in 4" :key="item">
+              <el-carousel-item>
                 <div class="flex-center curpoint col"  @click="gotoDetail">
                   <img
-                    style="width:400px;height:200px;margin:5px auto"
+                    style="width:580px;height:260px;"
                     src="../../assets/images/detail2.png"
                     alt
                   />
-                  <div style="width:400px;margin:10px auto">
-                    <h3 style="font-weight:700;font-size:16px;">广东体育职业技术学院参加教育系统防控新{{item}}</h3>
-                    <p>广东体育职业技术学院参加教育系统防控新广东体育职业技术学院参加教育系统防控新广东体育职业技术学院参加教育系统防控新</p>
+                  <div style="width:400px;height:20px;margin:10px auto;text-align:center;">
+                    <p style="font-size:16px;">广东体育职业技术学院参加教育系统防控会议</p>
+                  </div>
+                </div>
+              </el-carousel-item>
+              <el-carousel-item>
+                <div class="flex-center curpoint col"  @click="gotoDetail">
+                  <img
+                    style="width:580px;height:260px;"
+                    src="../../assets/images/detail4.png"
+                    alt
+                  />
+                  <div style="width:400px;height:20px;margin:10px auto;text-align:center;">
+                    <p style="font-size:16px;">广东体育职业技术学院与广州融创文旅城签署校企合作</p>
                   </div>
                 </div>
               </el-carousel-item>
@@ -94,13 +105,29 @@
           <p class="curpoint"></p>
         </div>
         <div class="flex-wrap">
-          <div class="col curpoint"  @click="gotoInfo" style="flex:0 0 32%;margin:20px 0.5%;" v-for="item in 3" :key="item">
+          <div class="col curpoint"  @click="gotoInfo" style="flex:0 0 32%;margin:20px 0.5%;" >
             <img
-              style="width:360px;height:200px;margin-bottom:10px"
-              src="../../assets/images/detail2.png"
+              style="width:360px;height:220px;margin-bottom:10px"
+              src="../../assets/images/t1.jpg"
               alt
             />
-            <p style="text-align:center">"百城千人 一骑战役" 2020美骑100线</p>
+            <p style="text-align:center;font-size:14px;">2020年YONEX全国U17-18羽毛球比赛总决赛</p>
+          </div>
+           <div class="col curpoint"  @click="gotoInfo" style="flex:0 0 32%;margin:20px 0.5%;" >
+            <img
+              style="width:360px;height:220px;margin-bottom:10px"
+              src="../../assets/images/t2.jpg"
+              alt
+            />
+            <p style="text-align:center;font-size:14px;">2020年YONEX尤尼克斯全国U17-18羽毛球比赛</p>
+          </div>
+           <div class="col curpoint"  @click="gotoInfo" style="flex:0 0 32%;margin:20px 0.5%;" >
+            <img
+              style="width:360px;height:220px;margin-bottom:10px"
+              src="../../assets/images/t3.jpg"
+              alt
+            />
+            <p style="text-align:center;font-size:14px;">2020年全国U15-16羽毛球比赛总决赛</p>
           </div>
         </div>
       </div>
