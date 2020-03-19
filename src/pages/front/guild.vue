@@ -6,17 +6,18 @@
         <el-carousel-item :interval="3000" :key="item">
           <img style="width:100%;" src="../../assets/images/home1.jpg" alt />
         </el-carousel-item>
-        <el-carousel-item :interval="3000" :key="item">
+        <!-- <el-carousel-item :interval="3000" :key="item">
           <img style="width:100%;" src="../../assets/images/home2.jpg" alt />
         </el-carousel-item>
         <el-carousel-item :interval="3000" :key="item">
           <img style="width:100%;" src="../../assets/images/home3.jpg" alt />
-        </el-carousel-item>
+        </el-carousel-item> -->
       </el-carousel>
     </div>
     <div class="init">
-      <el-tabs type="border-card ">
-        <el-tab-pane label="首页">
+      <el-tabs type="border-card " stretch>
+        <el-tab-pane >
+          <span slot="label">首页</span>
           <div>
             <div class="row">
               <el-carousel style="width: 600px;">
@@ -277,6 +278,22 @@ export default {
 };
 </script>
 
-<style rel="stylesheet/scss" lang="scss" scoped>
+<style rel="stylesheet/scss" lang="scss" >
+.guild-container{
+  .el-tabs__item:hover{
+    color:yellow!important
+  }
+   .el-tabs__item{
+     color:#fff!important;
+     height:50px;
+     line-height: 50px;
+   }
+  .el-tabs__item.is-active{
+    color:yellow!important
+  }
+  .el-tabs__nav{
+    background: #b93229;
+  }
+}
 </style>
 
