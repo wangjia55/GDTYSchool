@@ -10,13 +10,12 @@
             <img
               class="curpoint"
               @click="onClickLogo"
-              style="height:55px;border-radius:50%"
-              src="../../assets/images/logo.jpg"
+              style="height:55px;"
+              src="../../assets/images/logo-title.png"
               alt
             />
             
           </div>
-           <div style="font-size:20px;color:#fff" class="ml10">广东体育职业技术学院</div>
         </div>
         <div class="taps row" style>
           <router-link

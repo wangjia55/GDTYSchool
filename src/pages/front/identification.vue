@@ -2,12 +2,12 @@
   <!-- 职业鉴定 -->
   <div class="ident-container">
     <div class>
-      <el-carousel>
-        <el-carousel-item type="card" :interval="3000" >
-          <img style="width:100%;" src="../../assets/images/jianding1.jpg" alt />
+      <el-carousel style="width:100%;height:400px;">
+        <el-carousel-item type="card" :interval="3000"  >
+          <img style="width:100%;" src="../../assets/images/home14.png" alt />
         </el-carousel-item>
         <el-carousel-item type="card" :interval="3000" >
-          <img style="width:100%;" src="../../assets/images/jianding2.jpg" alt />
+          <img style="width:100%;" src="../../assets/images/home13.png" alt />
         </el-carousel-item>
       </el-carousel>
     </div>

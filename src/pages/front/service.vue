@@ -3,18 +3,15 @@
   <div class="index-container nowrap">
     <div v-if="1">
       <div class>
-        <el-carousel :interval="3000">
+        <el-carousel :interval="3000"  style="height:400px;">
           <el-carousel-item  >
-            <img style="width:100%;" src="../../assets/images/ser4.jpg" alt />
+            <img style="width:100%;" src="../../assets/images/home6.png" alt />
           </el-carousel-item>
            <el-carousel-item  >
-            <img style="width:100%;" src="../../assets/images/ser5.jpg" alt />
+            <img style="width:100%;" src="../../assets/images/home7.png" alt />
           </el-carousel-item>
            <el-carousel-item  >
-            <img style="width:100%;" src="../../assets/images/ser6.jpg" alt />
-          </el-carousel-item>
-           <el-carousel-item  >
-            <img style="width:100%;" src="../../assets/images/ser7.jpg" alt />
+            <img style="width:100%;" src="../../assets/images/home10.png" alt />
           </el-carousel-item>
         </el-carousel>
       </div>
