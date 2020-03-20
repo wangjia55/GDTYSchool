@@ -1,19 +1,19 @@
 <template>
   <!-- 体育资讯 -->
   <div class="message-container">
-    <div class>
+    <div class="navs">
       <el-carousel>
         <el-carousel-item  :interval="3000"  style="height:400px;">
-          <img style="width:100%;" src="../../assets/images/home9.png" alt />
+          <img style="width:100%;height:100%" src="../../assets/images/home9.png" alt />
         </el-carousel-item>
          <el-carousel-item  :interval="3000" >
-          <img style="width:100%;" src="../../assets/images/home10.png" alt />
+          <img style="width:100%;height:100%" src="../../assets/images/home10.png" alt />
         </el-carousel-item>
          <el-carousel-item  :interval="3000" >
-          <img style="width:100%;" src="../../assets/images/home13.png" alt />
+          <img style="width:100%;height:100%" src="../../assets/images/home13.png" alt />
         </el-carousel-item>
          <el-carousel-item  :interval="3000">
-          <img style="width:100%;" src="../../assets/images/home11.png" alt />
+          <img style="width:100%;height:100%" src="../../assets/images/home11.png" alt />
         </el-carousel-item>
       </el-carousel>
     </div>
@@ -208,12 +208,10 @@ export default {
     margin: 0;
   }
 
-  .el-carousel__item:nth-child(2n) {
-    background-color: #99a9bf;
-  }
-
-  .el-carousel__item:nth-child(2n + 1) {
-    background-color: #d3dce6;
+ .navs{
+    .el-carousel__container{
+      height:400px!important;
+    }
   }
   .flex-base {
     flex: 0 0 48%;

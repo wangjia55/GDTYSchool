@@ -516,5 +516,5 @@ img[lazy=loading] {
   justify-content: center;
 }
 .el-carousel__item:nth-child(2n+1){
-  background-color: none;
+  background-color: none!important;
 }

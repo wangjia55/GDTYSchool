@@ -1,16 +1,16 @@
 <template>
   <!-- 首页 -->
   <div class="guild-index-container nowrap">
-    <div class>
+    <div class="navs">
       <el-carousel style="height:400px;">
         <el-carousel-item :interval="3000" :key="item">
-          <img style="width:100%;" src="../../assets/images/home1.jpg" alt />
+          <img style="width:100%;height:100%" src="../../assets/images/home1.jpg" alt />
         </el-carousel-item>
         <el-carousel-item :interval="3000" :key="item">
-          <img style="width:100%;" src="../../assets/images/home2.jpg" alt />
+          <img style="width:100%;height:100%" src="../../assets/images/home2.jpg" alt />
         </el-carousel-item>
         <el-carousel-item :interval="3000" :key="item">
-          <img style="width:100%;" src="../../assets/images/home3.jpg" alt />
+          <img style="width:100%;height:100%" src="../../assets/images/home3.jpg" alt />
         </el-carousel-item>
       </el-carousel>
     </div>
@@ -199,6 +199,11 @@ export default {
 
 <style rel="stylesheet/scss" lang="scss">
 .guild-index-container {
+   .navs{
+    .el-carousel__container{
+      height:400px!important;
+    }
+  }
   .school-news {
     margin: 10px 0%;
     width: 100%;

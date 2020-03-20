@@ -31,8 +31,12 @@
                   <img style="width: 100%;" src="../../assets/images/xiehui3.png" />
                 </el-carousel-item>
               </el-carousel>
-              <div class="col ph20">
-                <p
+              <div class="col ph20" style="flex:1;">
+                <div v-for="v in 5" :key="v" style="margin:0 auto;width:100%;padding:10px 0 ;border-bottom:1px dashed #ccc">
+                  <h5 style="font-size:16px;">{{v}}、中国羽毛球协会会员代表大会在厦会会员代表大会在厦门成功举行</h5>
+                  <p style="font-size:12px;">中国羽毛球协会会员代表大会在会会员代表大会在厦会会员代表大会在厦厦门成功举行</p>
+                </div>
+                <!-- <p
                   style="font-size: 18px;color: orange;"
                 >关于2020年全国U10-11、U12-14、U15-17羽毛球比赛（广东站）选拔赛延期通知</p>
                 <p
@@ -45,7 +49,7 @@
                     <span v-html="v.title" style="flex: 1;" class="mh10"></span>
                     <span v-html="v.time" style="color: gray;"></span>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
             <div style="height: 30px;background: #f7f7f7;"></div>

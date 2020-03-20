@@ -2,16 +2,16 @@
   <!-- 赛事服务 -->
   <div class="index-container nowrap">
     <div v-if="1">
-      <div class>
+      <div class="navs">
         <el-carousel :interval="3000"  style="height:400px;">
           <el-carousel-item  >
-            <img style="width:100%;" src="../../assets/images/home6.png" alt />
+            <img style="width:100%;height:100%" src="../../assets/images/home6.png" alt />
           </el-carousel-item>
            <el-carousel-item  >
-            <img style="width:100%;" src="../../assets/images/home7.png" alt />
+            <img style="width:100%;height:100%" src="../../assets/images/home7.png" alt />
           </el-carousel-item>
            <el-carousel-item  >
-            <img style="width:100%;" src="../../assets/images/home10.png" alt />
+            <img style="width:100%;height:100%" src="../../assets/images/home10.png" alt />
           </el-carousel-item>
         </el-carousel>
       </div>
@@ -297,6 +297,11 @@ export default {
     }
   }
 }
+ .navs{
+    .el-carousel__container{
+      height:400px!important;
+    }
+  }
 .textser{
   img{
     margin:10px 0;
@@ -365,21 +370,7 @@ export default {
   color: #0079bf !important;
   font-weight: bold;
 }
-.el-carousel__item h3 {
-  color: #475669;
-  font-size: 18px;
-  opacity: 0.75;
-  line-height: 300px;
-  margin: 0;
-}
 
-.el-carousel__item:nth-child(2n) {
-  background-color: #99a9bf;
-}
-
-.el-carousel__item:nth-child(2n + 1) {
-  background-color: #d3dce6;
-}
 .flex-base {
   flex: 0 0 48%;
   margin: 10px 1%;
