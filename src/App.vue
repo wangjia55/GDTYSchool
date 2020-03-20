@@ -126,12 +126,12 @@ body {
   padding: 0px 150px;
   align-content: center;
   align-items: center;
+   height:150px;
 }
 .footer-info {
   font-size: 15px;
   color: white;
   background-color: #1754C2;
   text-align:left;
-
 }
 </style>

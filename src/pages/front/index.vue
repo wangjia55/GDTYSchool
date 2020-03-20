@@ -50,13 +50,14 @@
         <div class="footer-info">
           <p>学校地址：广东省广州市天河区黄村奥体路52号</p>
           <p>学校电话：020-87128173</p>
+          <p>邮编：510663  </p>
         </div>
         <div style>
           <img style="width:80%; margin:auto 0;" src="../../assets/images/school-title.jpg" />
         </div>
       </div>
       <p
-        style="text-align:center;margin:20px auto"
+        style="text-align:center;margin:10px auto;font-size:13px;"
       >Copyright© 2019 Guangdong Voctional Institute of Sport 备案号:粤ICP备06108273号</p>
     </footer>
   </div>
@@ -227,6 +228,8 @@ $baseColor: #fff;
   }
 }
 
+
+
 .footerview {
   height: 210px;
   background: white;
@@ -245,7 +248,7 @@ $baseColor: #fff;
 
 .copyright {
   width: 100%;
-  height: 50px;
+  height: 40px;
   background: #585858;
   color: white;
   align-content: center;
