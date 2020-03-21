@@ -225,9 +225,13 @@
             <span style="font-size:18px">关注我们</span>
           </div>
           <div>
-            <div style="width:80%;margin:20px auto" class="arc">
+            <div style="width:80%;margin:8px auto" class="arc">
               <img style="width:160px;height:160px" src="../../assets/images/barcode1.jpg" alt />
               <img style="width:160px;height:160px" src="../../assets/images/barcode1.jpg" alt />
+            </div>
+            <div style="width:80%;margin:0px auto" class="arc">
+              <p>扫描下载APP</p>
+              <p>扫描关注公众号</p>
             </div>
           </div>
         </el-card>

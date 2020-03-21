@@ -21,7 +21,7 @@
       <div class="flex-base">
         <el-card class="box-card">
           <div slot="header" class="clearfix">
-            <span style="font-size:18px;">群众体育</span>
+            <span style="font-size:18px;">运动应知道</span>
             <el-button style="float: right; padding: 3px 0;" type="text"  @click="gotoMore">更多</el-button>
           </div>
           <h3 style="color:#000;font-weight:bold;font-size:16px;margin-bottom:10px;">巴黎全面推广自行车</h3>
@@ -60,7 +60,7 @@
       <div class="flex-base ml20">
         <el-card class="box-card">
           <div slot="header" class="clearfix">
-            <span style="font-size:18px;">体育产业</span>
+            <span style="font-size:18px;">体育圣殿</span>
             <el-button style="float: right; padding: 3px 0;" type="text"  @click="gotoMore">更多</el-button>
           </div>
           <h3 style="color:#000;font-weight:bold;font-size:16px;margin-bottom:10px;">国际市场研究机构独家报道</h3>
@@ -99,31 +99,31 @@
       <div class="flex-base">
         <el-card class="box-card">
           <div slot="header" class="clearfix">
-            <span style="font-size:18px;">竞技体育</span>
+            <span style="font-size:18px;">政策发布</span>
             <el-button style="float: right; padding: 3px 0;" type="text"  @click="gotoMore">更多</el-button>
           </div>
-          <h3 style="color:#000;font-weight:bold;font-size:16px;margin-bottom:10px;">日本公开水域游泳选手选手平井康翔退役</h3>
+          <h3 style="color:#000;font-weight:bold;font-size:16px;margin-bottom:10px;">关于废止部分规章和规范性文件的决定</h3>
            <div class="text item"  @click="gotoInfo">
             <div class="btw">
-              <span>改变运动医疗室卫生习惯可以有效控制感染发生</span>
+              <span>教育部教师工作司负责人就2020年“国培计划”组织</span>
                <span>2020-01-21</span>
             </div>
           </div>
            <div class="text item"  @click="gotoInfo">
             <div class="btw">
-              <span>足球U23亚洲杯赛后桥岡大树坦言实力不足</span>
+              <span>国家体育总局内部管理规范性文件目录</span>
               <span>2020-01-21</span>
             </div>
           </div>
            <div class="text item"  @click="gotoInfo">
             <div class="btw">
-              <span>机构研究发现使用类固醇的年轻男性正在增加</span>
+              <span>中华人民共和国体育法</span>
               <span>2019-12-21</span>
             </div>
           </div>
            <div class="text item"  @click="gotoInfo">
             <div class="btw">
-              <span>俄罗斯体育部支持非营利组织举办竞赛</span>
+              <span>国务院办公厅关于促进全民健身推动体育产业高质量发展的意见</span>
               <span>2019-12-21</span>
             </div>
           </div>
@@ -138,41 +138,73 @@
       <div class="flex-base">
         <el-card class="box-card">
           <div slot="header" class="clearfix">
-            <span style="font-size:18px;">竞赛成绩</span>
+            <span style="font-size:18px;">学术快递</span>
             <el-button style="float: right; padding: 3px 0;" type="text" @click="gotoMore">更多</el-button>
           </div>
           <h3 style="color:#000;font-weight:bold;font-size:16px;margin-bottom:10px;">竞赛成绩一览</h3>
            <div class="text item"  @click="gotoInfo">
             <div class="btw">
-              <span>2019-2020赛季跳台滑雪世界杯赛第13站（德国）</span>
+              <span>关于2020年度国家自然科学基金项目申请通告</span>
               <span>2020-01-21</span>
             </div>
           </div>
            <div class="text item"  @click="gotoInfo">
             <div class="btw">
-              <span>2019-2020赛季雪车世界杯赛第4站（奥地利）</span>
+              <span>2020年度国家社会科学基金项目申报公告</span>
               <span>2020-01-21</span>
             </div>
           </div>
            <div class="text item"  @click="gotoInfo">
             <div class="btw">
-              <span>2019-2020赛季跳台滑雪世界杯赛第12站（日本）</span>
+              <span>广州市社科规划2020年度岭南文化研究专项课题指南</span>
               <span>2019-12-21</span>
             </div>
           </div>
            <div class="text item"  @click="gotoInfo">
             <div class="btw">
-              <span>2019-2020赛季高山滑雪世界杯赛第20站（瑞士）</span>
+              <span>关于申报中国高校产学研创新基金的通知</span>
               <span>2019-11-21</span>
             </div>
           </div>
            <div class="text item"  @click="gotoInfo">
             <div class="btw">
-              <span>2019-2020赛季冬季两项世界杯赛第5站（德国）</span>
+              <span>关于做好2019年度国家社科基金后期资助项目申报</span>
               <span>2019-11-21</span>
             </div>
           </div>
         </el-card>
+      </div>
+      <div class="school-news">
+        <div class="btw yaonew align">
+          <p>经典赛事</p>
+          <p class="curpoint"></p>
+        </div>
+        <div class="flex-wrap">
+          <div class="col curpoint"  @click="gotoInfo" style="flex:0 0 32%;margin:20px 0.5%;" >
+            <img
+              style="width:360px;height:220px;margin-bottom:10px"
+              src="../../assets/images/sai1.jpg"
+              alt
+            />
+            <p style="text-align:center;font-size:14px;">第十届全国大学生运动会健美操比赛</p>
+          </div>
+           <div class="col curpoint"  @click="gotoInfo" style="flex:0 0 32%;margin:20px 0.5%;" >
+            <img
+              style="width:360px;height:220px;margin-bottom:10px"
+              src="../../assets/images/sai2.jpg"
+              alt
+            />
+            <p style="text-align:center;font-size:14px;">第十届全国大学生运动会乒乓球比赛</p>
+          </div>
+           <div class="col curpoint"  @click="gotoInfo" style="flex:0 0 32%;margin:20px 0.5%;" >
+            <img
+              style="width:360px;height:220px;margin-bottom:10px"
+              src="../../assets/images/sai3.jpg"
+              alt
+            />
+            <p style="text-align:center;font-size:14px;">第十届全国大学生运动会羽毛球比赛</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -237,6 +269,23 @@ export default {
       background: #f5f5f5;
       margin: 0 12px;
       cursor: pointer;
+    }
+  }
+
+    .school-news {
+    margin: 10px 0%;
+    width: 100%;
+    .yaonew {
+      border-bottom: 1px solid #1754c2;
+      > p:nth-of-type(1) {
+        font-size: 18px;
+        line-height: 50px;
+        border-bottom: 5px solid #1754c2;
+      }
+      > p:nth-of-type(2) {
+        font-size: 12px;
+        color: #ccc;
+      }
     }
   }
 }

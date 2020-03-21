@@ -6,7 +6,7 @@
     <div style="background:#fff">
       <div class="headers row" style="font-size:14px">
         <div class="m20">
-          <img style="width:332px;height:184px" src="../assets/images/imgs.jpg" alt />
+          <img style="width:332px;height:184px" src="../assets/images/youyong1.jpg" alt />
           <div class="row align">
             <div class="row align m10 curpoint">
               <van-icon name="star" />
@@ -23,16 +23,16 @@
           </div>
         </div>
         <div class="col m20 ser-body">
-          <p>2018美骑100挑战者营地·脉动炽能量沈阳站</p>
-          <p>赛事性质： 其他活动</p>
-          <p>赛事类型： 其他</p>
+          <p>2020年全国大学生游泳比赛（广东站）</p>
+          <p>赛事性质： 大学生运动会</p>
+          <p>赛事类型： 游泳</p>
           <p>
             <van-icon color="#ccc" name="clock" />
-            <span class="ml10">2018-07-15 07:00 ~ 2018-07-15 18:00</span>
+            <span class="ml10">2020-05-15 07:00 ~ 2020-06-15 18:00</span>
           </p>
           <p>
             <van-icon color="#ccc" name="location" />
-            <span class="ml10">辽宁省沈阳市 全健基地体育场（浑南区东陵路三十三号）</span>
+            <span class="ml10">广东省天河区奥体体育场</span>
           </p>
           <p>
             <van-icon color="#ccc" name="friends" />
@@ -40,16 +40,11 @@
           </p>
           <p>
             <van-icon color="#ccc" name="stop-circle" />
-            <span class="ml10">报名截止日期：2018-07-10 15:10</span>
+            <span class="ml10">报名截止日期：2020-04-10 15:10</span>
           </p>
           <div class="btw align">
             <p>
-              <img
-                style="width:40px;height:40px;"
-                src="https://c4.biketo.com/racegood-com/operator_logo/201911/822a64ae8ed3cba2c28396417fbb231c.png"
-                alt
-              />
-              <span class="ml10">上海木及文化传播有限公司</span>
+              <span class="ml10">协办单位： 广东体育职业技术学院</span>
             </p>
             <div>
               <el-button type="primary" size="mini" @click="dialogFormVisible=true">立即报名</el-button>
@@ -65,15 +60,9 @@
             <i class="el-icon-s-order"></i> 赛事详情
           </span>
           <div class="col textser">
-            <img style="width:600px" src="../assets/images/ser1.jpg" alt />
-            <p style="font-size:14px">
-              啥？俱乐部招新会员啦？
-              啥？俱乐部招新会员啦？
-              <br />啥？俱乐部招新会员啦？
-            </p>
-            <img src="../assets/images/ser2.jpg" alt />
-            <img src="../assets/images/ser3.jpg" alt />
-            <p style="font-size:14px">↑平衡车/滑步车：畅玩、赛事、课程↑</p>
+            <img style="width:650px" src="../assets/images/said1.jpg" alt />
+            <img style="width:650px" src="../assets/images/said2.jpg" alt />
+            <img style="width:650px" src="../assets/images/said3.jpg" alt />
           </div>
         </el-tab-pane>
         <el-tab-pane>
@@ -84,18 +73,18 @@
             <div class="border">
               <h3>挑战组</h3>
               <p>报名费：50.00 元</p>
-              <p>里程： 112km</p>
+              <p>距离： 1000m</p>
               <p>年龄：仅限16~68岁参加</p>
-              <p>出发时间： 2018-06-03 09:00</p>
-              <p>关门时间： 2018-06-03 17:00</p>
+              <p>出发时间： 2020-05-03 09:00</p>
+              <p>关门时间： 2020-05-03 17:00</p>
             </div>
             <div class="border">
               <h3>专家组</h3>
               <p>报名费：50.00 元</p>
-              <p>里程： 112km</p>
+              <p>距离： 2000m</p>
               <p>年龄：仅限16~68岁参加</p>
-              <p>出发时间： 2018-06-03 09:00</p>
-              <p>关门时间： 2018-06-03 17:00</p>
+              <p>出发时间： 2020-06-03 09:00</p>
+              <p>关门时间： 2020-06-03 17:00</p>
             </div>
           </div>
         </el-tab-pane>
@@ -104,8 +93,11 @@
             <i class="el-icon-picture"></i> 赛事图文
           </span>
           <div
-            style="height:200px;text-align:center;width:100%;line-height:200px;font-size:20px;color:#999"
-          >暂时没有内容哦</div>
+            style="text-align:center;width:100%;font-size:20px;color:#999"
+          >
+          <img style="width:650px" src="../assets/images/said4.jpg" alt />
+            <img style="width:650px" src="../assets/images/said5.jpg" alt />
+          </div>
         </el-tab-pane>
         <el-tab-pane>
           <span slot="label">
@@ -113,7 +105,7 @@
           </span>
           <div
             style="height:200px;text-align:center;width:100%;line-height:200px;font-size:20px;color:#999"
-          >暂时没有内容哦</div>
+          >请在登录后查询成绩</div>
         </el-tab-pane>
         <el-tab-pane>
           <span slot="label">

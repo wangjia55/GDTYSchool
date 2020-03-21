@@ -3,14 +3,8 @@
   <div class="guild-container">
     <div class>
       <el-carousel>
-        <el-carousel-item :interval="3000" :key="item">
-          <img style="width:100%;" src="../../assets/images/home1.png" alt />
-        </el-carousel-item>
-        <el-carousel-item :interval="3000" :key="item">
-          <img style="width:100%;" src="../../assets/images/home2.png" alt />
-        </el-carousel-item>
-        <el-carousel-item :interval="3000" :key="item">
-          <img style="width:100%;" src="../../assets/images/home3.png" alt />
+        <el-carousel-item :interval="3000" >
+          <img style="width:100%;" src="../../assets/images/home18.png" alt />
         </el-carousel-item>
       </el-carousel>
     </div>
@@ -27,29 +21,28 @@
                 <el-carousel-item>
                   <img style="width: 100%;" src="../../assets/images/xiehui2.jpg" />
                 </el-carousel-item>
-                <el-carousel-item>
-                  <img style="width: 100%;" src="../../assets/images/xiehui3.png" />
-                </el-carousel-item>
               </el-carousel>
               <div class="col ph20" style="flex:1;">
-                <div v-for="v in 5" :key="v" style="margin:0 auto;width:100%;padding:10px 0 ;border-bottom:1px dashed #ccc">
-                  <h5 style="font-size:16px;">{{v}}、中国羽毛球协会会员代表大会在厦会会员代表大会在厦门成功举行</h5>
+                <div  style="margin:0 auto;width:100%;padding:10px 0 ;border-bottom:1px dashed #ccc">
+                  <h5 style="font-size:16px;">中国羽毛球协会会员代表大会在厦会会员代表大会在厦门成功举行</h5>
                   <p style="font-size:12px;">中国羽毛球协会会员代表大会在会会员代表大会在厦会会员代表大会在厦厦门成功举行</p>
                 </div>
-                <!-- <p
-                  style="font-size: 18px;color: orange;"
-                >关于2020年全国U10-11、U12-14、U15-17羽毛球比赛（广东站）选拔赛延期通知</p>
-                <p
-                  style="color: gray;line-height: 1.4;"
-                  class="mt10"
-                >附件：1.2020年第23届全国东西南北中羽毛球大赛团体赛广东分站承办条件 2.2020年第23届全国东西南北中羽毛球大赛团体赛广东分站承办意向书</p>
-                <div style="height: 1px; background: lightgray;" class="mv10"></div>
-                <div>
-                  <div v-for="v in dataListHome" class="row curpoint" :key="v">
-                    <span v-html="v.title" style="flex: 1;" class="mh10"></span>
-                    <span v-html="v.time" style="color: gray;"></span>
-                  </div>
-                </div> -->
+            <div  style="margin:0 auto;width:100%;padding:10px 0 ;border-bottom:1px dashed #ccc">
+                  <h5 style="font-size:16px;">苟仲文局长会见世界羽联主席霍耶尔</h5>
+                  <p style="font-size:12px;">11月21日上午，国家体育总局局长、中国奥委会主席苟仲文会见了世界羽联主席保罗·埃里克·霍耶尔一行</p>
+                </div>
+                <div  style="margin:0 auto;width:100%;padding:10px 0 ;border-bottom:1px dashed #ccc">
+                  <h5 style="font-size:16px;">不忘初心、牢记使命 2019中国羽毛球发展论坛成功举行</h5>
+                  <p style="font-size:12px;">为了学习“人民楷模”王文教事迹，推动羽毛球事业进一步发展</p>
+                </div>
+                <div  style="margin:0 auto;width:100%;padding:10px 0 ;border-bottom:1px dashed #ccc">
+                  <h5 style="font-size:16px;">2019竞赛总结会议召开 中国羽协深化改革见成效</h5>
+                  <p style="font-size:12px;">12月5日，在2019全国羽毛球团体锦标赛举办之际，中国羽毛球协会在安徽合肥召开。</p>
+                </div>
+                <div  style="margin:0 auto;width:100%;padding:10px 0 ;border-bottom:1px dashed #ccc">
+                  <h5 style="font-size:16px;">中国羽协教练员委员会换届会议合肥举行 张军当选教练员委员会主任</h5>
+                  <p style="font-size:12px;">12月6日，中国羽毛球协会教练员委员会换届会议在安徽合肥举行</p>
+                </div>
               </div>
             </div>
             <div style="height: 30px;background: #f7f7f7;"></div>
@@ -131,12 +124,82 @@
             </div>
           </div>
         </el-tab-pane>
+        <el-tab-pane label="羽坛人物">
+               <div class="flex-wrap">
+          <div class="col curpoint"   style="flex:0 0 24%;margin:20px 0.5%; padding-left:30px;" >
+            <img
+              style="width:160px;height:210px;margin-bottom:10px"
+              src="../../assets/images/per1.jpg"
+              alt
+            />
+            <p style="text-align:left;margin-left:60px;font-size:14px;">林丹</p>
+          </div>
+           <div class="col curpoint"   style="flex:0 0 24%;margin:20px 0.5%; padding-left:30px;" >
+            <img
+              style="width:160px;height:210px;margin-bottom:10px"
+              src="../../assets/images/per2.jpg"
+              alt
+            />
+            <p style="text-align:left;margin-left:60px;font-size:14px;">李雪芮</p>
+          </div>
+           <div class="col curpoint"   style="flex:0 0 24%;margin:20px 0.5%; padding-left:30px;" >
+            <img
+              style="width:160px;height:210px;margin-bottom:10px"
+              src="../../assets/images/per3.jpg"
+              alt
+            />
+            <p style="text-align:left;margin-left:60px;font-size:14px;">鲍春来</p>
+          </div>
+        <div class="col curpoint"   style="flex:0 0 24%;margin:20px 0.5%; padding-left:30px;" >
+            <img
+              style="width:160px;height:210px;margin-bottom:10px"
+              src="../../assets/images/per4.jpg"
+              alt
+            />
+            <p style="text-align:left;margin-left:60px;font-size:14px;">谌龙</p>
+          </div>
+             <div class="col curpoint"   style="flex:0 0 24%;margin:20px 0.5%;padding-left:30px;" >
+            <img
+              style="width:160px;height:210px;margin-bottom:10px"
+              src="../../assets/images/per5.jpg"
+              alt
+            />
+            <p style="text-align:left;margin-left:60px;font-size:14px;"> 王适娴</p>
+          </div>
+             <div class="col curpoint"   style="flex:0 0 24%;margin:20px 0.5%;padding-left:30px;" >
+            <img
+              style="width:160px;height:210px;margin-bottom:10px"
+              src="../../assets/images/per6.jpg"
+              alt
+            />
+            <p style="text-align:left;margin-left:60px;font-size:14px;">王仪涵</p>
+          </div>
+             <div class="col curpoint"   style="flex:0 0 24%;margin:20px 0.5%;padding-left:30px;" >
+            <img
+              style="width:160px;height:210px;margin-bottom:10px"
+              src="../../assets/images/per7.jpg"
+              alt
+            />
+            <p style="text-align:left;margin-left:60px;font-size:14px;">陈金</p>
+          </div>
+             <div class="col curpoint"   style="flex:0 0 24%;margin:20px 0.5%;padding-left:30px;" >
+            <img
+              style="width:160px;height:210px;margin-bottom:10px"
+              src="../../assets/images/per8.jpg"
+              alt
+            />
+            <p style="text-align:left;margin-left:60px;font-size:14px;">王琳</p>
+          </div>
+        </div>
+
+
+        </el-tab-pane>
         <el-tab-pane label="关于协会">
           <div>
             <img style="width: 60%;" src="../../assets/images/xiehui-about.jpg" />
           </div>
         </el-tab-pane>
-        <el-tab-pane label="羽坛人物">敬请期待</el-tab-pane>
+  
         <el-tab-pane label="球友空间">敬请期待</el-tab-pane>
         <el-tab-pane label="会员申请">敬请期待</el-tab-pane>
         <el-tab-pane label="「俱乐部注册」">敬请期待</el-tab-pane>

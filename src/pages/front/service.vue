@@ -63,117 +63,14 @@
         </el-tabs>
       </div>
       <div class="mt20 mb20 imgs wrap">
-        <img src="../../assets/images/item1.png" @click="toDetail" alt />
-        <img src="../../assets/images/item2.png"  @click="toDetail" alt />
-        <img src="../../assets/images/item3.png"  @click="toDetail" alt />
-        <img src="../../assets/images/item4.png"  @click="toDetail" alt />
+         <img src="../../assets/images/sai1.png"  @click="toDetail" alt />
+        <img src="../../assets/images/sai2.png"  @click="toDetail" alt />
+        <img src="../../assets/images/sai3.png"  @click="toDetail" alt />
+         <img src="../../assets/images/sai4.png" @click="toDetail" alt />
+          <img src="../../assets/images/sai5.png" @click="toDetail" alt />
+           <img src="../../assets/images/sai6.png" @click="toDetail" alt />
       </div>
     </div>
-    <!-- <div style="background:#fff;mt20">
-      <div class="headers row" style="font-size:14px">
-        <div class="m20">
-          <img style="width:332px;height:184px" src="../../assets/images/imgs.jpg" alt />
-          <div class="row align">
-            <div class="row align m10 curpoint">
-              <van-icon name="star" />
-              <span>收藏(11)</span>
-            </div>
-            <div class="row align m10 curpoint">
-              <van-icon color="#298FCA" name="share" />
-              <span>分享</span>
-            </div>
-            <div class="row align m10 curpoint">
-              <van-icon color="#298FCA" name="column " />
-              <span>我的邀请卡</span>
-            </div>
-          </div>
-        </div>
-        <div class="col m20 ser-body">
-          <p>2018美骑100挑战者营地·脉动炽能量沈阳站</p>
-          <p>赛事性质： 其他活动</p>
-          <p>赛事类型： 其他</p>
-          <p>
-            <van-icon color="#ccc" name="clock" />
-            <span class="ml10">2018-07-15 07:00 ~ 2018-07-15 18:00</span>
-          </p>
-          <p>
-            <van-icon color="#ccc" name="location" />
-            <span class="ml10">辽宁省沈阳市 全健基地体育场（浑南区东陵路三十三号）</span>
-          </p>
-          <p>
-            <van-icon color="#ccc" name="friends" />
-            <span class="ml10">已报名 1014/1080人</span>
-          </p>
-          <p>
-            <van-icon color="#ccc" name="stop-circle" />
-            <span class="ml10">报名截止日期：2018-07-10 15:10</span>
-          </p>
-          <p>
-            <img
-              style="width:40px;height:40px;"
-              src="https://c4.biketo.com/racegood-com/operator_logo/201911/822a64ae8ed3cba2c28396417fbb231c.png"
-              alt
-            />
-            <span class="ml10">上海木及文化传播有限公司</span>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="mt20">
-      <el-tabs type="border-card">
-        <el-tab-pane>
-          <span slot="label">
-            <i class="el-icon-s-order"></i> 赛事详情
-          </span>
-          <div class="col textser">
-            <img style="width:600px" src="../../assets/images/ser1.jpg" alt />
-            <p style="font-size:14px">
-              啥？俱乐部招新会员啦？
-              啥？俱乐部招新会员啦？
-              <br>
-              啥？俱乐部招新会员啦？
-            </p>
-            <img src="../../assets/images/ser2.jpg" alt />
-            <img src="../../assets/images/ser3.jpg" alt />
-          </div>
-        </el-tab-pane>
-        <el-tab-pane>
-          <span slot="label">
-            <i class="el-icon-s-custom"></i> 组别详情
-          </span>
-          <div class="ser-main">
-            <div class="border">
-              <h3>挑战组</h3>
-              <p>报名费：50.00 元</p>
-              <p>里程： 112km</p>
-              <p>年龄：仅限16~68岁参加</p>
-              <p>出发时间： 2018-06-03 09:00</p>
-              <p>关门时间： 2018-06-03 17:00</p>
-            </div>
-             <div class="border">
-              <h3>挑战组</h3>
-              <p>报名费：50.00 元</p>
-              <p>里程： 112km</p>
-              <p>年龄：仅限16~68岁参加</p>
-              <p>出发时间： 2018-06-03 09:00</p>
-              <p>关门时间： 2018-06-03 17:00</p>
-            </div>
-          </div>
-        </el-tab-pane>
-        <el-tab-pane>
-          <span slot="label">
-            <i class="el-icon-picture"></i> 赛事图文
-          </span>
-          <div style="height:200px;text-align:center;width:100%;line-height:200px;font-size:20px;color:#999">暂时没有内容哦</div>
-        </el-tab-pane>
-        <el-tab-pane>
-          <span slot="label">
-            <i class="el-icon-s-data"></i> 成绩查询
-          </span>
-          <div style="height:200px;text-align:center;width:100%;line-height:200px;font-size:20px;color:#999">暂时没有内容哦</div>
-        </el-tab-pane>
-      </el-tabs>
-    </div> -->
   </div>
 </template>
 
@@ -215,23 +112,23 @@ export default {
           id: 0
         },
         {
-          name: "自行车",
+          name: "羽毛球",
           id: 1
         },
         {
-          name: "平衡车",
+          name: "游泳",
           id: 2
         },
         {
-          name: "跑步",
+          name: "篮球",
           id: 3
         },
         {
-          name: "铁三角",
+          name: "健美",
           id: 4
         },
         {
-          name: "其他",
+          name: "足球",
           id: 5
         }
       ],
@@ -242,11 +139,11 @@ export default {
           id: 0
         },
         {
-          name: "北京省",
+          name: "广东省",
           id: 1
         },
         {
-          name: "广东省",
+          name: "北京市",
           id: 2
         },
         {
@@ -363,7 +260,6 @@ export default {
     margin-bottom: 10px;
     border: 1px solid #dfdfdf;
     cursor: pointer;
-    // float: left;
   }
 }
 .curBlue {
