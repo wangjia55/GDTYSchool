@@ -394,7 +394,7 @@
           >
             <img
               style="80px;height:54px;margin-bottom:10px"
-              src="../../assets/images/p5.jpg"
+              src="../../assets/images/p3.jpg"
               alt
             />
           </div>
@@ -406,7 +406,7 @@
           >
             <img
               style="80px;height:54px;margin-bottom:10px"
-              src="../../assets/images/p6.jpg"
+              src="../../assets/images/p1.jpg"
               alt
             />
           </div>
