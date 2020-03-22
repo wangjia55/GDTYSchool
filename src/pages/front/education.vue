@@ -1,14 +1,11 @@
 
 <template>
-  <!-- 职业鉴定 -->
+  <!-- 继续教育 -->
   <div class="edu-container">
     <div class="navs">
       <el-carousel style="width:100%;height:400px;">
         <el-carousel-item type="card" :interval="3000">
-          <img style="width:100%;" src="../../assets/images/home14.png" alt />
-        </el-carousel-item>
-        <el-carousel-item type="card" :interval="3000">
-          <img style="width:100%;" src="../../assets/images/home13.png" alt />
+          <img style="width:100%;" src="../../assets/images/home12.png" alt />
         </el-carousel-item>
       </el-carousel>
     </div>
@@ -16,7 +13,7 @@
     <div class="main-container init">
       <div class="flex-sum mt10 navsd">
         <el-tabs type="border-card" v-model="activeName" stretch>
-          <el-tab-pane name="first" label="培训咨询">
+          <el-tab-pane name="first" label="培训资讯">
             <div>
               <Message></Message>
             </div>
@@ -51,26 +48,20 @@
       </div>
       <div class="ww">
         <div class="swiper-wrapper">
-          <div class="curpoint swiper-slide mt20" @click="gotoInfo" v-for="v in 7" :key="v">
-            <div class="col flex-center p10" style='width:250px;background:#fff;overflow:hidden;text-align:center'>
-              <img style="margin:10px auto;width:80px;height:80px;border-radius:50%;" src="../../assets/images/t1.jpg" alt />
-              <p style="font-size:20px;font-weight:bold;margin:10px 0">我是罗一{{v}}</p>
-              <p>柴少明，博士，副教授，硕士生导师，国际商学院副院长，中国语言教育研究会首届理事会理事。2003年7月毕业于山西师范大学外国语学院，2003年8月入职华南师范大学南海校区外语系，从事大学英语和英语专业的教学。2005年9月在华南师范大学教育信息技术学院攻读博士，师从我国著名教育技术学专家李克东教授。</p>
+          <div class="curpoint swiper-slide mt20">
+            <div
+              class="col flex-center p10"
+              style="width:250px;background:#fff;overflow:hidden;text-align:center"
+            >
+              <p style="font-size:20px;font-weight:bold;margin:10px 0">马国川</p>
+              <p>
+                马国川 广东体育职业技术学院党委委员、党委书记
+                1969年出生，甘肃张家川人。1993年毕业于中山医科大学，运动医学主任医师，教育学硕士，硕士研究生导师，美国乔治亚医学院访问学者及博士后，中国体育科学学会运动医学分会常委。曾任广东省体育运动技术学院科研处副处长，广东省游泳运动管理中心主任，广东省游泳协会常务副会长、秘书长，广东省二沙体育训练中心党委副书记、纪委书记。承担广东省及国家体育总局多项奥运会、亚运会及全运会科研攻关课题并取得优异成果，在国内及国际核心期刊发表SCI文章多篇。曾获得优秀共产党员、先进工作者等称号，于2016、2017年在奥运会、全运会取得优异成绩而获广东省政府记集体一等功。
+              </p>
             </div>
           </div>
-
-          <!-- <div class="curpoint swiper-slide mt20" @click="gotoInfo">
-            <img style="margin-bottom:10px" src="../../assets/images/t2.jpg" alt />
-          </div>
-          <div class="curpoint swiper-slide mt20" @click="gotoInfo">
-            <img style="margin-bottom:10px" src="../../assets/images/t3.jpg" alt />
-          </div>
-          <div class="curpoint swiper-slide mt20" @click="gotoInfo">
-            <img style="margin-bottom:10px" src="../../assets/images/t4.jpg" alt />
-          </div> -->
         </div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+
       </div>
     </div>
   </div>
@@ -85,7 +76,7 @@ import OutlineStudy from "../../components/education/outlineStudy";
 export default {
   data() {
     return {
-      activeName: "second",
+      activeName: "first",
       tabPosition: "left",
       imgList: ["../../assets/images/jianding1.jpg", ""],
       curTime: 0,

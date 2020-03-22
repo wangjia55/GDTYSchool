@@ -21,7 +21,7 @@
               <div class="flex-center curpoint col" @click="gotoDetail">
                 <img
                   style="width:580px;height:285px;margin:15px 0"
-                  src="../../assets/images/detail4.png"
+                  src="../../assets/images/detail5.jpg"
                   alt
                 />
               </div>
@@ -32,42 +32,42 @@
         <div class="flex-base">
           <el-card class="box-card">
             <div slot="header" class="clearfix">
-              <span style="font-size:18px">学校通告</span>
+              <span style="font-size:18px">培训通告</span>
               <el-button style="float: right; padding: 3px 0" type="text">更多</el-button>
             </div>
             <div class="text item">
               <div class="btw" @click="gotoDetail">
-                <span>召开“不忘初心、牢记使命”主题教育总结大会</span>
-                <span>2020-01-21</span>
+                <span>广东体育职业技术学院关于做好疫情防控工作的相关通知</span>
+                <span>2020-03-21</span>
               </div>
             </div>
             <div class="text item">
               <div class="btw" @click="gotoDetail">
-                <span>关于做好2020年度“质量工程”建设项目申报的通知</span>
-                <span>2020-01-21</span>
+                <span>关于调整2019年第二期扩招学生报到时间的通知</span>
+                <span>2020-03-21</span>
               </div>
             </div>
             <div class="text item">
               <div class="btw">
-                <span>关于开展2020年度省高等教学改革推荐工作的通知</span>
-                <span>2020-01-21</span>
+                <span>于在防控新型肺炎疫情中发挥基层党组织先锋模范作用的通知</span>
+                <span>2020-03-21</span>
               </div>
             </div>
             <div class="text item">
               <div class="btw">
-                <span>有关校园网合作合同延期的公告</span>
-                <span>2020-01-21</span>
+                <span>广东体育职业技术学院关于加强疫情防控期间学院进出管理的通知</span>
+                <span>2020-03-21</span>
               </div>
             </div>
             <div class="text item">
               <div class="btw">
-                <span>关于推荐申报2019年国家级一流本科课程的公示</span>
-                <span>2020-01-21</span>
+                <span>广东体育职业技术学院高等职业教育质量年度报告</span>
+                <span>2020-03-21</span>
               </div>
             </div>
             <div class="text item">
               <div class="btw">
-                <span>关于⒛⒛ 年元旦和寒假放假的通知</span>
+                <span>关于2020年元旦节放假的通知</span>
                 <span>2020-01-21</span>
               </div>
             </div>
@@ -89,38 +89,38 @@
             </div>
             <div class="text item">
               <div class="btw" @click="gotoDetail">
-                <span>召开“不忘初心、牢记使命”主题教育总结大会</span>
-                <span>2020-01-21</span>
+                <span>开拓视野，提升办学品质</span>
+                <span>2020-03-21</span>
               </div>
             </div>
             <div class="text item">
               <div class="btw" @click="gotoDetail">
-                <span>关于做好2020年度“质量工程”建设项目申报的通知</span>
-                <span>2020-01-21</span>
+                <span>观念决定方向 观念决定一切——核心素养的特征与培养</span>
+                <span>2020-03-21</span>
               </div>
             </div>
             <div class="text item">
               <div class="btw">
-                <span>关于开展2020年度省高等教学改革推荐工作的通知</span>
-                <span>2020-01-21</span>
+                <span>融合信息技术，提升课堂教学</span>
+                <span>2020-03-21</span>
               </div>
             </div>
             <div class="text item">
               <div class="btw">
-                <span>有关校园网合作合同延期的公告</span>
-                <span>2020-01-21</span>
+                <span>提升教育信息化，助力课堂智慧化</span>
+                <span>2020-03-21</span>
               </div>
             </div>
             <div class="text item">
               <div class="btw">
-                <span>关于推荐申报2019年国家级一流本科课程的公示</span>
-                <span>2020-01-21</span>
+                <span>《校园健康读本六》——新型冠状病毒肺炎病防控常识</span>
+                <span>2020-03-21</span>
               </div>
             </div>
             <div class="text item">
               <div class="btw">
-                <span>关于⒛⒛ 年元旦和寒假放假的通知</span>
-                <span>2020-01-21</span>
+                <span>广东体育职业技术学院顺利开展“开学第一课”线上学习活动</span>
+                <span>2020-03-21</span>
               </div>
             </div>
           </el-card>
