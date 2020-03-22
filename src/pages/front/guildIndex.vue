@@ -200,7 +200,7 @@
       </div>
       <div class="school-news">
         <div class="btw yaonew align">
-          <p>精彩图片</p>
+          <p>精彩瞬间</p>
           <p class="curpoint"></p>
         </div>
         <div class>
