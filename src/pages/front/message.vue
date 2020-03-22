@@ -176,7 +176,7 @@
       </div>
       <div class="school-news">
         <div class="btw yaonew align">
-          <p>经典赛事</p>
+          <p>酷体育</p>
           <p class="curpoint"></p>
         </div>
         <div class="flex-wrap">
