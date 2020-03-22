@@ -3,14 +3,14 @@
   <div class="guild-index-container nowrap">
     <div class="navs">
       <el-carousel style="height:400px;">
-        <el-carousel-item :interval="3000" :key="item">
+        <el-carousel-item :interval="3000" >
 
           <img style="width:100%;" src="../../assets/images/home8.png" alt />
         </el-carousel-item>
-        <el-carousel-item :interval="3000" :key="item">
+        <el-carousel-item :interval="3000" >
           <img style="width:100%;" src="../../assets/images/home9.png" alt />
         </el-carousel-item>
-        <el-carousel-item :interval="3000" :key="item">
+        <el-carousel-item :interval="3000" >
           <img style="width:100%;" src="../../assets/images/home10.png" alt />
         </el-carousel-item>
       </el-carousel>
@@ -104,7 +104,7 @@
             class="col curpoint"
             @click="gotoDetails"
             style="flex:0 0 24%;margin:5px 0.5%;overflow:hidden"
-            :key="item"
+          
           >
             <img
               style="180px;height:160px;margin-bottom:10px"
@@ -116,7 +116,7 @@
             class="col curpoint"
             @click="gotoDetails"
             style="flex:0 0 24%;margin:5px 0.5%;overflow:hidden"
-            :key="item"
+          
           >
             <img
               style="180px;height:160px;margin-bottom:10px"
@@ -128,7 +128,7 @@
             class="col curpoint"
             @click="gotoDetails"
             style="flex:0 0 24%;margin:5px 0.5%;overflow:hidden"
-            :key="item"
+          
           >
             <img
               style="180px;height:160px;margin-bottom:10px"
@@ -140,7 +140,7 @@
             class="col curpoint"
             @click="gotoDetails"
             style="flex:0 0 24%;margin:5px 0.5%;overflow:hidden"
-            :key="item"
+          
           >
             <img
               style="180px;height:160px;margin-bottom:10px"
@@ -152,7 +152,7 @@
             class="col curpoint"
             @click="gotoDetails"
             style="flex:0 0 24%;margin:5px 0.5%;overflow:hidden"
-            :key="item"
+          
           >
             <img
               style="180px;height:160px;margin-bottom:10px"
@@ -164,7 +164,7 @@
             class="col curpoint"
             @click="gotoDetails"
             style="flex:0 0 24%;margin:5px 0.5%;overflow:hidden"
-            :key="item"
+          
           >
             <img
               style="180px;height:160px;margin-bottom:10px"
@@ -176,7 +176,7 @@
             class="col curpoint"
             @click="gotoDetails"
             style="flex:0 0 24%;margin:5px 0.5%;overflow:hidden"
-            :key="item"
+          
           >
             <img
               style="180px;height:160px;margin-bottom:10px"
@@ -188,7 +188,7 @@
             class="col curpoint"
             @click="gotoDetails"
             style="flex:0 0 24%;margin:5px 0.5%;overflow:hidden"
-            :key="item"
+          
           >
             <img
               style="180px;height:160px;margin-bottom:10px"
@@ -209,50 +209,50 @@
               <div
                 class="col curpoint swiper-slide mt20"
                 @click="gotoInfo"
-                :key="item"
+                
               >
                 <img
                   style="height:200px;margin-bottom:10px"
                   src="../../assets/images/t1.jpg"
                   alt
                 />
-                <p style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff">2019亚洲青年羽毛球锦标赛精彩瞬间{{item}}</p>
+                <p style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff">2019亚洲青年羽毛球锦标赛精彩瞬间</p>
               </div>
                <div
                 class="col curpoint swiper-slide mt20"
                 @click="gotoInfo"
-                :key="item"
+                
               >
                 <img
                   style="height:200px;margin-bottom:10px"
                   src="../../assets/images/t2.jpg"
                   alt
                 />
-                <p style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff">2019年亚洲羽毛球锦标赛精彩集锦{{item}}</p>
+                <p style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff">2019年亚洲羽毛球锦标赛精彩集锦</p>
               </div>
                <div
                 class="col curpoint swiper-slide mt20"
                 @click="gotoInfo"
-                :key="item"
+                
               >
                 <img
                   style="height:200px;margin-bottom:10px"
                   src="../../assets/images/t3.jpg"
                   alt
                 />
-                <p style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff">第16届苏迪曼杯颁奖仪式{{item}}</p>
+                <p style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff">第16届苏迪曼杯颁奖仪式</p>
               </div>
                <div
                 class="col curpoint swiper-slide mt20"
                 @click="gotoInfo"
-                :key="item"
+                
               >
                 <img
                   style="height:200px;margin-bottom:10px"
                   src="../../assets/images/t4.jpg"
                   alt
                 />
-                <p style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff">第16届苏迪曼杯25日精彩集锦{{item}}</p>
+                <p style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff">第16届苏迪曼杯25日精彩集锦</p>
               </div>
             </div>
             <div class="swiper-button-prev"></div>
@@ -270,7 +270,7 @@
             class="col curpoint"
             @click="gotoInfo"
             style="margin:5px 0.5%;overflow:hidden"
-            :key="item"
+           
           >
             <img
               style="80px;height:54px;margin-bottom:10px"
@@ -282,7 +282,7 @@
             class="col curpoint"
             @click="gotoInfo"
             style="margin:5px 0.5%;overflow:hidden"
-            :key="item"
+           
           >
             <img
               style="80px;height:54px;margin-bottom:10px"
@@ -294,7 +294,7 @@
             class="col curpoint"
             @click="gotoInfo"
             style="margin:5px 0.5%;overflow:hidden"
-            :key="item"
+           
           >
             <img
               style="80px;height:54px;margin-bottom:10px"
@@ -306,7 +306,7 @@
             class="col curpoint"
             @click="gotoInfo"
             style="margin:5px 0.5%;overflow:hidden"
-            :key="item"
+           
           >
             <img
               style="80px;height:54px;margin-bottom:10px"
@@ -318,7 +318,7 @@
             class="col curpoint"
             @click="gotoInfo"
             style="margin:5px 0.5%;overflow:hidden"
-            :key="item"
+           
           >
             <img
               style="80px;height:54px;margin-bottom:10px"
@@ -330,7 +330,7 @@
             class="col curpoint"
             @click="gotoInfo"
             style="margin:5px 0.5%;overflow:hidden"
-            :key="item"
+           
           >
             <img
               style="80px;height:54px;margin-bottom:10px"
@@ -342,7 +342,7 @@
             class="col curpoint"
             @click="gotoInfo"
             style="margin:5px 0.5%;overflow:hidden"
-            :key="item"
+           
           >
             <img
               style="80px;height:54px;margin-bottom:10px"
@@ -354,7 +354,7 @@
             class="col curpoint"
             @click="gotoInfo"
             style="margin:5px 0.5%;overflow:hidden"
-            :key="item"
+           
           >
             <img
               style="80px;height:54px;margin-bottom:10px"
@@ -366,7 +366,7 @@
             class="col curpoint"
             @click="gotoInfo"
             style="margin:5px 0.5%;overflow:hidden"
-            :key="item"
+           
           >
             <img
               style="80px;height:54px;margin-bottom:10px"
@@ -378,7 +378,7 @@
             class="col curpoint"
             @click="gotoInfo"
             style="margin:5px 0.5%;overflow:hidden"
-            :key="item"
+           
           >
             <img
               style="80px;height:54px;margin-bottom:10px"
@@ -390,7 +390,7 @@
             class="col curpoint"
             @click="gotoInfo"
             style="margin:5px 0.5%;overflow:hidden"
-            :key="item"
+           
           >
             <img
               style="80px;height:54px;margin-bottom:10px"
@@ -402,7 +402,7 @@
             class="col curpoint"
             @click="gotoInfo"
             style="margin:5px 0.5%;overflow:hidden"
-            :key="item"
+           
           >
             <img
               style="80px;height:54px;margin-bottom:10px"
