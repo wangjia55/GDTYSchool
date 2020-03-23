@@ -1,8 +1,16 @@
 <template>
   <!-- 体育资讯详情 -->
   <div class="guild-container ">
+     <div class>
+      <el-carousel>
+        <el-carousel-item :interval="3000" >
+          <img style="width:100%;" src="../assets/images/home9.png" alt />
+        </el-carousel-item>
+      </el-carousel>
+    </div>
+    <div class="content">
     <el-tabs type="border-card">
-      <el-tab-pane label="群众体育">
+      <el-tab-pane label="足球">
         <div class="ssjj-">
           <div class="col p20" style="border-bottom: 1px solid lightgray" v-for="v in dataListSaiShi">
             <p v-html="v.title" class="mv10" style="font-size: 20px"></p>
@@ -16,7 +24,7 @@
           </div>
         </div>
       </el-tab-pane>
-        <el-tab-pane label="体育产业">
+        <el-tab-pane label="篮球">
         <div class="ssjj-">
           <div class="col p20" style="border-bottom: 1px solid lightgray" v-for="v in dataListChanYe">
             <p v-html="v.title" class="mv10" style="font-size: 20px"></p>
@@ -30,7 +38,7 @@
           </div>
         </div>
       </el-tab-pane>
-         <el-tab-pane label="竞技体育">
+         <el-tab-pane label="羽毛球">
         <div class="ssjj-">
           <div class="col p20" style="border-bottom: 1px solid lightgray" v-for="v in dataListChanYe">
             <p v-html="v.title" class="mv10" style="font-size: 20px"></p>
@@ -44,7 +52,7 @@
           </div>
         </div>
       </el-tab-pane>
-         <el-tab-pane label="竞赛成绩">
+         <el-tab-pane label="游泳">
         <div class="ssjj-">
           <div class="col p20" style="border-bottom: 1px solid lightgray" v-for="v in dataListSaiShi">
             <p v-html="v.title" class="mv10" style="font-size: 20px"></p>
@@ -59,6 +67,7 @@
         </div>
       </el-tab-pane>
     </el-tabs>
+    </div>
   </div>
 </template>
 
@@ -172,9 +181,26 @@
 
 <style>
 
-    .guild-container {
-        width:1000px;
-        margin: 10px auto;
+  .guild-container{
+    .el-tabs__item:hover{
+      color:yellow!important
     }
+   .el-tabs__item{
+     color:#fff!important;
+     height:50px;
+     line-height: 50px;
+   }
+  .el-tabs__item.is-active{
+    color:rgb(39, 39, 39)!important
+  }
+  .el-tabs__nav{
+    background: #b93229;
+  }
+}
+
+.content{
+  width:1000px;
+  margin: 0 auto;
+}
 </style>
 

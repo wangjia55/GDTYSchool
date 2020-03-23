@@ -61,7 +61,7 @@
         <el-card class="box-card">
           <div slot="header" class="clearfix">
             <span style="font-size:18px;">体育圣殿</span>
-            <el-button style="float: right; padding: 3px 0;" type="text"  @click="gotoMore">更多</el-button>
+            <el-button style="float: right; padding: 3px 0;" type="text"  @click="gotoShengdian">更多</el-button>
           </div>
           <h3 style="color:#000;font-weight:bold;font-size:16px;margin-bottom:10px;">国际市场研究机构独家报道</h3>
            <div class="text item"  @click="gotoInfo">
@@ -176,7 +176,7 @@
       </div>
       <div class="school-news">
         <div class="btw yaonew align">
-          <p>经典赛事</p>
+          <p>酷体育</p>
           <p class="curpoint"></p>
         </div>
         <div class="flex-wrap">
@@ -223,6 +223,9 @@ export default {
     },
     gotoInfo(){
       this.$router.push({path:"tiyuInfo"})
+    },
+    gotoShengdian(){
+        this.$router.push({path:"shengdian"})
     }
   },
   mounted() {},
