@@ -1,14 +1,11 @@
 
 <template>
-  <!-- 职业鉴定 -->
+  <!-- 继续教育 -->
   <div class="edu-container">
     <div class="navs">
       <el-carousel style="width:100%;height:400px;">
         <el-carousel-item type="card" :interval="3000">
-          <img style="width:100%;" src="../../assets/images/home14.png" alt />
-        </el-carousel-item>
-        <el-carousel-item type="card" :interval="3000">
-          <img style="width:100%;" src="../../assets/images/home13.png" alt />
+          <img style="width:100%;" src="../../assets/images/home12.png" alt />
         </el-carousel-item>
       </el-carousel>
     </div>
@@ -16,7 +13,7 @@
     <div class="main-container init">
       <div class="flex-sum mt10 navsd">
         <el-tabs type="border-card" v-model="activeName" stretch>
-          <el-tab-pane name="first" label="培训咨询">
+          <el-tab-pane name="first" label="培训资讯">
             <div>
               <Message></Message>
             </div>
@@ -51,26 +48,55 @@
       </div>
       <div class="ww">
         <div class="swiper-wrapper">
-          <div class="curpoint swiper-slide mt20" @click="gotoInfo" v-for="v in 7" :key="v">
-            <div class="col flex-center p10" style='width:250px;background:#fff;overflow:hidden;text-align:center'>
-              <img style="margin:10px auto;width:80px;height:80px;border-radius:50%;" src="../../assets/images/t1.jpg" alt />
-              <p style="font-size:20px;font-weight:bold;margin:10px 0">我是罗一{{v}}</p>
-              <p>柴少明，博士，副教授，硕士生导师，国际商学院副院长，中国语言教育研究会首届理事会理事。2003年7月毕业于山西师范大学外国语学院，2003年8月入职华南师范大学南海校区外语系，从事大学英语和英语专业的教学。2005年9月在华南师范大学教育信息技术学院攻读博士，师从我国著名教育技术学专家李克东教授。</p>
+          <div class="curpoint swiper-slide mt20">
+            <div
+              class="col flex-center p10"
+              style="width:250px;background:#fff;overflow:hidden;text-align:center"
+            >
+              <p style="font-size:20px;font-weight:bold;margin:10px 0">马国川</p>
+              <p>
+                马国川 广东体育职业技术学院党委委员、党委书记
+                1969年出生，甘肃张家川人。1993年毕业于中山医科大学，运动医学主任医师，教育学硕士，硕士研究生导师，美国乔治亚医学院访问学者及博士后，中国体育科学学会运动医学分会常委。曾任广东省体育运动技术学院科研处副处长，广东省游泳运动管理中心主任，广东省游泳协会常务副会长、秘书长，广东省二沙体育训练中心党委副书记、纪委书记。承担广东省及国家体育总局多项奥运会、亚运会及全运会科研攻关课题并取得优异成果，在国内及国际核心期刊发表SCI文章多篇。曾获得优秀共产党员、先进工作者等称号，于2016、2017年在奥运会、全运会取得优异成绩而获广东省政府记集体一等功。
+              </p>
+            </div>
+            <div class="curpoint swiper-slide mt20">
+              <div
+                class="col flex-center p10"
+                style="width:250px;background:#fff;overflow:hidden;text-align:center"
+              >
+                <p style="font-size:20px;font-weight:bold;margin:10px 0">徐佶</p>
+                <p>
+                  徐佶 广东体育职业技术学院党委委员、党委副书记、院长
+                  1966年出生，湖北荆州人，博士，教授。历任广州体育学院体育教育系主任、教务处处长、中共广州体育学院第六、七届党委委员。兼任教育部普通高等学校本科教学工作审核评估专家，广东省本科高校教学管理指导委员会委员，广州体育科学学会副理事长，粤港澳大湾区体育教育与发展联盟常务副秘书长。广州体育学院硕士生导师、上海体育学院校外博士生导师，韶关学院、嘉应学院客座教授。参与国家级课题四项，主持省部级课题四项，出版专著一部，主编教材六部，发表学术论文七十多篇，获省部级教学成果奖八项。1993年获南粤优秀研究生称号，1998年获南粤教坛新秀称号，2011年获广东省教育系统优秀共产党员称号。
+                </p>
+              </div>
+            </div>
+            <div class="curpoint swiper-slide mt20">
+              <div
+                class="col flex-center p10"
+                style="width:250px;background:#fff;overflow:hidden;text-align:center"
+              >
+                <p style="font-size:20px;font-weight:bold;margin:10px 0">王聪</p>
+                <p>
+                  王聪 广东体育职业技术学院党委委员、党委副书记、纪委书记
+                  1963年出生，广东廉江人。1985年毕业于武汉体育学院，获学士学位，2002年广东省社会科学院研究生毕业。历任广东省体育运动学校教务科副科长、科长，学生科科长，副校长，广东体育职业技术学院党委委员、院长助理，现任广东体育职业技术学院党委副书记兼纪委书记。兼任广东省职业技术教育学会体育工作指导委员会副主任。多年来主要从事教学、学生管理以及招生就业指导工作。编著了《体育游戏教材》等著作；主持参与了广东省体育产业区域协调等科研课题的研究。
+                </p>
+              </div>
+            </div>
+            <div class="curpoint swiper-slide mt20">
+              <div
+                class="col flex-center p10"
+                style="width:250px;background:#fff;overflow:hidden;text-align:center"
+              >
+                <p style="font-size:20px;font-weight:bold;margin:10px 0">鲁毅</p>
+                <p>
+                  鲁毅 广东体育职业技术学院党委委员、副院长
+                  1966年出生，河南驻马店人，1996年于广州体育学院研究生部田径教学与训练专业研究生毕业，获硕士学位，1998年被聘为广州体院硕士生导师，2015年被湖南、湖北体职院聘为客座教授。1989年7月－1993年8月在河南轻工职工专科学校任助教并兼职人事处相关工作；1996年7月-2011年10月历任广东省体育局群体处副主任科员、广东省体育局竞技体育处主任科员、广东省体育局办公室主任科员、广东体育局竞技体育处副处长。现任广东体育职业技术学院党委委员、副院长，全国体育职业教育教学指导委员会委员兼运动技术委员会主任委员、国家体育总局青少司专家、广东高职教育管理委员会委员、广东体育科学学会理事、广东省青少年体育联合会副会长、广东省体育运动健康协会副会长。
+                </p>
+              </div>
             </div>
           </div>
-
-          <!-- <div class="curpoint swiper-slide mt20" @click="gotoInfo">
-            <img style="margin-bottom:10px" src="../../assets/images/t2.jpg" alt />
-          </div>
-          <div class="curpoint swiper-slide mt20" @click="gotoInfo">
-            <img style="margin-bottom:10px" src="../../assets/images/t3.jpg" alt />
-          </div>
-          <div class="curpoint swiper-slide mt20" @click="gotoInfo">
-            <img style="margin-bottom:10px" src="../../assets/images/t4.jpg" alt />
-          </div> -->
         </div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
       </div>
     </div>
   </div>
@@ -176,7 +202,6 @@ export default {
       var swiper = new Swiper(".ww", {
         slidesPerView: 4,
         spaceBetween: 0,
-        loop: true,
         autoplay: {
           delay: 3000,
           stopOnLastSlide: false,

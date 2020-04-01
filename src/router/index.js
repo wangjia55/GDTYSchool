@@ -10,13 +10,15 @@ import job from '@/pages/front/job'
 import message from '@/pages/front/message'
 import service from '@/pages/front/service'
 import education from '@/pages/front/education'
-import train from '@/pages/front/train'
+// import train from '@/pages/front/train'
+import train from '@/pages/front/TrainingCourse'
 import NotFound from '@/pages/404'
 import newShare from '@/pages/newShare'
 import newShareQuestion from '@/pages/newShareQuestion'
 import detail from '@/pages/detail'
 import tiyuDetail from '@/pages/tiyuDetail'
 import tiyuInfo from '@/pages/tiyuInfo'
+import shengdian from '@/pages/shengdian'
 import tiyuSerDetail from '@/pages/tiyuSerDetail'
 
 
@@ -143,6 +145,15 @@ var routes = [
     }
     ,
     {
+      path: '/shengdian',
+      name: 'shengdian',
+      component: shengdian,
+      meta: {
+        title: '详情页'
+      }
+    }
+    ,
+    {
       path: '/tiyuInfo',
       name: 'tiyuInfo',
       component: tiyuInfo,
@@ -150,7 +161,7 @@ var routes = [
         title: '详情页'
       }
     },
-    
+
     {
       path: '/tiyuSerDetail',
       name: 'tiyuSerDetail',

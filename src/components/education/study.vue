@@ -1,6 +1,88 @@
 <template>
   <div class="c-message-container">
-    在线学习
+     <div class="flex-wrap">
+                <div
+                  class="col curpoint p10"
+                  style="flex:0 0 23%;margin:10px 0.5%;border:1px solid #dfdfdf"
+                >
+                  <img style="width:100%;margin:10px auto" src="../../assets/images/ps1.jpg" alt />
+                  <div class="btw">
+                    <p style="text-align:left">游泳教学基础公开课</p>
+                    <el-button type="primary" size="mini">开始学习</el-button>
+                  </div>
+                </div>
+                <div
+                  class="col curpoint p10"
+                  style="flex:0 0 23%;margin:10px 0.5%;border:1px solid #dfdfdf"
+                >
+                  <img style="width:100%;margin:10px auto" src="../../assets/images/ps2.jpg" alt />
+                  <div class="btw">
+                    <p style="text-align:left">羽毛球教学基础公开课</p>
+                    <el-button type="primary" size="mini">开始学习</el-button>
+                  </div>
+                </div>
+                <div
+                  class="col curpoint p10"
+                  style="flex:0 0 23%;margin:10px 0.5%;border:1px solid #dfdfdf"
+                >
+                  <img style="width:100%;margin:10px auto" src="../../assets/images/ps3.jpg" alt />
+                  <div class="btw">
+                    <p style="text-align:left">篮球教学基础公开课</p>
+                    <el-button type="primary" size="mini">开始学习</el-button>
+                  </div>
+                </div>
+                <div
+                  class="col curpoint p10"
+                  style="flex:0 0 23%;margin:10px 0.5%;border:1px solid #dfdfdf"
+                >
+                  <img style="width:100%;margin:10px auto" src="../../assets/images/ps4.jpg" alt />
+                  <div class="btw">
+                    <p style="text-align:left">足球教学基础公开课</p>
+                    <el-button type="primary" size="mini">开始学习</el-button>
+                  </div>
+                </div>
+                <div
+                  class="col curpoint p10"
+                  style="flex:0 0 23%;margin:10px 0.5%;border:1px solid #dfdfdf"
+                >
+                  <img style="width:100%;margin:10px auto" src="../../assets/images/ps5.jpg" alt />
+                  <div class="btw">
+                    <p style="text-align:left">网球教学基础公开课</p>
+                    <el-button type="primary" size="mini">开始学习</el-button>
+                  </div>
+                </div>
+                <div
+                  class="col curpoint p10"
+                  style="flex:0 0 23%;margin:10px 0.5%;border:1px solid #dfdfdf"
+                >
+                  <img style="width:100%;margin:10px auto" src="../../assets/images/ps6.jpg" alt />
+                  <div class="btw">
+                    <p style="text-align:left">武术教学基础公开课</p>
+                    <el-button type="primary" size="mini">开始学习</el-button>
+                  </div>
+                </div>
+                <div
+                  class="col curpoint p10"
+                  style="flex:0 0 23%;margin:10px 0.5%;border:1px solid #dfdfdf"
+                >
+                  <img style="width:100%;margin:10px auto" src="../../assets/images/ps7.jpg" alt />
+                  <div class="btw">
+                    <p style="text-align:left">舞蹈教学基础公开课</p>
+                    <el-button type="primary" size="mini">开始学习</el-button>
+                  </div>
+                </div>
+                <div
+                  class="col curpoint p10"
+                  style="flex:0 0 23%;margin:10px 0.5%;border:1px solid #dfdfdf"
+                >
+                  <img style="width:100%;margin:10px auto" src="../../assets/images/ps8.jpg" alt />
+                  <div class="btw">
+                    <p style="text-align:left">健美操教学基础公开课</p>
+                    <el-button type="primary" size="mini">开始学习</el-button>
+                  </div>
+                </div>
+              </div>
+
   </div>
 </template>
 
