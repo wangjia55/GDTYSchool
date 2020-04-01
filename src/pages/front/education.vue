@@ -85,7 +85,7 @@ import OutlineStudy from "../../components/education/outlineStudy";
 export default {
   data() {
     return {
-      activeName: "second",
+      activeName: "first",
       tabPosition: "left",
       imgList: ["../../assets/images/jianding1.jpg", ""],
       curTime: 0,
@@ -172,6 +172,7 @@ export default {
       this.init();
     },
     init() {
+     
       var swiper = new Swiper(".ww", {
         slidesPerView: 4,
         spaceBetween: 0,
