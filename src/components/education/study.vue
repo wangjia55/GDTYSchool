@@ -8,7 +8,7 @@
                   <img style="width:100%;margin:10px auto" src="../../assets/images/ps1.jpg" alt />
                   <div class="btw">
                     <p style="text-align:left">游泳教学基础公开课</p>
-                    <el-button type="primary" size="mini">开始学习</el-button>
+                    <el-button type="primary" size="mini" @click="gotoStudy">开始学习</el-button>
                   </div>
                 </div>
                 <div
@@ -18,7 +18,7 @@
                   <img style="width:100%;margin:10px auto" src="../../assets/images/ps2.jpg" alt />
                   <div class="btw">
                     <p style="text-align:left">羽毛球教学基础公开课</p>
-                    <el-button type="primary" size="mini">开始学习</el-button>
+                    <el-button type="primary" size="mini" @click="gotoStudy">开始学习</el-button>
                   </div>
                 </div>
                 <div
@@ -28,7 +28,7 @@
                   <img style="width:100%;margin:10px auto" src="../../assets/images/ps3.jpg" alt />
                   <div class="btw">
                     <p style="text-align:left">篮球教学基础公开课</p>
-                    <el-button type="primary" size="mini">开始学习</el-button>
+                    <el-button type="primary" size="mini" @click="gotoStudy">开始学习</el-button>
                   </div>
                 </div>
                 <div
@@ -38,7 +38,7 @@
                   <img style="width:100%;margin:10px auto" src="../../assets/images/ps4.jpg" alt />
                   <div class="btw">
                     <p style="text-align:left">足球教学基础公开课</p>
-                    <el-button type="primary" size="mini">开始学习</el-button>
+                    <el-button type="primary" size="mini" @click="gotoStudy">开始学习</el-button>
                   </div>
                 </div>
                 <div
@@ -48,7 +48,7 @@
                   <img style="width:100%;margin:10px auto" src="../../assets/images/ps5.jpg" alt />
                   <div class="btw">
                     <p style="text-align:left">网球教学基础公开课</p>
-                    <el-button type="primary" size="mini">开始学习</el-button>
+                    <el-button type="primary" size="mini"@click="gotoStudy">开始学习</el-button>
                   </div>
                 </div>
                 <div
@@ -58,7 +58,7 @@
                   <img style="width:100%;margin:10px auto" src="../../assets/images/ps6.jpg" alt />
                   <div class="btw">
                     <p style="text-align:left">武术教学基础公开课</p>
-                    <el-button type="primary" size="mini">开始学习</el-button>
+                    <el-button type="primary" size="mini" @click="gotoStudy">开始学习</el-button>
                   </div>
                 </div>
                 <div
@@ -68,7 +68,7 @@
                   <img style="width:100%;margin:10px auto" src="../../assets/images/ps7.jpg" alt />
                   <div class="btw">
                     <p style="text-align:left">舞蹈教学基础公开课</p>
-                    <el-button type="primary" size="mini">开始学习</el-button>
+                    <el-button type="primary" size="mini" @click="gotoStudy">开始学习</el-button>
                   </div>
                 </div>
                 <div
@@ -77,8 +77,8 @@
                 >
                   <img style="width:100%;margin:10px auto" src="../../assets/images/ps8.jpg" alt />
                   <div class="btw">
-                    <p style="text-align:left">健美操教学基础公开课</p>
-                    <el-button type="primary" size="mini">开始学习</el-button>
+                    <p style="text-align:left">创新创业基础公开课</p>
+                    <el-button type="primary" size="mini" @click="gotoStudy">开始学习</el-button>
                   </div>
                 </div>
               </div>
@@ -100,6 +100,9 @@ export default {
   },
   methods: {
     // 事件函数
+    gotoStudy(){
+       window.open('http://120.79.95.187:8081/course/9fc1cbd6d31342da9bb2d053b0a8a679','_blank') 
+    }
   },
   props: ["datas"],
   created: function() {

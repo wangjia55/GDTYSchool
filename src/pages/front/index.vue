@@ -14,7 +14,6 @@
               src="../../assets/images/logo-title.png"
               alt
             />
-            
           </div>
         </div>
         <div class="taps row" style>
@@ -50,7 +49,7 @@
         <div class="footer-info">
           <p>学校地址：广东省广州市天河区黄村奥体路52号</p>
           <p>学校电话：020-87128173</p>
-          <p>邮编：510663  </p>
+          <p>邮编：510663</p>
         </div>
         <div style>
           <img style="width:80%; margin:auto 0;" src="../../assets/images/school-title.jpg" />
@@ -121,9 +120,12 @@ export default {
           name: "identification",
           list: [
             { title: "政策服务", id: "us" },
-            { title: "培训计划", id: "course" },
-            { title: "培训机构", id: "culture" },
-            { title: "在线学习", id: "honor" }
+            { title: "培训服务", id: "course" },
+            { title: "鉴定管理", id: "culture" },
+            { title: "工作动态", id: "honor" },
+            { title: "职业赛事", id: "culture" },
+            { title: "资料下载", id: "honor" },
+            { title: "联系我们", id: "honor" }
           ]
         },
         {
@@ -131,7 +133,9 @@ export default {
           name: "education",
           list: [
             { title: "通知公告", id: "us" },
-            { title: "课程列表", id: "course" }
+            { title: "课程列表", id: "course" },
+            { title: "在线学习", id: "course" },
+            { title: "证书打印", id: "course" }
           ]
         },
         {
@@ -227,8 +231,6 @@ $baseColor: #fff;
     }
   }
 }
-
-
 
 .footerview {
   height: 210px;
