@@ -18,7 +18,6 @@ import newShareQuestion from '@/pages/newShareQuestion'
 import detail from '@/pages/detail'
 import tiyuDetail from '@/pages/tiyuDetail'
 import tiyuInfo from '@/pages/tiyuInfo'
-import shengdian from '@/pages/shengdian'
 import tiyuSerDetail from '@/pages/tiyuSerDetail'
 
 
@@ -139,15 +138,6 @@ var routes = [
       path: '/tiyuDetail',
       name: 'tiyuDetail',
       component: tiyuDetail,
-      meta: {
-        title: '详情页'
-      }
-    }
-    ,
-    {
-      path: '/shengdian',
-      name: 'shengdian',
-      component: shengdian,
       meta: {
         title: '详情页'
       }
