@@ -3,7 +3,7 @@
   <div class="message-container">
     <div class="main-container init">
       <div class="flex-sum mt10 navsd">
-        <el-tabs type="border-card" v-model="activeName" stretch>
+        <el-tabs type="border-card" v-model="activeName">
           <el-tab-pane name="first" label="体育资讯">
             <div>
               <Message></Message>
@@ -27,8 +27,6 @@
         </el-tabs>
       </div>
     </div>
-
-   
   </div>
 </template>
 
@@ -39,7 +37,7 @@ import Knowledge from "../../components/message/knowledge";
 export default {
   data() {
     return {
-        activeName: "first",
+      activeName: "first"
     };
   },
   computed: {},
@@ -54,8 +52,7 @@ export default {
     },
     gotoInfo() {
       this.$router.push({ path: "tiyuInfo" });
-    },
-  
+    }
   },
   mounted() {},
   filters: {}
@@ -78,7 +75,7 @@ export default {
     }
   }
   .flex-base {
-    flex: 0 0 48%;
+    flex: 0 0 50%;
     margin: 10px 1%;
   }
   .item {
@@ -102,24 +99,42 @@ export default {
   }
 
   .navsd {
+    .el-tabs__header {
+      padding-left: 130px;
+    }
     .el-tabs__item:hover {
-      color: blue !important;
-      background: #fff !important;
+      width: 220px !important;
+      color: !important !important;
+      background: #0b2a63 !important;
       border: 0 !important;
+      font-size: 16px;
     }
     .el-tabs__item {
-      color: #fff !important;
+      width: 220px !important;
       height: 50px;
       line-height: 50px;
       border: 0 !important;
+      color: #ffffff !important;
+      background: #1754c2 !important;
+      border-radius: 50px;
+      margin: 0 20px;
+      text-align: center;
+      flex: 2 !important;
+      font-size: 16px;
     }
     .el-tabs__item.is-active {
-      color: #1754c2 !important;
-      background: #fff !important;
+      width: 220px !important;
+      color: #ffffff !important;
+      background: #0b2a63 !important;
       border: 0 !important;
+      border-radius: 50px;
+      font-size: 16px;
     }
     .el-tabs__nav {
-      background: #1754c2;
+      width: 220px !important;
+      border-radius: 50px;
+      margin: 0 20px;
+      font-size: 16px;
     }
   }
 

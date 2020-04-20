@@ -2,7 +2,7 @@
   <div class="c-message-container">
     <div class="school-news">
       <div class="btw yaonew align">
-        <p>通知公告</p>
+        <p>综合新闻</p>
         <p class="curpoint">More></p>
       </div>
       <div class="btw">
@@ -11,7 +11,7 @@
             <el-carousel-item>
               <div class="flex-center curpoint col" @click="gotoDetail">
                 <img
-                  style="width:580px;height:285px;margin:15px 0"
+                  style="width:540px;height:285px;margin:15px 0"
                   src="../../assets/images/detail2.png"
                   alt
                 />
@@ -20,7 +20,7 @@
             <el-carousel-item>
               <div class="flex-center curpoint col" @click="gotoDetail">
                 <img
-                  style="width:580px;height:285px;margin:15px 0"
+                  style="width:540px;height:285px;margin:15px 0"
                   src="../../assets/images/detail5.jpg"
                   alt
                 />
@@ -32,139 +32,97 @@
         <div class="flex-base">
           <el-card class="box-card">
             <div slot="header" class="clearfix">
-              <span style="font-size:18px">培训通告</span>
+              <span style="font-size:18px">体育快讯</span>
               <el-button style="float: right; padding: 3px 0" type="text">更多</el-button>
             </div>
             <div class="text item">
               <div class="btw" @click="gotoDetail">
-                <span>广东体育职业技术学院关于做好疫情防控工作的相关通知</span>
-                <span>2020-03-21</span>
+                <span>新冠病毒大流行基层社区体育俱乐部举步维艰</span>
+                <span>2020-04-21</span>
               </div>
             </div>
             <div class="text item">
               <div class="btw" @click="gotoDetail">
-                <span>关于调整2019年第二期扩招学生报到时间的通知</span>
-                <span>2020-03-21</span>
+                <span>ISCA讨论疫情下体育健身行业面临的威胁机遇</span>
+                <span>2020-04-21</span>
               </div>
             </div>
             <div class="text item">
               <div class="btw">
-                <span>于在防控新型肺炎疫情中发挥基层党组织先锋模范作用的通知</span>
-                <span>2020-03-21</span>
+                <span>法国著名拳击运动员乌拉穆尼的居家健身建议</span>
+                <span>2020-04-21</span>
               </div>
             </div>
             <div class="text item">
               <div class="btw">
-                <span>广东体育职业技术学院关于加强疫情防控期间学院进出管理的通知</span>
-                <span>2020-03-21</span>
+                <span>加拿大多伦多志愿者团队在老年公寓楼下带领阳台上的老人跳健身操</span>
+                <span>2020-04-20</span>
               </div>
             </div>
             <div class="text item">
               <div class="btw">
-                <span>广东体育职业技术学院高等职业教育质量年度报告</span>
-                <span>2020-03-21</span>
+                <span>英国国家卫生局推荐的10分钟居家健身操</span>
+                <span>2020-04-20</span>
               </div>
             </div>
             <div class="text item">
               <div class="btw">
-                <span>关于2020年元旦节放假的通知</span>
-                <span>2020-01-21</span>
+                <span>法国健身网居家锻炼建议及计划</span>
+                <span>2020-04-20</span>
+              </div>
+            </div>
+             <div class="text item">
+              <div class="btw">
+                <span>深圳举办线上体育赛事共克疫情时艰</span>
+                <span>2020-04-20</span>
               </div>
             </div>
           </el-card>
         </div>
       </div>
     </div>
-    <div class="school-news">
-      <div class="btw yaonew align">
-        <p>培训动态</p>
-        <p class="curpoint">More></p>
-      </div>
-      <div class="btw">
-        <div class="flex-base" style="flex:2">
-          <el-card class="box-card">
-            <div slot="header" class="clearfix">
-              <span style="font-size:18px">培训动态</span>
-              <el-button style="float: right; padding: 3px 0" type="text">更多</el-button>
-            </div>
-            <div class="text item">
-              <div class="btw" @click="gotoDetail">
-                <span>开拓视野，提升办学品质</span>
-                <span>2020-03-21</span>
-              </div>
-            </div>
-            <div class="text item">
-              <div class="btw" @click="gotoDetail">
-                <span>观念决定方向 观念决定一切——核心素养的特征与培养</span>
-                <span>2020-03-21</span>
-              </div>
-            </div>
-            <div class="text item">
-              <div class="btw">
-                <span>融合信息技术，提升课堂教学</span>
-                <span>2020-03-21</span>
-              </div>
-            </div>
-            <div class="text item">
-              <div class="btw">
-                <span>提升教育信息化，助力课堂智慧化</span>
-                <span>2020-03-21</span>
-              </div>
-            </div>
-            <div class="text item">
-              <div class="btw">
-                <span>《校园健康读本六》——新型冠状病毒肺炎病防控常识</span>
-                <span>2020-03-21</span>
-              </div>
-            </div>
-            <div class="text item">
-              <div class="btw">
-                <span>广东体育职业技术学院顺利开展“开学第一课”线上学习活动</span>
-                <span>2020-03-21</span>
-              </div>
-            </div>
-          </el-card>
-        </div>
-        
-      </div>
+   
        <div class="flex-flow mt20 mb20 init">
       <div class="flex-base">
         <el-card class="box-card">
           <div slot="header" class="clearfix">
-            <span style="font-size:18px;">政策发布</span>
+            <span style="font-size:18px;">体育政策</span>
             <el-button style="float: right; padding: 3px 0;" type="text" @click="gotoMore">更多</el-button>
           </div>
-          <h3
-            style="color:#000;font-weight:bold;font-size:16px;margin-bottom:10px;"
-          >关于废止部分规章和规范性文件的决定</h3>
+          <div class="text item" @click="gotoInfo">
+            <div class="btw">
+              <span>2020年全国体育政策法规规划工作要点</span>
+              <span>2020-04-20</span>
+            </div>
+          </div>
           <div class="text item" @click="gotoInfo">
             <div class="btw">
               <span>教育部教师工作司负责人就2020年“国培计划”组织</span>
-              <span>2020-01-21</span>
+               <span>2020-04-20</span>
             </div>
           </div>
           <div class="text item" @click="gotoInfo">
             <div class="btw">
               <span>国家体育总局内部管理规范性文件目录</span>
-              <span>2020-01-21</span>
+               <span>2020-04-20</span>
             </div>
           </div>
           <div class="text item" @click="gotoInfo">
             <div class="btw">
               <span>中华人民共和国体育法</span>
-              <span>2019-12-21</span>
+               <span>2020-04-20</span>
             </div>
           </div>
           <div class="text item" @click="gotoInfo">
             <div class="btw">
               <span>国务院办公厅关于促进全民健身推动体育产业高质量发展的意见</span>
-              <span>2019-12-21</span>
+               <span>2020-04-20</span>
             </div>
           </div>
           <div class="text item" @click="gotoInfo">
             <div class="btw">
               <span>国际奥委会、残奥会进一步明确俄罗斯兴奋剂庭审判决</span>
-              <span>2019-11-21</span>
+               <span>2020-04-20</span>
             </div>
           </div>
         </el-card>
@@ -172,45 +130,50 @@
       <div class="flex-base">
         <el-card class="box-card">
           <div slot="header" class="clearfix">
-            <span style="font-size:18px;">学术快递</span>
+            <span style="font-size:18px;">体育产业</span>
             <el-button style="float: right; padding: 3px 0;" type="text" @click="gotoMore">更多</el-button>
           </div>
-          <h3 style="color:#000;font-weight:bold;font-size:16px;margin-bottom:10px;">竞赛成绩一览</h3>
           <div class="text item" @click="gotoInfo">
             <div class="btw">
-              <span>关于2020年度国家自然科学基金项目申请通告</span>
-              <span>2020-01-21</span>
+              <span>澳大利亚奥利匹克基金会净资产价值3个月内损失12%</span>
+              <span>2020-04-21</span>
             </div>
           </div>
           <div class="text item" @click="gotoInfo">
             <div class="btw">
-              <span>2020年度国家社会科学基金项目申报公告</span>
-              <span>2020-01-21</span>
+              <span>新冠肺炎疫情下电竞行业遇良机</span>
+              <span>2020-04-21</span>
             </div>
           </div>
           <div class="text item" @click="gotoInfo">
             <div class="btw">
-              <span>广州市社科规划2020年度岭南文化研究专项课题指南</span>
-              <span>2019-12-21</span>
+              <span>继东京奥运会宣布延期举办后，英特尔世界电竞公开赛也将推迟</span>
+               <span>2020-04-21</span>
             </div>
           </div>
           <div class="text item" @click="gotoInfo">
             <div class="btw">
-              <span>关于申报中国高校产学研创新基金的通知</span>
-              <span>2019-11-21</span>
+              <span>美国EGYM推出新品牌的会员App</span>
+               <span>2020-04-21</span>
             </div>
           </div>
           <div class="text item" @click="gotoInfo">
             <div class="btw">
-              <span>关于做好2019年度国家社科基金后期资助项目申报</span>
-              <span>2019-11-21</span>
+              <span>CrowdPlay将在比赛直播中同步其虚拟游戏</span>
+               <span>2020-04-21</span>
+            </div>
+          </div>
+          <div class="text item" @click="gotoInfo">
+            <div class="btw">
+              <span>预计2020-2025年间足球市场复合年增长率有望达到3.57％</span>
+               <span>2020-04-21</span>
             </div>
           </div>
         </el-card>
       </div>
       <div class="school-news">
         <div class="btw yaonew align">
-          <p>酷体育</p>
+          <p>精彩体育活动</p>
           <p class="curpoint"></p>
         </div>
         <div class="flex-wrap">
@@ -294,8 +257,7 @@ export default {
     }
   }
   .flex-base {
-    flex: 0 0 49%;
-    margin: 10px 0;
+    flex: 0 0 48%;
   }
   .item {
     font-size: 14px;
