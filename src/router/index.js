@@ -20,7 +20,7 @@ import tiyuDetail from '@/pages/tiyuDetail'
 import tiyuInfo from '@/pages/tiyuInfo'
 import shengdian from '@/pages/shengdian'
 import tiyuSerDetail from '@/pages/tiyuSerDetail'
-
+import indentDetail from '@/pages/front/indent-child/indentDetail'
 
 
 import {Button,DatetimePicker,Icon,Row, Col ,Popup ,List,Cell,PullRefresh ,Loading,Lazyload,Dialog,Toast,Tab, Tabs,Pagination,Picker   } from 'vant'
@@ -109,8 +109,17 @@ var routes = [
             title: '课程培训'
           },
         },
+        {
+          path: '/indentDetail',
+          name: 'indentDetail',
+          component: indentDetail,
+          meta: {
+             title: '课程教程'
+           } 
+        },
       ]
     },
+   
     	{
         path: '/404',
         component: NotFound,
