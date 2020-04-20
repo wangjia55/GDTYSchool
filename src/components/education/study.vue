@@ -1,14 +1,14 @@
 <template>
   <div class="c-message-container">
     <div class="flex-wrap">
-      <div class="col curpoint p10" style="flex:0 0 23%;margin:10px 0.5%;border:1px solid #dfdfdf;">
+      <div class="col curpoint p10" v-for="item in courseLists" :key="item.id" style="flex:0 0 23%;margin:10px 0.5%;border:1px solid #dfdfdf;">
         <img
           style="width:100%;margin:10px auto;border-radius:5px"
-          src="../../assets/images/ps1.jpg"
+          :src="item.imgsrc"
           alt
         />
         <div class="col">
-          <p style="text-align:left">羽毛球教学基础公开课羽毛球教学基础公开课羽毛球教学基础公开课羽毛球教学基础公开课</p>
+          <p style="text-align:left">{{item.text}}</p>
           <div class="row isTime" style="font-size:12px;color:#999">
             <p>
               <i class="el-icon-user"></i>
@@ -33,11 +33,11 @@
                 ￥50
               </span>
             </div>
-            <el-button type="primary" size="mini">开始学习</el-button>
+            <el-button type="primary" size="mini" @click="toIndentDetail">开始学习</el-button>
           </div>
         </div>
       </div>
-      <div class="col curpoint p10" style="flex:0 0 23%;margin:10px 0.5%;border:1px solid #dfdfdf">
+      <!-- <div class="col curpoint p10" style="flex:0 0 23%;margin:10px 0.5%;border:1px solid #dfdfdf">
         <img style="width:100%;margin:10px auto" src="../../assets/images/ps2.jpg" alt />
         <div class="btw">
           <p style="text-align:left">羽毛球教学基础公开课羽毛球教学基础公开课羽毛球教学基础公开课羽毛球教学基础公开课</p>
@@ -61,7 +61,7 @@
       <div class="col curpoint p10" style="flex:0 0 23%;margin:10px 0.5%;border:1px solid #dfdfdf">
         <img style="width:100%;margin:10px auto" src="../../assets/images/ps5.jpg" alt />
         <div class="btw">
-          <p style="text-align:left">网球教学基础公开课</p>
+          <p style="text-align:left">网球教学基础公开课网球教学基础公开课网球教学基础公开课网球教学基础公开课网球教学基础公开课</p>
           <el-button type="primary" size="mini">开始学习</el-button>
         </div>
       </div>
@@ -85,7 +85,7 @@
           <p style="text-align:left">健美操教学基础公开课</p>
           <el-button type="primary" size="mini">开始学习</el-button>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -99,42 +99,42 @@ export default {
       courseLists:[
         {
           id:0,
-          imgsrc:"require(../../assets/images/ps1.jpg)",
+          imgsrc:require('../../assets/images/ps1.jpg'),
           text:"羽毛球教学基础公开课羽毛球教学基础公开课羽毛球教学基础公开课羽毛球教学基础公开课"
         },
         {
-          id:0,
-          imgsrc:"require(../../assets/images/ps1.jpg)",
-          text:"羽毛球教学基础公开课羽毛球教学基础公开课羽毛球教学基础公开课羽毛球教学基础公开课"
+          id:1,
+          imgsrc:require('../../assets/images/ps2.jpg'),
+          text:"篮球教学基础公开课篮球教学基础公开课篮球教学基础公开课篮球教学基础公"
         },
         {
-          id:0,
-          imgsrc:"require(../../assets/images/ps1.jpg)",
-          text:"羽毛球教学基础公开课羽毛球教学基础公开课羽毛球教学基础公开课羽毛球教学基础公开课"
+          id:30,
+          imgsrc:require('../../assets/images/ps3.jpg'),
+          text:"足球教学基础公开课足球教学基础公开课足球教学基础公开课足球教学基础公开"
         },
         {
-          id:0,
-          imgsrc:"require(../../assets/images/ps1.jpg)",
-          text:"羽毛球教学基础公开课羽毛球教学基础公开课羽毛球教学基础公开课羽毛球教学基础公开课"
+          id:20,
+          imgsrc:require('../../assets/images/ps4.jpg'),
+          text:"网球教学基础公开课网球教学基础公开课网球教学基础公开课网球教学基础公开"
         },
         {
-          id:0,
-          imgsrc:"require(../../assets/images/ps1.jpg)",
-          text:"羽毛球教学基础公开课羽毛球教学基础公开课羽毛球教学基础公开课羽毛球教学基础公开课"
+          id:40,
+          imgsrc:require('../../assets/images/ps5.jpg'),
+          text:"武术教学基础公开课武术教学基础公开课武术教学基础公开课武术教学基础公开课武术教学"
         },
         {
-          id:0,
-          imgsrc:"require(../../assets/images/ps1.jpg)",
-          text:"羽毛球教学基础公开课羽毛球教学基础公开课羽毛球教学基础公开课羽毛球教学基础公开课"
+          id:50,
+          imgsrc:require('../../assets/images/ps6.jpg'),
+          text:"舞蹈教学基础公开课舞蹈教学基础公开课舞蹈教学基础公开课舞蹈教学基础公开课舞"
         },
         {
-          id:0,
-          imgsrc:"require(../../assets/images/ps1.jpg)",
-          text:"羽毛球教学基础公开课羽毛球教学基础公开课羽毛球教学基础公开课羽毛球教学基础公开课"
+          id:60,
+          imgsrc:require('../../assets/images/ps7.jpg'),
+          text:"健美操教学基础公开课健美操教学基础公开课健美操教学基础公开课健美操教学基础公开课"
         },
         {
-          id:0,
-          imgsrc:"require(../../assets/images/ps1.jpg)",
+          id:70,
+          imgsrc:require('../../assets/images/ps8.jpg'),
           text:"羽毛球教学基础公开课羽毛球教学基础公开课羽毛球教学基础公开课羽毛球教学基础公开课"
         },
       ]
@@ -147,6 +147,11 @@ export default {
   },
   methods: {
     // 事件函数
+    toIndentDetail(){
+      this.$router.push({
+        name:"indentDetail"
+      })
+    },
     gotoStudy(){
        window.open('http://120.79.95.187:8081/course/9fc1cbd6d31342da9bb2d053b0a8a679','_blank') 
     }
