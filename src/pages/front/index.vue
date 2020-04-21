@@ -1,8 +1,6 @@
 <template>
   <div style="background: #ececec;">
-    <header
-      class="shadow header-container"
-    >
+    <header class="shadow header-container">
       <div class="front-content-width btw p10 align" style="height: 100%;">
         <div class="row align">
           <div>
@@ -42,20 +40,25 @@
         <router-view></router-view>
       </transition>
     </div>
-    <footer class="footer">
+    <footer class="footerview">
       <div class="footer-content arc">
         <div class="footer-info">
-          <p>学校地址：广东省广州市天河区黄村奥体路52号</p>
-          <p>学校电话：020-87128173</p>
-          <p>邮编：510663</p>
+          <p style="margin:2px;font-size:18px;font-weight:bold;">友情链接</p>
+          <p style="margin:2px;">国家教育部&#12288; &#12288; 国家体育总局&#12288; &#12288; 国家图书馆</p>
+          <p style="margin:2px;">广东省教育厅&#12288; 广东省体育局 &#12288; &#12288; 广东图书馆</p>
+          <p style="margin:2px;">国家职业资格工作网</p>
+        </div>
+        <div class="footer-info">
+          <p style="margin:2px;">地址：广东省广州市天河区黄村奥体路52号</p>
+          <p style="margin:2px;">电话：020-87128173</p>
+          <p style="margin:2px;">传真：020-87128172</p>
+          <p style="margin:2px;">邮编：510663</p>
         </div>
         <div style>
-          <img style="width:80%; margin:auto 0;" src="../../assets/images/school-title.jpg" />
+          <img style="width:120px; margin:auto 0;" src="../../assets/images/barcode1.jpg" />
         </div>
       </div>
-      <p
-        style="text-align:center;margin:10px auto;font-size:13px;"
-      >Copyright© 2020 Guangdong Guotilian Sports Platform 备案号:粤ICP备06108273号</p>
+      <p class="copyright">Copyright© 2020 Guangdong Guotilian Sports Platform 备案号:粤ICP备06108273号</p>
     </footer>
   </div>
 </template>
@@ -84,8 +87,6 @@ export default {
     tabList() {
       return [
         { label: "首页", name: "home" },
-        { label: "鉴定公告", name: "jdgg" },
-        { label: "资料下载", name: "zlxz" },
         { label: "人才服务", name: "rcfw" },
         {
           label: "体育资讯",
@@ -98,6 +99,7 @@ export default {
             { title: "学术快递", id: "honor" }
           ]
         },
+        { label: "鉴定公告", name: "jdgg" },
 
         {
           label: "职业鉴定",
@@ -131,6 +133,8 @@ export default {
             { title: "商务合作", id: "culture" }
           ]
         },
+          { label: "资料下载", name: "zlxz" },
+
         {
           label: "关于我们",
           name: "aboutUs",
@@ -251,7 +255,7 @@ $baseColor: #fff;
   height: 100px;
   margin-top: -2px;
   padding: 5px 20px;
-  background:url("../../assets/images/top_background.png");
+  background: url("../../assets/images/top_background.png");
 }
 .nav-item {
   width: 80px;
@@ -300,7 +304,7 @@ $baseColor: #fff;
 
 .footerview {
   height: 210px;
-  background: white;
+  background: rgb(70, 70, 70);
 }
 
 .contact-us {
@@ -317,12 +321,12 @@ $baseColor: #fff;
 .copyright {
   width: 100%;
   height: 40px;
-  background: #585858;
-  color: white;
+  color: #d6d6d6;
   align-content: center;
   line-height: 50px;
   font-size: 15px;
   margin: auto auto;
   text-align: center;
+  border-top: rgb(61, 61, 61) 1px solid;
 }
 </style>

@@ -7,14 +7,14 @@
         <p class="news">综合新闻 &gt; </p>
         <a test="" target="_blank"><p class="more"> more </p></a>
       </div>
-      <div class="top_comment ">
+      <div class="top_comment">
         <div class="out">
           <el-carousel style="height:400px;">
             <el-carousel-item :interval="3000" :key="item" style="width:100%;">
               <img style="width:100%;height:100%;" src="../../assets/images/ba1.png" alt/>
             </el-carousel-item>
             <el-carousel-item :interval="3000" :key="item">
-              <img style="width:100%;height:100%;" src="../../assets/images/ba1.png" alt/>
+              <img style="width:100%;height:100%;" src="../../assets/images/ba2.jpg" alt/>
             </el-carousel-item>
             <el-carousel-item :interval="3000" :key="item">
               <img style="width:100%;height:100%;" src="../../assets/images/home2.png" alt/>
@@ -56,7 +56,8 @@
         </div>
         <div class="theNews">
           <ul class="news_content">
-            <li @click="dialogTableVisible=true"><a test="/index.php/Index/show/id/194.html" target="_blank">●&nbsp;&nbsp;2019年8月31日游泳救生鉴定公告</a></li>
+            <li @click="dialogTableVisible=true"><a test="/index.php/Index/show/id/194.html" target="_blank">●&nbsp;&nbsp;2019年8月31日游泳救生鉴定公告</a>
+            </li>
             <li><a test="/index.php/Index/show/id/193.html" target="_blank">●&nbsp;&nbsp;2019年8月26日游泳救生鉴定公告</a></li>
             <li><a test="/index.php/Index/show/id/192.html" target="_blank">●&nbsp;&nbsp;2019年8月11日游泳救生鉴定公告</a></li>
             <li><a test="/index.php/Index/show/id/191.html" target="_blank">●&nbsp;&nbsp;2019年8月10日游泳救生鉴定公告</a></li>
@@ -81,13 +82,13 @@
             <li><a test="/index.php/Index/show/id/142.html" target="_blank">●&nbsp;&nbsp;《2017年体育职业技能鉴定工作思路和安排》</a></li>
             <li><a test="/index.php/Index/show/id/141.html" target="_blank">●&nbsp;&nbsp;健身指导系列丛书——《我的颈肩我做主》</a></li>
             <li><a test="/index.php/Index/show/id/140.html" target="_blank">●&nbsp;&nbsp;健身指导系列丛书——《办公室也是健身房》</a></li>
+
           </ul>
         </div>
       </div>
     </div>
 
-    <!--222222222222222222222222222-->
-    <div class="init ">
+    <div class="init">
       <div class="top_title mt20">
         <p class="news">项目鉴定 &gt; </p>
         <a test="" target="_blank"><p class="more"> more </p></a>
@@ -96,10 +97,10 @@
         <ul class="type_line">
           <li style="margin-left:0;" @click="dialogTableVisibleXmjd=true">
             <a target="_blank">
-              <img src="../../assets/images/icon/1461678041293046.jpg" class="statu_1">
-              <font class="statu_1">羽毛球</font></a>
+              <img src="../../assets/images/icon/1461678041293046.jpg" class="statu_1"/>
+              <font class="statu_1">羽毛球</font>
+            </a>
           </li>
-
           <li style="">
             <a test="" target="_blank">
               <img src="../../assets/images/icon/1461677864302771.jpg" class="statu_1">
@@ -153,26 +154,93 @@
               <img src="../../assets/images/icon/1461666070346577.jpg" class="statu_1">
               <font class="statu_1">健身教练</font></a>
           </li>
+        </ul>
+      </div>
+    </div>
+    <!--333333333333333333-->
+    <div class="init">
+      <div class="top_title mt20">
+        <p class="news">体育知识 &gt;</p>
+        <a href target="_blank">
+          <p class="more">more</p>
+        </a>
+      </div>
 
+      <div class="project_lead_content" style="background: white;padding: 20px 0">
+        <ul class="pic arc">
+          <li>
+            <img src="../../assets/images/jn1.png" style="width:350px; border-radius:15px; "/>
+          </li>
+          <li>
+            <img src="../../assets/images/jn2.png" style="width:350px; border-radius:15px; "/>
+          </li>
+          <li>
+            <img src="../../assets/images/jn3.png" style="width:350px; border-radius:15px; "/>
+          </li>
         </ul>
       </div>
     </div>
 
-
-    <!--333333333333333333-->
-    <div class="init ">
-      <div class="top_title mt20">
-        <p class="news">鉴定指南 &gt; </p>
-        <a test="" target="_blank"><p class="more"> more </p></a>
+    <!--1.55555555555-->
+    <div class="tools_detail init">
+      <div class="left mt20">
+        <div class="title">
+          <p class="news">鉴定指南 &gt;</p>
+          <a href="/index.php/Index/category/id/9.html" target="_blank">
+            <p class="more">more</p>
+          </a>
+        </div>
+        <div class="thetools jdzn">
+          <ul class="thetools arc ">
+            <li @click="dialogTableVisibleJdzn=true">
+              <img src="../../assets/images/icon/pic_1.png"/>
+              <b>国职证书</b>
+            </li>
+            <li>
+              <img src="../../assets/images/icon/pic_2.png"/>
+              <b>鉴定机构</b>
+            </li>
+            <li>
+              <img src="../../assets/images/icon/pic_3.png"/>
+              <b>报考须知</b>
+            </li>
+            <li>
+              <img src="../../assets/images/icon/pic_4.png"/>
+              <b>政策法规</b>
+            </li>
+          </ul>
+        </div>
       </div>
 
-      <div class="project_lead_content">
-        <ul class="pic arc ">
-          <li @click="dialogTableVisibleJdzn=true"><img src="../../assets/images/icon/pic_1.png"><b>国职证书</b></li>
-          <li><img src="../../assets/images/icon/pic_2.png"><b>鉴定机构</b></li>
-          <li><img src="../../assets/images/icon/pic_3.png"><b>报考须知</b></li>
-          <li><img src="../../assets/images/icon/pic_4.png"><b>政策法规</b></li>
-        </ul>
+      <div class="left space mt20">
+        <div class="title">
+          <p class="news">常用工具 &gt;</p>
+          <a target="_blank">
+            <p class="more">more</p>
+          </a>
+        </div>
+        <div class="thetools">
+          <ul class="news_content">
+            <li>
+              <img
+                src="../../assets/images/bt1.jpg"
+                style="width:320px; margin-left:100px; border-radius:15px; "
+              />
+            </li>
+            <li>
+              <img
+                src="../../assets/images/bt2.jpg"
+                style="width:320px; margin-left:100px;border-radius:15px; "
+              />
+            </li>
+            <li>
+              <img
+                src="../../assets/images/bt3.jpg"
+                style="width:320px; margin-left:100px;border-radius:15px; "
+              />
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
 
@@ -180,21 +248,26 @@
     <!--444444444444444-->
     <div class="init">
       <div class="top_title mt20">
-        <p class="news">机构直连 &gt; </p>
-        <a test="" target="_blank"><p class="more"> more </p></a>
+        <p class="news">常用工具 &gt;</p>
+        <a href target="_blank">
+          <p class="more">more</p>
+        </a>
       </div>
 
       <div class="btw mb20" style="background: white;">
         <div style="width:90%;margin:20px auto" class="divButton btw">
-          <div>教学平台</div>
-          <div>综合门户</div>
-          <div>校内图书馆</div>
-          <div>OA办公平台</div>
-          <div>邮箱系统</div>
+          <li>
+            <img src="../../assets/images/bt1.jpg" style="width:320px; border-radius:15px; "/>
+          </li>
+          <li>
+            <img src="../../assets/images/bt2.jpg" style="width:320px; border-radius:15px; "/>
+          </li>
+          <li>
+            <img src="../../assets/images/bt3.jpg" style="width:320px; border-radius:15px; "/>
+          </li>
         </div>
       </div>
     </div>
-
 
     <el-dialog title="" width="1000px" :visible.sync="dialogTableVisible">
       <img class="w100" src="../../assets/images/shots/ggxq.png">
@@ -291,14 +364,15 @@
       background-color: #fff;
       overflow: hidden;
       border-radius: 15px 15px 0 0;
-      border-bottom: 3px solid #409EFF;
+      border-bottom: 2px solid #409eff;
     }
     .news {
       color: #636060;
-      font-size: 16px;
+      font-size: 17px;
       line-height: 40px;
       padding-left: 10px;
       float: left;
+      font-weight: bold;
     }
     a {
       text-decoration: none;
@@ -323,7 +397,7 @@
       height: 300px;
       position: relative;
       overflow: hidden;
-      float: left
+      float: left;
     }
 
     .out .img li {
@@ -339,7 +413,7 @@
       right: 0;
       font-size: 0px;
       width: 17%;
-      z-index: 2
+      z-index: 2;
     }
     .out .sentence {
       width: 100%;
@@ -359,7 +433,7 @@
       cursor: pointer;
     }
     .out .num li.active {
-      background: #5fb0ef
+      background: #5fb0ef;
     }
     .out .sentence li {
       margin-left: 20px;
@@ -392,11 +466,11 @@
     }
     .out .left {
       left: 0;
-      opacity: 0.5
+      opacity: 0.5;
     }
     .out .right {
       right: 0;
-      opacity: 0.5
+      opacity: 0.5;
     }
 
     .outs ul {
@@ -425,7 +499,7 @@
       right: 0;
       font-size: 0px;
       width: 17%;
-      z-index: 2
+      z-index: 2;
     }
     .outs .sentence {
       width: 100%;
@@ -445,7 +519,7 @@
       cursor: pointer;
     }
     .outs .num li.active {
-      background: #5fb0ef
+      background: #5fb0ef;
     }
     .outs .sentence li {
       margin-left: 20px;
@@ -478,13 +552,22 @@
     }
     .outs .left {
       left: 0;
-      opacity: 0.5
+      opacity: 0.5;
     }
     .outs .right {
       right: 0;
-      opacity: 0.5
+      opacity: 0.5;
     }
 
+    .news_content li {
+      width: 100%;
+      margin: 0px;
+      padding: 0;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      cursor: pointer;
+    }
     .news_right {
       float: right;
       width: 330px;
@@ -500,140 +583,143 @@
       background: white;
     }
 
-    .news_content li {
-      width: 100%;
-      margin: 0px;
-      padding: 0;
-      overflow: hidden;
-      white-space: nowrap;
-      text-overflow: ellipsis;
-      cursor: pointer;
-    }
-
-    .news_content li a {
-      font-size: 14px;
-      color: #666666;
-    }
-    .news_content li a:hover {
-      color: #006faa;
-    }
-
     //222222
     .project_type {
       background: white;
-
-    }
-
-    .type_line {
-      margin-left: 25px;
-      width: 100%;
-      list-style: none;
-      overflow: hidden;
-      padding: 20px 0;
-    }
-    .type_line li {
-      width: 74px;
-      float: left;
-      margin-left: 45px;
-      border: none;
-      text-align: center;
-      padding-top: 15px;
-    }
-    .type_line a {
-      color: #999999;
-    }
-    .type_line li .statu_1 {
-      color: #0052b6;
-    }
-    .type_line li .statu_0 {
-      color: #999999;
-    }
-
-    .type_line li img {
-      border: none;
-      width: 65px;
-      height: 65px;
-      border-radius: 100px;
-      border: 1px solid #eeeeee;
-    }
-    .type_line li img.statu_0 {
-      -webkit-filter: grayscale(100%);
-      -moz-filter: grayscale(100%);
-      -ms-filter: grayscale(100%);
-      -o-filter: grayscale(100%);
-
-      filter: grayscale(100%);
-
-      filter: gray;
-    }
-
-    .type_font {
-      margin-left: 31px;
-      width: 582px;
-      list-style: none;
-      overflow: hidden;
-    }
-
-    .type_font li {
-      width: 74px;
-      float: left;
-      margin-left: 50px;
-      text-align: center;
-      margin-top: 2px;
-    }
-    .type_font li a {
-      color: #999999;
-    }
-
-    .project_lead_content {
-      width: 100%;
-      padding: 30px 0;
-      position: relative;
-      background: white;
-    }
-    .pic {
-      width: 100%;
-      list-style: none;
-      overflow: hidden;
-      > li {
-        position: relative;
-      }
-      b {
-        position: absolute;
-        bottom: 0;
-        left: 0;
+      .news_content li {
         width: 100%;
-        text-align: center;
-        line-height: 60px;
-        color: white;
-        font-size: 18px;
+        margin: 0px;
+        padding: 0;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
       }
-    }
 
-    .pic li {
-      float: left;
-    }
-    .pic li img {
-      border: none;
-    }
-    .pic_font {
-      list-style: none;
-      position: absolute;
-    }
-    .pic_font li a:hover {
-      color: #1debb8;
-    }
+      .news_content li a {
+        font-size: 14px;
+        color: #666666;
+      }
+      .news_content li a:hover {
+        color: #006faa;
+      }
 
-    .pic_font li {
-      font-size: 16px;
-      float: left;
-      width: 142px;
-      text-align: center;
-      position: absolute;
-      bottom: 14px;
-    }
-    .pic_font li a {
-      color: #ffffff;
+      //222222
+      .project_type {
+        background: white;
+      }
+
+      .type_line {
+        margin-left: 25px;
+        width: 100%;
+        list-style: none;
+        overflow: hidden;
+        padding: 20px 0;
+      }
+      .type_line li {
+        width: 74px;
+        float: left;
+        margin-left: 45px;
+        border: none;
+        text-align: center;
+        padding-top: 15px;
+      }
+      .type_line a {
+        color: #999999;
+      }
+      .type_line li .statu_1 {
+        color: #0052b6;
+      }
+      .type_line li .statu_0 {
+        color: #999999;
+      }
+
+      .type_line li img {
+        border: none;
+        width: 65px;
+        height: 65px;
+        border-radius: 100px;
+        border: 1px solid #eeeeee;
+      }
+      .type_line li img.statu_0 {
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+        -o-filter: grayscale(100%);
+
+        filter: grayscale(100%);
+
+        filter: gray;
+      }
+
+      .type_font {
+        margin-left: 31px;
+        width: 582px;
+        list-style: none;
+        overflow: hidden;
+      }
+
+      .type_font li {
+        width: 74px;
+        float: left;
+        margin-left: 50px;
+        text-align: center;
+        margin-top: 2px;
+      }
+      .type_font li a {
+        color: #999999;
+      }
+
+      .project_lead_content {
+        width: 100%;
+        padding: 30px 0;
+        position: relative;
+        background: white;
+      }
+      .pic {
+        width: 100%;
+        list-style: none;
+        overflow: hidden;
+        > li {
+          position: relative;
+        }
+        b {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          text-align: center;
+          line-height: 60px;
+          color: white;
+          font-size: 18px;
+        }
+      }
+
+      .pic li {
+        float: left;
+      }
+      .pic li img {
+        border: none;
+      }
+      .pic_font {
+        list-style: none;
+        position: absolute;
+      }
+      .pic_font li a:hover {
+        color: #1debb8;
+      }
+
+      .pic_font li {
+        font-size: 16px;
+        float: left;
+        width: 142px;
+        text-align: center;
+        position: absolute;
+        bottom: 14px;
+      }
+      .pic_font li a {
+        color: #ffffff;
+
+      }
     }
 
     .news_detail {
@@ -683,9 +769,131 @@
       font-size: 14px;
       color: #ffffff;
       padding-top: 2px;
-
+    }
+    .pic li {
+      float: left;
+    }
+    .pic li img {
+      border: none;
+    }
+    .pic_font {
+      list-style: none;
+      position: absolute;
+    }
+    .pic_font li a:hover {
+      color: #1debb8;
     }
 
+    .pic_font li {
+      font-size: 16px;
+      float: left;
+      width: 142px;
+      text-align: center;
+      position: absolute;
+      bottom: 14px;
+    }
+    .pic_font li a {
+      color: #ffffff;
+    }
+
+    .news_detail {
+      width: 100%;
+      height: 292px;
+      margin-top: 12px;
+      overflow: hidden;
+      margin-bottom: 12px;
+    }
+
+    .news_detail .left {
+      float: left;
+      width: 49%;
+      height: 40px;
+      /*background: url(../images/index/left_title.png) no-repeat;*/
+      background-color: white;
+      /*overflow: hidden;*/
+      border-radius: 15px 15px 0 0;
+      border-bottom: 2px solid #409eff;
+    }
+
+    .tools_detail {
+      width: 100%;
+      height: 350px;
+      margin-top: 12px;
+      overflow: hidden;
+      margin-bottom: 12px;
+    }
+
+    .tools_detail .left {
+      float: left;
+      width: 49%;
+      height: 40px;
+      /*background: url(../images/index/left_title.png) no-repeat;*/
+      background-color: white;
+      /*overflow: hidden;*/
+      border-radius: 15px 15px 0 0;
+      border-bottom: 2px solid #409eff;
+    }
+
+    .thetools {
+      width: 100%;
+      height: 350px;
+      margin-top: 40px;
+      display: flex;
+      flex-direction: row;
+      background: white;
+
+    }
+    .jdzn{
+      li{
+        width: 134px;
+        height: 134px;
+        position: relative;
+        b{
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          text-align: center;
+          line-height: 40px;
+          font-size: 18px;
+          color: white;
+        }
+      }
+    }
+
+    .thetools img {
+      width: 133px;
+      margin-left: 5px;
+    }
+    .theNews {
+      width: 100%;
+      height: 232px;
+      margin-top: 40px;
+    }
+
+    .space {
+      margin-left: 20px;
+    }
+
+    .news_detail .right {
+      float: right;
+      width: 312px;
+      height: 254px;
+    }
+
+    .news_detail .btn_title_1 {
+      margin-left: 140px;
+      font-size: 20px;
+      color: #ffffff;
+      padding-top: 7px;
+    }
+
+    .news_detail .btn_title_2 {
+      margin-left: 120px;
+      font-size: 14px;
+      color: #ffffff;
+      padding-top: 2px;
+    }
   }
+
 </style>
 
