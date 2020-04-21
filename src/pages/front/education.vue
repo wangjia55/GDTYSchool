@@ -16,21 +16,22 @@
     <div class="main-container init">
       <div class="flex-sum mt10 navsd">
         <el-tabs type="border-card" v-model="activeName" stretch>
-          <el-tab-pane name="first" label="培训咨询">
+          <el-tab-pane name="first" label="培训资讯">
             <div>
               <Message></Message>
             </div>
           </el-tab-pane>
-          <el-tab-pane name="second" label="培训课程">
-            <div>
-              <Course></Course>
-            </div>
-          </el-tab-pane>
-          <el-tab-pane name="third" label="在线学习">
+             <el-tab-pane name="third" label="在线学习">
             <div>
               <Study></Study>
             </div>
           </el-tab-pane>
+          <el-tab-pane name="second" label="线下培训">
+            <div>
+              <Course></Course>
+            </div>
+          </el-tab-pane>
+       
           <el-tab-pane name="fourth" label="面授学习">
             <div>
               <OutlineStudy></OutlineStudy>
@@ -44,34 +45,7 @@
       v-show="activeName==='first'"
       style="padding:15px;margin-bottom:20px;"
     >
-      <!-- el-tabs与swiper放在一起，很恶心，有bug -->
-      <div class="btw yaonew align">
-        <p>专家</p>
-        <p class="curpoint"></p>
-      </div>
-      <div class="ww">
-        <div class="swiper-wrapper">
-          <div class="curpoint swiper-slide mt20" @click="gotoInfo" v-for="v in 7" :key="v">
-            <div class="col flex-center p10" style='width:250px;background:#fff;overflow:hidden;text-align:center'>
-              <img style="margin:10px auto;width:80px;height:80px;border-radius:50%;" src="../../assets/images/t1.jpg" alt />
-              <p style="font-size:20px;font-weight:bold;margin:10px 0">我是罗一{{v}}</p>
-              <p>柴少明，博士，副教授，硕士生导师，国际商学院副院长，中国语言教育研究会首届理事会理事。2003年7月毕业于山西师范大学外国语学院，2003年8月入职华南师范大学南海校区外语系，从事大学英语和英语专业的教学。2005年9月在华南师范大学教育信息技术学院攻读博士，师从我国著名教育技术学专家李克东教授。</p>
-            </div>
-          </div>
-
-          <!-- <div class="curpoint swiper-slide mt20" @click="gotoInfo">
-            <img style="margin-bottom:10px" src="../../assets/images/t2.jpg" alt />
-          </div>
-          <div class="curpoint swiper-slide mt20" @click="gotoInfo">
-            <img style="margin-bottom:10px" src="../../assets/images/t3.jpg" alt />
-          </div>
-          <div class="curpoint swiper-slide mt20" @click="gotoInfo">
-            <img style="margin-bottom:10px" src="../../assets/images/t4.jpg" alt />
-          </div> -->
-        </div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-      </div>
+    
     </div>
   </div>
 </template>
@@ -211,6 +185,48 @@ export default {
     height: 400px !important;
   }
 }
+
+  .el-tabs {
+      border:0 !important;
+    }
+
+    .el-tabs__header {
+      border:0 !important;
+    }
+    .el-tabs__item:hover {
+      width: 220px !important;
+      color: #417EFF !important;
+      background: rgb(102, 147, 245) !important;
+      border: 0 !important;
+      font-size: 16px;
+    }
+    .el-tabs__item {
+      width: 220px !important;
+      height: 50px;
+      line-height: 50px;
+      border: 0 !important;
+      color: #ffffff !important;
+      background: #417EFF !important;
+      border-radius: 50px;
+      margin: 0 20px;
+      text-align: center;
+      flex: 2 !important;
+      font-size: 16px;
+    }
+    .el-tabs__item.is-active {
+      width: 220px !important;
+      color: #ffffff !important;
+      background: rgb(49, 97, 199) !important;
+      border: 0 !important;
+      border-radius: 50px;
+      font-size: 16px;
+    }
+    .el-tabs__nav {
+      width: 220px !important;
+      border-radius: 50px;
+      margin: 0 20px;
+      font-size: 16px;
+    }
 .curBlue {
   color: #0079bf !important;
   font-weight: bold;
@@ -225,27 +241,7 @@ export default {
 }
 
 .edu-container {
-  .navsd {
-    .el-tabs__item:hover {
-      color: blue !important;
-      background: #fff !important;
-      border: 0 !important;
-    }
-    .el-tabs__item {
-      color: #fff !important;
-      height: 50px;
-      line-height: 50px;
-      border: 0 !important;
-    }
-    .el-tabs__item.is-active {
-      color: #1754c2 !important;
-      background: #fff !important;
-      border: 0 !important;
-    }
-    .el-tabs__nav {
-      background: #1754c2;
-    }
-  }
+  
   .box-card {
     margin: 15px 5px;
   }

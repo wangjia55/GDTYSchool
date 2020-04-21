@@ -7,7 +7,7 @@
             <img
               class="curpoint"
               @click="onClickLogo"
-              style="height:55px;margin-top:10px;margin-left:20px;"
+              style="height:53px;margin-top:10px;margin-left:20px;"
               src="../../assets/images/titles.png"
               alt
             />
@@ -87,7 +87,7 @@ export default {
     tabList() {
       return [
         { label: "首页", name: "home" },
-        { label: "人才服务", name: "rcfw" },
+    
         {
           label: "体育资讯",
           name: "message",
@@ -95,7 +95,6 @@ export default {
             { title: "运动应知道", id: "us" },
             { title: "体育圣殿", id: "course" },
             { title: "酷体育", id: "culture" },
-            { title: "政策发布台", id: "honor" },
             { title: "学术快递", id: "honor" }
           ]
         },
@@ -103,25 +102,12 @@ export default {
 
         {
           label: "职业鉴定",
-          name: "identification",
+          name: "education",
           list: [
             { title: "政策服务", id: "us" },
             { title: "培训服务", id: "course" },
             { title: "鉴定管理", id: "culture" },
-            { title: "工作动态", id: "honor" },
-            { title: "职业赛事", id: "culture" },
-            { title: "资料下载", id: "honor" },
-            { title: "联系我们", id: "honor" }
-          ]
-        },
-        {
-          label: "课程培训",
-          name: "education",
-          list: [
-            { title: "通知公告", id: "us" },
-            { title: "课程列表", id: "course" },
-            { title: "在线学习", id: "course" },
-            { title: "证书打印", id: "course" }
+            { title: "工作动态", id: "honor" }
           ]
         },
         {
@@ -133,8 +119,7 @@ export default {
             { title: "商务合作", id: "culture" }
           ]
         },
-          { label: "资料下载", name: "zlxz" },
-
+          { label: "人才服务", name: "rcfw" },
         {
           label: "关于我们",
           name: "aboutus",
@@ -260,9 +245,9 @@ $baseColor: #fff;
 .nav-item {
   width: 80px;
   text-align: center;
-  margin-left: 25px;
-  font-size: 20px;
-  margin-right: 20px;
+  margin-left: 15px;
+  font-size: 18px;
+  margin-right: 10px;
   line-height: 60px;
   color: #fff;
   border-bottom: 3px solid transparent;

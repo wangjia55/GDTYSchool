@@ -83,10 +83,6 @@
       <div class="btw">
         <div class="flex-base" style="flex:2">
           <el-card class="box-card">
-            <div slot="header" class="clearfix">
-              <span style="font-size:18px">培训动态</span>
-              <el-button style="float: right; padding: 3px 0" type="text">更多</el-button>
-            </div>
             <div class="text item">
               <div class="btw" @click="gotoDetail">
                 <span>开拓视野，提升办学品质</span>
@@ -133,6 +129,29 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="school-news">
+      <div class="btw yaonew align">
+        <p>专家团队</p>
+        <p class="curpoint">More></p>
+      </div>
+      <div class="btw">
+        <div class="btw mb20" style="background: white;">
+        <div style="width:90%;margin:20px auto" class="divButton btw">
+          <li>
+            <img src="../../assets/images/dao1.jpg" style="width:320px;border:#b6b6b6 1px solid;margin:10px; border-radius:15px; " />
+          </li>
+          <li>
+            <img src="../../assets/images/dao2.jpg" style="width:320px;border:#b6b6b6 1px solid;margin:10px;  border-radius:15px; " />
+          </li>
+          <li>
+            <img src="../../assets/images/dao3.jpg" style="width:320px; border:#b6b6b6 1px solid; margin:10px;border-radius:15px; " />
+          </li>
+        </div>
+      </div>
+        
       </div>
     </div>
    

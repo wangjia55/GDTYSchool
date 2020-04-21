@@ -2,16 +2,16 @@
   <div class="indent-detail-container">
     <div class="btw p20 bg-1">
       <div class="init">
-        <p class="mv10">初识HTML(5)+CSS(3)-2020升级版</p>
+        <p class="mv10">2020年度高级游泳公开课</p>
         <div class="row align mv10">
           <div class="row">
             <img
               style="width:80px;height:80px;border-radius:50%"
-              src="../../../assets/images/ps8.jpg"
+              src="../../../assets/images/ps1.jpg"
               alt
             />
             <div class="col align mr20">
-              <p style="font-size: 14px; line-height: 22px; font-weight: 700;" class="m10">某某培训机构</p>
+              <p style="font-size: 14px; line-height: 22px; font-weight: 700;" class="m10">广州迅捷游泳俱乐部</p>
               <p style="font-size: 12px; line-height: 22px; font-weight: 700;">高级培训师</p>
             </div>
           </div>
@@ -110,7 +110,7 @@
             </el-tab-pane>
             <el-tab-pane name="third" label="资料下载">
               <div class="p20 download" style="color:#333;font-size:15px;">
-                <el-card class="box-card mb20" v-for="(v,i) in 3" :key="v">
+                <el-card class="box-card mb20">
                   <div slot="header" class="clearfix">
                     <span style="font-size:18px">资源下载</span>
                   </div>
@@ -119,7 +119,7 @@
                       <el-link
                         :underline="false"
                         type="primary"
-                      >广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件</el-link>
+                      >2020年度高级游泳公开课课件1.zip</el-link>
                       <el-button type="danger">开始下载</el-button>
                     </div>
                   </div>
@@ -128,7 +128,7 @@
                       <el-link
                         :underline="false"
                         type="primary"
-                      >广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件</el-link>
+                      >2020年度高级游泳公开课课件2.zip</el-link>
                       <el-button type="danger">开始下载</el-button>
                     </div>
                   </div>
@@ -137,7 +137,7 @@
                       <el-link
                         :underline="false"
                         type="primary"
-                      >广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件</el-link>
+                      >2020年度高级游泳公开课课件3.zip</el-link>
                       <el-button type="danger">开始下载</el-button>
                     </div>
                   </div>
@@ -146,7 +146,7 @@
                       <el-link
                         :underline="false"
                         type="primary"
-                      >广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件</el-link>
+                      >2020年度高级游泳公开课课件4.zip</el-link>
                       <el-button type="danger">开始下载</el-button>
                     </div>
                   </div>
@@ -155,7 +155,7 @@
                       <el-link
                         :underline="false"
                         type="primary"
-                      >广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件</el-link>
+                      >2020年度高级游泳公开课课件5.zip</el-link>
                       <el-button type="danger">开始下载</el-button>
                     </div>
                   </div>
@@ -267,12 +267,11 @@ export default {
       border: 0 !important;
     }
     .el-tabs__item.is-active {
-      color: #1754c2 !important;
-      background: #fff !important;
+      color: #ffffff !important;
+      background: #0e3174 !important;
       border: 0 !important;
     }
     .el-tabs__nav {
-      background: #1754c2;
     }
   }
 

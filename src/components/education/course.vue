@@ -59,11 +59,11 @@ export default {
         currentPage4: 4,
       tableData: [
         {
-          year:"2020年",
-          kinds:"主题培训",
+          year:"2020年4月",
+          kinds:"线下培训",
           grade:"县区级",
           provide:"广东",
-          name:"2020年广东体育职业技术学院教师职务培训",
+          name:"2020年游泳教练员高级班培训",
           time:"2020.3.23-4.22",
           status:"进行中",
         }

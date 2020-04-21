@@ -2,7 +2,7 @@
   <div class="person-container">
     <div class="btw p20 bg-1">
       <div class="init">
-        <p class="mv10">好好学习 天天向上的好学生</p>
+        <p class="mv10"></p>
         <div class="btw align mv10">
           <div class="row">
             <img
@@ -18,7 +18,7 @@
               <p
                 style="font-size: 14px; line-height: 22px;width:300px;height:80px;border:1px solid #999"
                 class="mt10 p10"
-              >暂无自我介绍</p>
+              >好好学习 天天向上的好学生</p>
             </div>
           </div>
           <div class="row align static-item">
@@ -36,7 +36,7 @@
         </div>
       </div>
       <div class="mr20 mt20">
-        <el-button type="primary" icon="el-icon-setting" @click="fun">设置</el-button>
+        <el-button type="primary" icon="el-icon-setting" @click="fun"></el-button>
       </div>
     </div>
     <div>
@@ -506,6 +506,7 @@ export default {
       color: #fff !important;
       height: 60px;
       width: 200px;
+      margin:10px;
       text-align: center;
       line-height: 60px;
       border: 0 !important;
@@ -516,7 +517,6 @@ export default {
       border: 0 !important;
     }
     .el-tabs__nav {
-      background: #1754c2;
     }
     .newTabs {
       .el-tabs__item:hover {

@@ -1,9 +1,51 @@
 <template>
   <div class="c-message-container">
+      
+            <span slot="label" style="font-size:20px">
+              <i class="el-icon-date"></i> 线上课程
+            </span>
+            <div class="btw">
+              <div class="row" style="font-size:16px">
+                <label for style="margin:10px">课程:</label>
+                <div class="row fsz">
+                  <span
+                    v-for="(item,index) in time"
+                    :key="item.id"
+                    :class="[curTime===index?'curBlue':'']"
+                    @click="toTime(index)"
+                  >{{item.name}}</span>
+                </div>
+              </div>
+            
+              <!-- <div class="row" style="font-size:16px">
+                <label for style="margin:10px">类型:</label>
+                <div class="row fsz">
+                  <span
+                    v-for="(item,index) in kinds"
+                    :key="item.id"
+                    :class="[curKinds===index?'curBlue':'']"
+                    @click="toKinds(index)"
+                  >{{item.name}}</span>
+                </div>
+              </div>-->
+            </div>
+            <div>
+              <div class="row" style="font-size:16px">
+                <label for style="margin:10px">地区:</label>
+                <div class="row fsz">
+                  <span
+                    v-for="(item,index) in area"
+                    :key="item.id"
+                    :class="[curArea===index?'curBlue':'']"
+                    @click="toArea(index)"
+                  >{{item.name}}</span>
+                </div>
+              </div>
+            </div>
     <div class="flex-wrap">
       <div class="col curpoint p10" v-for="item in courseLists" :key="item.id" style="flex:0 0 23%;margin:10px 0.5%;border:1px solid #dfdfdf;">
         <img
-          style="width:100%;margin:10px auto;border-radius:5px"
+          style="width:100%;height:160px;margin:10px auto;border-radius:5px"
           :src="item.imgsrc"
           alt
         />
@@ -16,7 +58,7 @@
             </p>
             <p>
               <i class="el-icon-time"></i>
-              <span>197小时</span>
+              <span>10小时</span>
             </p>
             <p>
               <i class="el-icon-chat-line-round"></i>
@@ -100,43 +142,123 @@ export default {
         {
           id:0,
           imgsrc:require('../../assets/images/ps1.jpg'),
-          text:"羽毛球教学基础公开课羽毛球教学基础公开课羽毛球教学基础公开课羽毛球教学基础公开课"
+          text:"2020年游泳教学基础公开课"
         },
         {
           id:1,
           imgsrc:require('../../assets/images/ps2.jpg'),
-          text:"篮球教学基础公开课篮球教学基础公开课篮球教学基础公开课篮球教学基础公"
+          text:"2020年羽毛球教学基础公开课"
         },
         {
           id:30,
           imgsrc:require('../../assets/images/ps3.jpg'),
-          text:"足球教学基础公开课足球教学基础公开课足球教学基础公开课足球教学基础公开"
+          text:"2020年篮球教学基础公开课"
         },
         {
           id:20,
           imgsrc:require('../../assets/images/ps4.jpg'),
-          text:"网球教学基础公开课网球教学基础公开课网球教学基础公开课网球教学基础公开"
+          text:"2020年足球教学基础公开课"
         },
         {
           id:40,
           imgsrc:require('../../assets/images/ps5.jpg'),
-          text:"武术教学基础公开课武术教学基础公开课武术教学基础公开课武术教学基础公开课武术教学"
+          text:"2020年网球教学基础公开课"
         },
         {
           id:50,
           imgsrc:require('../../assets/images/ps6.jpg'),
-          text:"舞蹈教学基础公开课舞蹈教学基础公开课舞蹈教学基础公开课舞蹈教学基础公开课舞"
+          text:"2020年武术教学基础公开课"
         },
         {
           id:60,
           imgsrc:require('../../assets/images/ps7.jpg'),
-          text:"健美操教学基础公开课健美操教学基础公开课健美操教学基础公开课健美操教学基础公开课"
+          text:"2020年舞蹈教学基础公开课"
         },
         {
           id:70,
           imgsrc:require('../../assets/images/ps8.jpg'),
-          text:"羽毛球教学基础公开课羽毛球教学基础公开课羽毛球教学基础公开课羽毛球教学基础公开课"
+          text:"2020年健美操教学基础公开课"
         },
+      ],
+       time: [
+        {
+          name: "全部",
+          id: 0
+        },
+        {
+          name: "游泳",
+          id: 1
+        },
+        {
+          name: "搏击",
+          id: 2
+        },
+        {
+          name: "跑步",
+          id: 3
+        },
+        {
+          name: "散打",
+          id: 4
+        },
+        {
+          name: "瑜伽",
+          id: 5
+        }
+      ],
+      curKinds: 0,
+      kinds: [
+        {
+          name: "全部",
+          id: 0
+        },
+        {
+          name: "羽毛球",
+          id: 1
+        },
+        {
+          name: "游泳",
+          id: 2
+        },
+        {
+          name: "篮球",
+          id: 3
+        },
+        {
+          name: "健美",
+          id: 4
+        },
+        {
+          name: "足球",
+          id: 5
+        }
+      ],
+      curArea: 0,
+      area: [
+        {
+          name: "全部",
+          id: 0
+        },
+        {
+          name: "广东省",
+          id: 1
+        },
+        {
+          name: "北京市",
+          id: 2
+        },
+        {
+          name: "山东省",
+          id: 3
+        },
+        {
+          name: "湖北省",
+          id: 4
+        },
+        {
+          name: "湖南省",
+          id: 5
+        }
       ]
     };
   },

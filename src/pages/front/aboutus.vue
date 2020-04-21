@@ -4,9 +4,8 @@
     <!--1111111111111111111111-->
     <div class="init">
       <div class="top_title mt20">
-        <p class="news">关于我站 &gt;</p>
+        <p class="news">关于我站 </p>
         <a href target="_blank">
-          <p class="more">more</p>
         </a>
       </div>
       <div class="top_comment">
@@ -17,67 +16,18 @@
             </el-carousel-item>
           </el-carousel>
         </div>
-        <div class="news_right">
-          <ul class="news_content">
-            <li>
-              <a href target="_blank">●&nbsp;&nbsp;国家体育总局关于调整新冠肺炎疫情期间体育行政审批事项办理工作的通知</a>
-            </li>
-            <li>
-              <a href="/index.php/Index/show/id/199.html" target="_blank">
-                ●&nbsp;&nbsp;2019年度广州职业健身“金狮奖”颁奖盛典隆重举行
-                八大荣誉奖项出炉
-              </a>
-            </li>
-            <li>
-              <a
-                href="/index.php/Index/show/id/198.html"
-                target="_blank"
-              >●&nbsp;&nbsp;2019东方职业健身交流大会年度十佳健身俱乐部、工作室线上报名、评选，火热征集中！</a>
-            </li>
-            <li>
-              <a
-                href="/index.php/Index/show/id/197.html"
-                target="_blank"
-              >●&nbsp;&nbsp;广州代表队在2019年全国体育行业职业技能大赛中喜获佳绩</a>
-            </li>
-            <li>
-              <a href="/index.php/Index/show/id/196.html" target="_blank">
-                ●&nbsp;&nbsp;2019“MY
-                COACH”广州市健身教练职业技能大赛顺利收官
-              </a>
-            </li>
-            <li>
-              <a href="/index.php/Index/show/id/195.html" target="_blank">
-                ●&nbsp;&nbsp;【平凡岗位 星耀申城】2019“MY
-                COACH”广州市健身教练职业技能大赛9月开赛
-              </a>
-            </li>
-            <li>
-              <a href="/index.php/Index/show/id/188.html" target="_blank">
-                ●&nbsp;&nbsp;2019“MY
-                COACH”广州市健身教练职业技能大赛暨全国体育行业职业技能大赛选拔赛 （健身运动指导）一触即发，等你来战！
-              </a>
-            </li>
-            <li>
-              <a
-                href="/index.php/Index/show/id/201.html"
-                target="_blank"
-              >●&nbsp;&nbsp;国家体育总局关于调整新冠肺炎疫情期间体育行政审批事项办理工作的通知</a>
-            </li>
-          </ul>
+        <div  style="line-height:30px;height:300px;font-size:14px;background:#fff; padding:10px 10px;">
+              &#12288;&#12288;广州国体联体育服务网络平台是由广东体育职业技术学院（下称“学院”）与广东世纪城集团有限公司（下称“世纪城集团”）合作项目。
+              校企双方对网络平台项目团队自签订战略合作协议以来开展工作所取得的成效给予了高度肯定，并一致认为，推进校企深度合作，打造多方协同育人体系是当前国家教育部及省政府对高等职业教育发展工作提出的要求。网络平台建设项目是双方前期战略合作的重要组成项目，双方对网络平台项目建设推进工作高度重视。
+              双方领导亲自挂帅，积极组建项目攻关团队，围绕项目定位、市场需求、资源整合等方面展开了多轮卓有成效的协商，达成了多项共识和成果。
         </div>
       </div>
     </div>
 
-    
-
-  
-
-   
-    <!--444444444444444-->
+    <!--2222222222222222-->
     <div class="init">
       <div class="top_title mt20">
-        <p class="news">常用工具 &gt;</p>
+        <p class="news">机构介绍 </p>
         <a href target="_blank">
           <p class="more">more</p>
         </a>
@@ -86,13 +36,37 @@
       <div class="btw mb20" style="background: white;">
         <div style="width:90%;margin:20px auto" class="divButton btw">
           <li>
-            <img src="../../assets/images/bt1.jpg" style="width:320px; border-radius:15px; " />
+            <img src="../../assets/images/jigou3.png" style="width:320px; border:#b6b6b6 1px solid;border-radius:15px; " />
           </li>
           <li>
-            <img src="../../assets/images/bt2.jpg" style="width:320px; border-radius:15px; " />
+            <img src="../../assets/images/jigou2.png" style="width:320px; border:#b6b6b6 1px solid;border-radius:15px; " />
           </li>
           <li>
-            <img src="../../assets/images/bt3.jpg" style="width:320px; border-radius:15px; " />
+            <img src="../../assets/images/jigou1.png" style="width:320px;border:#b6b6b6 1px solid; border-radius:15px; " />
+          </li>
+        </div>
+      </div>
+    </div>
+
+    
+    <!--3333333333333-->
+    <div class="init">
+      <div class="top_title mt20">
+        <p class="news">专家团队 </p>
+        <a href target="_blank">
+        </a>
+      </div>
+
+      <div class="btw mb20" style="background: white;">
+        <div style="width:90%;margin:20px auto" class="divButton btw">
+          <li>
+            <img src="../../assets/images/dao1.jpg" style="width:320px;border:#b6b6b6 1px solid; border-radius:15px; " />
+          </li>
+          <li>
+            <img src="../../assets/images/dao2.jpg" style="width:320px;border:#b6b6b6 1px solid;  border-radius:15px; " />
+          </li>
+          <li>
+            <img src="../../assets/images/dao3.jpg" style="width:320px; border:#b6b6b6 1px solid; border-radius:15px; " />
           </li>
         </div>
       </div>

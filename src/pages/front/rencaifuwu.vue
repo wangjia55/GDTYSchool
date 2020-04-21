@@ -33,6 +33,49 @@
 <style scoped>
 .rcfw{
     width: 1000px;
-  margin: 0 auto;
+  margin: 10px auto;
 }
+
+    .el-tabs {
+      border:0 !important;
+    }
+
+    .el-tabs__header {
+      border:0 !important;
+      margin-left: 100px;
+    }
+    .el-tabs__item:hover {
+      width: 220px !important;
+       color: #417EFF !important;
+      background: rgb(102, 147, 245) !important;
+      border: 0 !important;
+      font-size: 16px;
+    }
+    .el-tabs__item {
+      width: 220px !important;
+      height: 45px;
+      line-height: 45px;
+      border: 0 !important;
+      color: #ffffff !important;
+      background: #417EFF !important;
+      border-radius: 50px;
+      margin: 0 20px;
+      text-align: center;
+      flex: 2 !important;
+      font-size: 16px;
+    }
+    .el-tabs__item.is-active {
+      width: 220px !important;
+      color: #ffffff !important;
+      background: rgb(34, 71, 151) !important;
+      border: 0 !important;
+      border-radius: 50px;
+      font-size: 16px;
+    }
+    .el-tabs__nav {
+      width: 220px !important;
+      border-radius: 50px;
+      margin: 0 20px;
+      font-size: 16px;
+    }
 </style>

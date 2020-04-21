@@ -1,6 +1,18 @@
 <template>
   <!-- 首页 -->
   <div class="index-container">
+
+        <div class="navs">
+      <el-carousel style="height:400px;">
+        <el-carousel-item :interval="3000" :key="item" style="width:100%;">
+          <img style="width:100%;height:100%;" src="../../assets/images/ba1.png" alt />
+        </el-carousel-item>
+        <el-carousel-item :interval="3000" :key="item">
+          <img style="width:100%;height:100%;" src="../../assets/images/ba2.jpg" alt />
+        </el-carousel-item>
+      </el-carousel>
+    </div>
+
     <!--1111111111111111111111-->
     <div class="init">
       <div class="top_title mt20">
@@ -244,30 +256,6 @@
       </div>
     </div>
 
-
-    <!--444444444444444-->
-    <div class="init">
-      <div class="top_title mt20">
-        <p class="news">常用工具 &gt;</p>
-        <a href target="_blank">
-          <p class="more">more</p>
-        </a>
-      </div>
-
-      <div class="btw mb20" style="background: white;">
-        <div style="width:90%;margin:20px auto" class="divButton btw">
-          <li>
-            <img src="../../assets/images/bt1.jpg" style="width:320px; border-radius:15px; "/>
-          </li>
-          <li>
-            <img src="../../assets/images/bt2.jpg" style="width:320px; border-radius:15px; "/>
-          </li>
-          <li>
-            <img src="../../assets/images/bt3.jpg" style="width:320px; border-radius:15px; "/>
-          </li>
-        </div>
-      </div>
-    </div>
 
     <el-dialog title="" width="1000px" :visible.sync="dialogTableVisible">
       <img class="w100" src="../../assets/images/shots/ggxq.png">
