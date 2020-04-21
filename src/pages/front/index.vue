@@ -55,7 +55,7 @@
       </div>
       <p
         style="text-align:center;margin:10px auto;font-size:13px;"
-      >Copyright© 2019 Guangdong Voctional Institute of Sport 备案号:粤ICP备06108273号</p>
+      >Copyright© 2020 Guangdong Guotilian Sports Platform 备案号:粤ICP备06108273号</p>
     </footer>
   </div>
 </template>
@@ -117,15 +117,6 @@ export default {
             { title: "课程列表", id: "course" },
             { title: "在线学习", id: "course" },
             { title: "证书打印", id: "course" }
-          ]
-        },
-        {
-          label: "赛事服务",
-          name: "service",
-          list: [
-            { title: "赛事公告", id: "us" },
-            { title: "赛事列表", id: "course" },
-            { title: "成绩查询", id: "culture" }
           ]
         },
         {
