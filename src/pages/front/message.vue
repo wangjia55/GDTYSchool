@@ -21,7 +21,7 @@
           </el-tab-pane>
           <el-tab-pane name="fourth" label="酷体育">
             <div>
-              <OutlineStudy></OutlineStudy>
+              <Kutiyu></Kutiyu>
             </div>
           </el-tab-pane>
         </el-tabs>
@@ -34,6 +34,7 @@
 import Message from "../../components/message/message";
 import ShengDian from "../../components/message/shengdian";
 import Knowledge from "../../components/message/knowledge";
+import Kutiyu from "../../components/message/kutiyu";
 export default {
   data() {
     return {
@@ -44,7 +45,8 @@ export default {
   components: {
     Message,
     ShengDian,
-    Knowledge
+    Knowledge,
+    Kutiyu
   },
   methods: {
     gotoMore() {
