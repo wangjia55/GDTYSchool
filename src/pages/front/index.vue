@@ -87,7 +87,7 @@ export default {
     tabList() {
       return [
         { label: "首页", name: "home" },
-
+        { label: "人才服务", name: "rcfw" },
         {
           label: "体育资讯",
           name: "message",
@@ -100,7 +100,7 @@ export default {
           ]
         },
         { label: "鉴定公告", name: "jdgg" },
-      
+
         {
           label: "职业鉴定",
           name: "identification",
