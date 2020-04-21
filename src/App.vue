@@ -8,7 +8,7 @@
       <div style="font-size:20px;color:#fff" class="ml10">广东体育职业技术学院</div>
     </div>
     <div style="color:#fff" class="curpoint">校内网登录</div>
-  </header> -->
+  </header>-->
 
   <body>
     <transition mode="out-in" name="fade">
@@ -29,7 +29,7 @@
     <p
       style="text-align:center;margin:20px auto"
     >Copyright© 2019 Guangdong Voctional Institute of Sport 备案号:粤ICP备06108273号</p>
-  </footer> -->
+  </footer>-->
 </div>
 </template>
 
@@ -121,17 +121,17 @@ body {
   background: url(./assets/images/body_bg.jpg) repeat-x top;
 }
 
-.footer-content{
-   background: rgb(70, 70, 70);
+.footer-content {
+  background: rgb(70, 70, 70);
   padding: 0px 150px;
   align-content: center;
   align-items: center;
-   height:150px;
+  height: 150px;
 }
 .footer-info {
   font-size: 15px;
   color: #d6d6d6;
-    background: rgb(70, 70, 70);
-  text-align:left;
+  background: rgb(70, 70, 70);
+  text-align: left;
 }
 </style>

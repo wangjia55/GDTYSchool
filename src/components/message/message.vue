@@ -30,10 +30,6 @@
 
         <div class="flex-base">
           <el-card class="box-card">
-            <div slot="header" class="clearfix">
-              <span style="font-size:18px">体育快讯</span>
-              <el-button style="float: right; padding: 3px 0" type="text">更多</el-button>
-            </div>
             <div class="text item">
               <div class="btw" @click="gotoDetail">
                 <span>新冠病毒大流行基层社区体育俱乐部举步维艰</span>
@@ -74,6 +70,18 @@
               <div class="btw">
                 <span>深圳举办线上体育赛事共克疫情时艰</span>
                 <span>2020-04-20</span>
+              </div>
+            </div>
+             <div class="text item">
+              <div class="btw">
+                <span>法国著名拳击运动员乌拉穆尼的居家健身建议</span>
+                <span>2020-04-21</span>
+              </div>
+            </div>
+             <div class="text item">
+              <div class="btw">
+                <span>ISCA讨论疫情下体育健身行业面临的威胁机遇</span>
+                <span>2020-04-21</span>
               </div>
             </div>
           </el-card>
@@ -183,25 +191,25 @@
                 class="col curpoint p10"
                 style="flex:0 0 23%;margin:10px 0.5%;"
               >
-                <img style="width:100%;height:150px;margin:10px auto" src="../../assets/images/zt1.jpg" alt />
+                <img style="width:100%;height:150px;margin:10px auto;border-radius:10px;" src="../../assets/images/zt1.jpg" alt />
               </div>
               <div
                 class="col curpoint p10"
                 style="flex:0 0 23%;margin:10px 0.5%;"
               >
-               <img style="width:100%;height:150px;margin:10px auto" src="../../assets/images/zt2.jpg" alt />
+               <img style="width:100%;height:150px;margin:10px auto;border-radius:10px;" src="../../assets/images/zt2.jpg" alt />
               </div>
               <div
                 class="col curpoint p10"
                 style="flex:0 0 23%;margin:10px 0.5%;"
               >
-               <img style="width:100%;height:150px;margin:10px auto" src="../../assets/images/zt3.jpg" alt />
+               <img style="width:100%;height:150px;margin:10px auto;border-radius:10px;" src="../../assets/images/zt3.jpg" alt />
               </div>
               <div
                 class="col curpoint p10"
                 style="flex:0 0 23%;margin:10px 0.5%;"
               >
-               <img style="width:100%;height:150px;margin:10px auto" src="../../assets/images/zt4.jpg" alt />
+               <img style="width:100%;height:150px;margin:10px auto;border-radius:10px;" src="../../assets/images/zt4.jpg" alt />
               </div>
             </div>
           </div>
@@ -217,7 +225,7 @@
         <div class="flex-wrap">
           <div class="col curpoint" @click="gotoInfo" style="flex:0 0 32%;margin:20px 0.5%;">
             <img
-              style="width:360px;height:220px;margin-bottom:10px"
+              style="width:360px;height:220px;margin-bottom:10px;border-radius:10px;"
               src="../../assets/images/sai1.jpg"
               alt
             />
@@ -225,7 +233,7 @@
           </div>
           <div class="col curpoint" @click="gotoInfo" style="flex:0 0 32%;margin:20px 0.5%;">
             <img
-              style="width:360px;height:220px;margin-bottom:10px"
+              style="width:360px;height:220px;margin-bottom:10px;border-radius:10px;"
               src="../../assets/images/sai2.jpg"
               alt
             />
@@ -233,7 +241,7 @@
           </div>
           <div class="col curpoint" @click="gotoInfo" style="flex:0 0 32%;margin:20px 0.5%;">
             <img
-              style="width:360px;height:220px;margin-bottom:10px"
+              style="width:360px;height:220px;margin-bottom:10px;border-radius:10px;"
               src="../../assets/images/sai3.jpg"
               alt
             />

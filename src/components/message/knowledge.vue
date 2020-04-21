@@ -12,7 +12,7 @@
             <div class="flex-wrap">
               <div class="col curpoint p10" style="flex:0 0 23%;margin:10px 0.5%;">
                 <img
-                  style="width:100%;height:150px;margin:10px auto"
+                  style="width:100%;height:150px;margin:10px auto;border-radius:15px;"
                   src="../../assets/images/ps5.jpg"
                   alt
                 />
@@ -22,7 +22,7 @@
               </div>
               <div class="col curpoint p10" style="flex:0 0 23%;margin:10px 0.5%;">
                 <img
-                  style="width:100%;height:150px;margin:10px auto"
+                  style="width:100%;height:150px;margin:10px auto;border-radius:15px;"
                   src="../../assets/images/ps6.jpg"
                   alt
                 />
@@ -32,7 +32,7 @@
               </div>
               <div class="col curpoint p10" style="flex:0 0 23%;margin:10px 0.5%;">
                 <img
-                  style="width:100%;height:150px;margin:10px auto"
+                  style="width:100%;height:150px;margin:10px auto;border-radius:15px;"
                   src="../../assets/images/ps7.jpg"
                   alt
                 />
@@ -42,7 +42,7 @@
               </div>
               <div class="col curpoint p10" style="flex:0 0 23%;margin:10px 0.5%;">
                 <img
-                  style="width:100%;height:150px;margin:10px auto"
+                  style="width:100%;height:150px;margin:10px auto;border-radius:15px;"
                   src="../../assets/images/ps8.jpg"
                   alt
                 />
@@ -63,7 +63,7 @@
         <div class="jiqiao-container">
           <div class="jiqiao-container mt20">
             <img
-              style="width:150px;height:100px;margin-bottom:10px;"
+              style="width:150px;height:100px;margin-bottom:10px;border-radius:15px;"
               src="../../assets/images/jq1.jpg"
               alt
             />
@@ -76,7 +76,7 @@
 
           <div class="jiqiao-container mt20">
             <img
-              style="width:150px;height:100px;margin-bottom:10px;"
+              style="width:150px;height:100px;margin-bottom:10px;border-radius:15px;"
               src="../../assets/images/jq2.jpg"
               alt
             />
@@ -91,7 +91,7 @@
         <div class="jiqiao-container">
           <div class="jiqiao-container">
             <img
-              style="width:150px;height:100px;margin-bottom:10px;"
+              style="width:150px;height:100px;margin-bottom:10px;border-radius:15px;"
               src="../../assets/images/jq3.jpg"
               alt
             />
@@ -104,7 +104,7 @@
 
           <div class="jiqiao-container">
             <img
-              style="width:150px;height:100px;margin-bottom:10px;"
+              style="width:150px;height:100px;margin-bottom:10px;border-radius:15px;"
               src="../../assets/images/jq4.jpg"
               alt
             />
@@ -119,7 +119,7 @@
         <div class="jiqiao-container">
           <div class="jiqiao-container">
             <img
-              style="width:150px;height:100px;margin-bottom:10px;"
+              style="width:150px;height:100px;margin-bottom:10px;border-radius:15px;"
               src="../../assets/images/jq5.jpg"
               alt
             />
@@ -132,7 +132,7 @@
 
           <div class="jiqiao-container">
             <img
-              style="width:150px;height:100px;margin-bottom:10px;"
+              style="width:150px;height:100px;margin-bottom:10px;border-radius:15px;"
               src="../../assets/images/jq6.jpg"
               alt
             />

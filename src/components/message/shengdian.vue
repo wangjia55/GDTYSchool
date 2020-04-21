@@ -118,7 +118,7 @@
             style="margin:5px 5px;overflow:hidden"
             :key="item"
           >
-            <img style="width:240px;height:150px;margin:10px" src="../../assets/images/zu1.jpg" alt />
+            <img style="width:240px;height:150px;margin:10px;border-radius:15px;" src="../../assets/images/zu1.jpg" alt />
           </div>
           <div
             class="col curpoint"
@@ -126,7 +126,7 @@
             style="margin:5px 0.5%;overflow:hidden"
             :key="item"
           >
-            <img style="width:240px;height:150px;margin:10px" src="../../assets/images/zu2.jpg" alt />
+            <img style="width:240px;height:150px;margin:10px;border-radius:15px;" src="../../assets/images/zu2.jpg" alt />
           </div>
           <div
             class="col curpoint"
@@ -134,7 +134,7 @@
             style="margin:5px 0.5%;overflow:hidden"
             :key="item"
           >
-            <img style="width:240px;height:150px;margin:10px" src="../../assets/images/zu3.jpg" alt />
+            <img style="width:240px;height:150px;margin:10px;border-radius:15px;" src="../../assets/images/zu3.jpg" alt />
           </div>
           <div
             class="col curpoint"
@@ -142,7 +142,7 @@
             style="margin:5px 0.1%;overflow:hidden"
             :key="item"
           >
-            <img style="width:240px;height:150px;margin:10px" src="../../assets/images/zu4.jpg" alt />
+            <img style="width:240px;height:150px;margin:10px;border-radius:15px;" src="../../assets/images/zu4.jpg" alt />
           </div>
           <div
             class="col curpoint"
@@ -150,7 +150,7 @@
             style="margin:5px 0.1%;overflow:hidden"
             :key="item"
           >
-            <img style="width:240px;height:150px;margin:10px" src="../../assets/images/zu5.jpg" alt />
+            <img style="width:240px;height:150px;margin:10px;border-radius:15px;" src="../../assets/images/zu5.jpg" alt />
           </div>
           <div
             class="col curpoint"
@@ -158,7 +158,7 @@
             style="margin:5px 0.1%;overflow:hidden"
             :key="item"
           >
-            <img style="width:240px;height:150px;margin:10px" src="../../assets/images/zu6.jpg" alt />
+            <img style="width:240px;height:150px;margin:10px;border-radius:15px;" src="../../assets/images/zu6.jpg" alt />
           </div>
           <div
             class="col curpoint"
@@ -166,7 +166,7 @@
             style="margin:5px 0.1%;overflow:hidden"
             :key="item"
           >
-            <img style="width:240px;height:150px;margin:10px" src="../../assets/images/zu7.jpg" alt />
+            <img style="width:240px;height:150px;margin:10px;border-radius:15px;" src="../../assets/images/zu7.jpg" alt />
           </div>
           <div
             class="col curpoint"
@@ -174,7 +174,7 @@
             style="margin:5px 0.1%;overflow:hidden"
             :key="item"
           >
-            <img style="width:240px;height:150px;margin:10px" src="../../assets/images/zu8.jpg" alt />
+            <img style="width:240px;height:150px;margin:10px;border-radius:15px;" src="../../assets/images/zu8.jpg" alt />
           </div>
         </div>
       </div>
