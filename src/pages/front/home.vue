@@ -5,42 +5,42 @@
     <div class="init">
       <div class="top_title mt20">
         <p class="news">综合新闻 &gt; </p>
-        <a href="" target="_blank"><p class="more"> more </p></a>
+        <a test="" target="_blank"><p class="more"> more </p></a>
       </div>
       <div class="top_comment ">
         <div class="out">
           <el-carousel style="height:400px;">
             <el-carousel-item :interval="3000" :key="item" style="width:100%;">
-              <img style="width:100%;height:100%;" src="../../assets/images/ba1.png" alt />
+              <img style="width:100%;height:100%;" src="../../assets/images/ba1.png" alt/>
             </el-carousel-item>
             <el-carousel-item :interval="3000" :key="item">
-              <img style="width:100%;height:100%;" src="../../assets/images/ba1.png" alt />
+              <img style="width:100%;height:100%;" src="../../assets/images/ba1.png" alt/>
             </el-carousel-item>
             <el-carousel-item :interval="3000" :key="item">
-              <img style="width:100%;height:100%;" src="../../assets/images/home2.png" alt />
+              <img style="width:100%;height:100%;" src="../../assets/images/home2.png" alt/>
             </el-carousel-item>
             <el-carousel-item :interval="3000" :key="item">
-              <img style="width:100%;height:100%;" src="../../assets/images/home4.png" alt />
+              <img style="width:100%;height:100%;" src="../../assets/images/home4.png" alt/>
             </el-carousel-item>
           </el-carousel>
         </div>
         <div class="news_right">
           <ul class="news_content">
-            <li><a href="" target="_blank">●&nbsp;&nbsp;国家体育总局关于调整新冠肺炎疫情期间体育行政审批事项办理工作的通知</a></li>
-            <li><a href="/index.php/Index/show/id/199.html" target="_blank">●&nbsp;&nbsp;2019年度上海职业健身“金狮奖”颁奖盛典隆重举行
+            <li><a test="" target="_blank">●&nbsp;&nbsp;国家体育总局关于调整新冠肺炎疫情期间体育行政审批事项办理工作的通知</a></li>
+            <li><a test="/index.php/Index/show/id/199.html" target="_blank">●&nbsp;&nbsp;2019年度上海职业健身“金狮奖”颁奖盛典隆重举行
               八大荣誉奖项出炉</a></li>
-            <li><a href="/index.php/Index/show/id/198.html" target="_blank">●&nbsp;&nbsp;2019东方职业健身交流大会年度十佳健身俱乐部、工作室线上报名、评选，火热征集中！</a>
+            <li><a test="/index.php/Index/show/id/198.html" target="_blank">●&nbsp;&nbsp;2019东方职业健身交流大会年度十佳健身俱乐部、工作室线上报名、评选，火热征集中！</a>
             </li>
-            <li><a href="/index.php/Index/show/id/197.html"
+            <li><a test="/index.php/Index/show/id/197.html"
                    target="_blank">●&nbsp;&nbsp;上海代表队在2019年全国体育行业职业技能大赛中喜获佳绩</a>
             </li>
-            <li><a href="/index.php/Index/show/id/196.html" target="_blank">●&nbsp;&nbsp;2019“MY
+            <li><a test="/index.php/Index/show/id/196.html" target="_blank">●&nbsp;&nbsp;2019“MY
               COACH”上海市健身教练职业技能大赛顺利收官</a></li>
-            <li><a href="/index.php/Index/show/id/195.html" target="_blank">●&nbsp;&nbsp;【平凡岗位 星耀申城】2019“MY
+            <li><a test="/index.php/Index/show/id/195.html" target="_blank">●&nbsp;&nbsp;【平凡岗位 星耀申城】2019“MY
               COACH”上海市健身教练职业技能大赛9月开赛</a></li>
-            <li><a href="/index.php/Index/show/id/188.html" target="_blank">●&nbsp;&nbsp;2019“MY
+            <li><a test="/index.php/Index/show/id/188.html" target="_blank">●&nbsp;&nbsp;2019“MY
               COACH”上海市健身教练职业技能大赛暨全国体育行业职业技能大赛选拔赛 （健身运动指导）一触即发，等你来战！</a></li>
-            <li><a href="/index.php/Index/show/id/201.html"
+            <li><a test="/index.php/Index/show/id/201.html"
                    target="_blank">●&nbsp;&nbsp;国家体育总局关于调整新冠肺炎疫情期间体育行政审批事项办理工作的通知</a></li>
           </ul>
         </div>
@@ -52,22 +52,36 @@
       <div class="left mt20">
         <div class="title">
           <p class="news">鉴定公告 &gt; </p>
-          <a href="/index.php/Index/category/id/9.html" target="_blank"><p class="more"> more </p> </a>
+          <a test="/index.php/Index/category/id/9.html" target="_blank"><p class="more"> more </p></a>
         </div>
         <div class="theNews">
           <ul class="news_content">
-            <li> <a href="/index.php/Index/show/id/194.html" target="_blank">●&nbsp;&nbsp;2019年8月31日游泳救生鉴定公告</a></li>                               <li> <a href="/index.php/Index/show/id/193.html" target="_blank">●&nbsp;&nbsp;2019年8月26日游泳救生鉴定公告</a></li>                               <li> <a href="/index.php/Index/show/id/192.html" target="_blank">●&nbsp;&nbsp;2019年8月11日游泳救生鉴定公告</a></li>                               <li> <a href="/index.php/Index/show/id/191.html" target="_blank">●&nbsp;&nbsp;2019年8月10日游泳救生鉴定公告</a></li>                               <li> <a href="/index.php/Index/show/id/186.html" target="_blank">●&nbsp;&nbsp;2019年7月7日游泳救生鉴定公告</a></li>                               <li> <a href="/index.php/Index/show/id/185.html" target="_blank">●&nbsp;&nbsp;2019年6月上海市体育行业职业技能鉴定安排</a></li>                           </ul>
+            <li @click="dialogTableVisible=true"><a test="/index.php/Index/show/id/194.html" target="_blank">●&nbsp;&nbsp;2019年8月31日游泳救生鉴定公告</a></li>
+            <li><a test="/index.php/Index/show/id/193.html" target="_blank">●&nbsp;&nbsp;2019年8月26日游泳救生鉴定公告</a></li>
+            <li><a test="/index.php/Index/show/id/192.html" target="_blank">●&nbsp;&nbsp;2019年8月11日游泳救生鉴定公告</a></li>
+            <li><a test="/index.php/Index/show/id/191.html" target="_blank">●&nbsp;&nbsp;2019年8月10日游泳救生鉴定公告</a></li>
+            <li><a test="/index.php/Index/show/id/186.html" target="_blank">●&nbsp;&nbsp;2019年7月7日游泳救生鉴定公告</a></li>
+            <li><a test="/index.php/Index/show/id/185.html" target="_blank">●&nbsp;&nbsp;2019年6月上海市体育行业职业技能鉴定安排</a></li>
+          </ul>
         </div>
       </div>
 
       <div class="left space mt20">
         <div class="title">
           <p class="news">培训动态 &gt; </p>
-          <a href="/index.php/Index/category/id/2.html" target="_blank"><p class="more"> more </p> </a>
+          <a test="/index.php/Index/category/id/2.html" target="_blank"><p class="more"> more </p></a>
         </div>
         <div class="theNews">
           <ul class="news_content">
-            <li><a href="/index.php/Index/show/id/169.html" target="_blank">●&nbsp;&nbsp;【全国羽毛球教练国职培训班（上海站）】2020年度首期报名</a></li>                               <li><a href="/index.php/Index/show/id/157.html" target="_blank">●&nbsp;&nbsp;强化新思维 构建新体系——“体育经理人培训与测评体系”项目启动</a></li>                               <li><a href="/index.php/Index/show/id/156.html" target="_blank">●&nbsp;&nbsp;健身教练国家职业资格培训探索国际接轨新模式</a></li>                               <li><a href="/index.php/Index/show/id/142.html" target="_blank">●&nbsp;&nbsp;《2017年体育职业技能鉴定工作思路和安排》</a></li>                               <li><a href="/index.php/Index/show/id/141.html" target="_blank">●&nbsp;&nbsp;健身指导系列丛书——《我的颈肩我做主》</a></li>                               <li><a href="/index.php/Index/show/id/140.html" target="_blank">●&nbsp;&nbsp;健身指导系列丛书——《办公室也是健身房》</a></li>                           </ul>
+            <li><a test="/index.php/Index/show/id/169.html"
+                   target="_blank">●&nbsp;&nbsp;【全国羽毛球教练国职培训班（上海站）】2020年度首期报名</a></li>
+            <li><a test="/index.php/Index/show/id/157.html" target="_blank">●&nbsp;&nbsp;强化新思维
+              构建新体系——“体育经理人培训与测评体系”项目启动</a></li>
+            <li><a test="/index.php/Index/show/id/156.html" target="_blank">●&nbsp;&nbsp;健身教练国家职业资格培训探索国际接轨新模式</a></li>
+            <li><a test="/index.php/Index/show/id/142.html" target="_blank">●&nbsp;&nbsp;《2017年体育职业技能鉴定工作思路和安排》</a></li>
+            <li><a test="/index.php/Index/show/id/141.html" target="_blank">●&nbsp;&nbsp;健身指导系列丛书——《我的颈肩我做主》</a></li>
+            <li><a test="/index.php/Index/show/id/140.html" target="_blank">●&nbsp;&nbsp;健身指导系列丛书——《办公室也是健身房》</a></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -76,66 +90,66 @@
     <div class="init ">
       <div class="top_title mt20">
         <p class="news">项目鉴定 &gt; </p>
-        <a href="" target="_blank"><p class="more"> more </p></a>
+        <a test="" target="_blank"><p class="more"> more </p></a>
       </div>
       <div class="project_type">
         <ul class="type_line">
-          <li style="margin-left:0;">
+          <li style="margin-left:0;" @click="dialogTableVisibleXmjd=true">
             <a target="_blank">
               <img src="../../assets/images/icon/1461678041293046.jpg" class="statu_1">
               <font class="statu_1">羽毛球</font></a>
           </li>
 
           <li style="">
-            <a href="" target="_blank">
+            <a test="" target="_blank">
               <img src="../../assets/images/icon/1461677864302771.jpg" class="statu_1">
               <font class="statu_1">网球</font></a>
           </li>
 
           <li style="">
-            <a href="/index.php/Index/item/pid/8.html" target="_blank">
+            <a test="/index.php/Index/item/pid/8.html" target="_blank">
               <img src="../../assets/images/icon/1461677729101167.jpg" class="statu_1">
               <font class="statu_1">武术</font></a>
           </li>
 
           <li style="">
-            <a href="/index.php/Index/item/pid/7.html" target="_blank">
+            <a test="/index.php/Index/item/pid/7.html" target="_blank">
               <img src="../../assets/images/icon/1461677553672371.jpg" class="statu_1">
               <font class="statu_1">跆拳道</font></a>
           </li>
 
           <li style="">
-            <a href="/index.php/Index/item/pid/6.html" target="_blank">
+            <a test="/index.php/Index/item/pid/6.html" target="_blank">
               <img src="../../assets/images/icon/1461677494466120.jpg" class="statu_1">
               <font class="statu_1">攀岩</font></a>
           </li>
 
           <li style="">
-            <a href="javascript:void(0)" target="_blank">
+            <a test="javascript:void(0)" target="_blank">
               <img src="../../assets/images/icon/1461677388672070.jpg" class="statu_1">
               <font class="statu_0">体育场地工</font></a>
           </li>
 
           <li style="">
-            <a href="/index.php/Index/item/pid/4.html" target="_blank">
+            <a test="/index.php/Index/item/pid/4.html" target="_blank">
               <img src="../../assets/images/icon/1461677333134276.jpg" class="statu_1">
               <font class="statu_1">健美操</font></a>
           </li>
 
           <li style="">
-            <a href="/index.php/Index/item/pid/3.html" target="_blank">
+            <a test="/index.php/Index/item/pid/3.html" target="_blank">
               <img src="../../assets/images/icon/1461677207207370.jpg" class="statu_1">
               <font class="statu_1">游泳救生员</font></a>
           </li>
 
           <li style="">
-            <a href="/index.php/Index/item/pid/2.html" target="_blank">
+            <a test="/index.php/Index/item/pid/2.html" target="_blank">
               <img src="../../assets/images/icon/1461415069130670.png" class="statu_1">
               <font class="statu_1">游泳</font></a>
           </li>
 
           <li style="">
-            <a href="/index.php/Index/item/pid/1.html" target="_blank">
+            <a test="/index.php/Index/item/pid/1.html" target="_blank">
               <img src="../../assets/images/icon/1461666070346577.jpg" class="statu_1">
               <font class="statu_1">健身教练</font></a>
           </li>
@@ -149,12 +163,12 @@
     <div class="init ">
       <div class="top_title mt20">
         <p class="news">鉴定指南 &gt; </p>
-        <a href="" target="_blank"><p class="more"> more </p></a>
+        <a test="" target="_blank"><p class="more"> more </p></a>
       </div>
 
       <div class="project_lead_content">
         <ul class="pic arc ">
-          <li><img src="../../assets/images/icon/pic_1.png"><b>国职证书</b></li>
+          <li @click="dialogTableVisibleJdzn=true"><img src="../../assets/images/icon/pic_1.png"><b>国职证书</b></li>
           <li><img src="../../assets/images/icon/pic_2.png"><b>鉴定机构</b></li>
           <li><img src="../../assets/images/icon/pic_3.png"><b>报考须知</b></li>
           <li><img src="../../assets/images/icon/pic_4.png"><b>政策法规</b></li>
@@ -167,7 +181,7 @@
     <div class="init">
       <div class="top_title mt20">
         <p class="news">机构直连 &gt; </p>
-        <a href="" target="_blank"><p class="more"> more </p></a>
+        <a test="" target="_blank"><p class="more"> more </p></a>
       </div>
 
       <div class="btw mb20" style="background: white;">
@@ -181,13 +195,27 @@
       </div>
     </div>
 
+
+    <el-dialog title="" width="1000px" :visible.sync="dialogTableVisible">
+      <img class="w100" src="../../assets/images/shots/ggxq.png">
+    </el-dialog>
+    <el-dialog title="项目鉴定" width="1000px" :visible.sync="dialogTableVisibleXmjd">
+      <img class="w100" src="../../assets/images/shots/xmjd.png">
+    </el-dialog>
+    <el-dialog title="鉴定指南-国职证书" width="1000px" :visible.sync="dialogTableVisibleJdzn">
+      <img class="w100" src="../../assets/images/shots/jdzn.png">
+    </el-dialog>
   </div>
 </template>
 
 <script>
   export default {
     data() {
-      return {};
+      return {
+        dialogTableVisible: false,
+        dialogTableVisibleXmjd: false,
+        dialogTableVisibleJdzn: false,
+      };
     },
     computed: {},
     components: {},
@@ -479,6 +507,7 @@
       overflow: hidden;
       white-space: nowrap;
       text-overflow: ellipsis;
+      cursor: pointer;
     }
 
     .news_content li a {
@@ -488,7 +517,6 @@
     .news_content li a:hover {
       color: #006faa;
     }
-
 
     //222222
     .project_type {
@@ -557,20 +585,20 @@
       color: #999999;
     }
 
-    .project_lead_content{
-      width:100%;
+    .project_lead_content {
+      width: 100%;
       padding: 30px 0;
       position: relative;
       background: white;
     }
-    .pic{
-      width:100%;
+    .pic {
+      width: 100%;
       list-style: none;
       overflow: hidden;
-      >li{
+      > li {
         position: relative;
       }
-      b{
+      b {
         position: absolute;
         bottom: 0;
         left: 0;
@@ -585,43 +613,41 @@
     .pic li {
       float: left;
     }
-    .pic li img{
+    .pic li img {
       border: none;
     }
-    .pic_font{
+    .pic_font {
       list-style: none;
       position: absolute;
     }
-    .pic_font li a:hover{
-      color:#1debb8;
+    .pic_font li a:hover {
+      color: #1debb8;
     }
 
-    .pic_font li{
+    .pic_font li {
       font-size: 16px;
       float: left;
-      width:142px;
+      width: 142px;
       text-align: center;
       position: absolute;
-      bottom:14px;
+      bottom: 14px;
     }
-    .pic_font li a{
-      color:#ffffff;
+    .pic_font li a {
+      color: #ffffff;
     }
 
-
-
-    .news_detail{
-      width:100%;
-      height:292px;
-      margin-top:12px;
+    .news_detail {
+      width: 100%;
+      height: 292px;
+      margin-top: 12px;
       overflow: hidden;
-      margin-bottom:12px;
+      margin-bottom: 12px;
     }
 
-    .news_detail .left{
+    .news_detail .left {
       float: left;
-      width:49%;
-      height:40px;
+      width: 49%;
+      height: 40px;
       /*background: url(../images/index/left_title.png) no-repeat;*/
       background-color: white;
       /*overflow: hidden;*/
@@ -629,34 +655,34 @@
       border-bottom: 3px solid #409EFF;
     }
 
-    .theNews{
-      width:100%;
-      height:232px;
-      margin-top:40px;
+    .theNews {
+      width: 100%;
+      height: 232px;
+      margin-top: 40px;
     }
 
-    .space{
-      margin-left :20px;
+    .space {
+      margin-left: 20px;
     }
 
-    .news_detail .right{
+    .news_detail .right {
       float: right;
-      width:312px;
-      height:254px;
+      width: 312px;
+      height: 254px;
     }
 
-    .news_detail .btn_title_1{
-      margin-left:140px;
+    .news_detail .btn_title_1 {
+      margin-left: 140px;
       font-size: 20px;
-      color:#ffffff;
-      padding-top:7px;
+      color: #ffffff;
+      padding-top: 7px;
     }
 
-    .news_detail .btn_title_2{
-      margin-left:120px;
+    .news_detail .btn_title_2 {
+      margin-left: 120px;
       font-size: 14px;
-      color:#ffffff;
-      padding-top:2px;
+      color: #ffffff;
+      padding-top: 2px;
 
     }
 

@@ -86,6 +86,7 @@ export default {
         { label: "首页", name: "home" },
         { label: "鉴定公告", name: "jdgg" },
         { label: "资料下载", name: "zlxz" },
+        { label: "人才服务", name: "rcfw" },
         {
           label: "体育资讯",
           name: "message",

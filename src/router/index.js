@@ -12,6 +12,7 @@ import service from '@/pages/front/service'
 import education from '@/pages/front/education'
 import jdgg from '@/pages/front/jiandinggonggao'
 import zlxz from '@/pages/front/ziliaoxiazai'
+import rcfw from '@/pages/front/rencaifuwu'
 // import train from '@/pages/front/train'
 import train from '@/pages/front/TrainingCourse'
 import NotFound from '@/pages/404'
@@ -62,6 +63,14 @@ var routes = [
             title: '资料下载'
           },
         },
+         {
+           path: 'rcfw',
+           name: 'rcfw',
+           component: rcfw,
+           meta: {
+             title: '人才服务'
+           },
+         },
          {
            path: 'guild',
            name: 'guild',
