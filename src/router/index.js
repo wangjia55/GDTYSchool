@@ -13,6 +13,7 @@ import education from '@/pages/front/education'
 import jdgg from '@/pages/front/jiandinggonggao'
 import zlxz from '@/pages/front/ziliaoxiazai'
 // import train from '@/pages/front/train'
+import aboutus  from '@/pages/front/aboutus'
 import train from '@/pages/front/TrainingCourse'
 import NotFound from '@/pages/404'
 import newShare from '@/pages/newShare'
@@ -63,6 +64,13 @@ var routes = [
           component: zlxz,
           meta: {
             title: '资料下载'
+          },
+        },   {
+          path: 'aboutus',
+          name: 'aboutus',
+          component: aboutus,
+          meta: {
+            title: '关于我们'
           },
         },
          {

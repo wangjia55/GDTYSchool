@@ -137,7 +137,7 @@ export default {
 
         {
           label: "关于我们",
-          name: "aboutUs",
+          name: "aboutus",
           list: [
             { title: "关于我站", id: "us" },
             { title: "培训机构", id: "course" },
