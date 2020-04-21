@@ -5,21 +5,25 @@
       <div class="flex-sum mt10 navsd">
         <el-tabs type="border-card" v-model="activeName">
           <el-tab-pane name="first" label="体育资讯">
+              <span slot="label"><i class="el-icon-date"></i> 体育资讯</span>
             <div>
               <Message></Message>
             </div>
           </el-tab-pane>
           <el-tab-pane name="second" label="运动应知道">
+              <span slot="label"><i class="el-icon-trophy"></i> 运动应知道</span>
             <div>
               <Knowledge></Knowledge>
             </div>
           </el-tab-pane>
           <el-tab-pane name="third" label="体育圣殿">
+              <span slot="label"><i class="el-icon-medal"></i> 体育圣殿</span>
             <div>
               <ShengDian></ShengDian>
             </div>
           </el-tab-pane>
           <el-tab-pane name="fourth" label="酷体育">
+              <span slot="label"><i class="el-icon-bangzhu"></i> 酷体育</span>
             <div>
               <Kutiyu></Kutiyu>
             </div>
@@ -112,7 +116,7 @@ export default {
     .el-tabs__item:hover {
       width: 220px !important;
       color: !important !important;
-      background: #0d3e99 !important;
+      background: rgb(102, 147, 245) !important;
       border: 0 !important;
       font-size: 16px;
     }
@@ -122,7 +126,7 @@ export default {
       line-height: 50px;
       border: 0 !important;
       color: #ffffff !important;
-      background: #1754c2 !important;
+      background: #417EFF !important;
       border-radius: 50px;
       margin: 0 20px;
       text-align: center;
@@ -132,7 +136,7 @@ export default {
     .el-tabs__item.is-active {
       width: 220px !important;
       color: #ffffff !important;
-      background: #0d3e99 !important;
+      background: rgb(49, 97, 199) !important;
       border: 0 !important;
       border-radius: 50px;
       font-size: 16px;
