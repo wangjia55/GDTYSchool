@@ -7,13 +7,7 @@
           <img style="width:100%;height:100%;" src="../../assets/images/ba1.png" alt />
         </el-carousel-item>
         <el-carousel-item :interval="3000" :key="item">
-          <img style="width:100%;height:100%;" src="../../assets/images/ba1.png" alt />
-        </el-carousel-item>
-        <el-carousel-item :interval="3000" :key="item">
-          <img style="width:100%;height:100%;" src="../../assets/images/home2.png" alt />
-        </el-carousel-item>
-        <el-carousel-item :interval="3000" :key="item">
-          <img style="width:100%;height:100%;" src="../../assets/images/home4.png" alt />
+          <img style="width:100%;height:100%;" src="../../assets/images/ba2.jpg" alt />
         </el-carousel-item>
       </el-carousel>
     </div>
