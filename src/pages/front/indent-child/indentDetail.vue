@@ -33,7 +33,7 @@
           <el-tabs type="border-card middle" v-model="activeName" stretch>
             <el-tab-pane name="first" label="课程章节">
               <div>
-                <el-card class="box-card mb20 " v-for="(v,i) in 3" :key="v">
+                <el-card class="box-card mb20" v-for="(v,i) in 3" :key="v">
                   <div slot="header" class="clearfix">
                     <span style="font-size:18px">课程培训教程 第{{i+1}}章</span>
                   </div>
@@ -82,7 +82,6 @@
                       <p>先后在湖北汉口的扶轮小学、湖南澧县的弘毅小学、重庆市立第十一小学校（龙门浩中心小学）读小学。重庆复兴初级中学、重庆赣江中学、重庆博学中学读书。抗战胜利后，袁隆平离开重庆。先后就读于博学中学（现武汉第四中学）、中央大学附中（现南师附中）。1949年，他又回到了重庆读高中。1949年8月，考入了重庆相辉学院农学系，主修遗传育种学，院系调整，并入重庆新建的西南农学院农学系，1953年毕业于西南农学院（现西南大学）。</p>
                     </div>
                     <div style="text-align:justify;font-size:14px;">
-
                       <ul>
                         <li>1953年夏，结束了大学学习生活，到湖南省怀化地区的安江农校任教。1960年，中国发生了全国性的大饥荒。有次他远远地看到马路边围了一堆人，走近一看，路边横躺着两具骨瘦如柴的尸体，此事深深刺激了袁隆平，他决意在农业科研上搞出点名堂来</li>
                         <li>1960年7月，他在农校试验田中意外发现一株特殊性状的水稻。惊喜之际，他利用该株水稻试种，发现其子代有不同性质。因为水稻是自花授粉的，不会出现性状分离，所以他推论该为天然杂交水稻。随后他把雌雄同蕊的水稻雄花人工去除，授以另一个品种的花粉，尝试产生杂交品种。1964年7月5日，他在试验稻田中找到一株“天然雄性不育株”，经人工授粉，结出了数百粒第一代雄性不育株种子。1965年7月，他又在14000多个稻穗中逐穗检查到6株不育株，并在此后两年播种中，共有4株成功繁殖了1～2代。其研究彻底推翻由传统经典理论米丘林、李森科的“无性杂交”学说，并推论水稻亦有杂交优势。通过培育雄性不育系、雄性不育保持系和雄性不育恢复系的三系法途径来培育杂交水稻，可以大幅度提高水稻产量。</li>
@@ -98,7 +97,7 @@
                         <li>2018年，中国工程院院士袁隆平带领的青岛海水稻研发中心团队对在迪拜热带沙漠实验种植的杂交水稻进行测产，最高亩产超过500公斤。</li>
                       </ul>
                     </div>
-                 
+
                     <div style="text-indent:2em;text-align:justify">
                       <p>
                         在中国大陆流行这样的一句话：“吃饭­靠两平，一靠邓小平，二靠袁隆平。”，但是遭到了袁隆平的谢绝。此外，有部分民众、学者和官员建议中国政府推荐袁隆平为诺贝尔和平奖候选人。他们认为：“消除贫穷与饥饿才是最好的和平，以袁隆平为中国乃至于世界粮食事业做出的巨大贡献，完全有资格获得诺贝尔和平奖。”媒体评价亦评价其身价上千亿人民币，袁隆平回应道：“用财富衡量科学家价值太低级、太庸俗。”
@@ -111,37 +110,52 @@
             </el-tab-pane>
             <el-tab-pane name="third" label="资料下载">
               <div class="p20 download" style="color:#333;font-size:15px;">
-                 <el-card class="box-card mb20" v-for="(v,i) in 3" :key="v">
+                <el-card class="box-card mb20" v-for="(v,i) in 3" :key="v">
                   <div slot="header" class="clearfix">
                     <span style="font-size:18px">资源下载</span>
                   </div>
-                  <div class="text item" @click="gotoInfo">
+                  <div class="text item" @click="gotoInfo1">
                     <div class="btw">
-                      <el-link :underline="false" type="primary">广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件</el-link>
+                      <el-link
+                        :underline="false"
+                        type="primary"
+                      >广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件</el-link>
                       <el-button type="danger">开始下载</el-button>
                     </div>
                   </div>
-                  <div class="text item" @click="gotoInfo">
+                  <div class="text item" @click="gotoInfo1">
                     <div class="btw">
-                     <el-link :underline="false" type="primary">广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件</el-link>
+                      <el-link
+                        :underline="false"
+                        type="primary"
+                      >广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件</el-link>
                       <el-button type="danger">开始下载</el-button>
                     </div>
                   </div>
-                  <div class="text item" @click="gotoInfo">
+                  <div class="text item" @click="gotoInfo1">
                     <div class="btw">
-                      <el-link :underline="false" type="primary">广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件</el-link>
+                      <el-link
+                        :underline="false"
+                        type="primary"
+                      >广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件</el-link>
                       <el-button type="danger">开始下载</el-button>
                     </div>
                   </div>
-                  <div class="text item" @click="gotoInfo">
+                  <div class="text item" @click="gotoInfo1">
                     <div class="btw">
-                      <el-link :underline="false" type="primary">广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件</el-link>
+                      <el-link
+                        :underline="false"
+                        type="primary"
+                      >广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件</el-link>
                       <el-button type="danger">开始下载</el-button>
                     </div>
                   </div>
-                  <div class="text item" @click="gotoInfo">
+                  <div class="text item" @click="gotoInfo1">
                     <div class="btw">
-                      <el-link :underline="false" type="primary">广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件</el-link>
+                      <el-link
+                        :underline="false"
+                        type="primary"
+                      >广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件广东体育职业技术学院篮球课程培训课件</el-link>
                       <el-button type="danger">开始下载</el-button>
                     </div>
                   </div>
@@ -152,6 +166,9 @@
         </div>
       </div>
     </div>
+    <el-dialog title="学习视频" :visible.sync="dialogTableVisible">
+      <video width="100%" controls="controls" loop v-if="dialogTableVisible" autoplay src="https://vdept.bdstatic.com/655331494c6c4e7a4e47416138646d31/674245495743664b/b78e9ab6943613a2b33801a1559629e825ad1c82fe87712cc7276a7b9f1b1c03809d328e3aa8dbf1d4e268945f836418.mp4?auth_key=1587464510-0-0-91baab74bf7d0b56c6fce02f1a31b81c"></video>
+    </el-dialog>
   </div>
 </template>
 
@@ -160,7 +177,8 @@ export default {
   data() {
     return {
       // 数据
-      activeName: "first"
+      activeName: "first",
+      dialogTableVisible: false
     };
   },
   components: {
@@ -183,20 +201,23 @@ export default {
   methods: {
     // 方法定义
     gotoInfo() {
-      
+      this.dialogTableVisible = true
     },
-    toCenter(){
+    gotoInfo1() {
+      window.open('http://wqdata.oss-cn-shenzhen.aliyuncs.com/%E6%8A%A5%E5%90%8D%E8%A1%A8.doc')
+    },
+    toCenter() {
       this.$router.push({
-        name:"personCenter"
-      })
+        name: "personCenter"
+      });
     }
   }
 };
 </script>
 <style scope lang="scss">
 .indent-detail-container {
-  .download .item{
-   border-bottom: 1px solid #dfdfdf;
+  .download .item {
+    border-bottom: 1px solid #dfdfdf;
   }
   .bg-1 {
     background: -webkit-radial-gradient(

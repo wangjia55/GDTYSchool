@@ -20,7 +20,6 @@
           </div>
           <div class="test-xxk1">
             <ul class="left-width row mt20">
-            
               <li>
                 <el-radio-group v-model="grouyp[index].radio">
                   <el-radio :label="3">A</el-radio>
@@ -35,7 +34,7 @@
       </div>
     </div>
     <div style="text-align:center">
-    <el-button type="primary">提交试卷</el-button>
+      <el-button type="primary" @click="submitExam">提交试卷</el-button>
     </div>
   </div>
 </template>
@@ -45,32 +44,40 @@ export default {
   data() {
     return {
       grouyp: [
-      {
-          radio:0
-      },
-      {
-          radio:0
-      },
-      {
-          radio:0
-      },
-      {
-          radio:0
-      },
-      {
-          radio:0
-      },
-      {
-          radio:0
-      },
-
+        {
+          radio: 0
+        },
+        {
+          radio: 0
+        },
+        {
+          radio: 0
+        },
+        {
+          radio: 0
+        },
+        {
+          radio: 0
+        },
+        {
+          radio: 0
+        }
       ]
     };
   },
   computed: {},
   components: {},
-  methods: {},
-  mounted() {},
+  methods: {
+    submitExam() {
+      this.$confirm("答对6题，本轮考试通过", "恭喜你", {
+        confirmButtonText: "确定",
+        type: "success",
+        center: true
+      })
+        .then(() => {})
+        .catch(() => {});
+    }
+  },
   filters: {}
 };
 </script>
