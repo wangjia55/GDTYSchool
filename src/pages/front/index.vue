@@ -1,8 +1,6 @@
 <template>
-  <div style="background: ghostwhite;">
-    <header
-      class="shadow header-container"
-    >
+  <div style="background: #ececec;">
+    <header class="shadow header-container">
       <div class="front-content-width btw p10 align" style="height: 100%;">
         <div class="row align">
           <div>
@@ -44,12 +42,11 @@
     </div>
     <footer class="footerview">
       <div class="footer-content arc">
-          
         <div class="footer-info">
           <p style="margin:2px;font-size:18px;font-weight:bold;">友情链接</p>
-          <p style="margin:2px;">国家教育部&#12288; &#12288;  国家体育总局&#12288; &#12288;   国家图书馆</p>
-          <p style="margin:2px;">广东省教育厅&#12288;   广东省体育局 &#12288; &#12288; 广东图书馆</p>
-          <p style="margin:2px;">国家职业资格工作网  </p>
+          <p style="margin:2px;">国家教育部&#12288; &#12288; 国家体育总局&#12288; &#12288; 国家图书馆</p>
+          <p style="margin:2px;">广东省教育厅&#12288; 广东省体育局 &#12288; &#12288; 广东图书馆</p>
+          <p style="margin:2px;">国家职业资格工作网</p>
         </div>
         <div class="footer-info">
           <p style="margin:2px;">地址：广东省广州市天河区黄村奥体路52号</p>
@@ -61,9 +58,7 @@
           <img style="width:120px; margin:auto 0;" src="../../assets/images/barcode1.jpg" />
         </div>
       </div>
-      <p
-        class="copyright"
-      >Copyright© 2020 Guangdong Guotilian Sports Platform 备案号:粤ICP备06108273号</p>
+      <p class="copyright">Copyright© 2020 Guangdong Guotilian Sports Platform 备案号:粤ICP备06108273号</p>
     </footer>
   </div>
 </template>
@@ -92,6 +87,7 @@ export default {
     tabList() {
       return [
         { label: "首页", name: "home" },
+
         {
           label: "体育资讯",
           name: "message",
@@ -103,7 +99,8 @@ export default {
             { title: "学术快递", id: "honor" }
           ]
         },
-
+        { label: "鉴定公告", name: "jdgg" },
+      
         {
           label: "职业鉴定",
           name: "identification",
@@ -136,6 +133,8 @@ export default {
             { title: "商务合作", id: "culture" }
           ]
         },
+          { label: "资料下载", name: "zlxz" },
+
         {
           label: "关于我们",
           name: "aboutUs",
@@ -256,7 +255,7 @@ $baseColor: #fff;
   height: 100px;
   margin-top: -2px;
   padding: 5px 20px;
-  background:url("../../assets/images/top_background.png");
+  background: url("../../assets/images/top_background.png");
 }
 .nav-item {
   width: 80px;
