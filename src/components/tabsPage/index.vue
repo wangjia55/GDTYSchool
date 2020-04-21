@@ -4,10 +4,10 @@
     <div class>
       <el-carousel>
         <el-carousel-item  :interval="3000" :key="item">
-          <img style="width:100%;" src="../../assets/images/home1.jpg" alt />
+          <img style="width:100%;" src="../../assets/images/ba1.png" alt />
         </el-carousel-item>
          <el-carousel-item :interval="3000" :key="item">
-          <img style="width:100%;" src="../../assets/images/home2.jpg" alt />
+          <img style="width:100%;" src="../../assets/images/ba2.jpg" alt />
         </el-carousel-item>
           <el-carousel-item :interval="3000" :key="item">
           <img style="width:100%;" src="../../assets/images/home3.jpg" alt />

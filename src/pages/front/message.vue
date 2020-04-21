@@ -21,7 +21,7 @@
           </el-tab-pane>
           <el-tab-pane name="fourth" label="酷体育">
             <div>
-              <OutlineStudy></OutlineStudy>
+              <Kutiyu></Kutiyu>
             </div>
           </el-tab-pane>
         </el-tabs>
@@ -34,6 +34,7 @@
 import Message from "../../components/message/message";
 import ShengDian from "../../components/message/shengdian";
 import Knowledge from "../../components/message/knowledge";
+import Kutiyu from "../../components/message/kutiyu";
 export default {
   data() {
     return {
@@ -44,7 +45,8 @@ export default {
   components: {
     Message,
     ShengDian,
-    Knowledge
+    Knowledge,
+    Kutiyu
   },
   methods: {
     gotoMore() {
@@ -99,13 +101,18 @@ export default {
   }
 
   .navsd {
+    .el-tabs {
+      border:0 !important;
+    }
+
     .el-tabs__header {
       padding-left: 130px;
+      border:0 !important;
     }
     .el-tabs__item:hover {
       width: 220px !important;
       color: !important !important;
-      background: #0b2a63 !important;
+      background: #0d3e99 !important;
       border: 0 !important;
       font-size: 16px;
     }
@@ -125,7 +132,7 @@ export default {
     .el-tabs__item.is-active {
       width: 220px !important;
       color: #ffffff !important;
-      background: #0b2a63 !important;
+      background: #0d3e99 !important;
       border: 0 !important;
       border-radius: 50px;
       font-size: 16px;

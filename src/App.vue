@@ -122,7 +122,7 @@ body {
 }
 
 .footer-content{
-  background-color: #1754C2;
+   background: rgb(70, 70, 70);
   padding: 0px 150px;
   align-content: center;
   align-items: center;
@@ -130,8 +130,8 @@ body {
 }
 .footer-info {
   font-size: 15px;
-  color: white;
-  background-color: #1754C2;
+  color: #d6d6d6;
+    background: rgb(70, 70, 70);
   text-align:left;
 }
 </style>
