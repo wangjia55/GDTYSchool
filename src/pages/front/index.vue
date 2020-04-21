@@ -42,19 +42,27 @@
         <router-view></router-view>
       </transition>
     </div>
-    <footer class="footer">
+    <footer class="footerview">
       <div class="footer-content arc">
+          
         <div class="footer-info">
-          <p>学校地址：广东省广州市天河区黄村奥体路52号</p>
-          <p>学校电话：020-87128173</p>
-          <p>邮编：510663</p>
+          <p style="margin:2px;font-size:18px;font-weight:bold;">友情链接</p>
+          <p style="margin:2px;">国家教育部&#12288; &#12288;  国家体育总局&#12288; &#12288;   国家图书馆</p>
+          <p style="margin:2px;">广东省教育厅&#12288;   广东省体育局 &#12288; &#12288; 广东图书馆</p>
+          <p style="margin:2px;">国家职业资格工作网  </p>
+        </div>
+        <div class="footer-info">
+          <p style="margin:2px;">地址：广东省广州市天河区黄村奥体路52号</p>
+          <p style="margin:2px;">电话：020-87128173</p>
+          <p style="margin:2px;">传真：020-87128172</p>
+          <p style="margin:2px;">邮编：510663</p>
         </div>
         <div style>
-          <img style="width:80%; margin:auto 0;" src="../../assets/images/school-title.jpg" />
+          <img style="width:120px; margin:auto 0;" src="../../assets/images/barcode1.jpg" />
         </div>
       </div>
       <p
-        style="text-align:center;margin:10px auto;font-size:13px;"
+        class="copyright"
       >Copyright© 2020 Guangdong Guotilian Sports Platform 备案号:粤ICP备06108273号</p>
     </footer>
   </div>
@@ -297,7 +305,7 @@ $baseColor: #fff;
 
 .footerview {
   height: 210px;
-  background: white;
+  background: rgb(70, 70, 70);
 }
 
 .contact-us {
@@ -314,12 +322,12 @@ $baseColor: #fff;
 .copyright {
   width: 100%;
   height: 40px;
-  background: #585858;
-  color: white;
+  color: #d6d6d6;
   align-content: center;
   line-height: 50px;
   font-size: 15px;
   margin: auto auto;
   text-align: center;
+  border-top: rgb(61, 61, 61) 1px solid;
 }
 </style>
