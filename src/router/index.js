@@ -10,6 +10,8 @@ import job from '@/pages/front/job'
 import message from '@/pages/front/message'
 import service from '@/pages/front/service'
 import education from '@/pages/front/education'
+import jdgg from '@/pages/front/jiandinggonggao'
+import zlxz from '@/pages/front/ziliaoxiazai'
 // import train from '@/pages/front/train'
 import train from '@/pages/front/TrainingCourse'
 import NotFound from '@/pages/404'
@@ -44,14 +46,30 @@ var routes = [
             title: '首页'
           },
         },
+         {
+           path: 'jdgg',
+           name: 'jdgg',
+           component: jdgg,
+           meta: {
+             title: '鉴定公告'
+           },
+         },
         {
-          path: 'guild',
-          name: 'guild',
-          component: guild,
+          path: 'zlxz',
+          name: 'zlxz',
+          component: zlxz,
           meta: {
-            title: '行业协会'
+            title: '资料下载'
           },
         },
+         {
+           path: 'guild',
+           name: 'guild',
+           component: guild,
+           meta: {
+             title: '行业协会'
+           },
+         },
         {
           path: 'guildIndex',
           name: 'guildIndex',
@@ -114,11 +132,11 @@ var routes = [
           component: indentDetail,
           meta: {
              title: '课程教程'
-           } 
+           }
         },
       ]
     },
-   
+
     	{
         path: '/404',
         component: NotFound,

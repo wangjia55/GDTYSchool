@@ -1,5 +1,5 @@
 <template>
-  <div style="background: ghostwhite;">
+  <div style="background: #ececec;">
     <header
       class="shadow"
       style="height: 70px;background: white;background-color:#1754C2;padding:5px 20px"
@@ -86,6 +86,8 @@ export default {
     tabList() {
       return [
         { label: "首页", name: "home" },
+        { label: "鉴定公告", name: "jdgg" },
+        { label: "资料下载", name: "zlxz" },
         {
           label: "体育资讯",
           name: "message",
