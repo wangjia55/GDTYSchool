@@ -3,7 +3,6 @@
     <div class="school-news">
       <div class="btw yaonew align">
         <p>综合新闻</p>
-        <p class="curpoint">More></p>
       </div>
       <div class="btw">
         <div class="flex-base">
@@ -171,6 +170,45 @@
           </div>
         </el-card>
       </div>
+
+        <div class="school-news">
+        <div class="btw yaonew align">
+          <p>热点专题</p>
+          <p class="curpoint" style="padding-right:50px;">更多</p>
+        </div>
+         <div class="arc tzgg">
+          <div class="c-message-container">
+            <div class="flex-wrap">
+              <div
+                class="col curpoint p10"
+                style="flex:0 0 23%;margin:10px 0.5%;"
+              >
+                <img style="width:100%;height:150px;margin:10px auto" src="../../assets/images/zt1.jpg" alt />
+              </div>
+              <div
+                class="col curpoint p10"
+                style="flex:0 0 23%;margin:10px 0.5%;"
+              >
+               <img style="width:100%;height:150px;margin:10px auto" src="../../assets/images/zt2.jpg" alt />
+              </div>
+              <div
+                class="col curpoint p10"
+                style="flex:0 0 23%;margin:10px 0.5%;"
+              >
+               <img style="width:100%;height:150px;margin:10px auto" src="../../assets/images/zt3.jpg" alt />
+              </div>
+              <div
+                class="col curpoint p10"
+                style="flex:0 0 23%;margin:10px 0.5%;"
+              >
+               <img style="width:100%;height:150px;margin:10px auto" src="../../assets/images/zt4.jpg" alt />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
       <div class="school-news">
         <div class="btw yaonew align">
           <p>精彩体育活动</p>
@@ -203,6 +241,9 @@
           </div>
         </div>
       </div>
+
+
+    
     </div>
     </div>
    
