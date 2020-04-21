@@ -4,90 +4,50 @@
     <div class="flex-flow mt20 mb20 init">
       <div class="school-news">
         <div class="btw yaonew align">
-          <p>精彩赛事</p>
+          <p>运动达人秀</p>
           <p class="curpoint"></p>
         </div>
         <div class="arc tzgg">
           <div class="c-message-container">
             <div class="flex-wrap">
-              <div
-                class="col curpoint p10"
-                style="flex:0 0 23%;margin:10px 0.5%;border:1px solid #dfdfdf"
-              >
-                <img style="width:100%;margin:10px auto" src="../../assets/images/ps1.jpg" alt />
+              <div class="col curpoint p10" style="flex:0 0 23%;margin:10px 0.5%;">
+                <img
+                  style="width:100%;height:150px;margin:10px auto"
+                  src="../../assets/images/ps5.jpg"
+                  alt
+                />
                 <div class="btw">
-                  <p style="text-align:left">游泳教学基础公开课</p>
-                  <el-button type="primary" size="mini">开始学习</el-button>
+                  <p style="text-align:left">带你一步一步学网球</p>
                 </div>
               </div>
-              <div
-                class="col curpoint p10"
-                style="flex:0 0 23%;margin:10px 0.5%;border:1px solid #dfdfdf"
-              >
-                <img style="width:100%;margin:10px auto" src="../../assets/images/ps2.jpg" alt />
+              <div class="col curpoint p10" style="flex:0 0 23%;margin:10px 0.5%;">
+                <img
+                  style="width:100%;height:150px;margin:10px auto"
+                  src="../../assets/images/ps6.jpg"
+                  alt
+                />
                 <div class="btw">
-                  <p style="text-align:left">羽毛球教学基础公开课</p>
-                  <el-button type="primary" size="mini">开始学习</el-button>
+                  <p style="text-align:left">武术教学，传播中华文化</p>
                 </div>
               </div>
-              <div
-                class="col curpoint p10"
-                style="flex:0 0 23%;margin:10px 0.5%;border:1px solid #dfdfdf"
-              >
-                <img style="width:100%;margin:10px auto" src="../../assets/images/ps3.jpg" alt />
+              <div class="col curpoint p10" style="flex:0 0 23%;margin:10px 0.5%;">
+                <img
+                  style="width:100%;height:150px;margin:10px auto"
+                  src="../../assets/images/ps7.jpg"
+                  alt
+                />
                 <div class="btw">
-                  <p style="text-align:left">篮球教学基础公开课</p>
-                  <el-button type="primary" size="mini">开始学习</el-button>
+                  <p style="text-align:left">舞蹈十个经典高难度动作</p>
                 </div>
               </div>
-              <div
-                class="col curpoint p10"
-                style="flex:0 0 23%;margin:10px 0.5%;border:1px solid #dfdfdf"
-              >
-                <img style="width:100%;margin:10px auto" src="../../assets/images/ps4.jpg" alt />
+              <div class="col curpoint p10" style="flex:0 0 23%;margin:10px 0.5%;">
+                <img
+                  style="width:100%;height:150px;margin:10px auto"
+                  src="../../assets/images/ps8.jpg"
+                  alt
+                />
                 <div class="btw">
-                  <p style="text-align:left">足球教学基础公开课</p>
-                  <el-button type="primary" size="mini">开始学习</el-button>
-                </div>
-              </div>
-              <div
-                class="col curpoint p10"
-                style="flex:0 0 23%;margin:10px 0.5%;border:1px solid #dfdfdf"
-              >
-                <img style="width:100%;margin:10px auto" src="../../assets/images/ps5.jpg" alt />
-                <div class="btw">
-                  <p style="text-align:left">网球教学基础公开课</p>
-                  <el-button type="primary" size="mini">开始学习</el-button>
-                </div>
-              </div>
-              <div
-                class="col curpoint p10"
-                style="flex:0 0 23%;margin:10px 0.5%;border:1px solid #dfdfdf"
-              >
-                <img style="width:100%;margin:10px auto" src="../../assets/images/ps6.jpg" alt />
-                <div class="btw">
-                  <p style="text-align:left">武术教学基础公开课</p>
-                  <el-button type="primary" size="mini">开始学习</el-button>
-                </div>
-              </div>
-              <div
-                class="col curpoint p10"
-                style="flex:0 0 23%;margin:10px 0.5%;border:1px solid #dfdfdf"
-              >
-                <img style="width:100%;margin:10px auto" src="../../assets/images/ps7.jpg" alt />
-                <div class="btw">
-                  <p style="text-align:left">舞蹈教学基础公开课</p>
-                  <el-button type="primary" size="mini">开始学习</el-button>
-                </div>
-              </div>
-              <div
-                class="col curpoint p10"
-                style="flex:0 0 23%;margin:10px 0.5%;border:1px solid #dfdfdf"
-              >
-                <img style="width:100%;margin:10px auto" src="../../assets/images/ps8.jpg" alt />
-                <div class="btw">
-                  <p style="text-align:left">健美操教学基础公开课</p>
-                  <el-button type="primary" size="mini">开始学习</el-button>
+                  <p style="text-align:center">跟着我一起跳起来</p>
                 </div>
               </div>
             </div>
@@ -97,103 +57,89 @@
 
       <div class="school-news">
         <div class="btw yaonew align">
-          <p>精彩赛事</p>
-          <p class="curpoint"></p>
+          <p>运动小技巧</p>
+          <p class="curpoint" style="padding-right:50px;">更多</p>
         </div>
-        <div class>
-          <div class="swiper-container">
-            <div class="swiper-wrapper">
-              <div class="col curpoint swiper-slide mt20" @click="gotoInfo" :key="item">
-                <img style="height:200px;margin-bottom:10px" src="../../assets/images/t1.jpg" alt />
-                <p
-                  style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff"
-                >2019亚洲青年羽毛球锦标赛精彩瞬间{{item}}</p>
-              </div>
-              <div class="col curpoint swiper-slide mt20" @click="gotoInfo" :key="item">
-                <img style="height:200px;margin-bottom:10px" src="../../assets/images/t2.jpg" alt />
-                <p
-                  style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff"
-                >2019年亚洲羽毛球锦标赛精彩集锦{{item}}</p>
-              </div>
-              <div class="col curpoint swiper-slide mt20" @click="gotoInfo" :key="item">
-                <img style="height:200px;margin-bottom:10px" src="../../assets/images/t3.jpg" alt />
-                <p
-                  style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff"
-                >第16届苏迪曼杯颁奖仪式{{item}}</p>
-              </div>
-              <div class="col curpoint swiper-slide mt20" @click="gotoInfo" :key="item">
-                <img style="height:200px;margin-bottom:10px" src="../../assets/images/t4.jpg" alt />
-                <p
-                  style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff"
-                >第16届苏迪曼杯25日精彩集锦{{item}}</p>
-              </div>
+        <div class="jiqiao-container">
+          <div class="jiqiao-container mt20">
+            <img
+              style="width:150px;height:100px;margin-bottom:10px;"
+              src="../../assets/images/jq1.jpg"
+              alt
+            />
+            <div style="margin:10px 20px;width:400px;">
+              <div style="font-size:16px;margin-bottom:6px;font-weight:bold;">跑步时如何正确呼吸</div>
+              <div>有参加过田径赛的小伙伴可能有过这aaa样的感受....</div>
+              <div style="font-size:11px">热度：201029 | 时间:2020-04-21</div>
             </div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
           </div>
-        </div>
-      </div>
 
-      <div class="school-news">
-        <div class="btw yaonew align">
-          <p>经典体育人物</p>
-          <p class="curpoint"></p>
-        </div>
-        <div class>
-          <div class="swiper-container">
-            <div class="swiper-wrapper">
-              <div class="col curpoint swiper-slide mt20" @click="gotoInfo" :key="item">
-                <img style="height:200px;margin-bottom:10px" src="../../assets/images/ren1.png" alt />
-                <p
-                  style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff"
-                >姚明</p>
-              </div>
-              <div class="col curpoint swiper-slide mt20" @click="gotoInfo" :key="item">
-                <img style="height:200px;margin-bottom:10px" src="../../assets/images/ren2.jpg" alt />
-                <p
-                  style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff"
-                >郎平{{item}}</p>
-              </div>
-              <div class="col curpoint swiper-slide mt20" @click="gotoInfo" :key="item">
-                <img style="height:200px;margin-bottom:10px" src="../../assets/images/ren3.jpg" alt />
-                <p
-                  style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff"
-                >刘翔{{item}}</p>
-              </div>
-              <div class="col curpoint swiper-slide mt20" @click="gotoInfo" :key="item">
-                <img style="height:200px;margin-bottom:10px" src="../../assets/images/ren4.jpg" alt />
-                <p
-                  style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff"
-                >邓亚萍{{item}}</p>
-              </div>
+          <div class="jiqiao-container mt20">
+            <img
+              style="width:150px;height:100px;margin-bottom:10px;"
+              src="../../assets/images/jq2.jpg"
+              alt
+            />
+            <div style="margin:10px 20px;width:400px;">
+              <div style="font-size:16px;margin-bottom:6px;font-weight:bold;">什么是正确的跑步方法</div>
+              <div>江湖传闻跑步会使小腿变粗，让一些不明真理想要通过跑步健身....</div>
+              <div style="font-size:11px">热度：201029 | 时间:2020-04-21</div>
             </div>
           </div>
-          <div class="swiper-container">
-            <div class="swiper-wrapper">
-              <div class="col curpoint swiper-slide mt20" @click="gotoInfo" :key="item">
-                <img style="height:200px;margin-bottom:10px" src="../../assets/images/ren5.jpg" alt />
-                <p
-                  style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff"
-                >孙杨{{item}}</p>
-              </div>
-              <div class="col curpoint swiper-slide mt20" @click="gotoInfo" :key="item">
-                <img style="height:200px;margin-bottom:10px" src="../../assets/images/ren6.jpg" alt />
-                <p
-                  style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff"
-                >刘国梁{{item}}</p>
-              </div>
-              <div class="col curpoint swiper-slide mt20" @click="gotoInfo" :key="item">
-                <img style="height:200px;margin-bottom:10px" src="../../assets/images/ren7.jpg" alt />
-                <p
-                  style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff"
-                >许海峰{{item}}</p>
-              </div>
-              <div class="col curpoint swiper-slide mt20" @click="gotoInfo" :key="item">
-                <img style="height:200px;margin-bottom:10px" src="../../assets/images/ren8.jpg" alt />
-                <p
-                  style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff"
-                >李宁{{item}}</p>
-              </div>
+        </div>
+
+        <div class="jiqiao-container">
+          <div class="jiqiao-container">
+            <img
+              style="width:150px;height:100px;margin-bottom:10px;"
+              src="../../assets/images/jq3.jpg"
+              alt
+            />
+            <div style="margin:10px 20px;width:400px;">
+              <div style="font-size:16px;margin-bottom:6px;font-weight:bold;">中长跑技术的力学分析与应用</div>
+              <div>中长跑一方面要求尽可能减少体力的消耗，维持一定的跑速....</div>
+              <div style="font-size:11px">热度：201029 | 时间:2020-04-21</div>
+            </div>
+          </div>
+
+          <div class="jiqiao-container">
+            <img
+              style="width:150px;height:100px;margin-bottom:10px;"
+              src="../../assets/images/jq4.jpg"
+              alt
+            />
+            <div style="margin:10px 20px;width:400px;">
+              <div style="font-size:16px;margin-bottom:6px;font-weight:bold;">中长跑常见运动受伤的预防与治疗</div>
+              <div>江湖传闻跑步会使小腿变粗，让一些不明真理想要通过跑步....</div>
+              <div style="font-size:11px">热度：201029 | 时间:2020-04-21</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="jiqiao-container">
+          <div class="jiqiao-container">
+            <img
+              style="width:150px;height:100px;margin-bottom:10px;"
+              src="../../assets/images/jq5.jpg"
+              alt
+            />
+            <div style="margin:10px 20px;width:400px;">
+              <div style="font-size:16px;margin-bottom:6px;font-weight:bold;">游泳的注意事项</div>
+              <div>炎热的夏天爱上就要到了，小伙伴们是不游泳....</div>
+              <div style="font-size:11px">热度：201029 | 时间:2020-04-21</div>
+            </div>
+          </div>
+
+          <div class="jiqiao-container">
+            <img
+              style="width:150px;height:100px;margin-bottom:10px;"
+              src="../../assets/images/jq6.jpg"
+              alt
+            />
+            <div style="margin:10px 20px;width:400px;">
+              <div style="font-size:16px;margin-bottom:6px;font-weight:bold;">运动前后吃什么，你知道吗？？？</div>
+              <div>每天一道富含淀粉的主菜(通心粉、米饭、土豆)....</div>
+              <div style="font-size:11px">热度：201029 | 时间:2020-04-21</div>
             </div>
           </div>
         </div>
@@ -201,73 +147,28 @@
 
       <div class="school-news">
         <div class="btw yaonew align">
-          <p>国际体育组织</p>
-          <p class="curpoint"></p>
+          <p>运动大考验，等你来体验</p>
         </div>
-        <div class="flex-wrap" style="width:90%;margin:20px auto">
-          <div
-            class="col curpoint"
-            @click="gotoInfo"
-            style="margin:5px 5px;overflow:hidden"
-            :key="item"
-          >
-            <img style="width:240px;height:154px;margin:10px" src="../../assets/images/zu1.jpg" alt />
-          </div>
-          <div
-            class="col curpoint"
-            @click="gotoInfo"
-            style="margin:5px 0.5%;overflow:hidden"
-            :key="item"
-          >
-            <img style="width:240px;height:154px;margin:10px" src="../../assets/images/zu2.jpg" alt />
-          </div>
-          <div
-            class="col curpoint"
-            @click="gotoInfo"
-            style="margin:5px 0.5%;overflow:hidden"
-            :key="item"
-          >
-            <img style="width:240px;height:154px;margin:10px" src="../../assets/images/zu3.jpg" alt />
-          </div>
-          <div
-            class="col curpoint"
-            @click="gotoInfo"
-            style="margin:5px 0.1%;overflow:hidden"
-            :key="item"
-          >
-            <img style="width:240px;height:154px;margin:10px" src="../../assets/images/zu4.jpg" alt />
-          </div>
-          <div
-            class="col curpoint"
-            @click="gotoInfo"
-            style="margin:5px 0.1%;overflow:hidden"
-            :key="item"
-          >
-            <img style="width:240px;height:154px;margin:10px" src="../../assets/images/zu5.jpg" alt />
-          </div>
-          <div
-            class="col curpoint"
-            @click="gotoInfo"
-            style="margin:5px 0.1%;overflow:hidden"
-            :key="item"
-          >
-            <img style="width:240px;height:154px;margin:10px" src="../../assets/images/zu6.jpg" alt />
-          </div>
-          <div
-            class="col curpoint"
-            @click="gotoInfo"
-            style="margin:5px 0.1%;overflow:hidden"
-            :key="item"
-          >
-            <img style="width:240px;height:154px;margin:10px" src="../../assets/images/zu7.jpg" alt />
-          </div>
-          <div
-            class="col curpoint"
-            @click="gotoInfo"
-            style="margin:5px 0.1%;overflow:hidden"
-            :key="item"
-          >
-            <img style="width:240px;height:154px;margin:10px" src="../../assets/images/zu8.jpg" alt />
+        <div class="arc tzgg">
+          <div class="c-message-container">
+            <div class="flex-wrap">
+              <div class="col curpoint p10" style="flex:0 0 47%;margin:10px 0.5%;">
+                <img
+                  style="width:100%;height:200px;margin:10px auto;border-radius:10px;"
+                  src="../../assets/images/cg1.jpg"
+                  alt
+                />
+              </div>
+              <div class="col curpoint p10" style="flex:0 0 47%;margin:10px 0.5%;">
+                <img
+                     style="width:100%;height:200px;margin:10px auto;border-radius:10px;"
+                  src="../../assets/images/cg2.png"
+                  alt
+                />
+              </div>
+             
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -365,6 +266,17 @@ export default {
       cursor: pointer;
     }
   }
+}
+.jiqiao-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.corner {
+  background: chocolate;
+  border-radius: 10px;
 }
 </style>
 

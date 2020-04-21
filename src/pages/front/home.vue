@@ -11,10 +11,10 @@
         <div class="out">
           <el-carousel style="height:400px;">
             <el-carousel-item :interval="3000" :key="item" style="width:100%;">
-              <img style="width:100%;height:100%;" src="../../assets/images/home1.png" alt />
+              <img style="width:100%;height:100%;" src="../../assets/images/ba1.png" alt />
             </el-carousel-item>
             <el-carousel-item :interval="3000" :key="item">
-              <img style="width:100%;height:100%;" src="../../assets/images/home3.png" alt />
+              <img style="width:100%;height:100%;" src="../../assets/images/ba1.png" alt />
             </el-carousel-item>
             <el-carousel-item :interval="3000" :key="item">
               <img style="width:100%;height:100%;" src="../../assets/images/home2.png" alt />

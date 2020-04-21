@@ -1,8 +1,7 @@
 <template>
   <div style="background: #ececec;">
     <header
-      class="shadow"
-      style="height: 70px;background: white;background-color:#1754C2;padding:5px 20px"
+      class="shadow header-container"
     >
       <div class="front-content-width btw p10 align" style="height: 100%;">
         <div class="row align">
@@ -10,8 +9,8 @@
             <img
               class="curpoint"
               @click="onClickLogo"
-              style="height:55px;"
-              src="../../assets/images/logo-title.png"
+              style="height:55px;margin-top:10px;margin-left:20px;"
+              src="../../assets/images/titles.png"
               alt
             />
           </div>
@@ -36,7 +35,6 @@
             </div>
           </router-link>
         </div>
-        <div style="color:#fff" class="curpoint">校内网登录</div>
       </div>
     </header>
     <div class="center w100 base">
@@ -57,7 +55,7 @@
       </div>
       <p
         style="text-align:center;margin:10px auto;font-size:13px;"
-      >Copyright© 2019 Guangdong Voctional Institute of Sport 备案号:粤ICP备06108273号</p>
+      >Copyright© 2020 Guangdong Guotilian Sports Platform 备案号:粤ICP备06108273号</p>
     </footer>
   </div>
 </template>
@@ -88,6 +86,64 @@ export default {
         { label: "首页", name: "home" },
         { label: "鉴定公告", name: "jdgg" },
         { label: "资料下载", name: "zlxz" },
+        {
+          label: "体育资讯",
+          name: "message",
+          list: [
+            { title: "运动应知道", id: "us" },
+            { title: "体育圣殿", id: "course" },
+            { title: "酷体育", id: "culture" },
+            { title: "政策发布台", id: "honor" },
+            { title: "学术快递", id: "honor" }
+          ]
+        },
+
+        {
+          label: "职业鉴定",
+          name: "identification",
+          list: [
+            { title: "政策服务", id: "us" },
+            { title: "培训服务", id: "course" },
+            { title: "鉴定管理", id: "culture" },
+            { title: "工作动态", id: "honor" },
+            { title: "职业赛事", id: "culture" },
+            { title: "资料下载", id: "honor" },
+            { title: "联系我们", id: "honor" }
+          ]
+        },
+        {
+          label: "课程培训",
+          name: "education",
+          list: [
+            { title: "通知公告", id: "us" },
+            { title: "课程列表", id: "course" },
+            { title: "在线学习", id: "course" },
+            { title: "证书打印", id: "course" }
+          ]
+        },
+        {
+          label: "行业协会",
+          name: "guildIndex",
+          list: [
+            { title: "协会动态", id: "us" },
+            { title: "协会列表", id: "course" },
+            { title: "商务合作", id: "culture" }
+          ]
+        },
+        {
+          label: "关于我们",
+          name: "aboutUs",
+          list: [
+            { title: "关于我站", id: "us" },
+            { title: "培训机构", id: "course" },
+            { title: "专家人才", id: "culture" }
+          ]
+        }
+      ];
+    },
+    tabList1() {
+      return [
+        { label: "首页", name: "home" },
         {
           label: "体育资讯",
           name: "message",
@@ -189,11 +245,18 @@ export default {
 
 <style  lang="scss">
 $baseColor: #fff;
+
+.header-container {
+  height: 100px;
+  margin-top: -2px;
+  padding: 5px 20px;
+  background:url("../../assets/images/top_background.png");
+}
 .nav-item {
   width: 80px;
   text-align: center;
-  margin-left: 35px;
-  font-size: 17px;
+  margin-left: 25px;
+  font-size: 20px;
   margin-right: 20px;
   line-height: 60px;
   color: #fff;

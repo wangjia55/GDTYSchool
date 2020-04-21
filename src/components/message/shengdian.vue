@@ -50,25 +50,25 @@
           <div class="swiper-container">
             <div class="swiper-wrapper">
               <div class="col curpoint swiper-slide mt20" @click="gotoInfo" :key="item">
-                <img style="height:200px;margin-bottom:10px" src="../../assets/images/ren1.png" alt />
+                <img style="height:180px;margin-bottom:10px" src="../../assets/images/ren1.png" alt />
                 <p
                   style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff"
                 >姚明</p>
               </div>
               <div class="col curpoint swiper-slide mt20" @click="gotoInfo" :key="item">
-                <img style="height:200px;margin-bottom:10px" src="../../assets/images/ren2.jpg" alt />
+                <img style="height:180px;margin-bottom:10px" src="../../assets/images/ren2.jpg" alt />
                 <p
                   style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff"
                 >郎平{{item}}</p>
               </div>
               <div class="col curpoint swiper-slide mt20" @click="gotoInfo" :key="item">
-                <img style="height:200px;margin-bottom:10px" src="../../assets/images/ren3.jpg" alt />
+                <img style="height:180px;margin-bottom:10px" src="../../assets/images/ren3.jpg" alt />
                 <p
                   style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff"
                 >刘翔{{item}}</p>
               </div>
               <div class="col curpoint swiper-slide mt20" @click="gotoInfo" :key="item">
-                <img style="height:200px;margin-bottom:10px" src="../../assets/images/ren4.jpg" alt />
+                <img style="height:180px;margin-bottom:10px" src="../../assets/images/ren4.jpg" alt />
                 <p
                   style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff"
                 >邓亚萍{{item}}</p>
@@ -78,25 +78,25 @@
            <div class="swiper-container">
             <div class="swiper-wrapper">
               <div class="col curpoint swiper-slide mt20" @click="gotoInfo" :key="item">
-                <img style="height:200px;margin-bottom:10px" src="../../assets/images/ren5.jpg" alt />
+                <img style="height:180px;margin-bottom:10px" src="../../assets/images/ren5.jpg" alt />
                 <p
                   style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff"
                 >孙杨{{item}}</p>
               </div>
               <div class="col curpoint swiper-slide mt20" @click="gotoInfo" :key="item">
-                <img style="height:200px;margin-bottom:10px" src="../../assets/images/ren6.jpg" alt />
+                <img style="height:180px;margin-bottom:10px" src="../../assets/images/ren6.jpg" alt />
                 <p
                   style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff"
                 >刘国梁{{item}}</p>
               </div>
               <div class="col curpoint swiper-slide mt20" @click="gotoInfo" :key="item">
-                <img style="height:200px;margin-bottom:10px" src="../../assets/images/ren7.jpg" alt />
+                <img style="height:180px;margin-bottom:10px" src="../../assets/images/ren7.jpg" alt />
                 <p
                   style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff"
                 >许海峰{{item}}</p>
               </div>
               <div class="col curpoint swiper-slide mt20" @click="gotoInfo" :key="item">
-                <img style="height:200px;margin-bottom:10px" src="../../assets/images/ren8.jpg" alt />
+                <img style="height:180px;margin-bottom:10px" src="../../assets/images/ren8.jpg" alt />
                 <p
                   style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff"
                 >李宁{{item}}</p>
@@ -118,7 +118,7 @@
             style="margin:5px 5px;overflow:hidden"
             :key="item"
           >
-            <img style="width:240px;height:154px;margin:10px" src="../../assets/images/zu1.jpg" alt />
+            <img style="width:240px;height:150px;margin:10px" src="../../assets/images/zu1.jpg" alt />
           </div>
           <div
             class="col curpoint"
@@ -126,7 +126,7 @@
             style="margin:5px 0.5%;overflow:hidden"
             :key="item"
           >
-            <img style="width:240px;height:154px;margin:10px" src="../../assets/images/zu2.jpg" alt />
+            <img style="width:240px;height:150px;margin:10px" src="../../assets/images/zu2.jpg" alt />
           </div>
           <div
             class="col curpoint"
@@ -134,7 +134,7 @@
             style="margin:5px 0.5%;overflow:hidden"
             :key="item"
           >
-            <img style="width:240px;height:154px;margin:10px" src="../../assets/images/zu3.jpg" alt />
+            <img style="width:240px;height:150px;margin:10px" src="../../assets/images/zu3.jpg" alt />
           </div>
           <div
             class="col curpoint"
@@ -142,7 +142,7 @@
             style="margin:5px 0.1%;overflow:hidden"
             :key="item"
           >
-            <img style="width:240px;height:154px;margin:10px" src="../../assets/images/zu4.jpg" alt />
+            <img style="width:240px;height:150px;margin:10px" src="../../assets/images/zu4.jpg" alt />
           </div>
           <div
             class="col curpoint"
@@ -150,7 +150,7 @@
             style="margin:5px 0.1%;overflow:hidden"
             :key="item"
           >
-            <img style="width:240px;height:154px;margin:10px" src="../../assets/images/zu5.jpg" alt />
+            <img style="width:240px;height:150px;margin:10px" src="../../assets/images/zu5.jpg" alt />
           </div>
           <div
             class="col curpoint"
@@ -158,7 +158,7 @@
             style="margin:5px 0.1%;overflow:hidden"
             :key="item"
           >
-            <img style="width:240px;height:154px;margin:10px" src="../../assets/images/zu6.jpg" alt />
+            <img style="width:240px;height:150px;margin:10px" src="../../assets/images/zu6.jpg" alt />
           </div>
           <div
             class="col curpoint"
@@ -166,7 +166,7 @@
             style="margin:5px 0.1%;overflow:hidden"
             :key="item"
           >
-            <img style="width:240px;height:154px;margin:10px" src="../../assets/images/zu7.jpg" alt />
+            <img style="width:240px;height:150px;margin:10px" src="../../assets/images/zu7.jpg" alt />
           </div>
           <div
             class="col curpoint"
@@ -174,7 +174,7 @@
             style="margin:5px 0.1%;overflow:hidden"
             :key="item"
           >
-            <img style="width:240px;height:154px;margin:10px" src="../../assets/images/zu8.jpg" alt />
+            <img style="width:240px;height:150px;margin:10px" src="../../assets/images/zu8.jpg" alt />
           </div>
         </div>
       </div>
