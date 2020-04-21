@@ -22,12 +22,15 @@ import tiyuDetail from '@/pages/tiyuDetail'
 import tiyuInfo from '@/pages/tiyuInfo'
 import tiyuSerDetail from '@/pages/tiyuSerDetail'
 import indentDetail from '@/pages/front/indent-child/indentDetail'
+import personCenter from '@/pages/front/indent-child/personCenter'
+import exam from '@/pages/front/indent-child/exam'
+import examDetail from '@/pages/front/indent-child/examDetail'
 
 
-import {Button,DatetimePicker,Icon,Row, Col ,Popup ,List,Cell,PullRefresh ,Loading,Lazyload,Dialog,Toast,Tab, Tabs,Pagination,Picker   } from 'vant'
+import {Button,DatetimePicker,Icon,Row, Col ,Popup ,List,Cell,PullRefresh ,Loading,Lazyload,Dialog,Toast,Tab, Tabs,Pagination,Picker,Card    } from 'vant'
 
 Vue.use(Router).use(Icon).use(Button).use(Row).use(Col).use(Popup).use(List).use(Cell).use(DatetimePicker)
-.use(PullRefresh).use(Loading).use(Lazyload).use(Dialog).use(Toast).use(Tab).use(Tabs).use(Pagination).use(Picker)
+.use(PullRefresh).use(Loading).use(Lazyload).use(Dialog).use(Toast).use(Tab).use(Tabs).use(Pagination).use(Picker).use(Card)
 var routes = [
     {
       path: '/',
@@ -133,6 +136,30 @@ var routes = [
           meta: {
              title: '课程教程'
            }
+        },
+        {
+          path: '/personCenter',
+          name: 'personCenter',
+          component: personCenter,
+          meta: {
+             title: '个人中心'
+           } 
+        },
+        {
+          path: '/exam',
+          name: 'exam',
+          component: exam,
+          meta: {
+             title: '线上考试'
+           } 
+        },
+        {
+          path: '/examDetail',
+          name: 'examDetail',
+          component: examDetail,
+          meta: {
+             title: '线上答题'
+           } 
         },
       ]
     },
