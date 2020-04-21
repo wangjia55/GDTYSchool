@@ -36,7 +36,7 @@
         </div>
       </div>
       <div class="mr20 mt20">
-        <el-button type="primary" icon="el-icon-setting">设置</el-button>
+        <el-button type="primary" icon="el-icon-setting" @click="fun">设置</el-button>
       </div>
     </div>
     <div>
@@ -110,7 +110,7 @@
                             收藏
                           </div>
                           <div class="end">
-                            <el-button type="warning">线下考试</el-button>
+                            <el-button type="warning" @click.native="lineDown = true">线下预约</el-button>
                           </div>
                         </div>
                       </div>
@@ -132,7 +132,7 @@
                             收藏
                           </div>
                           <div class="end">
-                            <el-button type="success">申请鉴定</el-button>
+                            <el-button type="success" @click.native="apply=true">申请鉴定</el-button>
                           </div>
                         </div>
                       </div>
@@ -258,8 +258,14 @@
               </div>
             </el-tab-pane>
             <el-tab-pane name="third" label="我的预约">
-              <div class="mh20 download" style="color:#333;font-size:15px;">
-                <div class="col m20" style="flex:1;border-bottom:1px solid #dfdfdf;padding-bottom:20px">
+              <div
+                class="mh20 download"
+                style="color:#333;font-size:15px;background:#fff;padding:10px 0"
+              >
+                <div
+                  class="col m20"
+                  style="flex:1;border-bottom:1px solid #dfdfdf;padding-bottom:20px"
+                >
                   <div class="row mb10">
                     <span style>免费课程</span>
                     <h2 style="margin-left:10px;font-size:18px;font-weight:bold">PHP实现微信公众平台开发—基</h2>
@@ -276,7 +282,10 @@
                     <el-button type="primary">已预约</el-button>
                   </div>
                 </div>
-                <div class="col m20" style="flex:1;border-bottom:1px solid #dfdfdf;padding-bottom:20px">
+                <div
+                  class="col m20"
+                  style="flex:1;border-bottom:1px solid #dfdfdf;padding-bottom:20px"
+                >
                   <div class="row mb10">
                     <span style>免费课程</span>
                     <h2 style="margin-left:10px;font-size:18px;font-weight:bold">PHP实现微信公众平台开发—基</h2>
@@ -299,6 +308,68 @@
         </div>
       </div>
     </div>
+    <div>
+      <el-dialog title="线下预约" :visible.sync="lineDown">
+        <el-form :model="form">
+          <el-form-item label="选择区域" :label-width="formLabelWidth">
+            <el-select v-model="form.region" placeholder="请选择预约区域">
+              <el-option label="广州" value="guangzhou"></el-option>
+              <el-option label="上海" value="shanghai"></el-option>
+              <el-option label="北京" value="beijing"></el-option>
+            </el-select>
+          </el-form-item>
+          <el-form-item label="时间" :label-width="formLabelWidth">
+            <el-date-picker v-model="value1" type="date" placeholder="选择时间"></el-date-picker>
+          </el-form-item>
+          <el-form-item label="选择课程" :label-width="formLabelWidth">
+            <div class="arc wss">
+              <div
+                v-for="(v,i) in 3"
+                :key="i"
+                @click="toCur(i)"
+                :class="[i===curIndex?'curblue':'asblue']"
+              >
+                <img src="../../../assets/images/ps8.jpg" alt />
+              </div>
+            </div>
+          </el-form-item>
+        </el-form>
+        <div slot="footer" class="dialog-footer">
+          <el-button @click="lineDown = false">取 消</el-button>
+          <el-button type="primary" @click="tosure">确 定</el-button>
+        </div>
+      </el-dialog>
+    </div>
+    <div>
+      <el-dialog title="申请鉴定" :visible.sync="apply">
+        <el-form :model="form">
+          <el-form-item label="选择项目" :label-width="formLabelWidth">
+            <el-select v-model="form.region" placeholder="请选择项目">
+              <el-option label="项目1" value="guangzhou"></el-option>
+              <el-option label="项目2" value="shanghai"></el-option>
+              <el-option label="项目3" value="beijing"></el-option>
+            </el-select>
+          </el-form-item>
+          <el-form-item label="选择批次" :label-width="formLabelWidth">
+            <div class="arc wss">
+              <div
+                v-for="(v,i) in 3"
+                :key="i"
+                @click="toCur(i)"
+                :class="[i===curIndex?'curblue':'asblue']"
+              >
+                <img src="../../../assets/images/ps8.jpg" alt />
+                <p style="text-align:center">{{(i+1)*3}}月</p>
+              </div>
+            </div>
+          </el-form-item>
+        </el-form>
+        <div slot="footer" class="dialog-footer">
+          <el-button @click="apply = false">取 消</el-button>
+          <el-button type="primary" @click="tosure1">提交申请</el-button>
+        </div>
+      </el-dialog>
+    </div>
   </div>
 </template>
 
@@ -307,9 +378,17 @@ export default {
   data() {
     return {
       // 数据
+      curIndex: 0,
       activeName: "first",
       activeNames: "first",
-      activeNames1: "first"
+      activeNames1: "first",
+      lineDown: false,
+      apply: false,
+      form: {
+        region: ""
+      },
+      formLabelWidth: "120px",
+      value1: ""
     };
   },
   components: {
@@ -332,16 +411,53 @@ export default {
   methods: {
     // 方法定义
     gotoInfo() {},
-    toExam(){
+    toCur(i) {
+      this.curIndex = i;
+    },
+    fun() {
+      this.$alert("", "功能开发中", {
+        confirmButtonText: "确定",
+        center: true,
+        callback: action => {}
+      });
+    },
+    tosure() {
+      this.lineDown = false;
+      this.$message.success("恭喜你，预约成功");
+    },
+    tosure1() {
+      this.apply = false;
+      this.$message.success("申请鉴定提交成功,请耐心等待结果");
+    },
+    toExam() {
       this.$router.push({
-        name:"exam"
-      })
+        name: "exam"
+      });
     }
   }
 };
 </script>
 <style scope lang="scss">
 .person-container {
+  .wss {
+    width: 100%;
+    margin: 20px auto;
+    > div {
+      padding: 5px;
+      flex: 0 0 30%;
+      img {
+        border-radius: 5px;
+        width: 100%;
+        cursor: pointer;
+      }
+    }
+    .asblue {
+      border: 1px solid #dfdfdf;
+    }
+    .curblue {
+      border: 2px solid #409eff;
+    }
+  }
   .download .item {
     border-bottom: 1px solid #dfdfdf;
   }
