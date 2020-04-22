@@ -198,7 +198,7 @@
       <div class="left mt20">
         <div class="title">
           <p class="news">鉴定指南 &gt;</p>
-          <a href="/index.php/Index/category/id/9.html" target="_blank">
+          <a target="_blank">
             <p class="more">more</p>
           </a>
         </div>
@@ -224,7 +224,7 @@
         </div>
       </div>
 
-      <div class="left space mt20">
+      <div class="right space mt20">
         <div class="title">
           <p class="news">常用工具 &gt;</p>
           <a target="_blank">
@@ -232,23 +232,23 @@
           </a>
         </div>
         <div class="thetools">
-          <ul class="news_content">
+          <ul class="" style="margin: 0 auto;margin-top: 10px;">
             <li>
               <img
                 src="../../assets/images/bt1.jpg"
-                style="width:320px; margin-left:100px; border-radius:15px; "
+                style="width:320px;  border-radius:15px; "
               />
             </li>
             <li>
               <img
                 src="../../assets/images/bt2.jpg"
-                style="width:320px; margin-left:100px;border-radius:15px; "
+                style="width:320px; border-radius:15px; "
               />
             </li>
             <li>
               <img
                 src="../../assets/images/bt3.jpg"
-                style="width:320px; margin-left:100px;border-radius:15px; "
+                style="width:320px; border-radius:15px; "
               />
             </li>
           </ul>
@@ -813,7 +813,17 @@
 
     .tools_detail .left {
       float: left;
-      width: 49%;
+      width: 64%;
+      height: 40px;
+      /*background: url(../images/index/left_title.png) no-repeat;*/
+      background-color: white;
+      /*overflow: hidden;*/
+      border-radius: 15px 15px 0 0;
+      border-bottom: 2px solid #409eff;
+    }
+    .tools_detail .right {
+      float: left;
+      width:34%;
       height: 40px;
       /*background: url(../images/index/left_title.png) no-repeat;*/
       background-color: white;
@@ -833,25 +843,26 @@
     }
     .jdzn{
       li{
-        width: 134px;
-        height: 134px;
+        width: 170px;
+        height: 170px;
         position: relative;
+        img{
+          width: 100%;
+          height: 100%;
+        }
         b{
           position: absolute;
           bottom: 0;
+          left: 0;
           width: 100%;
           text-align: center;
-          line-height: 40px;
+          line-height: 50px;
           font-size: 18px;
           color: white;
         }
       }
     }
 
-    .thetools img {
-      width: 133px;
-      margin-left: 5px;
-    }
     .theNews {
       width: 100%;
       height: 232px;
