@@ -45,7 +45,7 @@
           <el-tabs type="border-card middle" tab-position="left" v-model="activeName" stretch>
             <el-tab-pane name="first" label="我的课程">
               <div>
-                <el-card class="box-card mb20 newTabs" :key="v">
+                <el-card class="box-card mb20 newTabs2" :key="v">
                   <el-tabs v-model="activeNames" @tab-click="handleClick">
                     <el-tab-pane label="全部" name="first">
                       <div class="row" style="font-size:14px;border-bottom:1px solid #dfdfdf">
@@ -142,7 +142,7 @@
               </div>
             </el-tab-pane>
             <el-tab-pane name="second" label="我的订单">
-              <div class="p20 mh20 newTabs" style="background:#fff;color:#333;">
+              <div class="p20 mh20 newTabs2" style="background:#fff;color:#333;">
                 <el-tabs v-model="activeNames1">
                   <el-tab-pane label="全部" name="first">
                     <div class="row" style="font-size:14px;border-bottom:1px solid #dfdfdf">
@@ -498,44 +498,54 @@ export default {
   }
   .navsd {
     .el-tabs__item:hover {
-      color: blue !important;
-      background: #fff !important;
+      color: #fff !important;
+      background: #0e3174 !important;
       border: 0 !important;
     }
     .el-tabs__item {
-      color: #fff !important;
+      color: #0e3174 !important;
       height: 60px;
       width: 200px;
-      margin:10px;
+      margin: 10px;
+      background: #fff;
       text-align: center;
       line-height: 60px;
+      border-radius: 30px;
       border: 0 !important;
     }
     .el-tabs__item.is-active {
-      color: #1754c2 !important;
-      background: #fff !important;
+      color: #fff !important;
+      background: #0e3174 !important;
       border: 0 !important;
     }
     .el-tabs__nav {
     }
-    .newTabs {
+    .newTabs2 {
       .el-tabs__item:hover {
         color: #409eff !important;
         background: #fff !important;
-        border: 0 !important;
+        // border: 0 !important;
       }
       .el-tabs__item {
         color: #999 !important;
         height: 40px;
         width: 180px;
+        border-radius: 0;
         text-align: center;
         line-height: 40px;
-        border: 0 !important;
+        background: #fff !important;
+        // border: 0 !important;
+      }
+      .el-tabs__nav-wrap::after {
+        background-color: #fff !important;
       }
       .el-tabs__item.is-active {
         color: #409eff !important;
-        background: #fff !important;
+        background-color: #fff !important;
         border-bottom: 2px solid #409eff !important;
+      }
+      .el-tabs__active-bar {
+        background-color: #fff !important;
       }
       .el-tabs__nav {
         background: #fff;
