@@ -21,17 +21,6 @@
                 </div>
               </div>
             
-              <!-- <div class="row" style="font-size:16px">
-                <label for style="margin:10px">类型:</label>
-                <div class="row fsz">
-                  <span
-                    v-for="(item,index) in kinds"
-                    :key="item.id"
-                    :class="[curKinds===index?'curBlue':'']"
-                    @click="toKinds(index)"
-                  >{{item.name}}</span>
-                </div>
-              </div>-->
             </div>
             <div>
               <div class="row" style="font-size:16px">

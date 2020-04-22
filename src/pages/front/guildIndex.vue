@@ -1,20 +1,11 @@
 <template>
   <!-- 首页 -->
   <div class="guild-index-container nowrap">
-    <div class="navs">
-      <el-carousel style="height:400px;">
-        <el-carousel-item :interval="3000" >
-
-          <img style="width:100%;" src="../../assets/images/home8.png" alt />
-        </el-carousel-item>
-        <el-carousel-item :interval="3000" >
-          <img style="width:100%;" src="../../assets/images/home9.png" alt />
-        </el-carousel-item>
-        <el-carousel-item :interval="3000" >
-          <img style="width:100%;" src="../../assets/images/home10.png" alt />
-        </el-carousel-item>
-      </el-carousel>
-    </div>
+    <el-carousel>
+      <el-carousel-item :interval="3000">
+        <img style="width:100%;" src="../../assets/images/zixun24.png" alt />
+      </el-carousel-item>
+    </el-carousel>
     <div class="flex-flow mt20 mb20 init">
       <div class="school-news">
         <div class="btw yaonew align">
@@ -24,7 +15,7 @@
         <div class="btw">
           <div class="flex-base">
             <el-carousel>
-              <el-carousel-item >
+              <el-carousel-item>
                 <div class="flex-center curpoint col" @click="gotoDetail">
                   <img
                     style="width:450px;height:280px;margin:5px auto"
@@ -32,11 +23,11 @@
                     alt
                   />
                   <div style="width:400px;margin:10px auto">
-                   <h3 style="font-weight:700;font-size:16px;">广东体育职业技术学院参加教育系统防控新</h3>
+                    <h3 style="font-weight:700;font-size:16px;">广东体育职业技术学院参加教育系统防控新</h3>
                   </div>
                 </div>
               </el-carousel-item>
-                    <el-carousel-item >
+              <el-carousel-item>
                 <div class="flex-center curpoint col" @click="gotoDetail">
                   <img
                     style="width:450px;height:280px;margin:5px auto"
@@ -104,7 +95,6 @@
             class="col curpoint"
             @click="gotoDetails"
             style="flex:0 0 24%;margin:5px 0.5%;overflow:hidden"
-          
           >
             <img
               style="180px;height:160px;margin-bottom:10px"
@@ -112,11 +102,10 @@
               alt
             />
           </div>
-               <div
+          <div
             class="col curpoint"
             @click="gotoDetails"
             style="flex:0 0 24%;margin:5px 0.5%;overflow:hidden"
-          
           >
             <img
               style="180px;height:160px;margin-bottom:10px"
@@ -124,11 +113,10 @@
               alt
             />
           </div>
-               <div
+          <div
             class="col curpoint"
             @click="gotoDetails"
             style="flex:0 0 24%;margin:5px 0.5%;overflow:hidden"
-          
           >
             <img
               style="180px;height:160px;margin-bottom:10px"
@@ -136,11 +124,10 @@
               alt
             />
           </div>
-               <div
+          <div
             class="col curpoint"
             @click="gotoDetails"
             style="flex:0 0 24%;margin:5px 0.5%;overflow:hidden"
-          
           >
             <img
               style="180px;height:160px;margin-bottom:10px"
@@ -148,11 +135,10 @@
               alt
             />
           </div>
-               <div
+          <div
             class="col curpoint"
             @click="gotoDetails"
             style="flex:0 0 24%;margin:5px 0.5%;overflow:hidden"
-          
           >
             <img
               style="180px;height:160px;margin-bottom:10px"
@@ -160,11 +146,10 @@
               alt
             />
           </div>
-               <div
+          <div
             class="col curpoint"
             @click="gotoDetails"
             style="flex:0 0 24%;margin:5px 0.5%;overflow:hidden"
-          
           >
             <img
               style="180px;height:160px;margin-bottom:10px"
@@ -172,11 +157,10 @@
               alt
             />
           </div>
-               <div
+          <div
             class="col curpoint"
             @click="gotoDetails"
             style="flex:0 0 24%;margin:5px 0.5%;overflow:hidden"
-          
           >
             <img
               style="180px;height:160px;margin-bottom:10px"
@@ -184,11 +168,10 @@
               alt
             />
           </div>
-               <div
+          <div
             class="col curpoint"
             @click="gotoDetails"
             style="flex:0 0 24%;margin:5px 0.5%;overflow:hidden"
-          
           >
             <img
               style="180px;height:160px;margin-bottom:10px"
@@ -206,53 +189,29 @@
         <div class>
           <div class="swiper-container">
             <div class="swiper-wrapper">
-              <div
-                class="col curpoint swiper-slide mt20"
-                @click="gotoInfo"
-                
-              >
-                <img
-                  style="height:200px;margin-bottom:10px"
-                  src="../../assets/images/t1.jpg"
-                  alt
-                />
-                <p style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff">2019亚洲青年羽毛球锦标赛精彩瞬间</p>
+              <div class="col curpoint swiper-slide mt20" @click="gotoInfo">
+                <img style="height:200px;margin-bottom:10px" src="../../assets/images/t1.jpg" alt />
+                <p
+                  style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff"
+                >2019亚洲青年羽毛球锦标赛精彩瞬间</p>
               </div>
-               <div
-                class="col curpoint swiper-slide mt20"
-                @click="gotoInfo"
-                
-              >
-                <img
-                  style="height:200px;margin-bottom:10px"
-                  src="../../assets/images/t2.jpg"
-                  alt
-                />
-                <p style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff">2019年亚洲羽毛球锦标赛精彩集锦</p>
+              <div class="col curpoint swiper-slide mt20" @click="gotoInfo">
+                <img style="height:200px;margin-bottom:10px" src="../../assets/images/t2.jpg" alt />
+                <p
+                  style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff"
+                >2019年亚洲羽毛球锦标赛精彩集锦</p>
               </div>
-               <div
-                class="col curpoint swiper-slide mt20"
-                @click="gotoInfo"
-                
-              >
-                <img
-                  style="height:200px;margin-bottom:10px"
-                  src="../../assets/images/t3.jpg"
-                  alt
-                />
-                <p style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff">第16届苏迪曼杯颁奖仪式</p>
+              <div class="col curpoint swiper-slide mt20" @click="gotoInfo">
+                <img style="height:200px;margin-bottom:10px" src="../../assets/images/t3.jpg" alt />
+                <p
+                  style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff"
+                >第16届苏迪曼杯颁奖仪式</p>
               </div>
-               <div
-                class="col curpoint swiper-slide mt20"
-                @click="gotoInfo"
-                
-              >
-                <img
-                  style="height:200px;margin-bottom:10px"
-                  src="../../assets/images/t4.jpg"
-                  alt
-                />
-                <p style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff">第16届苏迪曼杯25日精彩集锦</p>
+              <div class="col curpoint swiper-slide mt20" @click="gotoInfo">
+                <img style="height:200px;margin-bottom:10px" src="../../assets/images/t4.jpg" alt />
+                <p
+                  style="text-align:center;padding:5px 0 ;position:absolute;bottom:0;left:0;width:100%;background:rgba(0,0,0,.5);color:#fff"
+                >第16届苏迪曼杯25日精彩集锦</p>
               </div>
             </div>
             <div class="swiper-button-prev"></div>
@@ -260,155 +219,47 @@
           </div>
         </div>
       </div>
-       <div class="school-news">
+      <div class="school-news">
         <div class="btw yaonew align">
           <p>合作伙伴</p>
           <p class="curpoint"></p>
         </div>
         <div class="flex-wrap" style="width:80%;margin:20px auto">
-        <div 
-            class="col curpoint"
-            @click="gotoInfo"
-            style="margin:5px 0.5%;overflow:hidden"
-           
-          >
-            <img
-              style="80px;height:54px;margin-bottom:10px"
-              src="../../assets/images/p1.jpg"
-              alt
-            />
+          <div class="col curpoint" @click="gotoInfo" style="margin:5px 0.5%;overflow:hidden">
+            <img style="80px;height:54px;margin-bottom:10px" src="../../assets/images/p1.jpg" alt />
           </div>
-          <div 
-            class="col curpoint"
-            @click="gotoInfo"
-            style="margin:5px 0.5%;overflow:hidden"
-           
-          >
-            <img
-              style="80px;height:54px;margin-bottom:10px"
-              src="../../assets/images/p2.jpg"
-              alt
-            />
+          <div class="col curpoint" @click="gotoInfo" style="margin:5px 0.5%;overflow:hidden">
+            <img style="80px;height:54px;margin-bottom:10px" src="../../assets/images/p2.jpg" alt />
           </div>
-          <div 
-            class="col curpoint"
-            @click="gotoInfo"
-            style="margin:5px 0.5%;overflow:hidden"
-           
-          >
-            <img
-              style="80px;height:54px;margin-bottom:10px"
-              src="../../assets/images/p3.jpg"
-              alt
-            />
+          <div class="col curpoint" @click="gotoInfo" style="margin:5px 0.5%;overflow:hidden">
+            <img style="80px;height:54px;margin-bottom:10px" src="../../assets/images/p3.jpg" alt />
           </div>
-            <div 
-            class="col curpoint"
-            @click="gotoInfo"
-            style="margin:5px 0.5%;overflow:hidden"
-           
-          >
-            <img
-              style="80px;height:54px;margin-bottom:10px"
-              src="../../assets/images/p4.jpg"
-              alt
-            />
+          <div class="col curpoint" @click="gotoInfo" style="margin:5px 0.5%;overflow:hidden">
+            <img style="80px;height:54px;margin-bottom:10px" src="../../assets/images/p4.jpg" alt />
           </div>
-            <div 
-            class="col curpoint"
-            @click="gotoInfo"
-            style="margin:5px 0.5%;overflow:hidden"
-           
-          >
-            <img
-              style="80px;height:54px;margin-bottom:10px"
-              src="../../assets/images/p5.jpg"
-              alt
-            />
+          <div class="col curpoint" @click="gotoInfo" style="margin:5px 0.5%;overflow:hidden">
+            <img style="80px;height:54px;margin-bottom:10px" src="../../assets/images/p5.jpg" alt />
           </div>
-            <div 
-            class="col curpoint"
-            @click="gotoInfo"
-            style="margin:5px 0.5%;overflow:hidden"
-           
-          >
-            <img
-              style="80px;height:54px;margin-bottom:10px"
-              src="../../assets/images/p6.jpg"
-              alt
-            />
+          <div class="col curpoint" @click="gotoInfo" style="margin:5px 0.5%;overflow:hidden">
+            <img style="80px;height:54px;margin-bottom:10px" src="../../assets/images/p6.jpg" alt />
           </div>
-            <div 
-            class="col curpoint"
-            @click="gotoInfo"
-            style="margin:5px 0.5%;overflow:hidden"
-           
-          >
-            <img
-              style="80px;height:54px;margin-bottom:10px"
-              src="../../assets/images/p7.jpg"
-              alt
-            />
+          <div class="col curpoint" @click="gotoInfo" style="margin:5px 0.5%;overflow:hidden">
+            <img style="80px;height:54px;margin-bottom:10px" src="../../assets/images/p7.jpg" alt />
           </div>
-            <div 
-            class="col curpoint"
-            @click="gotoInfo"
-            style="margin:5px 0.5%;overflow:hidden"
-           
-          >
-            <img
-              style="80px;height:54px;margin-bottom:10px"
-              src="../../assets/images/p8.jpg"
-              alt
-            />
+          <div class="col curpoint" @click="gotoInfo" style="margin:5px 0.5%;overflow:hidden">
+            <img style="80px;height:54px;margin-bottom:10px" src="../../assets/images/p8.jpg" alt />
           </div>
-            <div 
-            class="col curpoint"
-            @click="gotoInfo"
-            style="margin:5px 0.5%;overflow:hidden"
-           
-          >
-            <img
-              style="80px;height:54px;margin-bottom:10px"
-              src="../../assets/images/p9.jpg"
-              alt
-            />
+          <div class="col curpoint" @click="gotoInfo" style="margin:5px 0.5%;overflow:hidden">
+            <img style="80px;height:54px;margin-bottom:10px" src="../../assets/images/p9.jpg" alt />
           </div>
-            <div 
-            class="col curpoint"
-            @click="gotoInfo"
-            style="margin:5px 0.5%;overflow:hidden"
-           
-          >
-            <img
-              style="80px;height:54px;margin-bottom:10px"
-              src="../../assets/images/p9.jpg"
-              alt
-            />
+          <div class="col curpoint" @click="gotoInfo" style="margin:5px 0.5%;overflow:hidden">
+            <img style="80px;height:54px;margin-bottom:10px" src="../../assets/images/p9.jpg" alt />
           </div>
-           <div 
-            class="col curpoint"
-            @click="gotoInfo"
-            style="margin:5px 0.5%;overflow:hidden"
-           
-          >
-            <img
-              style="80px;height:54px;margin-bottom:10px"
-              src="../../assets/images/p3.jpg"
-              alt
-            />
+          <div class="col curpoint" @click="gotoInfo" style="margin:5px 0.5%;overflow:hidden">
+            <img style="80px;height:54px;margin-bottom:10px" src="../../assets/images/p3.jpg" alt />
           </div>
-            <div 
-            class="col curpoint"
-            @click="gotoInfo"
-            style="margin:5px 0.5%;overflow:hidden"
-           
-          >
-            <img
-              style="80px;height:54px;margin-bottom:10px"
-              src="../../assets/images/p1.jpg"
-              alt
-            />
+          <div class="col curpoint" @click="gotoInfo" style="margin:5px 0.5%;overflow:hidden">
+            <img style="80px;height:54px;margin-bottom:10px" src="../../assets/images/p1.jpg" alt />
           </div>
         </div>
       </div>
@@ -425,8 +276,8 @@ export default {
   computed: {},
   components: {},
   methods: {
-    gotoDetails(){
-       this.$router.push({ name: "guild", params: {} });
+    gotoDetails() {
+      this.$router.push({ name: "guild", params: {} });
     },
     gotoDetail() {
       this.$router.push({ name: "detail", params: {} });
@@ -459,9 +310,9 @@ export default {
 
 <style rel="stylesheet/scss" lang="scss">
 .guild-index-container {
-   .navs{
-    .el-carousel__container{
-      height:400px!important;
+  .navs {
+    .el-carousel__container {
+      height: 400px !important;
     }
   }
   .school-news {

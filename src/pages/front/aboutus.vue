@@ -1,6 +1,12 @@
 <template>
   <!-- 首页 -->
   <div class="index-container">
+
+      <el-carousel>
+          <el-carousel-item type="card" :interval="3000">
+            <img style="width:100%;" src="../../assets/images/zixun25.png" alt />
+          </el-carousel-item>
+        </el-carousel>
     <!--1111111111111111111111-->
     <div class="init">
       <div class="top_title mt20">

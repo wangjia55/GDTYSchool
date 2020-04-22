@@ -36,7 +36,6 @@
         </div>
       </div>
       <div class="mr20 mt20">
-        <el-button type="primary" icon="el-icon-setting" @click="fun"></el-button>
       </div>
     </div>
     <div>

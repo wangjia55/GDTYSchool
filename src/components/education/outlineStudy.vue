@@ -2,37 +2,24 @@
   <div class="c-message-container">
     <el-card class="box-card" v-for="v in 1" :key="v">
       <div slot="header" class="clearfix">
-        <span style="font-size:18px">面授学习</span>
+        <span style="font-size:18px">培训机构</span>
         <el-button style="float: right; padding: 3px 0" type="text">更多</el-button>
       </div>
-      <div class="text item" @click="gotoInfo">
-        <div class="btw">
-          <span>广东体育职业技术学院篮球课程培训</span>
-          <span>进入项目</span>
-        </div>
-      </div>
-      <div class="text item" @click="gotoInfo">
-        <div class="btw">
-          <span>广东体育职业技术学院网球课程培训</span>
-          <span>进入项目</span>
-        </div>
-      </div>
-      <div class="text item" @click="gotoInfo">
-        <div class="btw">
-          <span>广东体育职业技术学院羽毛球课程培训</span>
-          <span>进入项目</span>
-        </div>
-      </div>
-      <div class="text item" @click="gotoInfo">
-        <div class="btw">
-          <span>广东体育职业技术学院舞蹈课程培训</span>
-          <span>进入项目</span>
-        </div>
-      </div>
-      <div class="text item" @click="gotoInfo">
-        <div class="btw">
-          <span>广东体育职业技术学院武术课程培训</span>
-          <span>进入项目</span>
+      
+      <div class="btw mb20" style="background: white;">
+        <div style="width:90%;margin:20px auto" class="divButton btw">
+          <li>
+            <img src="../../assets/images/jigou3.png" style="width:250px; border:#b6b6b6 1px solid;border-radius:15px; " />
+          </li>
+          <li>
+            <img src="../../assets/images/jigou2.png" style="width:250px; border:#b6b6b6 1px solid;border-radius:15px; " />
+          </li>
+          <li>
+            <img src="../../assets/images/jigou1.png" style="width:250px;border:#b6b6b6 1px solid; border-radius:15px; " />
+          </li>
+            <li>
+            <img src="../../assets/images/jigou3.png" style="width:250px; border:#b6b6b6 1px solid;border-radius:15px; " />
+          </li>
         </div>
       </div>
     </el-card>

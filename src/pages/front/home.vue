@@ -23,35 +23,32 @@
         <div class="out">
           <el-carousel style="height:400px;">
             <el-carousel-item :interval="3000" :key="item" style="width:100%;">
-              <img style="width:100%;height:100%;" src="../../assets/images/ba1.png" alt/>
+              <img style="width:100%;height:100%;" src="../../assets/images/ser7.jpg" alt/>
             </el-carousel-item>
             <el-carousel-item :interval="3000" :key="item">
-              <img style="width:100%;height:100%;" src="../../assets/images/ba2.jpg" alt/>
+              <img style="width:100%;height:100%;" src="../../assets/images/detail2.png" alt/>
             </el-carousel-item>
             <el-carousel-item :interval="3000" :key="item">
-              <img style="width:100%;height:100%;" src="../../assets/images/home2.png" alt/>
-            </el-carousel-item>
-            <el-carousel-item :interval="3000" :key="item">
-              <img style="width:100%;height:100%;" src="../../assets/images/home4.png" alt/>
+              <img style="width:100%;height:100%;" src="../../assets/images/ser4.jpg" alt/>
             </el-carousel-item>
           </el-carousel>
         </div>
         <div class="news_right">
           <ul class="news_content">
             <li><a test="" target="_blank">●&nbsp;&nbsp;国家体育总局关于调整新冠肺炎疫情期间体育行政审批事项办理工作的通知</a></li>
-            <li><a test="/index.php/Index/show/id/199.html" target="_blank">●&nbsp;&nbsp;2019年度上海职业健身“金狮奖”颁奖盛典隆重举行
+            <li><a test="/index.php/Index/show/id/199.html" target="_blank">●&nbsp;&nbsp;2020年度广州职业健身“金狮奖”颁奖盛典隆重举行
               八大荣誉奖项出炉</a></li>
-            <li><a test="/index.php/Index/show/id/198.html" target="_blank">●&nbsp;&nbsp;2019东方职业健身交流大会年度十佳健身俱乐部、工作室线上报名、评选，火热征集中！</a>
+            <li><a test="/index.php/Index/show/id/198.html" target="_blank">●&nbsp;&nbsp;2020东方职业健身交流大会年度十佳健身俱乐部、工作室线上报名、评选，火热征集中！</a>
             </li>
             <li><a test="/index.php/Index/show/id/197.html"
-                   target="_blank">●&nbsp;&nbsp;上海代表队在2019年全国体育行业职业技能大赛中喜获佳绩</a>
+                   target="_blank">●&nbsp;&nbsp;广州代表队在2020年全国体育行业职业技能大赛中喜获佳绩</a>
             </li>
-            <li><a test="/index.php/Index/show/id/196.html" target="_blank">●&nbsp;&nbsp;2019“MY
-              COACH”上海市健身教练职业技能大赛顺利收官</a></li>
-            <li><a test="/index.php/Index/show/id/195.html" target="_blank">●&nbsp;&nbsp;【平凡岗位 星耀申城】2019“MY
-              COACH”上海市健身教练职业技能大赛9月开赛</a></li>
-            <li><a test="/index.php/Index/show/id/188.html" target="_blank">●&nbsp;&nbsp;2019“MY
-              COACH”上海市健身教练职业技能大赛暨全国体育行业职业技能大赛选拔赛 （健身运动指导）一触即发，等你来战！</a></li>
+            <li><a test="/index.php/Index/show/id/196.html" target="_blank">●&nbsp;&nbsp;2020“MY
+              COACH”广州市健身教练职业技能大赛顺利收官</a></li>
+            <li><a test="/index.php/Index/show/id/195.html" target="_blank">●&nbsp;&nbsp;【平凡岗位 星耀申城】2020“MY
+              COACH”广州市健身教练职业技能大赛9月开赛</a></li>
+            <li><a test="/index.php/Index/show/id/188.html" target="_blank">●&nbsp;&nbsp;2020“MY
+              COACH”广州市健身教练职业技能大赛暨全国体育行业职业技能大赛选拔赛 （健身运动指导）一触即发，等你来战！</a></li>
             <li><a test="/index.php/Index/show/id/201.html"
                    target="_blank">●&nbsp;&nbsp;国家体育总局关于调整新冠肺炎疫情期间体育行政审批事项办理工作的通知</a></li>
           </ul>
@@ -68,13 +65,13 @@
         </div>
         <div class="theNews">
           <ul class="news_content">
-            <li @click="dialogTableVisible=true"><a test="/index.php/Index/show/id/194.html" target="_blank">●&nbsp;&nbsp;2019年8月31日游泳救生鉴定公告</a>
+            <li @click="dialogTableVisible=true"><a test="/index.php/Index/show/id/194.html" target="_blank">●&nbsp;&nbsp;2020年8月31日游泳救生鉴定公告</a>
             </li>
-            <li><a test="/index.php/Index/show/id/193.html" target="_blank">●&nbsp;&nbsp;2019年8月26日游泳救生鉴定公告</a></li>
-            <li><a test="/index.php/Index/show/id/192.html" target="_blank">●&nbsp;&nbsp;2019年8月11日游泳救生鉴定公告</a></li>
-            <li><a test="/index.php/Index/show/id/191.html" target="_blank">●&nbsp;&nbsp;2019年8月10日游泳救生鉴定公告</a></li>
-            <li><a test="/index.php/Index/show/id/186.html" target="_blank">●&nbsp;&nbsp;2019年7月7日游泳救生鉴定公告</a></li>
-            <li><a test="/index.php/Index/show/id/185.html" target="_blank">●&nbsp;&nbsp;2019年6月上海市体育行业职业技能鉴定安排</a></li>
+            <li><a test="/index.php/Index/show/id/193.html" target="_blank">●&nbsp;&nbsp;2020年8月26日游泳救生鉴定公告</a></li>
+            <li><a test="/index.php/Index/show/id/192.html" target="_blank">●&nbsp;&nbsp;2020年8月11日游泳救生鉴定公告</a></li>
+            <li><a test="/index.php/Index/show/id/191.html" target="_blank">●&nbsp;&nbsp;2020年8月10日游泳救生鉴定公告</a></li>
+            <li><a test="/index.php/Index/show/id/186.html" target="_blank">●&nbsp;&nbsp;2020年7月7日游泳救生鉴定公告</a></li>
+            <li><a test="/index.php/Index/show/id/185.html" target="_blank">●&nbsp;&nbsp;2020年6月广州市体育行业职业技能鉴定安排</a></li>
           </ul>
         </div>
       </div>
@@ -87,7 +84,7 @@
         <div class="theNews">
           <ul class="news_content">
             <li><a test="/index.php/Index/show/id/169.html"
-                   target="_blank">●&nbsp;&nbsp;【全国羽毛球教练国职培训班（上海站）】2020年度首期报名</a></li>
+                   target="_blank">●&nbsp;&nbsp;【全国羽毛球教练国职培训班（广州站）】2020年度首期报名</a></li>
             <li><a test="/index.php/Index/show/id/157.html" target="_blank">●&nbsp;&nbsp;强化新思维
               构建新体系——“体育经理人培训与测评体系”项目启动</a></li>
             <li><a test="/index.php/Index/show/id/156.html" target="_blank">●&nbsp;&nbsp;健身教练国家职业资格培训探索国际接轨新模式</a></li>
@@ -236,19 +233,19 @@
             <li>
               <img
                 src="../../assets/images/bt1.jpg"
-                style="width:320px; margin-left:100px; border-radius:15px; "
+                style="width:300px; margin-left:120px; margin-top:20px;border-radius:15px; "
               />
             </li>
             <li>
               <img
                 src="../../assets/images/bt2.jpg"
-                style="width:320px; margin-left:100px;border-radius:15px; "
+                style="width:300px; margin-left:120px;border-radius:15px; "
               />
             </li>
             <li>
               <img
                 src="../../assets/images/bt3.jpg"
-                style="width:320px; margin-left:100px;border-radius:15px; "
+                style="width:300px; margin-left:120px;border-radius:15px; "
               />
             </li>
           </ul>
@@ -381,7 +378,7 @@
       list-style: none;
     }
     .out {
-      width: 870px;
+      width: 49%;
       height: 300px;
       position: relative;
       overflow: hidden;
@@ -558,7 +555,7 @@
     }
     .news_right {
       float: right;
-      width: 330px;
+      width: 49%;
       height: 300px;
       background: #ffffff;
     }
