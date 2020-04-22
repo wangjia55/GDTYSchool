@@ -151,7 +151,7 @@
       </div>
     </div>
     <el-dialog title="学习视频" :visible.sync="dialogTableVisible">
-      <video width="100%" controls="controls" loop v-if="dialogTableVisible" autoplay src="https://vdept.bdstatic.com/655331494c6c4e7a4e47416138646d31/674245495743664b/b78e9ab6943613a2b33801a1559629e825ad1c82fe87712cc7276a7b9f1b1c03809d328e3aa8dbf1d4e268945f836418.mp4?auth_key=1587464510-0-0-91baab74bf7d0b56c6fce02f1a31b81c"></video>
+      <video width="100%" controls="controls" loop v-if="dialogTableVisible" autoplay src="http://dantong.oss-cn-shenzhen.aliyuncs.com/12.mp4"></video>
     </el-dialog>
   </div>
 </template>
@@ -234,21 +234,26 @@ export default {
         display: inline-block;
         position: relative;
         margin-right: 50px;
-        font-size: 12px;
+        font-size: 15px;
       }
     }
   }
   .navsd {
     .el-tabs__item:hover {
-      color: blue !important;
-      background: #fff !important;
+      color: #fff!important;
+      background: #0e3174 !important;
       border: 0 !important;
+      
     }
     .el-tabs__item {
-      color: #fff !important;
+      color: #0e3174 !important;
+      background: #fff;
       height: 50px;
       line-height: 50px;
       border: 0 !important;
+      border-radius:30px;
+      width:220px!important;
+      margin:0 20px;
     }
     .el-tabs__item.is-active {
       color: #ffffff !important;

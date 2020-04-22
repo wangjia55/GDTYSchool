@@ -8,9 +8,9 @@
         </el-carousel-item>
       </el-carousel>
 
-    <div class="main-container init">
-      <div class="flex-sum mt10 navsd">
-        <el-tabs type="border-card" v-model="activeName" stretch>
+    <div class="main-container init p20" style="background:#fff">
+      <div class="flex-sum mt10 pt10">
+        <el-tabs type="border-card"  v-model="activeName" stretch>
           <el-tab-pane name="first" label="培训资讯">
             <div>
               <Message></Message>
@@ -175,14 +175,16 @@ export default {
 </script>
 
 <style rel="stylesheet/scss" lang="scss">
+.edu-container{
 .navs {
   .el-carousel__container {
-    height: 400px !important;
+    height: 400px!important;
   }
 }
 
   .el-tabs {
       border:0 !important;
+      padding:20px;
     }
 
     .el-tabs__header {
@@ -203,7 +205,7 @@ export default {
       color: #ffffff !important;
       background: #417EFF !important;
       border-radius: 50px;
-      margin: 0 20px;
+      margin: 0 12px;
       text-align: center;
       flex: 2 !important;
       font-size: 16px;
@@ -219,8 +221,9 @@ export default {
     .el-tabs__nav {
       width: 220px !important;
       border-radius: 50px;
-      margin: 0 20px;
+      margin: 0 12px;
       font-size: 16px;
+      padding:10px 0;
     }
 .curBlue {
   color: #0079bf !important;
@@ -245,6 +248,7 @@ export default {
   }
   .flex-sum {
     flex: 0 0 100%;
+   
   }
 
   .btn-enter {
@@ -301,6 +305,7 @@ export default {
       color: #ccc;
     }
   }
+}
 }
 </style>
 

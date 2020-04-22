@@ -14,15 +14,16 @@
         <a href target="_blank">
         </a>
       </div>
-      <div class="top_comment">
-        <div class="out">
+      <div class="top_comment btw">
+        <div class="out" style="width: 600px;">
           <el-carousel style="height:500px;">
             <el-carousel-item :interval="3000" :key="item" style="width:100%;">
               <img style="width:100%;height:100%;" src="../../assets/images/map.jpg" alt />
             </el-carousel-item>
           </el-carousel>
         </div>
-        <div  style="line-height:30px;height:300px;font-size:14px;background:#fff; padding:10px 10px;">
+        <div  style="flex: 1;line-height:30px;height:300px;font-size:14px;background:#fff; padding:10px 10px;">
+
               &#12288;&#12288;广州国体联体育服务网络平台是由广东体育职业技术学院（下称“学院”）与广东世纪城集团有限公司（下称“世纪城集团”）合作项目。
               校企双方对网络平台项目团队自签订战略合作协议以来开展工作所取得的成效给予了高度肯定，并一致认为，推进校企深度合作，打造多方协同育人体系是当前国家教育部及省政府对高等职业教育发展工作提出的要求。网络平台建设项目是双方前期战略合作的重要组成项目，双方对网络平台项目建设推进工作高度重视。
               双方领导亲自挂帅，积极组建项目攻关团队，围绕项目定位、市场需求、资源整合等方面展开了多轮卓有成效的协商，达成了多项共识和成果。
@@ -54,7 +55,7 @@
       </div>
     </div>
 
-    
+
     <!--3333333333333-->
     <div class="init">
       <div class="top_title mt20">

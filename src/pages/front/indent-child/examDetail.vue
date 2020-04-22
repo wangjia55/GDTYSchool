@@ -2,7 +2,7 @@
   <div class="exam-detail-container init p20 mv20" style="background:#fff;">
     <h2 style="text-align:center;font-size:18px;">2019年初级会计职称考试《实务考试真题》</h2>
     <div class="m20 p20">
-      <div class="test-con1 mb20" v-for="(item,index) in 6" :key="item">
+      <div class="test-con1 mb20" style="font-size:15px;" v-for="(item,index) in 6" :key="item">
         <div class="e-title2 row">
           <div class="nub">
             <i>{{index+1}}、</i>
@@ -84,5 +84,8 @@ export default {
 
 <style rel="stylesheet/scss" lang="scss" scoped>
 .exam-detail-container {
+  .test-xx{
+    li{    line-height: 30px;}
+  }
 }
 </style>

@@ -30,7 +30,7 @@
         </div>
 
         <div class="flex-base">
-          <el-card class="box-card">
+          <el-card class="box-card" style="margin-top:15px">
             <div slot="header" class="clearfix">
               <span style="font-size:18px">培训通告</span>
               <el-button style="float: right; padding: 3px 0" type="text">更多</el-button>
@@ -81,8 +81,8 @@
         <p class="curpoint">More></p>
       </div>
       <div class="btw">
-        <div class="flex-base" style="flex:2">
-          <el-card class="box-card">
+        <div class="flex-base" style="flex:2;">
+          <el-card class="box-card" style="height:280px;margin-top:15px">
             <div class="text item">
               <div class="btw" @click="gotoDetail">
                 <span>开拓视野，提升办学品质</span>
@@ -104,6 +104,18 @@
             <div class="text item">
               <div class="btw">
                 <span>提升教育信息化，助力课堂智慧化</span>
+                <span>2020-03-21</span>
+              </div>
+            </div>
+            <div class="text item">
+              <div class="btw">
+                <span>《校园健康读本六》——新型冠状病毒肺炎病防控常识</span>
+                <span>2020-03-21</span>
+              </div>
+            </div>
+            <div class="text item">
+              <div class="btw">
+                <span>《校园健康读本六》——新型冠状病毒肺炎病防控常识</span>
                 <span>2020-03-21</span>
               </div>
             </div>
@@ -212,6 +224,7 @@ export default {
   .item {
     font-size: 14px;
     margin-bottom: 5px;
+    // padding:5px 0;
     color: #666;
     cursor: pointer;
     &:hover {

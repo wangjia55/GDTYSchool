@@ -1,5 +1,5 @@
 <template>
-  <div class="c-message-container">
+  <div class="c-outlineStudy-container">
     <el-card class="box-card" v-for="v in 1" :key="v">
       <div slot="header" class="clearfix">
         <span style="font-size:18px">培训机构</span>
@@ -47,13 +47,17 @@ export default {
   }
 };
 </script>
-<style scoped>
-.container {
-  margin: 10px 10px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
+<style scoped lang="scss">
+.c-outlineStudy-container {
+ .item {
+    font-size: 14px;
+    margin-bottom: 5px;
+    // padding:5px 0;
+    color: #666;
+    cursor: pointer;
+    &:hover {
+      color: skyblue;
+    }
+  }
 }
 </style>
