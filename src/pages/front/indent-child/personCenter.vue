@@ -320,15 +320,14 @@
           <el-form-item label="时间" :label-width="formLabelWidth">
             <el-date-picker v-model="value1" type="date" placeholder="选择时间"></el-date-picker>
           </el-form-item>
-          <el-form-item label="选择课程" :label-width="formLabelWidth">
+          <el-form-item label="选择机构" :label-width="formLabelWidth">
             <div class="arc wss">
               <div
-                v-for="(v,i) in 3"
-                :key="i"
-                @click="toCur(i)"
-                :class="[i===curIndex?'curblue':'asblue']"
+               style="display:flex;flex-direction:row;justify-content:center;"
               >
-                <img src="../../../assets/images/ps8.jpg" alt />
+                <img  style="width:100px;margin:15px;border:#6b6b6b 1px solid;" src="../../../assets/images/jigou1.png" alt />
+                 <img  style="width:100px;margin:15px;border:#6b6b6b 1px solid;" src="../../../assets/images/jigou2.png" alt />
+                  <img  style="width:100px;margin:15px;border:#6b6b6b 1px solid;" src="../../../assets/images/jigou3.png" alt />
               </div>
             </div>
           </el-form-item>
@@ -344,9 +343,9 @@
         <el-form :model="form">
           <el-form-item label="选择项目" :label-width="formLabelWidth">
             <el-select v-model="form.region" placeholder="请选择项目">
-              <el-option label="项目1" value="guangzhou"></el-option>
-              <el-option label="项目2" value="shanghai"></el-option>
-              <el-option label="项目3" value="beijing"></el-option>
+              <el-option label="游泳教练" value="guangzhou"></el-option>
+              <el-option label="健身教练" value="shanghai"></el-option>
+              <el-option label="户外教练" value="beijing"></el-option>
             </el-select>
           </el-form-item>
           <el-form-item label="选择批次" :label-width="formLabelWidth">
@@ -357,7 +356,6 @@
                 @click="toCur(i)"
                 :class="[i===curIndex?'curblue':'asblue']"
               >
-                <img src="../../../assets/images/ps8.jpg" alt />
                 <p style="text-align:center">{{(i+1)*3}}月</p>
               </div>
             </div>
