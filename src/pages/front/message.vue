@@ -121,6 +121,7 @@ export default {
   .navsd {
     .el-tabs {
       border: 0 !important;
+      padding:20px;
     }
 
     .el-tabs__header {
@@ -160,6 +161,7 @@ export default {
       border-radius: 50px;
       margin: 0 20px;
       font-size: 16px;
+       padding:10px 0;
     }
   }
 

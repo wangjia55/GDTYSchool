@@ -7,18 +7,18 @@
       </div>
       
       <div class="btw mb20" style="background: white;">
-        <div style="width:90%;margin:20px auto" class="divButton btw">
+        <div style="width:97%;margin:20px auto" class="divButton btw">
           <li>
-            <img src="../../assets/images/jigou3.png" style="width:250px; border:#b6b6b6 1px solid;border-radius:15px; " />
+            <img src="../../assets/images/jigou3.png" style="width:245px; border:#b6b6b6 1px solid;border-radius:15px; " />
           </li>
           <li>
-            <img src="../../assets/images/jigou2.png" style="width:250px; border:#b6b6b6 1px solid;border-radius:15px; " />
+            <img src="../../assets/images/jigou2.png" style="width:245px; border:#b6b6b6 1px solid;border-radius:15px; " />
           </li>
           <li>
-            <img src="../../assets/images/jigou1.png" style="width:250px;border:#b6b6b6 1px solid; border-radius:15px; " />
+            <img src="../../assets/images/jigou1.png" style="width:245px;border:#b6b6b6 1px solid; border-radius:15px; " />
           </li>
             <li>
-            <img src="../../assets/images/jigou3.png" style="width:250px; border:#b6b6b6 1px solid;border-radius:15px; " />
+            <img src="../../assets/images/jigou3.png" style="width:245px; border:#b6b6b6 1px solid;border-radius:15px; " />
           </li>
         </div>
       </div>
@@ -40,6 +40,7 @@ export default {
   },
   methods: {
     // 事件函数
+    
   },
   props: ["datas"],
   created: function() {
@@ -57,6 +58,11 @@ export default {
     cursor: pointer;
     &:hover {
       color: skyblue;
+    }
+  }
+  .divButton{
+    >li{
+      margin-right:10px;
     }
   }
 }

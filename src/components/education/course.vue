@@ -9,7 +9,7 @@
             :key="item.id"
             :class="[curTime===index?'curBlue':'']"
             @click="toTime(index)"
-          >{{item.name}}年</span>
+          >{{item.name}}</span>
         </div>
       </div>
 
@@ -75,19 +75,19 @@ export default {
           id: 0
         },
         {
-          name: "2020",
+          name: "2020年",
           id: 1
         },
         {
-          name: "2019",
+          name: "2019年",
           id: 2
         },
         {
-          name: "2018",
+          name: "2018年",
           id: 3
         },
         {
-          name: "2017",
+          name: "2017年",
           id: 4
         }
       ],

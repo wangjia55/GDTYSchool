@@ -1,23 +1,22 @@
 <template>
   <div class="c-message-container">
-      
-            <span slot="label" style="font-size:20px">
-              <i class="el-icon-date"></i> 线上课程
-            </span>
-            <div class="btw">
-              <div class="row" style="font-size:16px">
-                <label for style="margin:10px">课程:</label>
-                <div class="row fsz">
-                  <span
-                    v-for="(item,index) in time"
-                    :key="item.id"
-                    :class="[curTime===index?'curBlue':'']"
-                    @click="toTime(index)"
-                  >{{item.name}}</span>
-                </div>
-              </div>
-            
-              <!-- <div class="row" style="font-size:16px">
+    <span slot="label" style="font-size:20px">
+      <i class="el-icon-date"></i> 线上课程
+    </span>
+    <div class="btw">
+      <div class="row" style="font-size:16px">
+        <label for style="margin:10px">课程:</label>
+        <div class="row fsz">
+          <span
+            v-for="(item,index) in time"
+            :key="item.id"
+            :class="[curTime===index?'curBlue':'']"
+            @click="toTime(index)"
+          >{{item.name}}</span>
+        </div>
+      </div>
+
+      <!-- <div class="row" style="font-size:16px">
                 <label for style="margin:10px">类型:</label>
                 <div class="row fsz">
                   <span
@@ -27,23 +26,28 @@
                     @click="toKinds(index)"
                   >{{item.name}}</span>
                 </div>
-              </div>-->
-            </div>
-            <div>
-              <div class="row" style="font-size:16px">
-                <label for style="margin:10px">地区:</label>
-                <div class="row fsz">
-                  <span
-                    v-for="(item,index) in area"
-                    :key="item.id"
-                    :class="[curArea===index?'curBlue':'']"
-                    @click="toArea(index)"
-                  >{{item.name}}</span>
-                </div>
-              </div>
-            </div>
+      </div>-->
+    </div>
+    <div>
+      <div class="row" style="font-size:16px">
+        <label for style="margin:10px">地区:</label>
+        <div class="row fsz">
+          <span
+            v-for="(item,index) in area"
+            :key="item.id"
+            :class="[curArea===index?'curBlue':'']"
+            @click="toArea(index)"
+          >{{item.name}}</span>
+        </div>
+      </div>
+    </div>
     <div class="flex-wrap">
-      <div class="col curpoint p10" v-for="item in courseLists" :key="item.id" style="flex:0 0 23%;margin:10px 0.5%;border:1px solid #dfdfdf;">
+      <div
+        class="col curpoint p10"
+        v-for="item in courseLists"
+        :key="item.id"
+        style="flex:0 0 23%;margin:10px 0.5%;border:1px solid #dfdfdf;"
+      >
         <img
           style="width:100%;height:160px;margin:10px auto;border-radius:5px"
           :src="item.imgsrc"
@@ -68,12 +72,8 @@
           <div class="btw">
             <div>
               优惠价:
-              <span style="margin:0 5px;color:red">
-                ￥46.00
-              </span>
-              <span style="color:#aaa;text-decoration:line-through;">
-                ￥50
-              </span>
+              <span style="margin:0 5px;color:red">￥46.00</span>
+              <span style="color:#aaa;text-decoration:line-through;">￥50</span>
             </div>
             <el-button type="primary" size="mini" @click="toIndentDetail">开始学习</el-button>
           </div>
@@ -127,7 +127,7 @@
           <p style="text-align:left">健美操教学基础公开课</p>
           <el-button type="primary" size="mini">开始学习</el-button>
         </div>
-      </div> -->
+      </div>-->
     </div>
   </div>
 </template>
@@ -138,49 +138,49 @@ export default {
   data() {
     // 数据
     return {
-      courseLists:[
+      courseLists: [
         {
-          id:0,
-          imgsrc:require('../../assets/images/ps1.jpg'),
-          text:"2020年游泳教学基础公开课"
+          id: 0,
+          imgsrc: require("../../assets/images/ps1.jpg"),
+          text: "2020年游泳教学基础公开课"
         },
         {
-          id:1,
-          imgsrc:require('../../assets/images/ps2.jpg'),
-          text:"2020年羽毛球教学基础公开课"
+          id: 1,
+          imgsrc: require("../../assets/images/ps2.jpg"),
+          text: "2020年羽毛球教学基础公开课"
         },
         {
-          id:30,
-          imgsrc:require('../../assets/images/ps3.jpg'),
-          text:"2020年篮球教学基础公开课"
+          id: 30,
+          imgsrc: require("../../assets/images/ps3.jpg"),
+          text: "2020年篮球教学基础公开课"
         },
         {
-          id:20,
-          imgsrc:require('../../assets/images/ps4.jpg'),
-          text:"2020年足球教学基础公开课"
+          id: 20,
+          imgsrc: require("../../assets/images/ps4.jpg"),
+          text: "2020年足球教学基础公开课"
         },
         {
-          id:40,
-          imgsrc:require('../../assets/images/ps5.jpg'),
-          text:"2020年网球教学基础公开课"
+          id: 40,
+          imgsrc: require("../../assets/images/ps5.jpg"),
+          text: "2020年网球教学基础公开课"
         },
         {
-          id:50,
-          imgsrc:require('../../assets/images/ps6.jpg'),
-          text:"2020年武术教学基础公开课"
+          id: 50,
+          imgsrc: require("../../assets/images/ps6.jpg"),
+          text: "2020年武术教学基础公开课"
         },
         {
-          id:60,
-          imgsrc:require('../../assets/images/ps7.jpg'),
-          text:"2020年舞蹈教学基础公开课"
+          id: 60,
+          imgsrc: require("../../assets/images/ps7.jpg"),
+          text: "2020年舞蹈教学基础公开课"
         },
         {
-          id:70,
-          imgsrc:require('../../assets/images/ps8.jpg'),
-          text:"2020年健美操教学基础公开课"
-        },
+          id: 70,
+          imgsrc: require("../../assets/images/ps8.jpg"),
+          text: "2020年健美操教学基础公开课"
+        }
       ],
-       time: [
+      time: [
         {
           name: "全部",
           id: 0
@@ -207,6 +207,7 @@ export default {
         }
       ],
       curKinds: 0,
+      curTime: 0,
       kinds: [
         {
           name: "全部",
@@ -269,13 +270,22 @@ export default {
   },
   methods: {
     // 事件函数
-    toIndentDetail(){
+    toIndentDetail() {
       this.$router.push({
-        name:"indentDetail"
-      })
+        name: "indentDetail"
+      });
     },
-    gotoStudy(){
-       window.open('http://120.79.95.187:8081/course/9fc1cbd6d31342da9bb2d053b0a8a679','_blank') 
+    toTime(index) {
+      this.curTime = index;
+    },
+    toArea(index) {
+      this.curArea = index;
+    },
+    gotoStudy() {
+      window.open(
+        "http://120.79.95.187:8081/course/9fc1cbd6d31342da9bb2d053b0a8a679",
+        "_blank"
+      );
     }
   },
   props: ["datas"],
@@ -293,10 +303,10 @@ export default {
   align-items: center;
   align-content: center;
 }
-.isTime{
-    >p{
-      margin-right: 10px;
-      margin-bottom: 10px;
-    }
+.isTime {
+  > p {
+    margin-right: 10px;
+    margin-bottom: 10px;
   }
+}
 </style>
