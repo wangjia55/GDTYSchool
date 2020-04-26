@@ -3,6 +3,9 @@
   <div class="index-container">
     <div class="navs">
       <el-carousel style="height:400px;">
+         <el-carousel-item :interval="3000">
+          <img style="width:100%;height:100%;" src="../../assets/images/home15.png" alt />
+        </el-carousel-item>
         <el-carousel-item :interval="3000" style="width:100%;">
           <img style="width:100%;height:100%;" src="../../assets/images/ba1.png" alt />
         </el-carousel-item>
@@ -294,7 +297,7 @@
                 <img src="../../assets/images/zi1.png" alt />
                 <p
                   style="color:#fff;height:50px;text-align:center;font-size:18px;line-height:50px;"
-                >资格证书1</p>
+                >国家体育资格证书</p>
               </div>
             </el-carousel-item>
             <el-carousel-item>
@@ -302,7 +305,7 @@
                 <img src="../../assets/images/zi2.png" alt />
                 <p
                   style="color:#fff;height:50px;text-align:center;font-size:18px;line-height:50px;"
-                >资格证书2</p>
+                >初级私人教练认证</p>
               </div>
             </el-carousel-item>
             <el-carousel-item>
@@ -310,7 +313,7 @@
                 <img src="../../assets/images/zi3.png" alt />
                 <p
                   style="color:#fff;height:50px;text-align:center;font-size:18px;line-height:50px;"
-                >资格证书3</p>
+                >高级私人教练认证</p>
               </div>
             </el-carousel-item>
             <el-carousel-item>
@@ -318,7 +321,7 @@
                 <img src="../../assets/images/zi4.png" alt />
                 <p
                   style="color:#fff;height:50px;text-align:center;font-size:18px;line-height:50px;"
-                >资格证书4</p>
+                >私人教练认证</p>
               </div>
             </el-carousel-item>
           </el-carousel>
@@ -960,10 +963,9 @@ export default {
 
     .type_line li img {
       border: none;
-      width: 120px;
-
-      height: 120px;
-      margin: 10px auto;
+      width: 110px;
+      height: 110px;
+      margin: 5px auto;
       border-radius: 100px;
       border: 1px solid #eeeeee;
     }

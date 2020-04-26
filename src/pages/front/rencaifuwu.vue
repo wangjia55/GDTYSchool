@@ -1,10 +1,6 @@
 <template>
   <div class="message-container">
-    <el-carousel>
-      <el-carousel-item type="card" :interval="3000">
-        <img style="width:100%;" src="../../assets/images/zixun23.png" alt/>
-      </el-carousel-item>
-    </el-carousel>
+      <img style="width:100%;" src="../../assets/images/rencaifuwu.png" alt/>
 
     <div class="rcfw">
       <div class="arc">

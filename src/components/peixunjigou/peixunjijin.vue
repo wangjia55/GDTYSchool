@@ -6,7 +6,7 @@
         <div style="text-align:center;">
           <p
             style="font-size:28px;color:white;font-weight:bold;margin:15px 0;padding-left:-10px;"
-          >健身教练培训课程</p>
+          >培训集锦</p>
           <p style="font-size:16px;color:white;">健身教练培训学校精心为您提供私人教练培训课程、健身教练培训课程，助您快速领取健身教练资格证。</p>
         </div>
         <div class="arc tzgg">

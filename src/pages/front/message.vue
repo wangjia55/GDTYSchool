@@ -1,12 +1,7 @@
 <template>
   <!-- 体育资讯 -->
   <div class="message-container">
-    <el-carousel>
-      <el-carousel-item type="card" :interval="3000">
-        <img style="width:100%;" src="../../assets/images/zixun21.png" alt />
-      </el-carousel-item>
-    </el-carousel>
-
+     <img style="width:100%;" src="../../assets/images/tiyuzixun.png" alt />
     <div style="width:85%;height:100px;margin:0 auto;">
 
         <div class="project_lead_content" style="padding: 20px 0;height:100px;">
