@@ -1,5 +1,6 @@
 <template>
   <div style="background: #ececec;">
+    <div style="height:100px"></div>
     <header class="shadow header-container">
       <div class="front-content-width btw p10 align" style="height: 100%;">
         <div class="row align">
@@ -238,7 +239,12 @@ $baseColor: #fff;
 
 .header-container {
   height: 100px;
-  margin-top: -2px;
+  width:100%;
+  // margin-top: -2px;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 100;
   padding: 5px 20px;
   background: url("../../assets/images/top_background.png");
 }
