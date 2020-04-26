@@ -8,6 +8,7 @@ import guildIndex from '@/pages/front/guildIndex'
 import identification from '@/pages/front/identification'
 import job from '@/pages/front/job'
 import message from '@/pages/front/message'
+import peixunjigou from '@/pages/front/peixunjigou'
 import service from '@/pages/front/service'
 import education from '@/pages/front/education'
 import jdgg from '@/pages/front/jiandinggonggao'
@@ -120,6 +121,14 @@ var routes = [
           component: message,
           meta: {
             title: '体育资讯'
+          },
+        },
+        {
+          path: 'peixunjigou',
+          name: 'peixunjigou',
+          component: peixunjigou,
+          meta: {
+            title: '培训机构'
           },
         },
         {
