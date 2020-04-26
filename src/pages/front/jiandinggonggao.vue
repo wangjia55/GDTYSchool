@@ -128,7 +128,7 @@ export default {
     }
 
     .el-tabs__header {
-      padding-left: 130px;
+      padding-left: 50px;
       border: 0 !important;
     }
     .el-tabs__item:hover {
@@ -154,7 +154,7 @@ export default {
     .el-tabs__item.is-active {
       width: 220px !important;
       color: #ffffff !important;
-      background: rgb(49, 97, 199) !important;
+      background: #1e4aa8 !important;
       border: 0 !important;
       border-radius: 50px;
       font-size: 16px;

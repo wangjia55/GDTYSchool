@@ -66,11 +66,11 @@
       font-size: 16px;
       &.active {
         width: 220px !important;
-        color: #ffffff !important;
-        background: #3161c7 !important;
-        border: 0 !important;
-        border-radius: 50px;
-        font-size: 16px;
+      color: #ffffff !important;
+      background: #1e4aa8 !important;
+      border: 0 !important;
+      border-radius: 50px;
+      font-size: 16px;
       }
     }
   }
@@ -106,14 +106,14 @@
     font-size: 16px;
   }
 
-  .el-tabs__item.is-active {
-    width: 220px !important;
-    color: #ffffff !important;
-    background: rgb(34, 71, 151) !important;
-    border: 0 !important;
-    border-radius: 50px;
-    font-size: 16px;
-  }
+ .el-tabs__item.is-active {
+      width: 220px !important;
+      color: #ffffff !important;
+      background: #1e4aa8 !important;
+      border: 0 !important;
+      border-radius: 50px;
+      font-size: 16px;
+    }
 
   .el-tabs__nav {
     width: 220px !important;

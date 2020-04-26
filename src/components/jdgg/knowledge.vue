@@ -13,7 +13,7 @@
                   <img src="../../assets/images/zi1.png" alt />
                   <p
                     style="color:#fff;height:50px;text-align:center;font-size:18px;line-height:50px;"
-                  >资格证书1</p>
+                  >国家体育资格证书</p>
                 </div>
               </el-carousel-item>
               <el-carousel-item>
@@ -21,7 +21,7 @@
                   <img src="../../assets/images/zi2.png" alt />
                   <p
                     style="color:#fff;height:50px;text-align:center;font-size:18px;line-height:50px;"
-                  >资格证书2</p>
+                  >初级教练认证</p>
                 </div>
               </el-carousel-item>
               <el-carousel-item>
@@ -29,7 +29,7 @@
                   <img src="../../assets/images/zi3.png" alt />
                   <p
                     style="color:#fff;height:50px;text-align:center;font-size:18px;line-height:50px;"
-                  >资格证书3</p>
+                  >中级教练认证</p>
                 </div>
               </el-carousel-item>
               <el-carousel-item>
@@ -37,7 +37,7 @@
                   <img src="../../assets/images/zi4.png" alt />
                   <p
                     style="color:#fff;height:50px;text-align:center;font-size:18px;line-height:50px;"
-                  >资格证书4</p>
+                  >高级教练认证</p>
                 </div>
               </el-carousel-item>
             </el-carousel>
@@ -55,19 +55,20 @@
         <div>
           <div class="jd-way">
             <h3>鉴定方式：</h3>
-            <p>鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式</p>
+            <p>鉴定分为理论和实操两个部分，理论采用闭卷笔试，实操通常采用技能展示和教学指导能力相结合的方式，体育经纪人、体育场地工则采取案例分析和撰写论文等方式进行考核。理论和实操考核均采用百分制，两项考核皆达到60分以上者为合格。</p>
           </div>
             <div class="jd-way">
             <h3>鉴定流程：</h3>
-            <p>鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式</p>
+            <p>制定鉴定计划  →   发布公告   →  组建考评小组   →  考前准备  →   提取鉴定试题  →   组织鉴定 -理论 →  实操 → 阅卷评分 → 呈报鉴定结果 → 核发证书 → 鉴定总结</p>
           </div>
             <div class="jd-way">
             <h3>培训师与讲师：</h3>
-            <p>鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式</p>
+            <p>职业培训工作由具备职业培训资质的各项目培训基地承担；培训基地是由各单位自愿申报，经国家体育总局或市体育局审核同意后挂牌，培训基地分国家级和省（市）级。</p>
+            <p>培训师须参加国家体育总局职鉴指导中心或省（市）体育职业技能鉴定站统一组织的师资培训、考试，获得资质证书后才能进行培训授课。</p>
           </div>
             <div class="jd-way">
             <h3>考评与考评员：</h3>
-            <p>鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式鉴定方式</p>
+            <p>考评工作由鉴定站抽调考评员负责。考评员须参加国家人力资源和社会保障部职鉴中心和国家体育总局职鉴指导中心统一组织的培训、考试，获得资格后才能进行考评工作。 </p>
           </div>
         </div>
        </div>
