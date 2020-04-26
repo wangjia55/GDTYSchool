@@ -1,5 +1,5 @@
 <template>
-  <div style="background: #ececec;">
+  <div style="background: #f6f6f8;">
     <header class="shadow header-container">
       <div class="front-content-width btw p10 align" style="height: 100%;">
         <div class="row align">
@@ -87,7 +87,7 @@ export default {
     tabList() {
       return [
         { label: "首页", name: "home" },
-    
+
         {
           label: "体育资讯",
           name: "message",

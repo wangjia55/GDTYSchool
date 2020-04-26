@@ -1,5 +1,17 @@
 <template>
   <div class="hyzp">
+    <!--<img src="../../assets/images/shots/bg_rcfw1.png"/>-->
+    <div class="btw " style="margin: 20px 0;">
+      <img src="../../assets/images/shots/bg_rcfw1_left.png"/>
+      <div class="img-group" style="flex: 1;">
+        <!--todo-->
+        <img src="../../assets/images/shots/bg_rcfw1.png"/>
+        <img/>
+        <img/>
+        <img/>
+      </div>
+    </div>
+
     <ul class="cur">
       <li @click="dialogTableVisible=true">
         <div class="sub-li">
@@ -10,8 +22,7 @@
               data-src="https://img.bosszhipin.com/beijin/mcs/chatphoto/20180223/bb89828becd334e495a2dbb499fb775dcfcd208495d565ef66e7dff9f98764da.jpg?x-oss-process=image/resize,w_60,limit_0"
               alt="无边体育"></p>
           </a>
-          <a ka="index_rcmd_job_1" class="job-info"
-             target="_blank">
+          <a ka="index_rcmd_job_1" class="job-info" target="_blank">
             <p class="name"><span class="name-text">游泳教练</span></p>
             <p class="job-text">广州<span class="vline"></span>不限<span class="vline"></span>本科</p>
             <p class="salary">4-5K·13薪</p>
@@ -132,6 +143,13 @@
       </li>
     </ul>
 
+    <img src="../../assets/images/shots/bg_rcfw2.png"/>
+
+    <img src="../../assets/images/shots/bg_hezuodanwei1.png"/>
+    <img src="../../assets/images/shots/bg_hezuodanwei2.png"/>
+
+    <img src="../../assets/images/shots/bg_rcfw3.png"/>
+
     <el-dialog title="" width="900px" :visible.sync="dialogTableVisible">
       <div class="hyzp-dialog">
         <img class="w100" src="../../assets/images/shots/zwzp_detail_dialog.png">
@@ -153,6 +171,18 @@
 
 <style scoped lang="scss">
   .hyzp {
+    .img-group{
+      padding-left: 10px;
+
+      justify-content: space-between;
+
+      >img{
+        width: 47.5%;
+        height: 49%;
+        margin-right: 5px;
+        background: lightskyblue;
+      }
+    }
     .city-site .common-tab-box ul.cur {
       display: block;
     }
@@ -168,7 +198,7 @@
     }
     ul li {
       height: 130px;
-      width: 300px;
+      width: 380px;
       float: left;
       margin: 0 16px 16px 0;
       background: #fff;

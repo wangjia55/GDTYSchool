@@ -26,7 +26,7 @@
               <Course></Course>
             </div>
           </el-tab-pane>
-       
+
           <el-tab-pane name="fourth" label="培训机构">
             <div>
               <OutlineStudy></OutlineStudy>
@@ -40,7 +40,7 @@
       v-show="activeName==='first'"
       style="padding:15px;margin-bottom:20px;"
     >
-    
+
     </div>
   </div>
 </template>
@@ -141,7 +141,7 @@ export default {
       this.init();
     },
     init() {
-     
+
       var swiper = new Swiper(".ww", {
         slidesPerView: 4,
         spaceBetween: 0,
@@ -176,6 +176,9 @@ export default {
 
 <style rel="stylesheet/scss" lang="scss">
 .edu-container{
+
+
+
 .navs {
   .el-carousel__container {
     height: 400px!important;
@@ -239,7 +242,7 @@ export default {
 }
 
 .edu-container {
-  
+
   .box-card {
     margin: 15px 5px;
   }
@@ -248,7 +251,7 @@ export default {
   }
   .flex-sum {
     flex: 0 0 100%;
-   
+
   }
 
   .btn-enter {
