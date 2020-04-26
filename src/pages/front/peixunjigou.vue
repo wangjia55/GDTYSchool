@@ -1,58 +1,33 @@
 <template>
-  <!-- 体育资讯 -->
+  <!-- 培训机构详情页 -->
   <div class="message-container">
-     <img style="width:100%;" src="../../assets/images/tiyuzixun.png" alt />
-    <div style="width:85%;height:100px;margin:0 auto;">
-
-        <div class="project_lead_content" style="padding: 20px 0;height:100px;">
-          <ul class="pic arc">
-            <li>
-              <img src="../../assets/images/jn1.png" style="width:350px; border-radius:15px; " />
-            </li>
-            <li>
-              <img src="../../assets/images/jn2.png" style="width:350px; border-radius:15px; " />
-            </li>
-            <li>
-              <img src="../../assets/images/jn3.png" style="width:350px; border-radius:15px; " />
-            </li>
-          </ul>
-        </div>
-      </div>
-
+      <img style="width:100%;" src="../../assets/images/ji-banner.png" alt />
 
     <div class="main-container init">
-      <div class="flex-sum mt100 navsd">
+      <div class="flex-sum  navsd">
         <el-tabs type="border-card" v-model="activeName">
           <el-tab-pane name="first" label="体育资讯">
             <span slot="label">
-              <i class="el-icon-date"></i> 体育资讯
+              <i class="el-icon-date"></i> 精彩课程
             </span>
             <div>
-              <Message></Message>
+              <kecheng></kecheng>
             </div>
           </el-tab-pane>
-          <el-tab-pane name="second" label="运动应知道">
+          <el-tab-pane name="second" label="培训集锦">
             <span slot="label">
-              <i class="el-icon-trophy"></i> 运动应知道
+              <i class="el-icon-trophy"></i> 培训集锦
             </span>
             <div>
-              <Knowledge></Knowledge>
+              <peixunjijin></peixunjijin>
             </div>
           </el-tab-pane>
-          <el-tab-pane name="third" label="体育圣殿">
+          <el-tab-pane name="third" label="机构介绍">
             <span slot="label">
-              <i class="el-icon-medal"></i> 体育圣殿
+              <i class="el-icon-medal"></i> 机构介绍
             </span>
             <div>
-              <ShengDian></ShengDian>
-            </div>
-          </el-tab-pane>
-          <el-tab-pane name="fourth" label="酷体育">
-            <span slot="label">
-              <i class="el-icon-bangzhu"></i> 酷体育
-            </span>
-            <div>
-              <Kutiyu></Kutiyu>
+              <Intro></Intro>
             </div>
           </el-tab-pane>
         </el-tabs>
@@ -62,10 +37,10 @@
 </template>
 
 <script>
-import Message from "../../components/message/message";
-import ShengDian from "../../components/message/shengdian";
-import Knowledge from "../../components/message/knowledge";
-import Kutiyu from "../../components/message/kutiyu";
+import kecheng from "../../components/peixunjigou/kecheng";
+import peixunjijin from "../../components/peixunjigou/peixunjijin";
+import Intro from "../../components/peixunjigou/intro";
+// import Kutiyu from "../../components/message/kutiyu";
 export default {
   data() {
     return {
@@ -74,10 +49,10 @@ export default {
   },
   computed: {},
   components: {
-    Message,
-    ShengDian,
-    Knowledge,
-    Kutiyu
+    kecheng,
+    peixunjijin,
+    Intro,
+    // Kutiyu
   },
   methods: {
     gotoMore() {
@@ -128,6 +103,11 @@ export default {
     // margin: 0 10px;
   }
 
+  
+.bg-black {
+  background: url("../../assets/images/linebg.png") repeat;
+}
+
   .flex-sum {
     flex: 0 0 100%;
   }
@@ -143,7 +123,7 @@ export default {
     }
 
     .el-tabs__header {
-      padding-left: 130px;
+      padding-left: 200px;
       border: 0 !important;
     }
     .el-tabs__item:hover {
@@ -161,7 +141,7 @@ export default {
       color: #ffffff !important;
       background: #417eff !important;
       border-radius: 50px;
-      margin: 0 20px;
+      margin: 0 40px;
       text-align: center;
       flex: 2 !important;
       font-size: 16px;
@@ -169,7 +149,7 @@ export default {
     .el-tabs__item.is-active {
       width: 220px !important;
       color: #ffffff !important;
-      background: #1e4aa8 !important;
+      background: rgb(49, 97, 199) !important;
       border: 0 !important;
       border-radius: 50px;
       font-size: 16px;

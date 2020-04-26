@@ -1,10 +1,6 @@
 <template>
   <div class="message-container">
-    <el-carousel>
-      <el-carousel-item type="card" :interval="3000">
-        <img style="width:100%;" src="../../assets/images/zixun23.png" alt/>
-      </el-carousel-item>
-    </el-carousel>
+      <img style="width:100%;" src="../../assets/images/rencaifuwu.png" alt/>
 
     <div class="rcfw">
       <div class="arc">
@@ -70,11 +66,11 @@
       font-size: 16px;
       &.active {
         width: 220px !important;
-        color: #ffffff !important;
-        background: #3161c7 !important;
-        border: 0 !important;
-        border-radius: 50px;
-        font-size: 16px;
+      color: #ffffff !important;
+      background: #1e4aa8 !important;
+      border: 0 !important;
+      border-radius: 50px;
+      font-size: 16px;
       }
     }
   }
@@ -110,14 +106,14 @@
     font-size: 16px;
   }
 
-  .el-tabs__item.is-active {
-    width: 220px !important;
-    color: #ffffff !important;
-    background: rgb(34, 71, 151) !important;
-    border: 0 !important;
-    border-radius: 50px;
-    font-size: 16px;
-  }
+ .el-tabs__item.is-active {
+      width: 220px !important;
+      color: #ffffff !important;
+      background: #1e4aa8 !important;
+      border: 0 !important;
+      border-radius: 50px;
+      font-size: 16px;
+    }
 
   .el-tabs__nav {
     width: 220px !important;

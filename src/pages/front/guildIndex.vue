@@ -1,11 +1,7 @@
 <template>
   <!-- 首页 -->
   <div class="guild-index-container nowrap">
-    <el-carousel>
-      <el-carousel-item :interval="3000">
-        <img style="width:100%;" src="../../assets/images/zixun24.png" alt />
-      </el-carousel-item>
-    </el-carousel>
+   <img style="width:100%;" src="../../assets/images/hangyexiehui.png" alt />
     <div class="flex-flow mt20 mb20 init">
       <div class="school-news">
         <div class="btw yaonew align">

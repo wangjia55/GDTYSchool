@@ -240,7 +240,7 @@ $baseColor: #fff;
 .header-container {
   height: 100px;
   width:100%;
-  // margin-top: -2px;
+   margin-top: -1px;
   position: fixed;
   top:0;
   left:0;
