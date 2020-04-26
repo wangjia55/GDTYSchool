@@ -1,6 +1,6 @@
 <template>
   <!-- 首页 -->
-  <div class="index-container">
+  <div class="abouts-container">
 
       <el-carousel>
           <el-carousel-item type="card" :interval="3000">
@@ -102,7 +102,7 @@ export default {
 </script>
 
 <style rel="stylesheet/scss" lang="scss">
-.index-container {
+.abouts-container {
   .navs {
     .el-carousel__container {
       height: 400px !important;
