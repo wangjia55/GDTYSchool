@@ -27,7 +27,7 @@
               <i class="el-icon-medal"></i> 机构介绍
             </span>
             <div>
-              <ShengDian></ShengDian>
+              <Intro></Intro>
             </div>
           </el-tab-pane>
         </el-tabs>
@@ -39,8 +39,8 @@
 <script>
 import kecheng from "../../components/peixunjigou/kecheng";
 import peixunjijin from "../../components/peixunjigou/peixunjijin";
-import Knowledge from "../../components/message/knowledge";
-import Kutiyu from "../../components/message/kutiyu";
+import Intro from "../../components/peixunjigou/intro";
+// import Kutiyu from "../../components/message/kutiyu";
 export default {
   data() {
     return {
@@ -51,8 +51,8 @@ export default {
   components: {
     kecheng,
     peixunjijin,
-    Knowledge,
-    Kutiyu
+    Intro,
+    // Kutiyu
   },
   methods: {
     gotoMore() {
