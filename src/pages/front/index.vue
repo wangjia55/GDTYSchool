@@ -99,10 +99,10 @@ export default {
             { title: "学术快递", id: "honor" }
           ]
         },
-        { label: "鉴定公告", name: "jdgg" },
+        { label: "职业鉴定", name: "jdgg" },
 
         {
-          label: "职业鉴定",
+          label: "体育培训",
           name: "education",
           list: [
             { title: "政策服务", id: "us" },
