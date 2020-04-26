@@ -1,228 +1,85 @@
 <template>
-
-  <div class="index-container nowrap">
-  培训基地
+  <div class="index-container nowrap pxjd" style="margin: 0 auto;width: 1000px;">
+    <img src="../../assets/images/shots/bg_peixunjigou_select.png">
+    <div style="display: flex;flex-wrap: wrap;">
+      <div style="" class="item shadow">
+        <img src="../../assets/images/shots/bg_youyong.jpeg">
+        <div>
+          <h1>广州普利斯游泳培训中心</h1>
+          <p>地址：广州市奥体南路120号</p>
+          <p>联系电话：020-12341234</p>
+        </div>
+      </div>
+      <div style="" class="item shadow">
+        <img src="../../assets/images/shots/bg_yumaoqiu.jpeg">
+        <div>
+          <h1>广州国际羽毛球培训中心</h1>
+          <p>地址：广州市奥体南路120号</p>
+          <p>联系电话：020-12341234</p>
+        </div>
+      </div>
+      <div style="" class="item shadow">
+        <img src="../../assets/images/shots/bg_jianshen.png">
+        <div>
+          <h1>广州健身培训中心</h1>
+          <p>地址：广州市奥体南路120号</p>
+          <p>联系电话：020-12341234</p>
+        </div>
+      </div>
+      <div style="" class="item shadow">
+        <img src="../../assets/images/shots/bg_taiquandao.jpeg">
+        <div>
+          <h1>广州跆拳道培训中心</h1>
+          <p>地址：广州市奥体南路120号</p>
+          <p>联系电话：020-12341234</p>
+        </div>
+      </div>
+      <div style="" class="item shadow">
+        <img src="../../assets/images/shots/bg_liubin.jpg">
+        <div>
+          <h1>广州溜冰培训中心</h1>
+          <p>地址：广州市奥体南路120号</p>
+          <p>联系电话：020-12341234</p>
+        </div>
+      </div>
+      <div style="" class="item shadow">
+        <img src="../../assets/images/shots/bg_ppqiu.jpg">
+        <div>
+          <h1>广州乒乓球培训中心</h1>
+          <p>地址：广州市奥体南路120号</p>
+          <p>联系电话：020-12341234</p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      curTime: 0,
-      time: [
-        {
-          name: "全部",
-          id: 0
-        },
-        {
-          name: "今天",
-          id: 1
-        },
-        {
-          name: "本周",
-          id: 2
-        },
-        {
-          name: "本月内",
-          id: 3
-        },
-        {
-          name: "三月内",
-          id: 4
-        },
-        {
-          name: "半年内",
-          id: 5
-        }
-      ],
-      curKinds: 0,
-      kinds: [
-        {
-          name: "全部",
-          id: 0
-        },
-        {
-          name: "骑行",
-          id: 1
-        },
-        {
-          name: "游泳",
-          id: 2
-        },
-        {
-          name: "篮球",
-          id: 3
-        },
-        {
-          name: "健美",
-          id: 4
-        },
-        {
-          name: "足球",
-          id: 5
-        }
-      ],
-      curArea: 0,
-      area: [
-        {
-          name: "全部",
-          id: 0
-        },
-        {
-          name: "广东省",
-          id: 1
-        },
-        {
-          name: "北京市",
-          id: 2
-        },
-        {
-          name: "山东省",
-          id: 3
-        },
-        {
-          name: "湖北省",
-          id: 4
-        },
-        {
-          name: "上海市",
-          id: 5
-        }
-      ]
-    };
-  },
-  computed: {},
-  components: {},
-  methods: {
-    toDetail(){
-      this.$router.push('tiyuSerDetail')
-    },
-    toTime(index) {
-      this.curTime = index;
-    },
-    toKinds(index) {
-      this.curKinds = index;
-    },
-    toArea(index) {
-      this.curArea = index;
-    }
-  },
-  mounted() {},
-  filters: {}
-};
+  export default {};
 </script>
 
-<style rel="stylesheet/scss" lang="scss" >
-.ser-main{
-  div{
-    margin: 20px;
-    padding:20px;
-    >h3{
-      font-size: 16px;
-      font-weight: bold;
-      margin-bottom: 10px;
+<style rel="stylesheet/scss" lang="scss">
+  .pxjd {
+    .item {
+      width: 46%;
+      height: 100px;
+      margin: 10px;
+      display: flex;
+      > img {
+        width: 140px;
+        height: 100%;
+      }
+      >div{
+        padding: 10px 20px;
+        >h1{
+          line-height: 2.4;
+        }
+        >p{
+          font-size: 12px;
+          line-height: 1.5;
+        }
+      }
     }
   }
-}
- .navs{
-    .el-carousel__container{
-      height:400px!important;
-    }
-  }
-.textser{
-  img{
-    margin:10px 0;
-    width:100%;
-    
-  }
-}
-.ser-body {
-
-  p {
-    line-height: 28px;
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-  }
-  > p:nth-of-type(1) {
-    font-size: 18px;
-    margin-bottom: 5px;
-    font-weight: 600;
-    min-height: 70px;
-    line-height: 2;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  > p:nth-of-type(2) {
-    color: #0079bf;
-    font-size: 12px;
-    line-height: 1.5;
-    margin: 8px 0;
-  }
-  > p:nth-of-type(3) {
-    color: #0079bf;
-    font-size: 12px;
-    line-height: 1.5;
-    margin: 8px 0;
-  }
-  > p:nth-of-type(4) {
-  }
-  > p:nth-of-type(5) {
-  }
-  > p:nth-of-type(6) {
-  }
-}
-.fsz {
-  // margin:10px;
-  > span {
-    margin: 10px;
-    color: #999;
-    cursor: pointer;
-  }
-}
-.imgs {
-  img {
-    width: 30%;
-    margin-left: 3%;
-    margin-bottom: 10px;
-    border: 1px solid #dfdfdf;
-    cursor: pointer;
-  }
-}
-.curBlue {
-  color: #0079bf !important;
-  font-weight: bold;
-}
-
-.flex-base {
-  flex: 0 0 48%;
-  margin: 10px 1%;
-}
-.item {
-  font-size: 14px;
-  margin-bottom: 5px;
-  color: #666;
-  cursor: pointer;
-  &:hover {
-    color: skyblue;
-  }
-}
-
-.divButton {
-  > div {
-    width: 180px;
-    text-align: center;
-    line-height: 40px;
-    height: 40px;
-    font-size: 16px;
-    background: #f5f5f5;
-    margin: 0 12px;
-    cursor: pointer;
-  }
-}
 </style>
 

@@ -1,7 +1,49 @@
 <template>
-
   <div class="guild-index-container nowrap">
-    专家阵容
+    <div class="mv20" style="background: white;">
+      <p style="text-align: center;font-size: 22px;margin-top: 20px;">明星考察员</p>
+      <div style="width:75%;margin:20px auto" class="divButton btw">
+        <li>
+          <img src="../../assets/images/dao1.jpg" style="width:320px;border:#b6b6b6 1px solid;margin:10px; border-radius:15px; " />
+        </li>
+        <li>
+          <img src="../../assets/images/dao2.jpg" style="width:320px;border:#b6b6b6 1px solid;margin:10px;  border-radius:15px; " />
+        </li>
+        <li>
+          <img src="../../assets/images/dao3.jpg" style="width:320px; border:#b6b6b6 1px solid; margin:10px;border-radius:15px; " />
+        </li>
+      </div>
+    </div>
+
+    <div class="mv20" style="background: white;">
+      <p style="text-align: center;font-size: 22px;margin-top: 20px;">明星培训师</p>
+      <div style="width:75%;margin:20px auto" class="divButton btw">
+        <li>
+          <img src="../../assets/images/dao1.jpg" style="width:320px;border:#b6b6b6 1px solid;margin:10px; border-radius:15px; " />
+        </li>
+        <li>
+          <img src="../../assets/images/dao2.jpg" style="width:320px;border:#b6b6b6 1px solid;margin:10px;  border-radius:15px; " />
+        </li>
+        <li>
+          <img src="../../assets/images/dao3.jpg" style="width:320px; border:#b6b6b6 1px solid; margin:10px;border-radius:15px; " />
+        </li>
+      </div>
+    </div>
+
+    <div class="mv20" style="background: white;">
+      <p style="text-align: center;font-size: 22px;margin-top: 20px;">考务员</p>
+      <div style="width:75%;margin:20px auto" class="divButton btw">
+        <li>
+          <img src="../../assets/images/dao1.jpg" style="width:320px;border:#b6b6b6 1px solid;margin:10px; border-radius:15px; " />
+        </li>
+        <li>
+          <img src="../../assets/images/dao2.jpg" style="width:320px;border:#b6b6b6 1px solid;margin:10px;  border-radius:15px; " />
+        </li>
+        <li>
+          <img src="../../assets/images/dao3.jpg" style="width:320px; border:#b6b6b6 1px solid; margin:10px;border-radius:15px; " />
+        </li>
+      </div>
+    </div>
   </div>
 </template>
 
