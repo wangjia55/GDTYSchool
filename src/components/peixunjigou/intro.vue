@@ -126,24 +126,24 @@ export default {
     gotoInfo() {
       this.$router.push({ name: "tiyuInfo", params: {} });
     },
-    init() {
-      var mySwiper = new Swiper(".swiper-container", {
-        slidesPerView: 4,
-        paginationClickable: true,
-        spaceBetween: 30,
-        loop: true,
-        observer: true, //修改swiper自己或子元素时，自动初始化swiper
-        observeParents: true, //修改swiper的父元素时，自动初始化swiper
-        // 如果需要前进后退按钮
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev"
-        }
-      });
-    }
+    // init() {
+    //   var mySwiper = new Swiper(".swiper-container", {
+    //     slidesPerView: 4,
+    //     paginationClickable: true,
+    //     spaceBetween: 30,
+    //     loop: true,
+    //     observer: true, //修改swiper自己或子元素时，自动初始化swiper
+    //     observeParents: true, //修改swiper的父元素时，自动初始化swiper
+    //     // 如果需要前进后退按钮
+    //     navigation: {
+    //       nextEl: ".swiper-button-next",
+    //       prevEl: ".swiper-button-prev"
+    //     }
+    //   });
+    // }
   },
   mounted() {
-    this.init();
+    // this.init();
   },
   filters: {}
 };

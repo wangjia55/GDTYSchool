@@ -1,10 +1,10 @@
 <template>
   <!-- 培训机构详情页 -->
   <div class="message-container">
-      <img style="width:100%;" src="../../assets/images/ji-banner.png" alt />
+    <img style="width:100%;" src="../../assets/images/ji-banner.png" alt />
 
     <div class="main-container init">
-      <div class="flex-sum  navsd">
+      <div class="flex-sum navsd">
         <el-tabs type="border-card" v-model="activeName">
           <el-tab-pane name="first" label="体育资讯">
             <span slot="label">
@@ -27,7 +27,43 @@
               <i class="el-icon-medal"></i> 机构介绍
             </span>
             <div>
-              <Intro></Intro>
+              <!-- <Intro></Intro> -->
+              <div class="intro-index-container init" style="margin:0">
+                <div class="texts">
+                  <p>健身教练培训学校精心为您提供私人教练培训课程、健身教练培训课程，助您快速领取健身教练资格证。健身身教练培训课程，助您快速领取健身教练资格证。健身身教练培训课程，助您快速领取健身教练资格证。健身教练培训学校精心为您提供私人教练培训课程、健身教练培训课程，助您快速领取健身教练资格证。</p>
+                  <p>健身教练培训学校精心为您提供私人教练培训课程身教练培训课程，助您快速领取健身教练资格证。健身、健身教练培训课程，助您快速领取健身教练资格证。健身教练培训学校精心为您提供私人教练培训课程、健身教练培训课程，助您快速领取健身教练资格证。</p>
+                  <p>健身教练培训学校精练资格证。健身教练培训学校精心为您提供私人教练培训课程、健身教练培训课程，助您快速领取健身教练资格证。</p>
+                  <p>健身教练培训学校精心为您提供私人教身教练培训课程，助您快速领取健身教练资格证。健身身教练培训课程，助您快速领取健身教练资格证。健身身教练培训课程，助您快速领取健身教练资格证。健身练培训课程、健身教练培训课程，助您快速领取健身教练资格证。健身教练培训学校精心为您提供私人教练培训课程、健身教练培训课程，助您快速领取健身教练资格证。健身教练培训学校精心为您提供私人教身教练培训课程，助您快速领取健身教练资格证。健身身教练培训课程，助您快速领取健身教练资格证。健身身教练培训课程，助您快速领取健身教练资格证。健身练培训课程、健身教练培训课程，助您快速领取健身教练资格证。健身教练培训学校精心为您提供私人教练培训课程、健身教练培训课程，助您快速领取健身教练资格证。</p>
+                </div>
+                <div class="bg-black">
+                  <div class="p20">
+                    <div class="middle tac" style="text-align:center;color:#fff">
+                      <img style="width:500px" :src="curData.srcs" alt />
+                      <p>{{curData.text}}</p>
+                    </div>
+                    <div class="swiper-container">
+                      <div class="swiper-wrapper">
+                        <div
+                          class="col curpoint swiper-slide mt20"
+                          v-for="(item,index) in swiperList"
+                          :key="index"
+                          
+                        >
+                          <img
+                            style="height:150px;margin-bottom:10px"
+                            :class="[curIndex==item.id?'borderRed':'borderGray','hoverImg']"
+                            @click="gotoInfo(item)"
+                            :src="item.srcs"
+                            alt
+                          />
+                        </div>
+                      </div>
+                      <div class="swiper-button-prev"></div>
+                      <div class="swiper-button-next"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </el-tab-pane>
         </el-tabs>
@@ -37,38 +73,120 @@
 </template>
 
 <script>
+import Swiper from "swiper";
 import kecheng from "../../components/peixunjigou/kecheng";
 import peixunjijin from "../../components/peixunjigou/peixunjijin";
-import Intro from "../../components/peixunjigou/intro";
+// import Intro from "../../components/peixunjigou/intro";
 // import Kutiyu from "../../components/message/kutiyu";
 export default {
   data() {
     return {
-      activeName: "first"
+      curIndex: 0,
+      activeName: "first",
+      curData:{
+        srcs:require("../../assets/images/t1.jpg"),
+        text: "2019亚洲青年羽毛球锦标赛精彩瞬间"
+      },
+      swiperList: [
+        {
+          id: 0,
+          srcs: require("../../assets/images/t1.jpg"),
+          text: "2019亚洲青年羽毛球锦标赛精彩瞬间"
+        },
+        {
+          id: 10,
+          srcs: require("../../assets/images/t2.jpg"),
+          text: "12019亚洲青年羽毛球锦标赛精彩瞬间"
+        },
+        {
+          id: 20,
+          srcs: require("../../assets/images/t3.jpg"),
+          text: "22019亚洲青年羽毛球锦标赛精彩瞬间"
+        },
+        {
+          id: 30,
+          srcs: require("../../assets/images/t4.jpg"),
+          text: "32019亚洲青年羽毛球锦标赛精彩瞬间"
+        },
+        {
+          id: 40,
+          srcs: require("../../assets/images/t3.jpg"),
+          text: "42019亚洲青年羽毛球锦标赛精彩瞬间"
+        },
+        {
+          id: 50,
+          srcs: require("../../assets/images/t2.jpg"),
+          text: "52019亚洲青年羽毛球锦标赛精彩瞬间"
+        },
+        {
+          id: 60,
+          srcs: require("../../assets/images/t1.jpg"),
+          text: "62019亚洲青年羽毛球锦标赛精彩瞬间"
+        },
+        {
+          id: 70,
+          srcs: require("../../assets/images/t2.jpg"),
+          text: "72019亚洲青年羽毛球锦标赛精彩瞬间"
+        },
+        {
+          id: 80,
+          srcs: require("../../assets/images/t3.jpg"),
+          text: "82019亚洲青年羽毛球锦标赛精彩瞬间"
+        }
+      ]
     };
   },
   computed: {},
   components: {
     kecheng,
-    peixunjijin,
-    Intro,
+    peixunjijin
+    // Intro
     // Kutiyu
   },
   methods: {
     gotoMore() {
       this.$router.push({ path: "tiyuDetail" });
     },
-    gotoInfo() {
-      this.$router.push({ path: "tiyuInfo" });
+
+    gotoInfo(item) {
+      console.log(item);
+      this.curIndex = item.id;
+      this.curData = item
+    },
+    init() {
+      var mySwiper = new Swiper(".swiper-container", {
+        slidesPerView: 6,
+        paginationClickable: true,
+        spaceBetween: 30,
+        // loop: true,
+        observer: true, //修改swiper自己或子元素时，自动初始化swiper
+        observeParents: true, //修改swiper的父元素时，自动初始化swiper
+        // 如果需要前进后退按钮
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev"
+        }
+      });
     }
   },
-  mounted() {},
+  mounted() {
+    this.init();
+  },
   filters: {}
 };
 </script>
 
 <style rel="stylesheet/scss" lang="scss" >
 .message-container {
+  .borderRed {
+    border: 2px solid #1754c2;
+  }
+  .borderGray {
+    border: 2px solid #333;
+  }
+  .hoverImg:hover {
+    border: 2px solid #1754c2;
+  }
   .el-carousel__item h3 {
     color: #475669;
     font-size: 18px;
@@ -99,23 +217,27 @@ export default {
   .main-container {
     display: flex;
     flex-direction: row;
-    margin-top:200px;
+    margin-top: 200px;
     // margin: 0 10px;
   }
 
-  
-.bg-black {
-  background: url("../../assets/images/linebg.png") repeat;
-}
+  .bg-black {
+    background: url("../../assets/images/linebg.png") repeat;
+  }
 
   .flex-sum {
     flex: 0 0 100%;
   }
 
-  .mt100{
-    margin-top:100px;
+  .mt100 {
+    margin-top: 100px;
   }
-
+  .texts {
+    width: 90%;
+    margin: 10px 2%;
+    font-size: 14px;
+    text-indent: 2em;
+  }
   .navsd {
     .el-tabs {
       border: 0 !important;
