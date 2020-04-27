@@ -1,12 +1,8 @@
 
 <template>
-  <!-- 职业鉴定 -->
+  <!-- 体育培训 -->
   <div class="edu-container">
-      <el-carousel >
-        <el-carousel-item type="card" :interval="3000">
-          <img style="width:100%;" src="../../assets/images/zixun26.png" alt />
-        </el-carousel-item>
-      </el-carousel>
+     <img style="width:100%;" src="../../assets/images/peixun.png" alt />
 
     <div class="main-container init p20" style="background:#fff">
       <div class="flex-sum mt10 pt10">
@@ -26,7 +22,7 @@
               <Course></Course>
             </div>
           </el-tab-pane>
-       
+
           <el-tab-pane name="fourth" label="培训机构">
             <div>
               <OutlineStudy></OutlineStudy>
@@ -40,7 +36,7 @@
       v-show="activeName==='first'"
       style="padding:15px;margin-bottom:20px;"
     >
-    
+
     </div>
   </div>
 </template>
@@ -141,7 +137,7 @@ export default {
       this.init();
     },
     init() {
-     
+
       var swiper = new Swiper(".ww", {
         slidesPerView: 4,
         spaceBetween: 0,
@@ -176,6 +172,9 @@ export default {
 
 <style rel="stylesheet/scss" lang="scss">
 .edu-container{
+
+
+
 .navs {
   .el-carousel__container {
     height: 400px!important;
@@ -213,7 +212,7 @@ export default {
     .el-tabs__item.is-active {
       width: 220px !important;
       color: #ffffff !important;
-      background: rgb(49, 97, 199) !important;
+      background: #1e4aa8 !important;
       border: 0 !important;
       border-radius: 50px;
       font-size: 16px;
@@ -239,7 +238,7 @@ export default {
 }
 
 .edu-container {
-  
+
   .box-card {
     margin: 15px 5px;
   }
@@ -248,7 +247,7 @@ export default {
   }
   .flex-sum {
     flex: 0 0 100%;
-   
+
   }
 
   .btn-enter {

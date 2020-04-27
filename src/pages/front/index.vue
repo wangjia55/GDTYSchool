@@ -1,5 +1,5 @@
 <template>
-  <div style="background: #ececec;">
+  <div style="background: #f6f6f8;">
     <div style="height:100px"></div>
     <header class="shadow header-container">
       <div class="front-content-width btw p10 align" style="height: 100%;">
@@ -88,7 +88,7 @@ export default {
     tabList() {
       return [
         { label: "首页", name: "home" },
-    
+
         {
           label: "体育资讯",
           name: "message",
@@ -99,10 +99,10 @@ export default {
             { title: "学术快递", id: "honor" }
           ]
         },
-        { label: "鉴定公告", name: "jdgg" },
+        { label: "职业鉴定", name: "jdgg" },
 
         {
-          label: "职业鉴定",
+          label: "体育培训",
           name: "education",
           list: [
             { title: "政策服务", id: "us" },
@@ -240,7 +240,7 @@ $baseColor: #fff;
 .header-container {
   height: 100px;
   width:100%;
-  // margin-top: -2px;
+   margin-top: -1px;
   position: fixed;
   top:0;
   left:0;
