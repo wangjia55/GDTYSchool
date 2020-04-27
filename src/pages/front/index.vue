@@ -33,6 +33,9 @@
               >{{v2.title}}</div>
             </div>
           </router-link>
+          <div class="align ml10">
+            <el-button type="success" @click="toLogin">登录</el-button>
+          </div>
         </div>
       </div>
     </header>
@@ -61,6 +64,85 @@
       </div>
       <p class="copyright">Copyright© 2020 Guangdong Guotilian Sports Platform 备案号:粤ICP备06108273号</p>
     </footer>
+    <el-dialog title="用户登录" center :visible.sync="dialogFormVisible" width="500px">
+      <el-form :model="form">
+        <el-form-item label="用户名" :label-width="formLabelWidth">
+          <el-input style="width:250px" v-model="form.name" autocomplete="off"></el-input>
+        </el-form-item>
+        <el-form-item label="用户密码" :label-width="formLabelWidth">
+          <el-input style="width:250px" v-model="form.pwd" autocomplete="off"></el-input>
+        </el-form-item>
+      </el-form>
+      <div slot="footer" class="dialog-footer">
+        <el-button @click="dialogFormVisible = false">取 消</el-button>
+        <el-button type="primary" @click="loginSure">登 录</el-button>
+      </div>
+    </el-dialog>
+    <el-dialog title :visible.sync="islogin" width="80%" :before-close="handleClose">
+      <div class="border">
+        <div class="row align" style="position:relative;top:-30px;left:20px">
+          <img
+            style="width:120px;height:120px;border-radius:50%;"
+            src="../../assets/images/per1.jpg"
+            alt
+          />
+          <p class="mt20 ml20">林丹丹 您好，欢迎回来！</p>
+        </div>
+        <div class="p20">
+          <div class="row mb20">
+            <img
+              style="width:80px;height:80px;border-radius:50%;"
+              src="../../assets/images/per2.jpg"
+              alt
+            />
+            <div class="border ml20 p20" style="border-radius:5px;width:100%">
+              <p>你现在学习的游泳课程《初级游泳教练公开课》,还差2个学士就结束啦，再接再厉！</p>
+              <div class="end">
+                <el-button type="success" size="small" @click="islogin = false">我知道了</el-button>
+                <el-button type="primary" size="small" @click="islogin = false">去学习</el-button>
+              </div>
+            </div>
+          </div>
+          <div class="row mb20">
+            <img
+              style="width:80px;height:80px;border-radius:50%;"
+              src="../../assets/images/per2.jpg"
+              alt
+            />
+            <div class="border ml20 p20" style="border-radius:5px;width:100%">
+              <p>你现在学习的游泳课程《初级游泳教练公开课》,还剩1天就结束啦，再接再厉！</p>
+              <div class="end">
+                <el-button type="success" size="small" @click="islogin = false">我知道了</el-button>
+              </div>
+            </div>
+          </div>
+          <div class="row mb20">
+            <img
+              style="width:80px;height:80px;border-radius:50%;"
+              src="../../assets/images/per2.jpg"
+              alt
+            />
+            <div class="border ml20 p20" style="border-radius:5px;width:100%">
+              <p>管家为您推荐了其他成长的课程内容：</p>
+              <div class="row">
+                <div class="col">
+                  <img class="m20" src="../../assets/images/ps8.jpg" alt />
+                  <p style="text-align:center">2020年体操课</p>
+                </div>
+                <div class="col ml20">
+                  <img class="m20" src="../../assets/images/ps8.jpg" alt />
+                  <p style="text-align:center">2020年游泳课</p>
+                </div>
+              </div>
+              <div class="end">
+                <el-button type="danger" size="small" @click="islogin = false">取消</el-button>
+                <el-button type="success" size="small" @click="islogin = false">去看看</el-button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </el-dialog>
   </div>
 </template>
 
@@ -71,6 +153,13 @@ export default {
   name: "index",
   data() {
     return {
+      dialogFormVisible: false,
+      form: {
+        name: "",
+        pwd: ""
+      },
+      islogin: false,
+      formLabelWidth: "120px",
       apiList: {
         checkCompany: "company/info" //查询企业信息
       },
@@ -120,7 +209,7 @@ export default {
             { title: "商务合作", id: "culture" }
           ]
         },
-          { label: "人才服务", name: "rcfw" },
+        { label: "人才服务", name: "rcfw" },
         {
           label: "关于我们",
           name: "aboutus",
@@ -202,6 +291,16 @@ export default {
     }
   },
   methods: {
+    toLogin() {
+      this.dialogFormVisible = true;
+    },
+    loginSure() {
+      this.$message.success("登录成功!");
+      this.dialogFormVisible = false;
+      setTimeout(() => {
+        this.islogin = true;
+      }, 1000);
+    },
     onClickLogo() {
       location.reload();
     },
@@ -239,11 +338,11 @@ $baseColor: #fff;
 
 .header-container {
   height: 100px;
-  width:100%;
-   margin-top: -1px;
+  width: 100%;
+  margin-top: -1px;
   position: fixed;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   z-index: 100;
   padding: 5px 20px;
   background: url("../../assets/images/top_background.png");

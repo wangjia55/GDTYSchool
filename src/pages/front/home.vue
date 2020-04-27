@@ -103,37 +103,37 @@
           </div>
           <div class="theNews">
             <ul class="news_content color-white">
-              <li @click="dialogTableVisible=true">
+              <li @click="tojianding">
                 <a
                   test="/index.php/Index/show/id/194.html"
                   target="_blank"
                 >●&nbsp;&nbsp;2020年8月31日游泳救生鉴定公告</a>
               </li>
-              <li>
+              <li @click="tojianding">
                 <a
                   test="/index.php/Index/show/id/193.html"
                   target="_blank"
                 >●&nbsp;&nbsp;2020年8月26日游泳救生鉴定公告</a>
               </li>
-              <li>
+              <li @click="tojianding">
                 <a
                   test="/index.php/Index/show/id/192.html"
                   target="_blank"
                 >●&nbsp;&nbsp;2020年8月11日游泳救生鉴定公告</a>
               </li>
-              <li>
+              <li @click="tojianding">
                 <a
                   test="/index.php/Index/show/id/191.html"
                   target="_blank"
                 >●&nbsp;&nbsp;2020年8月10日游泳救生鉴定公告</a>
               </li>
-              <li>
+              <li @click="tojianding">
                 <a
                   test="/index.php/Index/show/id/186.html"
                   target="_blank"
                 >●&nbsp;&nbsp;2020年7月7日游泳救生鉴定公告</a>
               </li>
-              <li>
+              <li @click="tojianding">
                 <a
                   test="/index.php/Index/show/id/185.html"
                   target="_blank"
@@ -527,6 +527,9 @@ export default {
   computed: {},
   components: {},
   methods: {
+    tojianding(){
+       this.$router.push({ name: "jdDetail", params: {} });
+    },
     gotoDetail() {
       this.$router.push({ name: "detail", params: {} });
     },

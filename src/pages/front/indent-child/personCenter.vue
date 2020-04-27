@@ -54,7 +54,7 @@
                             <span style>免费课程</span>
                             <h2
                               style="margin-left:10px;font-size:18px;font-weight:bold"
-                            >PHP实现微信公众平台开发—基</h2>
+                            >游泳培训课程</h2>
                           </div>
                           <div class="row mb10">
                             <span class="mr10" style="color:red">已学54%</span>
@@ -76,7 +76,7 @@
                             <span style>免费课程</span>
                             <h2
                               style="margin-left:10px;font-size:18px;font-weight:bold"
-                            >PHP实现微信公众平台开发—基</h2>
+                            >体操培训课程</h2>
                           </div>
                           <div class="row mb10">
                             <span class="mr10" style="color:red">已学54%</span>
@@ -98,7 +98,7 @@
                             <span style>免费课程</span>
                             <h2
                               style="margin-left:10px;font-size:18px;font-weight:bold"
-                            >PHP实现微信公众平台开发—基</h2>
+                            >体操培训课程</h2>
                           </div>
                           <div class="row mb10">
                             <span class="mr10" style="color:red">已学54%</span>
@@ -120,7 +120,7 @@
                             <span style>免费课程</span>
                             <h2
                               style="margin-left:10px;font-size:18px;font-weight:bold"
-                            >PHP实现微信公众平台开发—基</h2>
+                            >体操培训课程</h2>
                           </div>
                           <div class="row mb10">
                             <span class="mr10" style="color:red">已学54%</span>
@@ -150,7 +150,7 @@
                         <div class="row mb10">
                           <h2
                             style="margin-left:10px;font-size:18px;font-weight:bold;line-height:30px"
-                          >PHP实现微信公众平台开发—基PHP实现微信公众平台开发—基PHP实现微信公众平台开发—基</h2>
+                          >散打培训课程</h2>
                         </div>
                         <div class="row mb10">
                           <span class="mr10" style="color:red;font-size:24px;">￥50</span>
@@ -167,7 +167,7 @@
                         <div class="row mb10">
                           <h2
                             style="margin-left:10px;font-size:18px;font-weight:bold;line-height:30px"
-                          >PHP实现微信公众平台开发—基PHP实现微信公众平台开发—基PHP实现微信公众平台开发—基</h2>
+                          >体操培训课程</h2>
                         </div>
                         <div class="row mb10">
                           <span class="mr10" style="color:red;font-size:24px;">￥50</span>
@@ -184,7 +184,7 @@
                         <div class="row mb10">
                           <h2
                             style="margin-left:10px;font-size:18px;font-weight:bold;line-height:30px"
-                          >PHP实现微信公众平台开发—基PHP实现微信公众平台开发—基PHP实现微信公众平台开发—基</h2>
+                          >体操培训课程</h2>
                         </div>
                         <div class="row mb10">
                           <span class="mr10" style="color:red;font-size:24px;">￥50</span>
@@ -203,7 +203,7 @@
                         <div class="row mb10">
                           <h2
                             style="margin-left:10px;font-size:18px;font-weight:bold;line-height:30px"
-                          >PHP实现微信公众平台开发—基PHP实现微信公众平台开发—基PHP实现微信公众平台开发—基</h2>
+                          >体操培训课程</h2>
                         </div>
                         <div class="row mb10">
                           <span class="mr10" style="color:red;font-size:24px;">￥50</span>
@@ -222,7 +222,7 @@
                         <div class="row mb10">
                           <h2
                             style="margin-left:10px;font-size:18px;font-weight:bold;line-height:30px"
-                          >PHP实现微信公众平台开发—基PHP实现微信公众平台开发—基PHP实现微信公众平台开发—基</h2>
+                          >体操培训课程</h2>
                         </div>
                         <div class="row mb10">
                           <span class="mr10" style="color:red;font-size:24px;">￥50</span>
@@ -241,7 +241,7 @@
                         <div class="row mb10">
                           <h2
                             style="margin-left:10px;font-size:18px;font-weight:bold;line-height:30px"
-                          >PHP实现微信公众平台开发—基PHP实现微信公众平台开发—基PHP实现微信公众平台开发—基</h2>
+                          >体操培训课程</h2>
                         </div>
                         <div class="row mb10">
                           <span class="mr10" style="color:red;font-size:24px;">￥50</span>
@@ -267,7 +267,7 @@
                 >
                   <div class="row mb10">
                     <span style>免费课程</span>
-                    <h2 style="margin-left:10px;font-size:18px;font-weight:bold">PHP实现微信公众平台开发—基</h2>
+                    <h2 style="margin-left:10px;font-size:18px;font-weight:bold">体操培训课程</h2>
                   </div>
                   <div class="row mb10">
                     <span class="mr10" style="color:red">已学0%</span>
@@ -287,7 +287,7 @@
                 >
                   <div class="row mb10">
                     <span style>免费课程</span>
-                    <h2 style="margin-left:10px;font-size:18px;font-weight:bold">PHP实现微信公众平台开发—基</h2>
+                    <h2 style="margin-left:10px;font-size:18px;font-weight:bold">体操培训课程</h2>
                   </div>
                   <div class="row mb10">
                     <span class="mr10" style="color:red">已学0%</span>
@@ -300,6 +300,18 @@
                   <div class="end">
                     <el-button type="info">已过期</el-button>
                   </div>
+                </div>
+              </div>
+            </el-tab-pane>
+            <el-tab-pane name="fourth" label="我的证书">
+              <div>
+                <div class="col" style="text-align:center;margin:20px auto">
+                  <img style="width:80%;height:300px;margin:0 auto" src="../../../assets/images/ps8.jpg" alt="">
+                  <p style="color:#999;font-size:18px" class="mv10">初级健身课程</p>
+                </div>
+                <div class="col" style="text-align:center;margin:20px auto">
+                  <img style="width:80%;height:300px;margin:0 auto" src="../../../assets/images/ps8.jpg" alt="">
+                  <p style="color:#999;font-size:18px" class="mv10">中级健身课程</p>
                 </div>
               </div>
             </el-tab-pane>

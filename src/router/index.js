@@ -23,6 +23,7 @@ import newShareQuestion from '@/pages/newShareQuestion'
 import detail from '@/pages/detail'
 import tiyuDetail from '@/pages/tiyuDetail'
 import tiyuInfo from '@/pages/tiyuInfo'
+import jdDetail from '@/pages/jdDetail'
 import tiyuSerDetail from '@/pages/tiyuSerDetail'
 import indentDetail from '@/pages/front/indent-child/indentDetail'
 import personCenter from '@/pages/front/indent-child/personCenter'
@@ -229,6 +230,14 @@ var routes = [
       component: tiyuInfo,
       meta: {
         title: '详情页'
+      }
+    },
+    {
+      path: '/jdDetail',
+      name: 'jdDetail',
+      component: jdDetail,
+      meta: {
+        title: '鉴定详情页'
       }
     },
 
