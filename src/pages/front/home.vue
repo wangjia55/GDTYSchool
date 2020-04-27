@@ -20,12 +20,6 @@
             <div>综合新闻</div>
           </el-divider>
         </div>
-        <!-- <div class="top_title">
-          <p class="news">综合新闻 &gt;</p>
-          <a test target="_blank">
-            <p class="more">more</p>
-          </a>
-        </div>-->
         <div class="top_comment">
           <div class="out">
             <el-carousel style="height:400px;">
